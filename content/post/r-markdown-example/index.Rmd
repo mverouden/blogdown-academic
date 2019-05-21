@@ -1,7 +1,19 @@
 ---
 title: "Hello R Markdown"
-author: "Frida Gomam"
+subtitle: "Create a simple R Markdown post in under 10 minutes :smile:"
+summary: "Creating simple markdown posts"
+authors: 
+- admin
 date: 2015-07-23T21:13:14-05:00
+lastmod: "2019-05-21T06:19:030+02:00:00"
+output: md_document
+draft: true
+featured: true
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/kKznc8EDwZo)'
+  focal_point: ""
+  preview_only: false
+projects: []
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
@@ -35,3 +47,5 @@ pie(
   init.angle = -50, border = NA
 )
 ```
+
+Just an experiment!

@@ -1,0 +1,10 @@
+# Files to be ignored in the local and remote git repository
+# R specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# Project folders or files to be ignored during development to prevent creation
+# of a huge git repo
+# Comment out before production
+public/
