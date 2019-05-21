@@ -3,10 +3,10 @@
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+widget = "blank" # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true # This file represents a page section.
+active = false # Activate this widget? true/false
+weight = 15 # Order that this section will appear.
 
 title = "Demos"
 subtitle = ""
@@ -47,7 +47,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **personal demo** of Academic. Other demos available include:
+Welcome to Maikel's **personal demo** of Academic. Other demos available include:
 
 - [**Project Demo** (Academic's actual site)](https://sourcethemes.com/academic/)
 

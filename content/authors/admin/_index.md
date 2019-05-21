@@ -19,24 +19,30 @@ interests:
 - Artificial Intelligence
 - Computational Linguistics
 - Information Retrieval
-name: Nelson Bighetti
+name: Maikel Verouden, Ph.D.
 organizations:
-- name: Stanford University
-  url: ""
-role: Professor of Artificial Intelligence
+- name: Wageningen University & Research, Biometris
+  url: "http://www.wur.eu/biometris"
+role: Researcher | Lecturer
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-4893-3323
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Maikel_Verouden
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.nl/citations?hl=en&user=c4GxYqwAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/mverouden
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/mverouden
 superuser: true
 user_groups:
 - Researchers
