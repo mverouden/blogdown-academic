@@ -67,6 +67,7 @@ contact_links = [
   #{icon = "paper-plane", icon_pack = "fas", name = "E-mail Me", link = "mailto:maikel.verouden@wur.nl"},
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/messages/compose?recipient_id=91304466"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:aquarius0174?call"},
+  {icon = "skype", icon_pack = "fab", name = "Skype for Business Me", link = "ms-sfb://call?id=maikel.verouden@wur.nl"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
