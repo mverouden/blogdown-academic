@@ -2,7 +2,7 @@
 # Slider widget.
 widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
 # Slide interval.
@@ -15,6 +15,15 @@ height = ""
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
+[[item]]
+  title = "Left"
+  content = "I am left aligned :smile:"
+  align = "left"
+
+  overlay_color = "#555"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
 [[item]]
   title = "Hello"
   content = "I am center aligned :smile:"
@@ -33,15 +42,6 @@ height = ""
   cta_url = "https://sourcethemes.com/academic/"
   cta_icon_pack = "fas"
   cta_icon = "graduation-cap"
-
-[[item]]
-  title = "Left"
-  content = "I am left aligned :smile:"
-  align = "left"
-
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 [[item]]
   title = "Right"
