@@ -6,9 +6,9 @@ bio: My research interests include Statistics, Teaching and programmable
 education:
   courses:
   - course: Ph.D. in Biosystems Data Analysis
-    institution: University
+    institution: University of Amsterdam
     year: 2009
-  - course: M.Sc. in Analytical Chemistry|Chemometris
+  - course: M.Sc. in Analytical Chemistry | Chemometris
     institution: University of Amsterdam
     year: 2005
   - course: B.Sc. in (Environmental) Analytical Chemistry
