@@ -1,24 +1,25 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include Statistics, Teaching and programmable
+  matter (statistical software).
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: Ph.D. in Biosystems Data Analysis
+    institution: University
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: M.Sc. in Analytical Chemistry|Chemometris
+    institution: University of Amsterdam
+    year: 2005
+  - course: B.Sc. in (Environmental) Analytical Chemistry
+    institution: Hogeschool van Arnhem en Nijmegen
+    year: 1998
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Statistics
+- Software Development
+- Programming
+- Teaching
 name: Maikel Verouden, Ph.D.
 organizations:
 - name: Wageningen University & Research, Biometris
@@ -28,6 +29,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
+- icon: university
+  icon_pack: fas
+  link: https://www.wur.nl/en/Persons/Maikel-dr.ing.-MPH-Maikel-Verouden.htm
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-4893-3323
@@ -40,6 +44,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/mverouden
+- icon: gitlab
+  icon_pack: fab
+  link: https://git.wur.nl/verou004
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/mverouden
@@ -49,6 +56,11 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+<p style="text-align:justify">I am working at Biometris of Wageningen University & Research. With Biometris being the merger of the Mathematical and Statistical Methods group (Wageningen University) and the Business Unit Biometris for contract research (Wageningen Research). My research interests include Statistics in general, Statistical Genetics in Plant Breeding, Statistical Software development, mobile & cloud computing, programmable matter and teaching beforementioned topics. Being employed at both sides I work 24h/w at Wageningen Research as a researcher, and 14h/w at Wageningen University as a lecturer.</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+As lecturer I am involved in the following courses:
+
+- Statistics 1 ([MAT-15303](https://ssc.wur.nl/Handbook/Course/MAT-15303))
+- Statistics 2 ([MAT-15403](https://ssc.wur.nl/Handbook/Course/MAT-15403))
+- Advanced Statistics ([MAT-20306](https://ssc.wur.nl/Handbook/Course/MAT-20306))
+- <a href="https://www.r-project.org/" target="_blank"><i class="fab fa-r-project"></i></a> for Statistics ([MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303))
