@@ -41,6 +41,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.nl/citations?hl=en&user=c4GxYqwAAAAJ
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/verouden/
 - icon: github
   icon_pack: fab
   link: https://github.com/mverouden
