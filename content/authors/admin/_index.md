@@ -8,7 +8,7 @@ education:
   - course: Ph.D. in Biosystems Data Analysis
     institution: University of Amsterdam
     year: 2009
-  - course: M.Sc. in Analytical Chemistry | Chemometris
+  - course: M.Sc. in Chemistry | Process Analysis & Chemometrics
     institution: University of Amsterdam
     year: 2005
   - course: B.Sc. in (Environmental) Analytical Chemistry
