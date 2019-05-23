@@ -7,7 +7,7 @@ education:
   courses:
   - course: Ph.D. in Biosystems Data Analysis
     institution: University of Amsterdam
-    year: 2009
+    year: 2012
   - course: M.Sc. in Chemistry | Process Analysis & Chemometrics
     institution: University of Amsterdam
     year: 2005
@@ -59,7 +59,7 @@ user_groups:
 - Visitors
 ---
 
-<p style="text-align:justify">I am working at Biometris of Wageningen University & Research. With Biometris being the merger of the Mathematical and Statistical Methods group (Wageningen University) and the Business Unit Biometris for contract research (Wageningen Research). My research interests include Statistics in general, Statistical Genetics in Plant Breeding, Statistical Software development, mobile & cloud computing, programmable matter and teaching beforementioned topics. Being employed at both sides I work 24h/w at Wageningen Research as a researcher, and 14h/w at Wageningen University as a lecturer.</p>
+<p style="text-align:justify">I am working at Biometris of Wageningen University & Research. With Biometris being the merger of the Mathematical and Statistical Methods group (Wageningen University) and the Business Unit Biometris for contract research (Wageningen Research). My research interests include Statistics in general, Statistical Genetics in Plant Breeding, Statistical Software development, mobile & cloud computing, programmable matter and teaching beforementioned topics. Being employed at both sides of Biometris I work 24h/w at Wageningen Research as a researcher, and 14h/w at Wageningen University as a lecturer.</p>
 
 As lecturer I am involved in the following courses:
 
