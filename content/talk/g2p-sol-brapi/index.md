@@ -6,8 +6,8 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 all_day: false
 authors: 
 - admin
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2019-05-01T15:15:00"
+date_end: "2019-05-01T15:45:00"
 event: G2P-Sol Advanced Training School
 event_url: https://example.org
 featured: false
