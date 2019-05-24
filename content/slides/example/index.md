@@ -1,5 +1,8 @@
 ---
+title: Slides
+summary: An introduction to using Academic's Slides feature.
 authors: []
+tags: []
 categories: []
 date: "2019-02-05T00:00:00Z"
 slides:
@@ -19,9 +22,6 @@ slides:
   #   simple: White background, black text, blue links
   #   solarized: Cream-colored background, dark green text, blue links
   theme: black
-summary: An introduction to using Academic's Slides feature.
-tags: []
-title: Slides
 ---
 
 # Welcome to Slides
