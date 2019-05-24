@@ -3,7 +3,21 @@ authors: []
 categories: []
 date: "2019-02-05T00:00:00Z"
 slides:
+  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
+  #  from https://cdnjs.com/libraries/highlight.js/
+  #   Light style: github.
+  #   Dark style: dracula (default).
   highlight_style: dracula
+  # Choose a theme from https://github.com/hakimel/reveal.js#theming
+  #   black: Black background, white text, blue links (default theme)
+  #   white: White background, black text, blue links
+  #   league: Gray background, white text, blue links
+  #   beige: Beige background, dark text, brown links
+  #   sky: Blue background, thin dark text, blue links
+  #   night: Black background, thick white text, orange links
+  #   serif: Cappuccino background, gray text, brown links
+  #   simple: White background, black text, blue links
+  #   solarized: Cream-colored background, dark green text, blue links
   theme: black
 summary: An introduction to using Academic's Slides feature.
 tags: []
@@ -39,7 +53,7 @@ title: Slides
 
 ---
 
-## Code Highlighting
+## Code Highlighting Python
 
 Inline code: `variable`
 
@@ -48,6 +62,18 @@ Code block:
 porridge = "blueberry"
 if porridge == "blueberry":
     print("Eating...")
+```
+---
+
+## Code Highlighting R
+
+Inline code: `variable`
+
+Code block:
+```r
+x <- c(1, 2, 3, 4)
+y <- rnorm(4)
+lmmod <- lm(y ~ x)
 ```
 
 ---
