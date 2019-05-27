@@ -29,7 +29,7 @@ tags: []
 title: BrAPI
 url_code: ""
 url_pdf: ""
-url_slides: "slides/presentation-xaringan" # "slides/presentation-revealjs"
+url_slides: "slides/presentation-xaringan/" # "slides/presentation-revealjs"
 url_video: ""
 ---
 
