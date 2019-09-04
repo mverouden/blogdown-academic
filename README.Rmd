@@ -1,5 +1,5 @@
 ---
-title: "Blogdown hugo-academic theme v4.3.1"
+title: "Blogdown hugo-academic theme v4.4.0"
 output: github_document
 ---
 

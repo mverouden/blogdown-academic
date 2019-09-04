@@ -1,15 +1,24 @@
 # SITE SETUP
 # Documentation: https://sourcethemes.com/academic/
 
-# Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
-color_theme = "forest"
+# Choose a theme.
+#   Latest themes (may require updating Academic): https://sourcethemes.com/academic/themes/
+#   Browse built-in themes in `themes/academic/data/themes/`
+#   Browse user installed themes in `data/themes/`
+theme = "forest"
+
 # Enable users to switch between day and night mode?
 day_night = true
 
-# Font style.
-#   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+# Overrride the theme's font set (optional).
+#   Latest font sets (may require updating Academic): https://sourcethemes.com/academic/themes/
+#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Browse user installed font sets in `data/fonts/`
+font = ""
+
+# Choose a font size.
+# Sizes: s (small), m (medium), l (large)
+font_size = "m"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -30,14 +39,22 @@ highlight = true
 highlight_languages = ["r", "python"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
-# Enable global LaTeX math rendering?
-#   If false, you can enable it locally on a per page basis.
+# Enable LaTeX math rendering? true/false
+#   If false, you can enable math on a per page basis as needed.
 math = false
+
+# Enable diagram rendering? true/false
+#   If false, you can enable diagrams on a per page basis as needed.
+diagram = false
 
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
 privacy_pack = false
+
+# Enable visitors to edit pages?
+# `repo` defines the repository URL. `editable` defines which page types can be edited.
+edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -55,6 +72,8 @@ phone = "" #+31 317 4 81861"
 address = "Wageningen University & Research, Biometris</br>Building 107 (a.k.a. Radix) | Room W4.Fc.054</br>Droevendaalsesteeg 1</br>6708 PB Wageningen</br>The Netherlands"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
+# office_hours = """Monday 10:00 to 13:00<br>
+#                   Wednesday 09:00 to 10:00"""
 office_hours = """Monday--Friday 08:30h to 17:30h"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
@@ -117,9 +136,6 @@ menu_align_right = true
 # Show estimated reading time for posts? (true/false)
 reading_time = true
 
-# Display comment count (if commenting enabled in config.toml)? (true/false)
-comment_count = true
-
 # Display next/previous section pager? (true/false)
 section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
@@ -146,6 +162,22 @@ sharing = true
   post_view = 2
   publication_view = 2
   talk_view = 2
+
+# Comments.
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 0
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
 
 # Search.
 [search]
