@@ -65,5 +65,4 @@ As lecturer I am involved in the following courses:
 
 - Statistics 1 ([MAT-15303](https://ssc.wur.nl/Handbook/Course/MAT-15303))
 - Statistics 2 ([MAT-15403](https://ssc.wur.nl/Handbook/Course/MAT-15403))
-- Advanced Statistics ([MAT-20306](https://ssc.wur.nl/Handbook/Course/MAT-20306))
 - <a href="https://www.r-project.org/" target="_blank"><i class="fab fa-r-project"></i></a> for Statistics ([MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303))
