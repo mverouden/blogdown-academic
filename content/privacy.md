@@ -1,5 +1,5 @@
 ---
-title: "License: CC BY-NC-SA"
+title: "License: CC BY-NC-SA 4.0"
 date: "2019-05-21T08:43:43+02:00"
 draft: false
 share: false
