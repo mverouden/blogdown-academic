@@ -24,7 +24,7 @@ name: Maikel Verouden, Ph.D.
 organizations:
 - name: Wageningen University & Research, Biometris
   url: "http://www.wur.eu/biometris"
-role: Researcher | Lecturer
+role: Researcher | Lecturer | IT contact person
 social:
 - icon: envelope
   icon_pack: fas
