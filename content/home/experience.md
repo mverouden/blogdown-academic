@@ -19,6 +19,19 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "IT contact person"
+  company = "Wageningen University & Research"
+  company_url = "http://www.wur.eu/biometris"
+  location = "Wageningen, The Netherlands"
+  date_start = "2016-01-01"
+  date_end = ""
+  description = """Tasks:
+  
+  * intermediate between IT Facilities and Biometris
+  * contact for HPC Anunna
+  * first contact issues laptops and desktops from Biometris"""
+
+[[experience]]
   title = "Researcher (24h/week)"
   company = "Wageningen University & Research"
   company_url = "http://www.wur.eu/biometris"
