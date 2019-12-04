@@ -59,10 +59,10 @@ user_groups:
 - Visitors
 ---
 
-<p style="text-align:justify">I am working at Biometris of Wageningen University & Research. With Biometris being the merger of the Mathematical and Statistical Methods group (Wageningen University) and the Business Unit Biometris for contract research (Wageningen Research). My research interests include Statistics in general, Statistical Genetics in Plant Breeding, Statistical Software development, mobile & cloud computing, programmable matter and teaching beforementioned topics. Being employed at both sides of Biometris I work 24h/week at Wageningen Research as a researcher, and 14h/week at Wageningen University as a lecturer.</p>
+I am working at Biometris of Wageningen University & Research. With Biometris being the merger of the Mathematical and Statistical Methods group (Wageningen University) and the Business Unit Biometris for contract research (Wageningen Research). My research interests include Statistics in general, Statistical Genetics in Plant Breeding, Statistical Software development, mobile & cloud computing, programmable matter and teaching beforementioned topics. Being employed at both sides of Biometris I work 24h/week at Wageningen Research as a researcher, and 14h/week at Wageningen University as a lecturer.
 
 As lecturer I am involved in the following courses:
 
 - Statistics 1 ([MAT-15303](https://ssc.wur.nl/Handbook/Course/MAT-15303))
 - Statistics 2 ([MAT-15403](https://ssc.wur.nl/Handbook/Course/MAT-15403))
-- <a href="https://www.r-project.org/" target="_blank"><i class="fab fa-r-project"></i></a> for Statistics ([MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303))
+- R for Statistics ([MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303))

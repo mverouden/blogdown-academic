@@ -1,4 +1,4 @@
-Blogdown hugo-academic theme v4.5.0
+Blogdown hugo-academic theme v4.6.2
 ================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->

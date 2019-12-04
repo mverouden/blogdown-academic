@@ -60,49 +60,48 @@ date_format = "Jan 2006"
     - R for Statistics (MAT-50303)
   * Course coordination R for Statistics (MAT-50303)"""
 
-[[experience]]
-  title = "Post-doctoral Researcher, Molecular Microbial Physiology"
-  company = "University of Amsterdam"
-    company_url = "https://www.uva.nl/en"
-  location = "Amsterdam, The Netherlands"
-  date_start = "2010-01-01"
-  date_end = "2011-07-31"
-  description = """Participated in the SysMO-SUMO2 consortium and worked on the development of a detailed kinetic model of the respiratory chain of Escherichia coli. SysMO-SUMO2 stands for System biology of MicroOrganisms, Systems Understanding of Microbial Oxygen responses 2th funding period."""
-
-[[experience]]
-  title = "Ph.D. Student, Biosystems Data Analysis"
-  company = "Unversity of Amsterdam"
-  company_url = "http://www.bdagroup.nl/"
-  location = "Amsterdam, The Netherlands"
-  date_start = "2005-11-01"
-  date_end = "2009-10-01"
-  description = """Goal: Doing research to write a Ph.D. thesis. My research project focussed on fusing prior knowledge into data analysis of microbial metabolomics data and was funded by the Netherlands Bioinformatics Centre (NBIC).
-  
-From Sep 2006 - Sep 2008 I also acted as Teaching Assistant giving lectures and teaching practical application with Microsoft Excel in basic Statistics to first year Bachelor students Chemistry, Bio-exact and Beta-Gamma."""
-
-
-[[experience]]
-  title = "Analyst R&D"
-  company = "Tauw"
-  company_url = "https://www.tauw.nl/"
-  location = "Deventer, The Netherlands"
-  date_start = "1998-06-30"
-  date_end = "2000-08-01"
-  description = """Research and development analyst developing new analysis methods and aid the production laboratory. Participated in several research projects, e.g.:
-
-  - automation of sample cleanup for polychlorinated dibenzodioxins (PCDDs) determination
-  - testing for millennium bugs in the Laboratory Information Management Systems (LIMS)
-  - communication intermediate between programmers and users for the development of a new LIMS
-
-In this period I also supervised the practical work of a BSC. student, who continued on my BSc. graduation project."""
-
-[[experience]]
-  title = "Intern"
-  company = "Tauw"
-  company_url = "https://www.tauw.nl/"
-  location = "Deventer, The Netherlands"
-  date_start = "1997-08-01"
-  date_end = "1998-06-27"
-  description = """Internship to fulfill my BSc. studies in Analytical and Environmental Analytical Chemistry. During this period I worked in a research and development department of the laboratory. The goal of the department was to develop new analysis methods for and support the production laboratory in any way possible. I researched a screening method for the determination of the biochemical oxygen demand, which is a measure for biodegradable organic compounds in (waste)water. My graduation project involved miniaturization and implementation of microwave digestion of water samples for the determination of mercury."""
+# [[experience]]
+#   title = "Post-doctoral Researcher, Molecular Microbial Physiology"
+#   company = "University of Amsterdam"
+#     company_url = "https://www.uva.nl/en"
+#   location = "Amsterdam, The Netherlands"
+#   date_start = "2010-01-01"
+#   date_end = "2011-07-31"
+#   description = """Participated in the SysMO-SUMO2 consortium and worked on the development of a detailed kinetic model of the respiratory chain of Escherichia coli. SysMO-SUMO2 stands for System biology of MicroOrganisms, Systems Understanding of Microbial Oxygen responses 2th funding period."""
+# 
+# [[experience]]
+#   title = "Ph.D. Student, Biosystems Data Analysis"
+#   company = "Unversity of Amsterdam"
+#   company_url = "http://www.bdagroup.nl/"
+#   location = "Amsterdam, The Netherlands"
+#   date_start = "2005-11-01"
+#   date_end = "2009-10-01"
+#   description = """Goal: Doing research to write a Ph.D. thesis. My research project focussed on fusing prior knowledge into data analysis of microbial metabolomics data and was funded by the Netherlands Bioinformatics Centre (NBIC).
+#   
+# From Sep 2006 - Sep 2008 I also acted as Teaching Assistant giving lectures and teaching practical application with Microsoft Excel in basic Statistics to first year Bachelor students Chemistry, Bio-exact and Beta-Gamma."""
+# 
+# [[experience]]
+#   title = "Analyst R&D"
+#   company = "Tauw"
+#   company_url = "https://www.tauw.nl/"
+#   location = "Deventer, The Netherlands"
+#   date_start = "1998-06-30"
+#   date_end = "2000-08-01"
+#   description = """Research and development analyst developing new analysis methods and aid the production laboratory. Participated in several research projects, e.g.:
+# 
+#   - automation of sample cleanup for polychlorinated dibenzodioxins (PCDDs) determination
+#   - testing for millennium bugs in the Laboratory Information Management Systems (LIMS)
+#   - communication intermediate between programmers and users for the development of a new LIMS
+# 
+# In this period I also supervised the practical work of a BSC. student, who continued on my BSc. graduation project."""
+# 
+# [[experience]]
+#   title = "Intern"
+#   company = "Tauw"
+#   company_url = "https://www.tauw.nl/"
+#   location = "Deventer, The Netherlands"
+#   date_start = "1997-08-01"
+#   date_end = "1998-06-27"
+#   description = """Internship to fulfill my BSc. studies in Analytical and Environmental Analytical Chemistry. During this period I worked in a research and development department of the laboratory. The goal of the department was to develop new analysis methods for and support the production laboratory in any way possible. I researched a screening method for the determination of the biochemical oxygen demand, which is a measure for biodegradable organic compounds in (waste)water. My graduation project involved miniaturization and implementation of microwave digestion of water samples for the determination of mercury."""
 
 +++
