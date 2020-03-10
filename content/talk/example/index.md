@@ -3,6 +3,12 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac
   faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien
   eu, pulvinar tempor diam.
+address:
+  city: Stanford
+  country: United States
+  postcode: "94305"
+  region: CA
+  street: 450 Serra Mall
 all_day: false
 authors: []
 date: "2030-06-01T13:00:00Z"
@@ -18,7 +24,7 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/georgecushen
-location: London, United Kingdom
+location: Source Themes HQ
 math: true
 projects:
 - internal-project

@@ -63,6 +63,6 @@ I am working at Biometris of Wageningen University & Research. With Biometris be
 
 As lecturer I am involved in the following courses:
 
-- Statistics 1 ([MAT-15303](https://ssc.wur.nl/Handbook/Course/MAT-15303))
-- Statistics 2 ([MAT-15403](https://ssc.wur.nl/Handbook/Course/MAT-15403))
-- R for Statistics ([MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303))
+- Statistics 1 [(MAT-15303)](https://ssc.wur.nl/Handbook/Course/MAT-15303)
+- Statistics 2 [(MAT-15403)](https://ssc.wur.nl/Handbook/Course/MAT-15403)
+- R for Statistics [(MAT-50303)](https://ssc.wur.nl/Handbook/Course/MAT-50303)
