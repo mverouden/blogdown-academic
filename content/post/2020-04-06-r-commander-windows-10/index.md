@@ -19,7 +19,7 @@ draft: no
 featured: no
 image:
   caption: 'Image credit: [**_Panos Sakalakis_ on Unsplash**](https://unsplash.com/photos/AwDVMJKMjlU)'
-focal_point: ''
+focal_point: 'Center'
 preview_only: no
 projects: []
 ---
@@ -27,7 +27,13 @@ projects: []
 ## Motivation
 Due to the novel coronavirus (nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
-This post will show how to install R Commander within R on a privately owned desktop or laptop computer running Windows 10 as operating system. This post is <u>**not to be used on WURclient desktops or laptops**</u>.
+{{% alert note %}}
+This post will show how to install R Commander within R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
+{{% /alert %}}
+
+{{% alert warning %}}
+The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>!
+{{% /alert %}}
 
 ## R Commander Installation
 Prior requirement:
@@ -84,7 +90,9 @@ The extraction process can take 10 to 15 minutes before all folders and files ar
 
 Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready :satisfied: to start R 3.6.3 and use R Commander.
 
+{{% alert note %}}
 **When using R Commander for the first time additional packages required for R Commander to work correctly will need to be installed. Allow the installation to be able to work smoothly without errors!**
+{{% /alert %}}
 
 To be added in following Posts:
 

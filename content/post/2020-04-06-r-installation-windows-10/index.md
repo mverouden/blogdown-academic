@@ -18,7 +18,7 @@ draft: no
 featured: no
 image:
   caption: 'Image credit: [**_Panos Sakalakis_ on Unsplash**](https://unsplash.com/photos/AwDVMJKMjlU)'
-  focal_point: ''
+  focal_point: 'Center'
   preview_only: no
 projects: []
 ---
@@ -26,7 +26,13 @@ projects: []
 ## Motivation
 Due to the novel coronavirus (nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
 
-This post will show how to install R on a privately owned desktop or laptop computer running Windows 10 as operating system. This post is <u>**not to be used on WURclient desktops or laptops**</u>.
+{{% alert note %}}
+This post will show how to install R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
+{{% /alert %}}
+
+{{% alert warning %}}
+The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>!
+{{% /alert %}}
 
 ## Download
 At the time this post was written the latest release of R is version 3.6.3. The installer for Windows 10 can be downloaded directly from this link: [R 3.6.3 for Windows (83 Mb, 32/64 bit)](https://cloud.r-project.org/bin/windows/base/R-3.6.3-win.exe).
@@ -63,12 +69,15 @@ At the time this post was written the latest release of R is version 3.6.3. The 
 
 ![Start Menu folder selection during R installation](7-install-r-start menu-folder.png)
 
-10. The last startup setting to set allows for some customization of shortcut links. **Do not mess around with the Registry entries settings.** Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
+10. The last startup setting to set allows for some customization of shortcut links. Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
 
 ![Completion of the R installation.](9-install-r-completion.png)
 
+{{% alert warning %}}
+**Do not mess around with the Registry entries settings.**
+{{% /alert %}}
 
-Congratulations, :satisfied:, you now have R 3.6.3 installed on your private computer!
+Congratulations, :satisfied:, you now have R 3.6.3 installed on your private desktop or laptop computer!
 
 To be added in following Posts:
 
