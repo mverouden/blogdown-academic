@@ -3,17 +3,18 @@ title: (Re-)Installation of R on macOS
 summary: Instructions on how to (re-)install R on macOS.
 authors:
 - admin
-date: '2020-04-07'
+date: '2020-04-08'
 slug: r-installation-macos
 categories:
   - R
   - macOS
+  - WUR
 tags:
   - Installation
   - Reinstallation
   - R
   - macOS
-lastmod: '2020-04-07T16:00:00+02:00'
+lastmod: '2020-04-08T18:00:00+02:00'
 draft: no
 featured: no
 image:
@@ -101,7 +102,7 @@ For macOS there are two downloads for R available on the [R-project website](htt
 
 Download R for your specific version of macOS using one of the following links:
 
-- Up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 Mb,  *regular* 64- bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
+- Up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 Mb,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
 - macOS Catalina (10.15.x): [R 3.6.3  (ca. 78 Mb, *notarized* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.pkg)
 
 ## Installation
@@ -122,45 +123,30 @@ Download R for your specific version of macOS using one of the following links:
 
 ![R installer License agreement.](5-r-installer-license-agree.png)
 
-5. The installer will select the best destination to install the software for you and will display the Installation Type as shown below. Click on the ‘Install’ button to start the software installation (**RECOMMENDED!**). Do not Customise the installation type, unless you know what you are doing.
+5. The installer will select the best destination to install the software for you and will display the Installation Type as shown below. Click on the ‘Install’ button to start the software installation.
+
+{{% alert warning %}}
+Do not Customise the installation type, unless you know what you are doing.
+{{% /alert %}}
 
 ![R installer installation type.](6-r-installer-install-type.png)
 
-4. Click on the ‘Next’ button to agree the terms. After  this a window will appear, allowing you to select or choose the destination folder, as shown below, where R 3.6.3 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-3.6.3` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-3.6.3`).
+6. Before the software installation will commence, confirmation of the user is requested as displayed below. Either use the finger print scanner on the touch bar of your mac or confirm using the password of your mac.
 
+![Confirm R software installation.](7-r-installer-confirm-install.png)
 
+7. The software installer will start installing R onto your mac. When completed the installer will show a summary stating that the installation was successful as shown in the image below. Click on the ‘Close’ button.
 
-5. After selecting the installation destination folder the component selector will appear, as displayed below. Most desktop and laptop computers these days are using a 64-bit architecture, therefore select (using the pull down menu) the 64-bit User installation as displayed in the image shown below and click on the ‘Next’ button.
+![Successful installation of R](8-r-installer-success.png)
 
+8. The installer will finally ask you whether you want to keep or move to R installer package to the trashbin. Click ‘Move to Bin’ to discard the installer package.
 
-
-6. After selecting the components to install the startup options need to be set. Select, as shown below, the customized startup by selecting the ‘Yes’ radiobutton followed by clicking on the ‘Next’ button.
-
-
-
-7. The first startup options to set is the Display Mode, as show below. Select the Single Document Interface by selecting the ‘SDI (separate windows)’ radiobutton as displayed and clicking on the ‘Next’ button.
-
-
-
-8. Next select the help style startup option. Leave this at the default ‘HTML help’ value, as displayed below, and click on the ‘Next’ button.
-
-
-
-9. The one before last startup setting is to set a ‘Start Menu’ folder name. Unless wishing to use a different name, leave the default value as displayed below. This will create a folder named ‘R’ in the ‘Start Menu’ of Windows, from which the R GUI (graphical user interface) can be started.
-
-
-
-10. The last startup setting to set allows for some customization of shortcut links. **Do not mess around with the Registry entries settings.** Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
-
-
-
-
-Congratulations, :satisfied:, you now have R 3.6.3 installed on your private computer!
+Congratulations, :satisfied:, you now have R 3.6.3 installed on your mac!
 
 To be added in following Posts:
 
 - [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
 - [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
-- [ ] Install R on macOS
+- [x] [Install R on macOS](/post/2020/04/08/r-installation-macos/)
 - [ ] Install R Commander in R on macOS
 - [ ] Install R Studio
