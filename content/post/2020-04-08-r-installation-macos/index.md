@@ -1,8 +1,8 @@
 ---
-title: (Re-)Installation of R on macOS
+title: (re-)Installation and Configuration of R on macOS
 summary: Instructions on how to (re-)install R on macOS.
 authors:
-- admin
+  - admin
 date: '2020-04-08'
 slug: r-installation-macos
 categories:
@@ -15,12 +15,12 @@ tags:
   - R
   - macOS
 lastmod: '2020-04-08T18:00:00+02:00'
-draft: no
-featured: no
+draft: false
+featured: false
 image:
   caption: 'Image credit: [**_Daniel Romero_ on Unsplash**](https://unsplash.com/photos/4fy0sq4Iuow)'
   focal_point: 'Center'
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 
@@ -28,7 +28,7 @@ projects: []
 Due to the novel coronavirus (nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
 
 {{% alert note %}}
-The instruction in this post will show how to (re-)install R on a privately owned desktop or laptop computer running macOS as operating system.
+The instruction in this post will show how to (re-)install R on a desktop or laptop computer running macOS as operating system.
 {{% /alert %}}
 
 In the text some symbol combinations are used for shortcuts, the following table explains the meaning of these symbols in relation to specific keys on your keyboard. To use the shortcuts press the keyboard keys simultaneously, e.g. &#8679;&#8984;A means &#8679;+&#8984;+A.
@@ -52,7 +52,9 @@ Within this Utilities folder, which can be directly accessed by using the &#8679
 
  ![Terminal application icon.](macos-terminal-icon.png)
 
-1. Start the Terminal application. The prompt (where the commands will be entered) is depicted by a `%` sign.
+The Terminal application can also be started via Lauchpad under the ‘Other’ group.
+
+1. Start the Terminal application. The prompt (where the commands will be entered) is depicted by a `%` or `$` sign (depending whether your default shell is zsh or bash).
 2. To delete the R application copy (&#8984;C) the following line, paste (&#8984;V) it behind the prompt in the terminal and press return (&#8617;) to execute. Provide the macOS password when asked (the typed password will not be visble!).
 ```sh
 sudo rm -r /Applications/R.app
@@ -147,6 +149,7 @@ To be added in following Posts:
 
 - [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
 - [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
-- [x] [Install R on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
 - [ ] Install R Commander in R on macOS
 - [ ] Install R Studio

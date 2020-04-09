@@ -14,12 +14,12 @@ tags:
   - R
   - Windows 10
 lastmod: '2020-04-06T16:11:35+02:00'
-draft: no
-featured: no
+draft: false
+featured: false
 image:
   caption: 'Image credit: [**_Panos Sakalakis_ on Unsplash**](https://unsplash.com/photos/AwDVMJKMjlU)'
   focal_point: 'Center'
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 
@@ -83,6 +83,7 @@ To be added in following Posts:
 
 - [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
 - [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
-- [x] [Install R on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
 - [ ] Install R Commander in R on macOS
 - [ ] Install R Studio
