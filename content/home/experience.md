@@ -29,7 +29,9 @@ date_format = "Jan 2006"
   
   * intermediate between IT Facilities and Biometris
   * contact for HPC Anunna
-  * first contact issues laptops and desktops from Biometris"""
+  * first contact related to issues with laptops and desktops from Biometris
+  * maintainer calculation PC's from Biometris
+  * package-owner of R/RStudio/RKWard/MiKTeX and TeXstudio within WUR"""
 
 [[experience]]
   title = "Researcher (24h/week)"
