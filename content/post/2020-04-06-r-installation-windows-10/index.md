@@ -67,7 +67,7 @@ At the time this post was written the latest release of R is version 3.6.3. The 
 
 9. The one before last startup setting is to set a ‘Start Menu’ folder name. Unless wishing to use a different name, leave the default value as displayed below. This will create a folder named ‘R’ in the ‘Start Menu’ of Windows, from which the R GUI (graphical user interface) can be started.
 
-![Start Menu folder selection during R installation](7-install-r-start menu-folder.png)
+![Start menu folder selection during R installation.](7-install-r-start-menu.png)
 
 10. The last startup setting to set allows for some customization of shortcut links. Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
 
@@ -77,7 +77,9 @@ At the time this post was written the latest release of R is version 3.6.3. The 
 **Do not mess around with the Registry entries settings.**
 {{% /alert %}}
 
+{{% alert not %}}
 Congratulations, :satisfied:, you now have R 3.6.3 installed on your private desktop or laptop computer!
+{{% /alert %}}
 
 To be added in following Posts:
 
