@@ -74,7 +74,9 @@ To install XQuartz on macOS perform the following steps:
 ![XQuartz successful installation.](11-xquartz-install-success.png)
 11. The installer will finally ask you, whether you want to keep or move the XQuartz installer package to the trashbin. Click ‘Move to Bin’ to discard the installer package and simultaneously close the XQuartz disk image. Actually the XQuartz disk image will be put into the trashbin!
 
+{{% alert note %}}
 Congratulations, :satisfied:, you now have XQuartz installed on your mac!
+{{% /alert %}}
 
 {{% alert warning %}}
 As mentioned in step 9. you have to make XQuartz your default X11 server by logging out and again logging in on your mac. Do this by navigating your mouse pointer to the menu bar, click on {{< icon name="apple" pack="fab" >}} and select ‘Log Out \<username\>...’. Here \<username\> will display the name you selected, while setting up your mac for the first time. Log back in and XQuartz will now be your default X11 server.
@@ -84,7 +86,7 @@ To be added in following Posts:
 
 - [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
 - [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
-- [x] [Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [(re-)Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
 - [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
 - [ ] Install R Commander in R on macOS
 - [ ] Install R Studio
