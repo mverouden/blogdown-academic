@@ -88,9 +88,11 @@ The extraction process can take 10 to 15 minutes before all folders and files ar
 
 5. Repeat step 4. for installing the `RcmdrPlugin.HH` package. This plugin is required for MAT-15403 Statistics 2 to be able to do the practicals on Simple Linear Regression.
 
-Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready :satisfied: to start R 3.6.3 and use R Commander.
-
 {{% alert note %}}
+Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready :satisfied: to start R 3.6.3 and use R Commander.
+{{% /alert %}}
+
+{{% alert warning %}}
 **When using R Commander for the first time additional packages required for R Commander to work correctly will need to be installed. Allow the installation to be able to work smoothly without errors!**
 {{% /alert %}}
 

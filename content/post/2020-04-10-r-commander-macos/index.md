@@ -3,7 +3,7 @@ title: "R Commander installation in R on macOS"
 summary: "Instructions on how to install R Commander in R on macOS."
 authors:
   - admin
-date: '2020-04-09'
+date: '2020-04-10'
 slug: r-commander-installation-in-r-on-macos
 categories:
   - R
@@ -14,7 +14,7 @@ tags:
   - R Commander
   - R
   - macOS
-lastmod: '2020-04-09T08:00:00+02:00'
+lastmod: '2020-04-10T08:00:00+02:00'
 draft: true
 featured: false
 image:
@@ -42,39 +42,21 @@ fn      | function                     | | &#8998; | forward delete (fn + &#9003
 &#8679; | shift (either left or right) | | &#9099; | escape                        
 
 ## R Commander Installation
-Prior requirement:
+Prior requirements for the R Commander installation within R on macOS:
 
-- [x] [R installed and cofigured on macOS](/post/2020/04/08/r-installation-macos/)
-- [x] [XQuartz installed on macOS]()
+- [x] [R installed and configured on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [XQuartz installed on macOS](/post/2020/04/09/xquartz-installation-macos/)
 
-To be able to install R Commander you will need to have R installed first. If you haven't done so already, please first install R on macOS (use the link above to go to that specific post).
+To be able to install R Commander you will need to have both R installed and configured as well as have XQuartz installed first. If you haven't done so already, please read the (re-)install and configure R on macOS as well as the XQuartz installation on macOS posts (use the links above to go to those specific posts) before continuing with this post.
 
 To install R commander on macOS perform the following steps:
 
 1. Start the R application from Finder > Applications (shortcut: &#8679;&#8984;A) or via Launchpad. The icon representing the R application is shown below.
-![R application icon.](1-r-icon.png)
-2. The R Console will open, as shown in the image below, and the cursor will be ready for input behind the prompt (as indicated by the `>` sign). If the R Console displays a non-UTF8 locale warning, than this needs to be remedied first. Go to the section entitled "Fix R application non-UTF8 locale warning".
-![R Console](4-r-console.png)
+![R application icon.](1-r-app-icon.png)
+2. The R Console will open, as shown in the image below, and the cursor will be ready for input behind the prompt, as indicated by the `>` sign.
+![R Console](4-r-app-console.png)
 
-## Fix R application non-UTF8 locale warning
 
-When the R Console displays a non-UTF8 locale warning at the startup of the R application, it will look like the image shown below.
-![R Console with language warning.](2-r-language-warning.png)
-The remedy for this issue not difficult, just perform the following steps:
-
-1. Open the Terminal application from Finder > Applications > Utilities (shorcut: &#8679;&#8984;U) or via Lauchpad under the ‘Other’ group. The prompt (where the commands will be entered) is depicted by a `%` or `$` sign (depending whether your default shell is zsh or bash).
-2. Copy (&#8984;C) the following line, paste (&#8984;V) it behind the prompt in the terminal and press return (&#8617;) to execute the command.
-```sh
-defaults write org.R-project.R force.LANG en_US.UTF-8
-```
-3. Quit the active terminal by typing `exit` and pressing return (&#8617;) to execute. To quit the Terminal application completely you can use the keyboard shortcut: &#8984;Q or navigate the mouse pointer to the menu bar and click ‘Terminal’ > ‘Quit Terminal’.
-4. Go back to the R Console and close the R application either by:
-    * Typing `q()` or `quit()` behind the R Console prompt (indicated by the `>` sign) and pressing return (&#8617;) to execute.
-    * Using the keyboard shortcut: &#8984;Q
-    * Navigating the mouse pointer to the menu bar and clicking ‘R’ > ‘Quit R’
-5. No matter what you choose, you will always be asked whether you want to save a workspace image as shown below. Just click on the **‘Don't Save’** button to end the R application.
-![R Console save workspace](3-r-save-workspace.png)
-6. Go back to step 1. of the ‘R Commander Installation’ section.
 
 ## AT THE END
 

@@ -71,13 +71,13 @@ At the time this post was written the latest release of R is version 3.6.3. The 
 
 10. The last startup setting to set allows for some customization of shortcut links. Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
 
-![Completion of the R installation.](9-install-r-completion.png)
-
 {{% alert warning %}}
-**Do not mess around with the Registry entries settings.**
+**Do not mess around with the ‘Registry entries’  settings.**
 {{% /alert %}}
 
-{{% alert not %}}
+![Completion of the R installation.](9-install-r-completion.png)
+
+{{% alert note %}}
 Congratulations, :satisfied:, you now have R 3.6.3 installed on your private desktop or laptop computer!
 {{% /alert %}}
 
