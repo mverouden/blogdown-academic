@@ -89,4 +89,4 @@ To be added in following Posts:
 - [x] [(re-)Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
 - [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
 - [x] [Install R Commander in R on macOS](/post/2020/04/10/r-commander-installation-in-r-on-macos/)
-- [ ] Install R Studio
+- [ ] Install RStudio
