@@ -96,6 +96,24 @@ Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready
 **When using R Commander for the first time additional packages required for R Commander to work correctly will need to be installed. Allow the installation to be able to work smoothly without errors!**
 {{% /alert %}}
 
+
+## Starting and restarting R Commander
+
+### Start R Commander
+To start R Commander type the `library(Rcmdr)` command behind the R Console prompt (indicated by a `>` sign) and press return (&#8617;) to execute the command.
+
+
+### Restar R Commander
+In case R Commander crashes while using it, you will need to resart it. However, in the R Console currently running R, the `library(Rcmdr)` command will not restart R Commander.
+
+The reason is, that the R Commander package is still loaded and first needs to be detached. To detach the R Commander package you can copy (&#8984;C) the following command:
+```R
+detach("package:Rcmdr", unload = TRUE)
+```
+paste (&#8984;V) it behind the prompt in the R Console (indicated by a `>` sign) and press return (&#8617;) to execute the command.
+
+Now R Commander can be restarted by using the `library(Rcmdr)` command as before.
+
 To be added in following Posts:
 
 - [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)

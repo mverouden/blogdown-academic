@@ -120,7 +120,7 @@ Quiting R Commander will return you to the terminal console, which can be recogn
 To quit the active terminal console by typing `exit` and pressing return (&#8617;) to execute. To quit the Terminal application completely you can use the keyboard shortcut: &#8984;Q or navigate the mouse pointer to the menu bar and click ‘Terminal’ > ‘Quit Terminal’.
 
 ## Restarting R Commander
-In case R Commander crashes while using it, you will need to resart it. However, in the R Console or in the active terminal console currently running R, the `library(Rcmdr)` will not restart R Commander.
+In case R Commander crashes while using it, you will need to resart it. However, in the R Console or in the active terminal console currently running R, the `library(Rcmdr)` command will not restart R Commander.
 
 The reason is, that the R Commander package is still loaded and first needs to be detached. To detach the R Commander package you can copy (&#8984;C) the following command:
 ```R
