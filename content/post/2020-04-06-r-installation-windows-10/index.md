@@ -24,7 +24,7 @@ projects: []
 ---
 
 ## Motivation
-Due to the novel coronavirus (nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
+Due to the novel coronavirus (2019-nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
 
 {{% alert note %}}
 This post will show how to install R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
@@ -35,7 +35,7 @@ The installation instructions in this post are <u>**not to be used on WURclient 
 {{% /alert %}}
 
 ## Download
-At the time this post was written the latest release of R is version 3.6.3. The installer for Windows 10 can be downloaded directly from this link: [R 3.6.3 for Windows (83 Mb, 32/64 bit)](https://cloud.r-project.org/bin/windows/base/R-3.6.3-win.exe).
+At the time this post was written the latest release of R is version 3.6.3. The installer for Windows 10 can be downloaded directly from this link: [R 3.6.3 for Windows (c. 83 MB, 32- & 64-bit)](https://cloud.r-project.org/bin/windows/base/R-3.6.3-win.exe).
 
 ## Installation
 
@@ -84,8 +84,9 @@ Congratulations, :satisfied:, you now have R 3.6.3 installed on your private des
 To be added in following Posts:
 
 - [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
+- [x] [Install RStudio on Windows 10](/post/2020/04/13/rstudio-installation-on-windows-10/)
 - [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
 - [x] [(re-)Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [Install RStudio on macOS](/post/2020/04/13/rstudio-installation-on-macos/)
 - [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
 - [x] [Install R Commander in R on macOS](/post/2020/04/10/r-commander-installation-in-r-on-macos/)
-- [ ] Install RStudio

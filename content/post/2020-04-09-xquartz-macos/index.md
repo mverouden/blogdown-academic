@@ -26,7 +26,7 @@ projects: []
 ---
 
 ## Motivation
-Due to the novel coronavirus (nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
+Due to the novel coronavirus (2019-nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
 R Commmander has been programmed in Tcl (Tool Command Language) and uses Tk as a graphical user interface toolkit. To be able to use R Commander correctly on macOS, software needs to installed that enables the use of Tcl/Tk. XQuartz is the only software on macOS, which enables the operating system to use Tcl/Tk.
 
@@ -47,7 +47,7 @@ fn      | function                     | | &#8998; | forward delete (fn + &#9003
 ## Download
 At the time this post was written the latest release of XQuartz is version 2.7.11. It will work on Mac OS X Snow Leopard (version 10.6.3) or later, up to and including macOS Catalina (version 10.15.x).
 
-Download XQuartz using the following link: [XQuartz v2.7.11 (ca. 75.9 Mb)](https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg)
+Download XQuartz using the following link: [XQuartz v2.7.11 (ca. 75.9 MB)](https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg)
 
 ## XQuartz Installation
 To install XQuartz on macOS perform the following steps:
@@ -85,8 +85,9 @@ As mentioned in step 9. you have to make XQuartz your default X11 server by logg
 To be added in following Posts:
 
 - [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
+- [x] [Install RStudio on Windows 10](/post/2020/04/13/rstudio-installation-on-windows-10/)
 - [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
 - [x] [(re-)Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [Install RStudio on macOS](/post/2020/04/13/rstudio-installation-on-macos/)
 - [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
 - [x] [Install R Commander in R on macOS](/post/2020/04/10/r-commander-installation-in-r-on-macos/)
-- [ ] Install RStudio

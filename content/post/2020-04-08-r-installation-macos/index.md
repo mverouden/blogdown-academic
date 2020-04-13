@@ -25,7 +25,7 @@ projects: []
 ---
 
 ## Motivation
-Due to the novel coronavirus (nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
+Due to the novel coronavirus (2019-nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
 
 {{% alert note %}}
 The instruction in this post will show how to (re-)install R on a desktop or laptop computer running macOS as operating system.
@@ -102,8 +102,8 @@ For macOS there are two downloads for R available on the [R-project website](htt
 
 Download R for your specific version of macOS using one of the following links:
 
-- Up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 Mb,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
-- macOS Catalina (10.15.x): [R 3.6.3  (ca. 78 Mb, *notarized* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.pkg)
+- Up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
+- macOS Catalina (10.15.x): [R 3.6.3  (ca. 78 MB, *notarized* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.pkg)
 
 ## Installation
 For installing R on macOS follow these steps:
@@ -183,8 +183,9 @@ defaults write org.R-project.R force.LANG en_US.UTF-8
 To be added in following Posts:
 
 - [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
+- [x] [Install RStudio on Windows 10](/post/2020/04/13/rstudio-installation-on-windows-10/)
 - [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
 - [x] [(re-)Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
+- [x] [Install RStudio on macOS](/post/2020/04/13/rstudio-installation-on-macos/)
 - [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
 - [x] [Install R Commander in R on macOS](/post/2020/04/10/r-commander-installation-in-r-on-macos/)
-- [ ] Install RStudio
