@@ -81,13 +81,3 @@ Congratulations, :satisfied:, you now have XQuartz installed on your mac!
 {{% alert warning %}}
 As mentioned in step 9. you have to make XQuartz your default X11 server by logging out and again logging in on your mac. Do this by navigating your mouse pointer to the menu bar, click on {{< icon name="apple" pack="fab" >}} and select ‘Log Out \<username\>...’. Here \<username\> will display the name you selected, while setting up your mac for the first time. Log back in and XQuartz will now be your default X11 server.
 {{% /alert %}}
-
-To be added in following Posts:
-
-- [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
-- [x] [Install RStudio on Windows 10](/post/2020/04/13/rstudio-installation-on-windows-10/)
-- [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
-- [x] [(re-)Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
-- [x] [Install RStudio on macOS](/post/2020/04/13/rstudio-installation-on-macos/)
-- [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
-- [x] [Install R Commander in R on macOS](/post/2020/04/10/r-commander-installation-in-r-on-macos/)

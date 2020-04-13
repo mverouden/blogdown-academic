@@ -129,13 +129,3 @@ detach("package:Rcmdr", unload = TRUE)
 paste (&#8984;V) it behind the prompt in the R console (indicated by a `>` sign) and press return (&#8617;) to execute the command.
 
 Now R Commander can be restarted by using the `library(Rcmdr)` command as before. 
-
-To be added in following Posts:
-
-- [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
-- [x] [Install RStudio on Windows 10](/post/2020/04/13/rstudio-installation-on-windows-10/)
-- [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
-- [x] [(re-)Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
-- [x] [Install RStudio on macOS](/post/2020/04/13/rstudio-installation-on-macos/)
-- [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
-- [x] [Install R Commander in R on macOS](/post/2020/04/10/r-commander-installation-in-r-on-macos/)

@@ -179,13 +179,3 @@ defaults write org.R-project.R force.LANG en_US.UTF-8
 5. No matter what you choose, you will always be asked whether you want to save a workspace image as shown below. Just click on the **‘Don't Save’** button to end the R application.
 ![R Console save workspace](3-r-app-save-workspace.png)
 6. Go back to step 1. of the ‘Configure the R application on macOS’ section.
-
-To be added in following Posts:
-
-- [x] [Install R on Windows 10](/post/2020/04/06/r-installation-windows-10/)
-- [x] [Install RStudio on Windows 10](/post/2020/04/13/rstudio-installation-on-windows-10/)
-- [x] [Install R Commander in R on Windows 10](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/)
-- [x] [(re-)Install and Configure R on macOS](/post/2020/04/08/r-installation-macos/)
-- [x] [Install RStudio on macOS](/post/2020/04/13/rstudio-installation-on-macos/)
-- [x] [Install XQuartz on macOS](/post/2020/04/09/xquartz-installation-macos)
-- [x] [Install R Commander in R on macOS](/post/2020/04/10/r-commander-installation-in-r-on-macos/)
