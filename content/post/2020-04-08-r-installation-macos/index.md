@@ -44,7 +44,7 @@ fn      | function                     | | &#8998; | forward delete (fn + &#9003
 ## Completely removing R from macOS
 If you have previously installed R and wish to re-install the latest version or your current installation is not working as you expect, you first need to delete everything related to R. In macOS a complete removal is somewhat complicated, but doable if you follow all step precisely as provided in this post.
 
-For the complete removal of everything related to R the Terminal application will be used. In your Finder > Applictions (shortcut: &#8679;&#8984;A) there is a Utilities folder as depicted below.
+For the complete removal of everything related to R the Terminal application will be used. In your Finder > Applications (shortcut: &#8679;&#8984;A) there is a Utilities folder as depicted below.
 ![Finder Utilities folder.](macos-utilities-icon.png)
 Within this Utilities folder, which can be directly accessed by using the &#8679;&#8984;U shortcut, the Terminal application is contained. The icon below shows what the Terminal application looks like in the Finder > Applications > Utilities folder.
 ![Terminal application icon.](macos-terminal-icon.png)
@@ -141,7 +141,7 @@ To configure the R application on macOS perform the following steps:
 ![R application icon.](1-r-app-icon.png)
 2. The R Console will open, as shown in the image below, and the cursor will be ready for input behind the prompt, indicated by the `>` sign. In case the R Console displays a non-UTF8 locale warning, than this needs to be remedied first. Go to the section entitled "Fix R application non-UTF8 locale warning" in this post to resolve this issue.
 ![R Console](4-r-app-console.png)
-3. Navigate the mouse pointer to the menu bar click on ‘R’ > ‘Preferences...’ (shortcut: &#8984;,) to open the R appliction preferences. The Preferences window displayed below will appear.
+3. Navigate the mouse pointer to the menu bar click on ‘R’ > ‘Preferences...’ (shortcut: &#8984;,) to open the R application preferences. The Preferences window displayed below will appear.
 ![R application preferences.](5-r-app-preferences.png)
 4. Click on Startup and the Preferences window will change into the image shown below.
 ![R application startup preferences.](6-r-app-prefs-startup.png)

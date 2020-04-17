@@ -80,7 +80,7 @@ To start R Commander from the R Console, type the command `library(Rcmdr)` behin
 
 The first time you start R Commander, you will see at the bottom of the main R Commander window in the ‘Messages’ section the message as shown in the image below.
 ![R Commander app napp warning](7-r-commander-app-nap-warning.png)
-The warning is referring to a feature that was added to macOS in 2013, which  is called App Nap. App Nap puts programs you’re not currently using or looking at to ‘sleep’, blocking them from using system resources, especially the CPU, until you focus on them again. It will cause R Commander to work not very smoothly, because the R appliction is being put to ‘sleep’ as it is running in the background of R Commander. R Commander will at moments work with a huge lag time, which will feel like it is frozen and not responding.
+The warning is referring to a feature that was added to macOS in 2013, which  is called App Nap. App Nap puts programs you’re not currently using or looking at to ‘sleep’, blocking them from using system resources, especially the CPU, until you focus on them again. It will cause R Commander to work not very smoothly, because the R application is being put to ‘sleep’ as it is running in the background of R Commander. R Commander will at moments work with a huge lag time, which will feel like it is frozen and not responding.
 
 **Solving this problem will ask quite a bit of your patience! Fortunately you only have to do this once, afterwards R Commander will work smoothly every time you start it.** 
 
@@ -102,7 +102,7 @@ Perform the following steps:
 ![R Console save workspace](10-r-app-save-workspace.png)
 
 {{% alert note %}}
-Next time you start R Commander from the R Console of the R appliction using the `library(Rcmdr)` command, the ‘Messages’ section will display the following message: `[1] NOTE: R Commander Version 2.6-2:` followed by the day, date and time. Now R Commander will work smoothly.
+Next time you start R Commander from the R Console of the R application using the `library(Rcmdr)` command, the ‘Messages’ section will display the following message: `[1] NOTE: R Commander Version 2.6-2:` followed by the day, date and time. Now R Commander will work smoothly.
 {{% /alert %}}
 
 ## Alternative way of starting R Commander without the App Nap problem
