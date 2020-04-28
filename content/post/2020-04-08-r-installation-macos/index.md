@@ -104,8 +104,8 @@ For macOS there are two downloads for R available on the [R-project website](htt
 
 Download R for your specific version of macOS using one of the following links:
 
-- Up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
-- macOS Catalina (10.15.x): [R 3.6.3  (ca. 78 MB, *notarized* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.pkg)
+- Up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/el-capitan/base/R-3.6.3.nn.pkg)
+- macOS Catalina (10.15.x): [R 3.6.3  (ca. 78 MB, *notarized* 64-bit)](https://cloud.r-project.org/bin/macosx/el-capitan/base/R-3.6.3.pkg)
 
 ## Installation
 For installing R on macOS follow these steps:

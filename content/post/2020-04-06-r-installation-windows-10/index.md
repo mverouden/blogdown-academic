@@ -37,7 +37,7 @@ The installation instructions in this post are <u>**not to be used on WURclient 
 {{% /alert %}}
 
 ## Download
-At the time this post was written the latest release of R is version 3.6.3. The installer for Windows 10 can be downloaded directly from this link: [R 3.6.3 for Windows (c. 83 MB, 32- & 64-bit)](https://cloud.r-project.org/bin/windows/base/R-3.6.3-win.exe).
+At the time this post was written the latest release of R is version 3.6.3. The installer for Windows 10 can be downloaded directly from this link: [R 3.6.3 for Windows (c. 83 MB, 32- & 64-bit)](https://cloud.r-project.org/bin/windows/base/old/3.6.3/R-3.6.3-win.exe).
 
 ## Installation
 
