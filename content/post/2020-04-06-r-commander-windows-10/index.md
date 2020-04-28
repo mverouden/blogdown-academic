@@ -108,10 +108,10 @@ To start R Commander type the `library(Rcmdr)` command behind the R Console prom
 ### Restart R Commander
 In case R Commander crashes while using it, you will need to resart it. However, in the R Console currently running R, the `library(Rcmdr)` command will not restart R Commander.
 
-The reason is, that the R Commander package is still loaded and first needs to be detached. To detach the R Commander package you can copy (&#8984;C) the following command:
+The reason is, that the R Commander package is still loaded and first needs to be detached. To detach the R Commander package you can copy (Ctrl+C) the following command:
 ```R
 detach("package:Rcmdr", unload = TRUE)
 ```
-paste (&#8984;V) it behind the prompt in the R Console (indicated by a `>` sign) and press return (&#8617;) to execute the command.
+paste (Ctrl+V) it behind the prompt in the R Console (indicated by a `>` sign) and press return (&#8617;) to execute the command.
 
 Now R Commander can be restarted by using the `library(Rcmdr)` command as before.
