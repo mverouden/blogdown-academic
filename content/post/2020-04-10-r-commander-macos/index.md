@@ -119,7 +119,7 @@ This is done by following these steps:
 3. This will start R and the prompt, where the commands will be entered for R, will have changed into a `>` sign.
 4. Type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return (&#8617;) to execute. This will cause R Commander to be started. The ‘Messages’ section at the bottom of R Commander will display the following message: `[1] NOTE: R Commander Version 2.6-2:` followed by the day, date and time. This means that R Commander will work smoothly!
 
-Quiting R Commander will return you to the terminal console, which can be recognized by the prompt sign changing back into a `%` or `$` sign.
+Quitting R Commander will return you to the terminal console, which can be recognized by the prompt sign changing back into a `%` or `$` sign.
 
 To quit the active terminal console by typing `exit` and pressing return (&#8617;) to execute. To quit the Terminal application completely you can use the keyboard shortcut: &#8984;Q or navigate the mouse pointer to the menu bar and click ‘Terminal’ > ‘Quit Terminal’.
 
