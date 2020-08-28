@@ -27,7 +27,7 @@ projects: []
 {{% toc %}}
 
 ## Motivation
-Due to the novel coronavirus (2019-nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
+Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
 {{% alert note %}}
 This post will show how to install R Commander within R on a desktop or laptop computer running macOS as operating system.
@@ -50,6 +50,8 @@ Prior requirements for the R Commander installation within R on macOS:
 - [x] [XQuartz installed on macOS](/post/2020/04/09/xquartz-installation-macos/)
 
 To be able to install R Commander you will need to have both R installed and configured as well as have XQuartz installed first. If you haven't done so already, please read the (re-)install and configure R on macOS as well as the XQuartz installation on macOS posts (use the links above to go to those specific posts) before continuing with this post.
+
+The screenshots in this post are based on R version 3.6.3. The procedure and steps described, however are still correct for higher versions of R.
 
 To install R commander on macOS perform the following steps:
 

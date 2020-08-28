@@ -13,7 +13,7 @@ tags:
   - Installation
   - R
   - Windows 10
-lastmod: '2020-04-06T16:11:35+02:00'
+lastmod: '2020-08-27T15:30:35+02:00'
 draft: false
 featured: false
 image:
@@ -26,28 +26,32 @@ projects: []
 {{% toc %}}
 
 ## Motivation
-Due to the novel coronavirus (2019-nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
+Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
 
 {{% alert note %}}
 This post will show how to install R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
 {{% /alert %}}
 
 {{% alert warning %}}
-The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>!
+The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>! For a WURclient desktop or laptop see the post: [Custom R installation on a WURclient](/post/2020/05/05/r-installation-wurclient/) (will become available soon).
 {{% /alert %}}
 
 ## Download
-At the time this post was written the latest release of R is version 3.6.3. The installer for Windows 10 can be downloaded directly from this link: [R 3.6.3 for Windows (c. 83 MB, 32- & 64-bit)](https://cloud.r-project.org/bin/windows/base/old/3.6.3/R-3.6.3-win.exe).
+At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.0.2 of R. 
+
+The installer for Windows 10 can be downloaded directly from this link: [R 4.0.2 for Windows (c. 84 MB, 32- & 64-bit)](https://cloud.r-project.org/bin/windows/base/old/4.0.2/R-4.0.2-win.exe).
+
+For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated, therefore what you see during your installation will differ with respect to the version number shown in the screenshots.
 
 ## Installation
 
-1. Open the downloaded file **R-3.6.3-win.exe**. This file will most likely reside in your Downloads folder of your user account.
+1. Open the downloaded file **R-4.0.2-win.exe**. This file will most likely reside in your Downloads folder of your user account.
 2. Allow to install the software on your computer.
-3. After the installler has started, a first selection window will appear as displayed below. Select the English language and click the ‘OK’ button to proceed.
+3. After the installer has started, a first selection window will appear as displayed below. Select the English language and click the ‘OK’ button to proceed.
 
 ![Language selection during R installation.](1-install-r-language.png)
 
-4. Click on the ‘Next’ button to agree the terms. After  this a window will appear, allowing you to select or choose the destination folder, as shown below, where R 3.6.3 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-3.6.3` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-3.6.3`).
+4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown below, where R 4.0.2 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.0.2` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.0.2`).
 
 ![Destination folder during R installation.](2-install-r-destination-folder.png)
 
@@ -55,11 +59,11 @@ At the time this post was written the latest release of R is version 3.6.3. The 
 
 ![Component selection during R installation.](3-install-r-select-components.png)
 
-6. After selecting the components to install the startup options need to be set. Select, as shown below, the customized startup by selecting the ‘Yes’ radiobutton followed by clicking on the ‘Next’ button.
+6. After selecting the components to install the startup options need to be set. Select, as shown below, the customized startup by selecting the ‘Yes’ radio button followed by clicking on the ‘Next’ button.
 
 ![Customized startup selection during R installation.](4-install-r-startup-options.png)
 
-7. The first startup options to set is the Display Mode, as show below. Select the Single Document Interface by selecting the ‘SDI (separate windows)’ radiobutton as displayed and clicking on the ‘Next’ button.
+7. The first startup option to set is the Display Mode, as show below. Select the Single Document Interface by selecting the ‘SDI (separate windows)’ radio button as displayed and clicking on the ‘Next’ button.
 
 ![Display mode selection during R installation.](5-install-r-display-mode.png)
 
@@ -67,11 +71,11 @@ At the time this post was written the latest release of R is version 3.6.3. The 
 
 ![Help style selection during R installation.](6-install-r-help-style.png)
 
-9. The one before last startup setting is to set a ‘Start Menu’ folder name. Unless wishing to use a different name, leave the default value as displayed below. This will create a folder named ‘R’ in the ‘Start Menu’ of Windows, from which the R GUI (graphical user interface) can be started.
+9. The one before last startup option is to set a ‘Start Menu’ folder name. Unless wishing to use a different name, leave the default value as displayed below. This will create a folder named ‘R’ in the ‘Start Menu’ of Windows, from which the R GUI (graphical user interface) can be started.
 
 ![Start menu folder selection during R installation.](7-install-r-start-menu.png)
 
-10. The last startup setting to set allows for some customization of shortcut links. Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
+10. The last startup option to set allows for some customization of shortcut links. Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
 
 {{% alert warning %}}
 **Do not mess around with the ‘Registry entries’  settings.**
@@ -80,5 +84,5 @@ At the time this post was written the latest release of R is version 3.6.3. The 
 ![Completion of the R installation.](9-install-r-completion.png)
 
 {{% alert note %}}
-Congratulations, :satisfied:, you now have R 3.6.3 installed on your private desktop or laptop computer!
+Congratulations, :satisfied:, you now have R 4.0.2 installed on your private desktop or laptop computer!
 {{% /alert %}}

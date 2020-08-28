@@ -27,7 +27,7 @@ projects: []
 {{% toc %}}
 
 ## Motivation
-Due to the novel coronavirus (2019-nCoV) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
+Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
 
 {{% alert note %}}
 The instruction in this post will show how to (re-)install R on a desktop or laptop computer running macOS as operating system.
@@ -44,7 +44,7 @@ fn      | function                     | | &#8998; | forward delete (fn + &#9003
 &#8679; | shift (either left or right) | | &#9099; | escape                        
 
 ## Completely removing R from macOS
-If you have previously installed R and wish to re-install the latest version or your current installation is not working as you expect, you first need to delete everything related to R. In macOS a complete removal is somewhat complicated, but doable if you follow all step precisely as provided in this post.
+If you have previously installed R and wish to re-install the latest version or your current installation is not working as you expect, you first need to delete everything related to R. In macOS a complete removal is somewhat complicated, but doable if you follow all steps precisely as provided in this post.
 
 For the complete removal of everything related to R the Terminal application will be used. In your Finder > Applications (shortcut: &#8679;&#8984;A) there is a Utilities folder as depicted below.
 ![Finder Utilities folder.](macos-utilities-icon.png)
@@ -96,7 +96,9 @@ Having performed all 10 steps given above, your mac will be ready for a new inst
 {{% /alert %}}
 
 ## Download 
-At the time this post was written the latest release of R is version 3.6.3.
+At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.0.2 of R for MacOS High Sierra or higher.
+
+For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded package file of R. The screenshots in this post have not been updated, therefore what you see during your installation can differ with respect to the version number shown in the screenshots.
 
 {{% alert warning %}}
 For macOS there are two downloads for R available on the [R-project website](https://cloud.r-project.org/). To see which version of macOS is installed on your mac, click on {{< icon name="apple" pack="fab" >}} in the menu bar and select ‘About This Mac’.
@@ -104,13 +106,13 @@ For macOS there are two downloads for R available on the [R-project website](htt
 
 Download R for your specific version of macOS using one of the following links:
 
-- Up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/el-capitan/base/R-3.6.3.nn.pkg)
-- macOS Catalina (10.15.x): [R 3.6.3  (ca. 78 MB, *notarized* 64-bit)](https://cloud.r-project.org/bin/macosx/el-capitan/base/R-3.6.3.pkg)
+- For macOS El Capitan (10.11.x) up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
+- For macOS High Sierra (10.13.x) and higher, including macOS Catalina (10.15.x): [R 4.0.2  (ca. 84 MB, *notarized* 64-bit)](https://cloud.r-project.org/bin/macosx/R-4.0.2.pkg)
 
 ## Installation
 For installing R on macOS follow these steps:
 
-1. Open the downloaded file, either **R-3.6.3.nn.pkg** or **R-3.6.3.pkg** depending or your version of macOS (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The installer package will resemble the image displayed below (text underneath may differ!).
+1. Open the downloaded file, either **R-3.6.3.nn.pkg** or **R-4.0.2.pkg** depending or your version of macOS (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The installer package will resemble the image displayed below (text underneath may differ!).
 ![R installer package icon.](1-r-installer-package-icon.png)
 2. The installler will start and display the introduction as shown below. Click the ‘Continue’ button to proceed.
 ![R installer introduction.](2-r-installer-intro.png)
@@ -133,7 +135,7 @@ Do not Customise the installation type, unless you know what you are doing.
 8. The installer will finally ask you whether you want to keep or move to R installer package to the trashbin. Click ‘Move to Bin’ to discard the installer package.
 
 {{% alert note %}}
-Congratulations :satisfied:, you now have R 3.6.3 installed on your mac! Before actively using the R application, some configuration will be required. The configuration is described in the next section.
+Congratulations :satisfied:, you now have R 3.6.3 or higher installed on your mac! Before actively using the R application, some configuration will be required. The configuration is described in the next section.
 {{% /alert %}}
 
 ## Configure the R application on macOS
@@ -165,7 +167,7 @@ Having configured the R application, you are now ready to actively start using i
 
 When the R Console displays a non-UTF8 locale warning at the startup of the R application, it will look like the image shown below.
 ![R Console with language warning.](2-r-app-language-warning.png)
-The remedy for this issue not difficult, just perform the following steps:
+The remedy for this issue is not difficult, just perform the following steps:
 
 1. Go to the open terminal console. If you do not have one yet, open the Terminal application from Finder > Applications > Utilities (shorcut: &#8679;&#8984;U) or via Lauchpad under the ‘Other’ group. The terminal console prompt, where the commands will be entered, is depicted by a `%` or a `$` sign. Which sign is shown, depends whether your default shell is zsh (`%` sign) or bash (`$` sign).
 2. Copy (&#8984;C) the following line, paste (&#8984;V) it behind the prompt in the terminal console and press return (&#8617;) to execute the command.
