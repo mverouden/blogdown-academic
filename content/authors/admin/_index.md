@@ -20,7 +20,7 @@ interests:
 - Software Development
 - Programming
 - Teaching
-name: Maikel Verouden, Ph.D.
+title: Maikel Verouden, Ph.D.
 organizations:
 - name: Wageningen University & Research, Biometris
   url: "http://www.wur.eu/biometris"

@@ -56,7 +56,6 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   * Lecturing:
-  
     - Statistics 1 (MAT-15303)
     - Statistics 2 (MAT-15403)
     - R for Statistics (MAT-50303)
