@@ -1,4 +1,4 @@
-Blogdown hugo-academic theme v4.8.0
+Blogdown Wowchemy starter-academic theme v4.8.0
 ================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
