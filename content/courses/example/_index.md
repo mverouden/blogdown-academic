@@ -7,8 +7,7 @@ menu:
   example:
     name: Overview
     weight: 1
-summary: Learn how to use Academic's docs layout for publishing online courses, software
-  documentation, and tutorials.
+summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
 title: Overview
 toc: true
 type: docs
