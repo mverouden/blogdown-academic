@@ -29,9 +29,9 @@ projects: []
 ## Motivation
 Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
 
-{{% alert note %}}
+{{% callout note %}}
 The instruction in this post will show how to (re-)install R on a desktop or laptop computer running macOS as operating system.
-{{% /alert %}}
+{{% /callout %}}
 
 In the text some symbol combinations are used for shortcuts, the following table explains the meaning of these symbols in relation to specific keys on your keyboard. To use the shortcuts press the keyboard keys simultaneously, e.g. &#8679;&#8984;A means &#8679;+&#8984;+A.
 
@@ -91,18 +91,18 @@ sudo rm  ~/.Renviron
 ```sh
 sudo rm -r ~/.R
 ```
-{{% alert note %}}
+{{% callout note %}}
 Having performed all 10 steps given above, your mac will be ready for a new installation of R. Leave the terminal console open for now, you might need it later on.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Download 
 At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.0.2 of R for MacOS High Sierra or higher.
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded package file of R. The screenshots in this post have not been updated, therefore what you see during your installation can differ with respect to the version number shown in the screenshots.
 
-{{% alert warning %}}
+{{% callout warning %}}
 For macOS there are two downloads for R available on the [R-project website](https://cloud.r-project.org/). To see which version of macOS is installed on your mac, click on {{< icon name="apple" pack="fab" >}} in the menu bar and select ‘About This Mac’.
-{{% /alert %}}
+{{% /callout %}}
 
 Download R for your specific version of macOS using one of the following links:
 
@@ -122,9 +122,9 @@ For installing R on macOS follow these steps:
 ![R installer License agreement.](5-r-installer-license-agree.png)
 5. The installer will select the best destination to install the software for you and will display the Installation Type as shown below. Click on the ‘Install’ button to start the software installation.
 
-{{% alert warning %}}
+{{% callout warning %}}
 Do not Customise the installation type, unless you know what you are doing.
-{{% /alert %}}
+{{% /callout %}}
 
 ![R installer installation type.](6-r-installer-install-type.png)
 
@@ -134,9 +134,9 @@ Do not Customise the installation type, unless you know what you are doing.
 ![Successful installation of R](8-r-installer-success.png)
 8. The installer will finally ask you whether you want to keep or move to R installer package to the trashbin. Click ‘Move to Bin’ to discard the installer package.
 
-{{% alert note %}}
+{{% callout note %}}
 Congratulations :satisfied:, you now have R 3.6.3 or higher installed on your mac! Before actively using the R application, some configuration will be required. The configuration is described in the next section.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Configure the R application on macOS
 To configure the R application on macOS perform the following steps:
@@ -159,9 +159,9 @@ To configure the R application on macOS perform the following steps:
 6. No matter what you choose, you will always be asked whether you want to save a workspace image as shown below. Just click on the **‘Don't Save’** button to end the R application.
 ![R Console save workspace](3-r-app-save-workspace.png)
 
-{{% alert note %}}
+{{% callout note %}}
 Having configured the R application, you are now ready to actively start using it!
-{{% /alert %}}
+{{% /callout %}}
 
 ## Fix R application non-UTF8 locale warning
 

@@ -29,13 +29,13 @@ projects: []
 ## Motivation
 Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Some of these courses (e.g. [MAT-20306](https://ssc.wur.nl/Handbook/Course/MAT-20306), [MAT-32806](https://ssc.wur.nl/Handbook/Course/MAT-32806), and [MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303)) mainly use RStudio. Also other courses (e.g. [HNH-31506](https://ssc.wur.nl/Handbook/Course/HNH-31506) and [BIF-51306](https://ssc.wur.nl/Handbook/2019/Course/BIF51306)) taught at Wageningen University & Research use R via RStudio as well. Therefore, students will need to be able to install RStudio.
 
-{{% alert note %}}
+{{% callout note %}}
 This post will show how to install RStudio on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>!
-{{% /alert %}}
+{{% /callout %}}
 
 ## Download
 At the time this post was written the latest stable release of RStudio is version 1.2.5033. The post has been updated to the current stable release version 1.3.1073
@@ -64,6 +64,6 @@ To install RStudio on Windows 10 perform the following steps:
 6. Once the installation of RStudio has finished, the window will look like the one shown below. Click the ‘Finish’ button to close the setup.
 ![RStudio installation completed](5-rstudio-completed-w10.png)
 
-{{% alert note %}}
+{{% callout note %}}
 Congratulations, :satisfied:, you now have RStudio v1.3.1073 installed on your private Windows 10 desktop or laptop computer!
-{{% /alert %}}
+{{% /callout %}}

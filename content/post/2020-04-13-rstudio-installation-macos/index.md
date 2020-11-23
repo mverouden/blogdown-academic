@@ -29,9 +29,9 @@ projects: []
 ## Motivation
 Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Some of these courses (e.g. [MAT-20306](https://ssc.wur.nl/Handbook/Course/MAT-20306), [MAT-32806](https://ssc.wur.nl/Handbook/Course/MAT-32806), and [MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303)) mainly use RStudio. Also other courses (e.g. [HNH-31506](https://ssc.wur.nl/Handbook/Course/HNH-31506) and [BIF-51306](https://ssc.wur.nl/Handbook/2019/Course/BIF51306)) taught at Wageningen University & Research use R via RStudio as well. Therefore, students will need to be able to install RStudio.
 
-{{% alert note %}}
+{{% callout note %}}
 This post will show how to install RStudio on a desktop or laptop computer running macOS as operating system.
-{{% /alert %}}
+{{% /callout %}}
 
 In the text some symbol combinations are used for shortcuts, the following table explains the meaning of these symbols in relation to specific keys on your keyboard. To use the shortcuts press the keyboard keys simultaneously, e.g. &#8679;&#8984;A means &#8679;+&#8984;+A.
 
@@ -70,6 +70,6 @@ To install RStudio on macOS perform the following steps:
 5. The opened disk image is still open on your desktop and will look like the image shown below. Click this icon on your desktop once to select it and press &#8984;E (shortcut for eject) to close it. Now you can discard the downloaded `RStudio-x.x.xxx.dmg` file from Finder > Downloads (shortcut: &#8997;&#8984;L) by clicking it once to select and using the shortcut &#8998; (press: fn + &#9003;) to put it in the trashbin. To completely remove the installer disk image remove it from your trashbin.
 ![RStudio desktop volume](3-rstudio-desktop-volume.png)
 
-{{% alert note %}}
+{{% callout note %}}
 Congratulations, :satisfied:, you now have successfully installed RStudio on your mac! The icon in your Applications (shortcut: &#8679;&#8984;A) or Launcher will look the same as the R application icon you dragged and dropped in step 3. of the installation steps described above.
-{{% /alert %}}
+{{% /callout %}}

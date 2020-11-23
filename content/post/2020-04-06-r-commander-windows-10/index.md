@@ -29,13 +29,13 @@ projects: []
 ## Motivation
 Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
-{{% alert note %}}
+{{% callout note %}}
 This post will show how to install R Commander within R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>!
-{{% /alert %}}
+{{% /callout %}}
 
 ## R Commander Installation
 Prior requirement:
@@ -92,13 +92,13 @@ The extraction process can take 10 to 15 minutes before all folders and files ar
 
 5. Repeat step 4. for installing the `RcmdrPlugin.HH` package. This plugin is required for MAT-15403 Statistics 2 to be able to do the practicals on Simple Linear Regression.
 
-{{% alert note %}}
+{{% callout note %}}
 Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready :satisfied: to start R 4.0.2 and use R Commander.
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 **When using R Commander for the first time additional packages, required for R Commander to work correctly, will need to be installed. Allow the installation to be able to work smoothly without errors!**
-{{% /alert %}}
+{{% /callout %}}
 
 
 ## Starting and restarting R Commander

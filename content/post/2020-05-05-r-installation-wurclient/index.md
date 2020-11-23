@@ -31,13 +31,13 @@ This version of R was developed for educational purposes, where `Rcmdr` reflects
 
 Many users, however, need to be able to update core packages, because of dependencies with packages they would like to install or would just like to use a newer version of R than the one in !Available Software. At the moment of writing this post the latest version of R released on [r-project.org](https://www.r-project.org/) is R version 4.0.0 named: "Arbor Day" (released on 2020-04-24).
 
-{{% alert note %}}
+{{% callout note %}}
 This post will show how to custom install R on a **WURclient** desktop or laptop computer without using !Available Software.
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [R installation on Windows 10](/post/2020/04/06/r-installation-windows-10/).
-{{% /alert %}}
+{{% /callout %}}
 
 ## Prerequisite
 To be able to perform a custom installation of R you need to have <u>**POWER USER RIGHTS**</u> on the WURclient desktop or laptop.
@@ -54,9 +54,9 @@ In the left column of Sofware Center navigate to "Installation Status". Select t
 
 Next you will need to remove the packages, you have installed manually.
 
-{{% alert warning %}}
+{{% callout warning %}}
 Be aware that all packages you have installed manually will be removed, if you continue here!
-{{% /alert%}}
+{{% /callout%}}
 
 Let's asume you had previously installed `R 3.6.1 Rcmdr` from !Available Software/Sofware Center. The user installed packages will reside in `C:/ProgramData/R/win-library/3.6`. If you try to remove the folder via File Explorer in Windows, you will discover that you have insufficient rights to do so. The reason is that !Available Software/Software Center installs software with **ADMINISTRATOR RIGHTS**, you on the other hand only have **POWER USER RIGHTS**. The **POWER USER** does not have full administrator privileges!
 
@@ -102,12 +102,12 @@ At the time this post was written the latest release of R is version 3.6.3. The 
 
 10. The last startup setting to set allows for some customization of shortcut links. Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
 
-{{% alert warning %}}
+{{% callout warning %}}
 **Do not mess around with the ‘Registry entries’  settings.**
-{{% /alert %}}
+{{% /callout %}}
 
 ![Completion of the R installation.](9-install-r-completion.png)
 
-{{% alert note %}}
+{{% callout note %}}
 Congratulations, :satisfied:, you now have R 3.6.3 installed on your private desktop or laptop computer!
-{{% /alert %}}
+{{% /callout %}}

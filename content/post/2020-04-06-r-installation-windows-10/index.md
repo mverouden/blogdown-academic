@@ -28,13 +28,13 @@ projects: []
 ## Motivation
 Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
 
-{{% alert note %}}
+{{% callout note %}}
 This post will show how to install R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>! For a WURclient desktop or laptop see the post: [Custom R installation on a WURclient](/post/2020/05/05/r-installation-wurclient/) (will become available soon).
-{{% /alert %}}
+{{% /callout %}}
 
 ## Download
 At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.0.2 of R. 
@@ -77,12 +77,12 @@ For newer versions of R than 3.6.3 the steps described below are the same and st
 
 10. The last startup option to set allows for some customization of shortcut links. Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end the image shown below will appear. To exit the setup click on the ‘Finish’ button.
 
-{{% alert warning %}}
+{{% callout warning %}}
 **Do not mess around with the ‘Registry entries’  settings.**
-{{% /alert %}}
+{{% /callout %}}
 
 ![Completion of the R installation.](9-install-r-completion.png)
 
-{{% alert note %}}
+{{% callout note %}}
 Congratulations, :satisfied:, you now have R 4.0.2 installed on your private desktop or laptop computer!
-{{% /alert %}}
+{{% /callout %}}

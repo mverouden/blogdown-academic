@@ -29,9 +29,9 @@ projects: []
 ## Motivation
 Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
-{{% alert note %}}
+{{% callout note %}}
 This post will show how to install R Commander within R on a desktop or laptop computer running macOS as operating system.
-{{% /alert %}}
+{{% /callout %}}
 
 In the text some symbol combinations are used for shortcuts, the following table explains the meaning of these symbols in relation to specific keys on your keyboard. To use the shortcuts press the keyboard keys simultaneously, e.g. &#8679;&#8984;A means &#8679;+&#8984;+A.
 
@@ -70,15 +70,15 @@ To install R commander on macOS perform the following steps:
 
 Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready :satisfied: to use R Commander for the first time. 
 
-{{% alert warning%}}
+{{% callout warning%}}
 **Continue with the next section "First time use of R Commander" now. Do not wait until the first Practical!**
-{{% /alert %}}
+{{% /callout %}}
 
 ## First time use of R Commander
 
-{{% alert note %}}
+{{% callout note %}}
 **When using R Commander for the first time additional packages required for R Commander to work correctly will need to be installed. Allow the installation to be able to work smoothly without errors!**
-{{% /alert %}}
+{{% /callout %}}
 
 To start R Commander from the R Console, type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return (&#8617;) to execute. This will cause R Commander to be started.
 
@@ -105,9 +105,9 @@ Perform the following steps:
 6. No matter what you choose, you will always be asked whether you want to save a workspace image as shown below. Just click on the **‘Don't Save’** button to end the R application.
 ![R Console save workspace](10-r-app-save-workspace.png)
 
-{{% alert note %}}
+{{% callout note %}}
 Next time you start R Commander from the R Console of the R application using the `library(Rcmdr)` command, the ‘Messages’ section will display the following message: `[1] NOTE: R Commander Version 2.6-2:` followed by the day, date and time. Now R Commander will work smoothly.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Alternative way of starting R Commander without the App Nap problem
 As an alternative to switching off the App Nap for the R application you could start R from a Terminal.

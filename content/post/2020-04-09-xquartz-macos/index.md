@@ -32,9 +32,9 @@ Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-1
 
 R Commmander has been programmed in Tcl (Tool Command Language) and uses Tk as a graphical user interface toolkit. To be able to use R Commander correctly on macOS, software needs to installed that enables the use of Tcl/Tk. XQuartz is the only software on macOS, which enables the operating system to use Tcl/Tk.
 
-{{% alert note %}}
+{{% callout note %}}
 This post will show how to install XQuartz on a desktop or laptop computer running macOS as operating system.
-{{% /alert %}}
+{{% /callout %}}
 
 In the text some symbol combinations are used for shortcuts, the following table explains the meaning of these symbols in relation to specific keys on your keyboard. To use the shortcuts press the keyboard keys simultaneously, e.g. &#8679;&#8984;A means &#8679;+&#8984;+A.
 
@@ -76,10 +76,10 @@ To install XQuartz on macOS perform the following steps:
 ![XQuartz successful installation.](11-xquartz-install-success.png)
 11. The installer will finally ask you, whether you want to keep or move the XQuartz installer package to the trashbin. Click ‘Move to Bin’ to discard the installer package and simultaneously close the XQuartz disk image. Actually the XQuartz disk image will be put into the trashbin!
 
-{{% alert note %}}
+{{% callout note %}}
 Congratulations, :satisfied:, you now have XQuartz installed on your mac!
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 As mentioned in step 9. you have to make XQuartz your default X11 server by logging out and again logging in on your mac. Do this by navigating your mouse pointer to the menu bar, click on {{< icon name="apple" pack="fab" >}} and select ‘Log Out \<username\>...’. Here \<username\> will display the name you selected, while setting up your mac for the first time. Log back in and XQuartz will now be your default X11 server.
-{{% /alert %}}
+{{% /callout %}}
