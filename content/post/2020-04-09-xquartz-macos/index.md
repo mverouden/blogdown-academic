@@ -82,4 +82,6 @@ Congratulations, :satisfied:, you now have XQuartz installed on your mac!
 
 {{% callout warning %}}
 As mentioned in step 9. you have to make XQuartz your default X11 server by logging out and again logging in on your mac. Do this by navigating your mouse pointer to the menu bar, click on {{< icon name="apple" pack="fab" >}} and select ‘Log Out \<username\>...’. Here \<username\> will display the name you selected, while setting up your mac for the first time. Log back in and XQuartz will now be your default X11 server.
+
+The best way, to make sure that XQuartz is set as your default X11 server, is to completely **Restart your mac**!
 {{% /callout %}}

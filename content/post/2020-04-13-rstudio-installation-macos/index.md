@@ -44,9 +44,9 @@ fn      | function                     | | &#8998; | forward delete (fn + &#9003
 &#8679; | shift (either left or right) | | &#9099; | escape                        
 
 ## Download
-At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release version 1.3.1073, which will work on macOS High Sierra (version 10.13.x) or later. 
+At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release version 1.4.1103, which will work on macOS High Sierra (version 10.13.x) or later. 
 
-Download RStudio using the following link: [RStudio v1.3.1073 (ca. 148.66 MB)](https://download1.rstudio.org/desktop/macos/RStudio-1.3.1073.dmg)
+Download RStudio using the following link: [RStudio v1.4.1103 (ca. 152.77 MB)](https://download1.rstudio.org/desktop/macos/RStudio-1.4.1103.dmg)
 
 If you are on a 32 bit system, you can use an [older version of RStudio](https://rstudio.com/products/rstudio/older-versions/).
 

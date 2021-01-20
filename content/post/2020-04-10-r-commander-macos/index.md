@@ -27,7 +27,7 @@ projects: []
 {{% toc %}}
 
 ## Motivation
-Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
+Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-14303 Basic Statistics](https://ssc.wur.nl/Handbook/Course/MAT-14303), [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303), [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) and [MAT-20306 Advanced Statistics](https://ssc.wur.nl/Handbook/Course/MAT-20306) (first two weeks of this course) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
 {{% callout note %}}
 This post will show how to install R Commander within R on a desktop or laptop computer running macOS as operating system.
@@ -106,10 +106,10 @@ Perform the following steps:
 ![R Console save workspace](10-r-app-save-workspace.png)
 
 {{% callout note %}}
-Next time you start R Commander from the R Console of the R application using the `library(Rcmdr)` command, the ‘Messages’ section will display the following message: `[1] NOTE: R Commander Version 2.6-2:` followed by the day, date and time. Now R Commander will work smoothly.
+Next time you start R Commander from the R Console of the R application using the `library(Rcmdr)` command, the ‘Messages’ section will display the following or a similar message: `[1] NOTE: R Commander Version 2.7-1:` followed by the day, date and time. Now R Commander will work smoothly.
 {{% /callout %}}
 
-## Alternative way of starting R Commander without the App Nap problem
+## Alternative way of starting R Commander without the App nap problem
 As an alternative to switching off the App Nap for the R application you could start R from a Terminal.
 
 This is done by following these steps:
@@ -117,7 +117,7 @@ This is done by following these steps:
 1. Open the Terminal application from Finder > Applications > Utilities (shorcut: &#8679;&#8984;U) or via Lauchpad under the ‘Other’ group. The terminal console prompt, where the commands will be entered, is depicted by a `%` or a `$` sign. Which sign is shown, depends whether your default shell is zsh (`%` sign) or bash (`$` sign).
 2. Type `R` behind the prompt in the terminal console and press return (&#8617;) to execute the command.
 3. This will start R and the prompt, where the commands will be entered for R, will have changed into a `>` sign.
-4. Type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return (&#8617;) to execute. This will cause R Commander to be started. The ‘Messages’ section at the bottom of R Commander will display the following message: `[1] NOTE: R Commander Version 2.6-2:` followed by the day, date and time. This means that R Commander will work smoothly!
+4. Type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return (&#8617;) to execute. This will cause R Commander to be started. The ‘Messages’ section at the bottom of R Commander will display the following or a similar message: `[1] NOTE: R Commander Version 2.7-1:` followed by the day, date and time. This means that R Commander will work smoothly!
 
 Quitting R Commander will return you to the terminal console, which can be recognized by the prompt sign changing back into a `%` or `$` sign.
 

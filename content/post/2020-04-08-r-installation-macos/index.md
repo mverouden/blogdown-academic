@@ -96,7 +96,7 @@ Having performed all 10 steps given above, your mac will be ready for a new inst
 {{% /callout %}}
 
 ## Download 
-At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.0.2 of R for MacOS High Sierra or higher.
+At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.0.3 of R for MacOS High Sierra or higher.
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded package file of R. The screenshots in this post have not been updated, therefore what you see during your installation can differ with respect to the version number shown in the screenshots.
 
@@ -107,12 +107,12 @@ For macOS there are two downloads for R available on the [R-project website](htt
 Download R for your specific version of macOS using one of the following links:
 
 - For macOS El Capitan (10.11.x) up to and including macOS Mojave (10.14.x): [R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
-- For macOS High Sierra (10.13.x) and higher, including macOS Catalina (10.15.x): [R 4.0.2  (ca. 84 MB, *notarized* 64-bit)](https://cloud.r-project.org/bin/macosx/R-4.0.2.pkg)
+- For macOS High Sierra (10.13.x) and higher, including macOS Catalina (10.15.x): [R 4.0.3  (ca. 85 MB, *notarized and signed* 64-bit)](https://cloud.r-project.org/bin/macosx/R-4.0.3.pkg)
 
 ## Installation
 For installing R on macOS follow these steps:
 
-1. Open the downloaded file, either **R-3.6.3.nn.pkg** or **R-4.0.2.pkg** depending or your version of macOS (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The installer package will resemble the image displayed below (text underneath may differ!).
+1. Open the downloaded file, either **R-3.6.3.nn.pkg** or **R-4.0.3.pkg** depending or your version of macOS (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The installer package will resemble the image displayed below (text underneath may differ!).
 ![R installer package icon.](1-r-installer-package-icon.png)
 2. The installler will start and display the introduction as shown below. Click the ‘Continue’ button to proceed.
 ![R installer introduction.](2-r-installer-intro.png)
@@ -143,7 +143,7 @@ To configure the R application on macOS perform the following steps:
 
 1. Start the R application from Finder > Applications (shortcut: &#8679;&#8984;A) or via Launchpad. The icon representing the R application is shown below.
 ![R application icon.](1-r-app-icon.png)
-2. The R Console will open, as shown in the image below, and the cursor will be ready for input behind the prompt, indicated by the `>` sign. In case the R Console displays a non-UTF8 locale warning, than this needs to be remedied first. Go to the section entitled "Fix R application non-UTF8 locale warning" in this post to resolve this issue.
+2. The R Console will open, as shown in the image below, and the cursor will be ready for input behind the prompt, indicated by the `>` sign. In case the R Console displays a non-UTF8 locale warning, than this needs to be remedied first. Go to the section entitled [Fix R application non-UTF8 locale warning](#fix-r-application-non-utf8-locale-warning) in this post to resolve this issue.
 ![R Console](4-r-app-console.png)
 3. Navigate the mouse pointer to the menu bar click on ‘R’ > ‘Preferences...’ (shortcut: &#8984;,) to open the R application preferences. The Preferences window displayed below will appear.
 ![R application preferences.](5-r-app-preferences.png)
@@ -182,4 +182,4 @@ defaults write org.R-project.R force.LANG en_US.UTF-8
     * Navigation the mouse pointer to the top left corner of the R Console window and clicking on the red ball
 5. No matter what you choose, you will always be asked whether you want to save a workspace image as shown below. Just click on the **‘Don't Save’** button to end the R application.
 ![R Console save workspace](3-r-app-save-workspace.png)
-6. Go back to step 1. of the ‘Configure the R application on macOS’ section.
+6. Go back to step 1. of the [Configure the R application on macOS](#configure-the-r-application-on-macos) section.

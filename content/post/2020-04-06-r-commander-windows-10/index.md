@@ -27,7 +27,7 @@ projects: []
 {{% toc %}}
 
 ## Motivation
-Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303) and [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
+Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R. Students enrolled in [MAT-14303 Basic Statistics](https://ssc.wur.nl/Handbook/Course/MAT-14303), [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303), [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) and [MAT-20306 Advanced Statistics](https://ssc.wur.nl/Handbook/Course/MAT-20306) (first two weeks of this course) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
 {{% callout note %}}
 This post will show how to install R Commander within R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
@@ -37,44 +37,23 @@ This post will show how to install R Commander within R on a **privately owned**
 The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>!
 {{% /callout %}}
 
-## R Commander Installation
+## R Commander Installation from the R GUI
+
+{{% callout warning %}}
+Students, who installed R by using the [WUR AppStore](/post/2020/04/06/r-installation-windows-10/#1-wur-appstore), can skip the installation of R Commander. The WUR AppStore version of R already contains everything to run R Commander.
+
+This post is only intended for students, who followed the [Manual Installation](/post/2020/04/06/r-installation-windows-10/#2-manual-installation) of R.
+{{% /callout %}}
+
 Prior requirement:
 
 - [x] [R installed on Windows 10](/post/2020/04/06/r-installation-windows-10/)
 
 To be able to install R Commander you will need to have R installed first. If you haven't done so already, please first install R on your Windows 10 computer (use the link above to go to that specific post).
 
-Two installation methods will be described here:
+This post was originally based on R version 3.6.3. For newer versions of R the steps decsribed are the same, only some screens you will see during your installation will display a higher version number of R compared to the screenshots in this post.
 
-- Using the `library.zip` file downloaded from Brightspace.
-- Manual installation from the R GUI (graphical user interface)
-
-The first method using the `library.zip` file is recommended. However, if due to issues with Administrative Rights this does not work, try the manual installation from the R GUI.
-
-This post was originally based on R version 3.6.3. For newer versions of R the steps desribed are the same, only some screens you will see during your installation will display a higher version number of R compared to the screenshots in this post.
-
-### Installation using the `library.zip` file from Brightspace.
- 
-1. Download the `library.zip` file in Brightspace from either the course MAT-15303 Statistics 1 or MAT-15403 Statistics 2. This file can be found on the respective course page under ‘Content’ > ‘Practicals’ > ‘library (Zip Compressed File)’. Behind the text you see a downwards mark. Click on this and select ‘Download’. This will download the `library.zip` file into your Downloads folder of your user account. Below you see the downloaded file in the Windows File Explorer.
-
-![Downloaded `library.zip file in Windows File Explorer`](1-rcmdr-install-library.png)
-
-2. Right-click the `library.zip` file and select ‘Extract All...’ as shown in the image below.
-
-![Extract all from `library.zip`](2-rcmdr-install-extract-all-library.png)
-
-3. A new window will open, where you have to set the destination for the extracted folders and files. Click ‘B<u>r</u>owse...’ and select the following destination: `C:\Program Files\R\R-4.0.2\library` as shown below, but for version 3.6.3.
-
-![Destination for extracted folders and files.](3-rcmdr-install-extract-all-destination.png)
-
-4. If a message pops-up, check the box ‘Do this for <u>a</u>ll current items’ and click on the ‘<u>C</u>ontinue’ button.
-
-The extraction process can take 10 to 15 minutes before all folders and files are extracted to the specified location. When the extraction process has finished, you are ready :satisfied: to start R 4.0.2 and use R Commander.
-
-
-### Manual installation from the R GUI
-
-1. Start `R x64 4.0.2` from the ‘R’ folder in the ‘Start Menu’ as displayed below.
+1. Start `R x64 4.0.3` from the ‘R’ folder in the ‘Start Menu’ as displayed below.
 
 ![Start Menu R x64](startmenu-r.png)
 
@@ -93,7 +72,7 @@ The extraction process can take 10 to 15 minutes before all folders and files ar
 5. Repeat step 4. for installing the `RcmdrPlugin.HH` package. This plugin is required for MAT-15403 Statistics 2 to be able to do the practicals on Simple Linear Regression.
 
 {{% callout note %}}
-Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready :satisfied: to start R 4.0.2 and use R Commander.
+Once the installation of the `RcmdrPlugin.HH` package has finished, you are ready :satisfied: to start R 4.0.3 and use R Commander.
 {{% /callout %}}
 
 {{% callout warning %}}
