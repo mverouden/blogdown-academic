@@ -33,7 +33,7 @@ This post will show how to install R on a **privately owned** desktop or laptop 
 {{% /callout %}}
 
 {{% callout warning %}}
-The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>! For a WURclient desktop or laptop see the post: [Custom R installation on a WURclient](/post/2021/01/24/r-installation-wurclient/) (will become available soon).
+The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>! For a WURclient desktop or laptop see the post: [Custom R installation on a WURclient](/post/2021/01/24/r-installation-wurclient/).
 {{% /callout %}}
 
 Two ways to install R are offered here:
