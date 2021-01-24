@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Presentation Ninja</title>
+    <title>Presentation Title</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Yihui Xie" />
+    <meta name="author" content="Author, First &amp; Co-author, First" />
+    <meta name="date" content="2021-01-08" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
-    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
     <script src="libs/htmlwidgets/htmlwidgets.js"></script>
     <script src="libs/jquery/jquery.min.js"></script>
     <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
@@ -24,44 +23,106 @@
     <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
     <link href="libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
     <script src="libs/crosstalk/js/crosstalk.min.js"></script>
-    <link rel="stylesheet" href="mycustom.css" type="text/css" />
+    <link rel="stylesheet" href="css/wur.css" type="text/css" />
+    <link rel="stylesheet" href="css/wur-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# Presentation Ninja
-## ⚔<br/>with xaringan
-### Yihui Xie
-### RStudio, PBC
-### 2016/12/12 (updated: 2020-10-20)
-
----
-
-
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
 
 
-???
 
-Slide 1 Notes
+layout: true
+class: white-slides
 
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+&lt;div class="my-footer"&gt;&lt;span&gt;Week 1 Lesson 1&lt;/span&gt;&lt;/div&gt;
 
 ---
-class: center, middle
+class: title-slide, left, top
+
+# Week 1 Lesson 1
+
+## Getting Started
+
+#### Sabine Schnabel &amp; Maikel Verouden | Biometris | 2021-01-08
+
+&lt;img src="style/img/600x600.jpg" class="circle" style="width:300px; position:absolute; bottom:80px; left:80px"&gt;
+&lt;img src="style/img/voeding-voedselprod_V.jpg" class="circle" style="width:300px; position:absolute; bottom:80px; left:830px"&gt;
+&lt;img src="style/img/leefomgeving_V.jpg" class="circle" style="width:300px; position:absolute; bottom:80px; left:623px"&gt;
+&lt;img src="style/img/gezondh-leefst-levensomst_V.jpg" class="circle" style="width:300px; position:absolute; bottom:80px; left:417px"&gt;
+
+&lt;img src="style/logo/biometris_logo.png" style="height:70px; position:absolute; bottom:0px; right:80px"&gt;
+
+&lt;!-- this ends up being the title slide since seal = FALSE--&gt;
+
+---
+class: inverse, left, top
 
 # xaringan
 
-### /ʃaː.'riŋ.ɡan/
+
+
+.left-column[
+
+## 😕
+
+## &lt;svg style="height:0.8em;top:.04em;position:relative;" viewBox="0 0 581 512"&gt;&lt;path d="M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z"/&gt;&lt;/svg&gt;
+
+]
+
+.right-column[
+## /ʃæ.'riŋ.ɡæn/
+
+[&lt;svg style="height:0.8em;top:.04em;position:relative;" viewBox="0 0 512 512"&gt;&lt;path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/&gt;&lt;/svg&gt; maikel.verouden@wur.nl](mailto:maikel.verouden@wur.nl)
+]
 
 ---
-class: inverse, center, middle
+class: inverse, left, top
+
+# Scaled images
+
+
+
+.center[
+  ![:scale 35%](img/xaringan.png)
+]
+
+---
+class: gray-slides, left, middle
 
 # Get Started
 
+.pull-left[
+Here is some text formatted in `HTML5`:
+
+&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Filter&lt;/li&gt;
+    &lt;li&gt;Nespresso&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Lungo&lt;/li&gt;
+      &lt;li&gt;Espresso&lt;/li&gt;
+      &lt;li&gt;Ristretto&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+&lt;/ul&gt;
+]
+
+.pull-right[
+Here is the same in `markdown`:
+
+* Coffee
+    - Filter
+    - Nepresso
+        + Lungo
+        + Espresso
+        + Ristretto
+* Tea
+]
 ---
+class: green-slides, left, top
 
 # Hello World
 
@@ -93,11 +154,14 @@ You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rs
 ]
 
 ---
+class: image-slides, top, left
 background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
 background-position: 50% 50%
-class: center, bottom, inverse
+background-size: cover
 
 # You only live once!
+
+&lt;img src="style/background/WUR_WHW_bar.png" style="position:absolute; bottom:0%; left:0%;"&gt;
 
 ---
 
@@ -110,10 +174,6 @@ As a presentation ninja, you certainly should not be satisfied by the "Hello Wor
 1. The **xaringan** package;
 
 Basically **xaringan** injected the chakra of R Markdown (minus Pandoc) into **remark.js**. The slides are rendered by remark.js in the web browser, and the Markdown source needed by remark.js is generated from R Markdown (**knitr**).
-
-&lt;div class="image-cropper"&gt;
-    &lt;img src="images/food.jpg" class="rounded" /&gt;
-&lt;/div&gt;
 
 ---
 
@@ -134,14 +194,17 @@ It is important to be familiar with remark.js before you can understand the opti
 .footnote[[*] It is different with Pandoc's Markdown! It is limited but should be enough for presentation purposes. Come on... You do not need a slide for the Table of Contents! Well, the Markdown support in remark.js [may be improved](https://github.com/gnab/remark/issues/142) in the future.]
 
 ---
+class: image-slides, center, bottom
 background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
+background-position: 50% 50%,
 background-size: cover
-class: center, bottom, inverse
 
-# I was so happy to have discovered remark.js!
+### I was so happy to have discovered remark.js!
+
+&lt;img src="style/background/WUR_WHW_bar.png" style="position:absolute; bottom:0%; left:0%;"&gt;
 
 ---
-class: inverse, middle, center
+class: gray-slides, middle, center
 
 # Using xaringan
 
@@ -232,9 +295,9 @@ coef(summary(fit))
 ```
 
 ```
-#               Estimate Std. Error   t value     Pr(&gt;|t|)
-# (Intercept) -17.579095  6.7584402 -2.601058 1.231882e-02
-# speed         3.932409  0.4155128  9.463990 1.489836e-12
+              Estimate Std. Error   t value     Pr(&gt;|t|)
+(Intercept) -17.579095  6.7584402 -2.601058 1.231882e-02
+speed         3.932409  0.4155128  9.463990 1.489836e-12
 ```
 
 ```r
@@ -243,7 +306,7 @@ grep('天', dojutsu, value = TRUE)
 ```
 
 ```
-# [1] "地爆天星" "天照"
+[1] "地爆天星" "天照"    
 ```
 
 ---
@@ -257,7 +320,7 @@ plot(cars, pch = 19, col = 'darkgray', las = 1)
 abline(fit, lwd = 2)
 ```
 
-![](index_files/figure-html/cars-1.svg)&lt;!-- --&gt;
+&lt;img src="wur-template_files/figure-html/cars-1.svg" width="504" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -267,7 +330,7 @@ If you want to generate a table, make sure it is in the HTML format (instead of 
 
 
 ```r
-knitr::kable(head(iris), format = 'html')
+knitr::kable(head(iris), format = "html")
 ```
 
 &lt;table&gt;
@@ -344,21 +407,15 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div id="htmlwidget-9e9830d47ecf7fef503e" style="width:100%;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9e9830d47ecf7fef503e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-1b7943cb36b66323f2a3" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1b7943cb36b66323f2a3">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
+# Data Table
 
-```r
-DT::datatable(
-  head(iris, 10),
-  fillContainer = FALSE, options = list(pageLength = 6)
-)
-```
-
-<div id="htmlwidget-3ebd3da66baa5db7ec90" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3ebd3da66baa5db7ec90">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":6,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[6,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-49ec0f082f104975e3e4" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-49ec0f082f104975e3e4">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -454,9 +511,9 @@ DT::datatable(
     See examples on the next page.
 
 ---
+class: blue-slides
 
 # Some Tips
-
 
 .pull-left[
 An example using a leading `*`:
@@ -494,14 +551,11 @@ if (TRUE) {
 }
 ```
 
-```
-## Very important!
-```
-
 It is valid R code so you can run it. Note that `{{}}` can wrap an R expression of multiple lines.
 ]
 
 ---
+class: inverse
 
 # Some Tips
 
@@ -542,13 +596,13 @@ head(iris)
 
 
 ```
-*##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
-## 1          5.1         3.5          1.4         0.2  setosa
-*## 2          4.9         3.0          1.4         0.2  setosa
-## 3          4.7         3.2          1.3         0.2  setosa
-## 4          4.6         3.1          1.5         0.2  setosa
-## 5          5.0         3.6          1.4         0.2  setosa
-## 6          5.4         3.9          1.7         0.4  setosa
+*  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+1          5.1         3.5          1.4         0.2  setosa
+*2          4.9         3.0          1.4         0.2  setosa
+3          4.7         3.2          1.3         0.2  setosa
+4          4.6         3.1          1.5         0.2  setosa
+5          5.0         3.6          1.4         0.2  setosa
+6          5.4         3.9          1.7         0.4  setosa
 ```
 
 Question: what does `highlight.output = c(TRUE, FALSE)` mean? (Hint: think about R's recycling of vectors)
@@ -563,11 +617,11 @@ Question: what does `highlight.output = c(TRUE, FALSE)` mean? (Hint: think about
 
 - Then change the `chakra` option in YAML to point to this file, e.g.
 
-    ```yaml
+  ```yaml
     output:
       xaringan::moon_reader:
         chakra: libs/remark-latest.min.js
-    ```
+  ```
 
 - If you used Google fonts in slides (the default theme uses _Yanone Kaffeesatz_, _Droid Serif_, and _Source Code Pro_), they won't work offline unless you download or install them locally. The Heroku app [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts) can help you download fonts and generate the necessary CSS.
 
@@ -577,24 +631,24 @@ Question: what does `highlight.output = c(TRUE, FALSE)` mean? (Hint: think about
 
 - remark.js [allows users to define custom macros](https://github.com/yihui/xaringan/issues/80) (JS functions) that can be applied to Markdown text using the syntax `![:macroName arg1, arg2, ...]` or `![:macroName arg1, arg2, ...](this)`. For example, before remark.js initializes the slides, you can define a macro named `scale`:
 
-    ```js
-    remark.macros.scale = function (percentage) {
-      var url = this;
-      return '&lt;img src="' + url + '" style="width: ' + percentage + '" /&gt;';
-    };
-    ```
+```js
+remark.macros.scale = function (percentage) {
+  var url = this;
+  return '&lt;img src="' + url + '" style="width: ' + percentage + '" /&gt;';
+};
+```
 
-    Then the Markdown text
+Then the Markdown text
 
-    ```markdown
-    ![:scale 50%](image.jpg)
-    ```
+```markdown
+![:scale 50%](image.jpg)
+```
 
-    will be translated to
+will be translated to
     
-    ```html
-    &lt;img src="image.jpg" style="width: 50%" /&gt;
-    ```
+```html
+&lt;img src="image.jpg" style="width: 50%" /&gt;
+```
 
 ---
 
@@ -602,14 +656,14 @@ Question: what does `highlight.output = c(TRUE, FALSE)` mean? (Hint: think about
 
 - To insert macros in **xaringan** slides, you can use the option `beforeInit` under the option `nature`, e.g.,
 
-    ```yaml
-    output:
-      xaringan::moon_reader:
+  ```yaml
+  output:
+    xaringan::moon_reader:
         nature:
-          beforeInit: "macros.js"
-    ```
+            beforeInit: "macros.js"
+  ```
 
-    You save your remark.js macros in the file `macros.js`.
+You save your remark.js macros in the file `macros.js`.
 
 - The `beforeInit` option can be used to insert arbitrary JS code before `remark.create()`. Inserting macros is just one of its possible applications.
 
@@ -657,18 +711,19 @@ names(xaringan:::list_css())
 ```
 
 ```
-##  [1] "chocolate-fonts"  "chocolate"        "default-fonts"   
-##  [4] "default"          "duke-blue"        "fc-fonts"        
-##  [7] "fc"               "hygge-duke"       "hygge"           
-## [10] "ki-fonts"         "ki"               "kunoichi"        
-## [13] "lucy-fonts"       "lucy"             "metropolis-fonts"
-## [16] "metropolis"       "middlebury-fonts" "middlebury"      
-## [19] "ninjutsu"         "rladies-fonts"    "rladies"         
-## [22] "robot-fonts"      "robot"            "rutgers-fonts"   
-## [25] "rutgers"          "shinobi"          "tamu-fonts"      
-## [28] "tamu"             "uo-fonts"         "uo"              
-## [31] "uol-fonts"        "uol"              "useR-fonts"      
-## [34] "useR"
+ [1] "chocolate-fonts"  "chocolate"        "default-fonts"   
+ [4] "default"          "duke-blue"        "fc-fonts"        
+ [7] "fc"               "hygge-duke"       "hygge"           
+[10] "ki-fonts"         "ki"               "kunoichi"        
+[13] "lucy-fonts"       "lucy"             "metropolis-fonts"
+[16] "metropolis"       "middlebury-fonts" "middlebury"      
+[19] "nhsr-fonts"       "nhsr"             "ninjutsu"        
+[22] "rladies-fonts"    "rladies"          "robot-fonts"     
+[25] "robot"            "rutgers-fonts"    "rutgers"         
+[28] "shinobi"          "tamu-fonts"       "tamu"            
+[31] "uio-fonts"        "uio"              "uo-fonts"        
+[34] "uo"               "uol-fonts"        "uol"             
+[37] "useR-fonts"       "useR"            
 ```
 
 ---
@@ -686,18 +741,20 @@ output:
 If you want to contribute a theme to **xaringan**, please read [this blog post](https://yihui.org/en/2017/10/xaringan-themes).
 
 ---
-class: inverse, middle, center
+class: blue-slides, middle, center
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/39/Naruto_Shiki_Fujin.svg)
+background-position: center
 background-size: contain
 
 # Naruto
 
+&lt;img src="style/background/WUR_WHW_bar.png" style="position:absolute; bottom:0%; left:0%;"&gt;
+
 ---
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-background-size: 100px
-background-position: 90% 8%
 
 # Sharingan
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg" width=100 height=100 style="position:absolute; top:6.7%; right: 9.2%;"&gt;  
 
 The R package name **xaringan** was derived&lt;sup&gt;1&lt;/sup&gt; from **Sharingan**, a dōjutsu in the Japanese anime _Naruto_ with two abilities:
 
@@ -743,20 +800,28 @@ class: center
 
 Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
 
-![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg)
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg" alt="Hand seals" width="350px"&gt;
 
 ---
+class: left, top
 
-class: center, middle
-
+.pull-left[
 # Thanks!
 
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 
 The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+]
+
+.pull-right[
+
+&lt;img src="img/questions.gif" class="circle" style="width:800px"&gt;
+
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
