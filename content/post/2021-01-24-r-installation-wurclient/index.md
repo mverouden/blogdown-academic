@@ -209,7 +209,7 @@ Save the following files into the Downloads folder of you WURclient desk- or lap
 
 ### Installation
 
-1. Right-click the downloaded file **R-4.0.3-win.exe** and select "WUR - Run with administrative rights". This file will most likely reside in your Downloads folder of your user account.
+1. Right-click the downloaded file **R-4.0.3-win.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
 2. If asked for allow to install the software on your computer.
 3. After the installer has started, a first selection window will appear as displayed below. Select the English language and click the ‘OK’ button to proceed.
 
