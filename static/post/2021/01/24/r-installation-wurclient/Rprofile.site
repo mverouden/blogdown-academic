@@ -6,7 +6,7 @@ options(papersize="a4")
 
 # set the default help type
 # options(help_type="text")
-options(help_type="html")
+  options(help_type="html")
 
 # set a site library
 # .Library.site <- file.path(chartr("\\", "/", R.home()), "site-library")
@@ -21,9 +21,8 @@ local({r <- getOption("repos")
 #  if (interactive()) 
 #    fortunes::fortune()
 
-# The Renviron.site file resets "HOME" to "M:/My Documents/"
+# The Renviron.site file resets "HOME" to "C:/MyData/"
 # Here the working directory is also reset to the new "HOME"
-# Without this line it would still be:
-# "\\\\wurnet.nl/homes/user001/my documents"
-#setwd(Sys.getenv("HOME"))
-
+# Without this line "HOME" would be: "\\\\wurnet.nl/homes/user001/my documents",
+# causing all sorts of problems such as normalizePath() and permission errors
+setwd(Sys.getenv("HOME"))
