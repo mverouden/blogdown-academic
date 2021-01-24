@@ -8,6 +8,7 @@ slug: r-installation-wurclient
 categories:
   - R
   - WUR
+  - WURclient
 tags:
   - Installation
   - R
@@ -202,7 +203,7 @@ The installer for Windows 10 can be downloaded directly from this link: [R 4.0.3
 
 <!--For newer versions of R than 4.0.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated, therefore what you see during your installation will differ with respect to the version number shown in the screenshots.-->
 
-Save the following files into the Downloads folder of you WURclient desk- or laptop by right clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
+Save the following files into the Downloads folder of you WURclient desk- or laptop by right-clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
 * [Renviron.site](Renviron.site)
 * [Rprofile.site](Rprofile.site)
 
