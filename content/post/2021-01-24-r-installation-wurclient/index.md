@@ -45,7 +45,7 @@ The installation instructions in this post are <u>**not to be used on privately 
 ### Prerequisite
 To be able to perform a custom installation of R you need to have <u>**POWER USER RIGHTS**</u> on the WURclient desktop or laptop.
 
-To see whether you posses these rights, right-click any icon (except Recycle Bin or WUR HELP) on the desktop. When the opened menu contains the option 'WUR - Run with administrative rights' (sixth from the top), it means you have power user rights on that particular desktop or laptop.
+To see whether you possess these rights, right-click any icon (except Recycle Bin or WUR HELP) on the desktop. When the opened menu contains the option 'WUR - Run with administrative rights' (sixth from the top), it means you have power user rights on that particular desktop or laptop.
 
 ## Uninstall a previously installed R version
 Before performing a new custom installation of R it is recommended to uninstall a previously installed version.
@@ -203,7 +203,7 @@ The installer for Windows 10 can be downloaded directly from this link: [R 4.0.3
 
 <!--For newer versions of R than 4.0.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated, therefore what you see during your installation will differ with respect to the version number shown in the screenshots.-->
 
-Save the following files into the Downloads folder of you WURclient desk- or laptop by right-clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
+Save the following files into the Downloads folder of your WURclient desk- or laptop by right-clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
 * [Renviron.site](Renviron.site)
 * [Rprofile.site](Rprofile.site)
 
