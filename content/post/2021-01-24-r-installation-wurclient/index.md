@@ -275,4 +275,4 @@ To change the R HOME environment variable perform the following steps:
 HOME='C:/MyData/'
 ```
 
-5. Modify `'C:/MyData/'` to the preferred starup working directory for R. For example `'M:/My Documents/MyR'` would set the default R working directory to the 'My Documents\MyR' folder of your WUR M:-drive, provided that the folder 'MyR' exists as a sub folder of 'M:\My Documents'. Do not forget to save the file (CRTL+S) to make the change permanent.
+5. Modify `'C:/MyData/'` to the preferred startup working directory for R. For example `'M:/My Documents/MyR'` would set the default R working directory to the 'My Documents\MyR' folder of your WUR M:-drive, provided that the folder 'MyR' exists as a sub folder of 'M:\My Documents'. Do not forget to save the file (CRTL+S) to make the change permanent.
