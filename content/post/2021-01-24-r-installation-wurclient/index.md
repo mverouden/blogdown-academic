@@ -28,7 +28,7 @@ projects: []
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install R from the Sofware Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of R in Software Center is `R 4.0.2 Rcmdr`.
+WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of R in Software Center is `R 4.0.2 Rcmdr`.
 
 This version of R was developed for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center. The consequence is, that core packages can not be updated by users.
 
@@ -68,7 +68,7 @@ Next you will need to remove the packages, you have installed manually (added yo
 Be aware that all packages you have installed manually will be removed, if you continue here!
 {{% /callout%}}
 
-Let's assume you had previously installed `CRAN R 3.6.1 Rcmdr` from Sofware Center on your WURclient computer. The user installed packages will reside in `C:\ProgramData\R\win-library\3.6`. If you try to remove the folder via File Explorer in Windows, you will discover that you have insufficient rights to do so. The reason is that Software Center installs software with **ADMINISTRATOR RIGHTS**, you on the other hand only have **POWER USER RIGHTS**. The **POWER USER** does not have full administrator privileges!
+Let's assume you had previously installed `CRAN R 3.6.1 Rcmdr` from Software Center on your WURclient computer. The user installed packages will reside in `C:\ProgramData\R\win-library\3.6`. If you try to remove the folder via File Explorer in Windows, you will discover that you have insufficient rights to do so. The reason is that Software Center installs software with **ADMINISTRATOR RIGHTS**, you on the other hand only have **POWER USER RIGHTS**. The **POWER USER** does not have full administrator privileges!
 
 However, there is a way to still delete the previously manually installed packages from `C:\ProgramData\R\win-library\3.6`. To do so you need to use either Command Prompt or Windows PowerShell with **POWER USER RIGHTS**. Perform the following steps:
 
