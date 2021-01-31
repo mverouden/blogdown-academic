@@ -1,6 +1,6 @@
 ---
 title: Custom R installation on a WURclient computer
-summary: Instructions on how to install R yourself on a WURclient without using !Available Software.
+summary: Instructions on how to install R yourself on a WURclient without using Software Center.
 authors:
 - admin
 date: '2021-01-24'
