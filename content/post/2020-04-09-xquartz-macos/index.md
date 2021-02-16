@@ -51,6 +51,12 @@ At the time this post was written the latest release of XQuartz is version 2.7.1
 
 Download XQuartz using the following link: [XQuartz v2.7.11 (ca. 75.9 MB)](https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg)
 
+{{% callout warning %}}
+XQuartz v2.7.11 is compatible with Mac OS X Snow Leopard (version 10.6.3) or later, up to and including macOS Catalina (version 10.15.x). When your apple device runs macOS Big Sur (version 11.x) the provided version may not work well.
+
+macOS Big Sur (version 11.x) users are recommended to install the beta release of XQuartz and update as soon as new releases become available. Download: [XQuartz v2.8.0 Beta3](https://dl.bintray.com/xquartz/downloads/XQuartz-2.8.0_beta3.dmg)
+{{% /callout %}}
+
 ## XQuartz Installation
 To install XQuartz on macOS perform the following steps:
 
