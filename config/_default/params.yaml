@@ -1,0 +1,231 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+## Appearance
+
+theme: forest
+# Enable users to switch between day and night mode?
+day_night: true
+font: ''
+# Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
+font_size: L
+
+## SEO
+
+# Website type
+#   Improve how search engines understand your site.
+#   For personal sites, choose "Person".
+#   For organizations and projects, choose from https://schema.org/Organization#subtypes
+#   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
+site_type: Person
+# Local business type (optional)
+# If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
+local_business_type: ''
+org_name: 'Wageningen University & Research, Biometris'
+# Description for social sharing and search engines. If undefined, superuser role is used in place.
+description: ''
+# Twitter username (without @). Used when a vistor shares your site on Twitter.
+twitter: 'mverouden'
+
+## Contact (edit or remove options as required)
+##
+## These details power the Contact widget (if enabled).
+## Additionally, for organizations, these details may be used to enrich search engine results.
+
+# Enter contact details (optional). To hide a field, clear it to "".
+email: # maikel.verouden@gmail.com
+phone: # +31 317 4 81861
+
+# Address
+# For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+address:
+  street: 'Wageningen University & Research, Biometris <br>Droevendaalsesteeg 1 (Building 107 a.k.a. Radix)'
+  city: Wageningen
+  region: Gelderland
+  postcode: '6708 PB'
+  country: The Netherlands
+  country_code: NL
+# Geographic coordinates
+# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+coordinates:
+  latitude: '51.986513'
+  longitude: '5.663702'
+# Directions for visitors to locate you.
+directions: 'Room: W4.Fc.054 (Radix West 4th Floor)'
+office_hours: # 'Monday--Friday 08:30h to 17:30h'
+  - 'Monday--Tuesday--Friday 08:30h to 17:30h' # Academicons icon pack https://jpswalsh.github.io/academicons/
+  - 'Wednesday--Thursday 07:00h to 13:30h'
+# appointment_url: 'https://calendly.com'
+appointment_url: ''# 'mailto:maikel.verouden@wur.nl'
+contact_links:
+#  - icon: paper-plane'
+#    icon-pack: fas
+#    name: 'E-mail Me'
+#    link: 'mailto:maikel.verouden@wur.nl'
+  - icon: skype
+    icon_pack: fab
+    name: 'Contact Me on Skype'
+    link: 'skype:aquarius0174?call'
+  - icon: skype
+    icon_pack: fab
+    name: 'Contact Me on Skype for Business'
+    link: 'sip:maikel.verouden@wur.nl'
+  - icon: twitter
+    icon_pack: fab
+    name: 'Direct Message @mverouden'
+    link: 'https://twitter.com/messages/compose?recipient_id=91304466'
+#  - icon: keybase
+#    icon_pack: fab
+#    name: Chat on Keybase
+#    link: 'https://keybase.io/'
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on Forum
+#    link: 'https://discourse.gohugo.io'
+
+## Site header
+
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu:
+  enable: true
+  align: r
+  show_logo: true
+  show_language: false
+  show_day_night: true
+  show_search: true
+  highlight_active_link: true
+
+## Localization
+
+date_format: 'Mon, Jan 2, 2006'
+time_format: '15:05' # '3:04 PM'
+# Address format (choose from the [address_formats] list below or add your own to the list).
+# See /data/address_formats.toml
+address_format: nl-nl
+
+## Site features
+
+highlight: true
+highlight_languages:
+  - r
+  - python
+  - latex
+# Enable LaTeX math rendering? true/false
+#   If false, you can enable math on a per page basis as needed.
+math: false
+# Enable diagram rendering? true/false
+#   If false, you can enable diagrams on a per page basis as needed.
+diagram: false
+# Privacy pack
+#   Show a cookie consent message to visitors
+#   Anonymize IP in Google Analytics (if enabled)
+privacy_pack: false
+# Enable visitors to edit pages?
+#   `repo` defines the repository URL. `editable` defines which page types can be edited.
+#edit_page:
+#  repo_url: '' # 'https://github.com/mverouden/blogdown-academic'
+#  content_dir: '' # 'content'
+#  repo_branch: main # master
+#  editable:
+#    page: false
+#    post: false
+#    book: false
+# Show related content at the bottom of pages?
+#show_related:
+#  book: true
+#  page: false
+#  post: true
+#  project: true
+#  publication: true
+#  event: true
+# Show estimated reading time for posts? (true/false)
+reading_time: true
+# Display next/previous section pager? (true/false)
+section_pager: false
+# Display pager in Docs layout (e.g. tutorials)?
+docs_section_pager: true
+# Enable in-built social sharing buttons? (true/false)
+sharing: true
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
+#copyright_license:
+#  enable: false
+#  allow_derivatives: false
+#  share_alike: true
+#  allow_commercial: false
+#  notice: 'This work is licensed under {license}'
+# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.yaml`.
+abstract_length: 135
+# Load JS plugins
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_js: []
+# Avatars.
+# An avatar is an image that appears next to a user's name.
+# An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
+avatar:
+  gravatar: false # Get user avatars from Gravatar.com? (true/false)
+  shape: circle # Choose a shape for avatar images. Options: circle, square.
+# Configuration of publication pages.
+publications:
+  date_format: 'Mon, Jan 2, 2006' # January 2006 # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  citation_style: apa # Citation style ("apa" or "mla")
+projects:
+  # Views for associated content.
+  #   1: List
+  #   2: Compact
+  #   3: Card
+  #   4: Citation (publications only)
+  post_view: 2
+  publication_view: 2
+  talk_view: 2
+breadcrumb:
+  page_types:
+    book: true
+comments:
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  provider: ''
+  # Which page types are commentable?
+  commentable:
+    post: true
+    book: true
+    project: true
+    publication: true
+    event: true
+  # Configuration of Disqus.
+  disqus:
+    shortname: '' # Paste the shortname from your Disqus dashboard.
+    show_count: true # Show comment count in page header? (true/false)
+  # Configuration of Commento.
+  commento:
+    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+    url: ''
+search:
+  provider: wowchemy
+  # Configuration of Algolia search engine.
+  # Paste the values from your Algolia dashboard.
+  algolia:
+    app_id: ''
+    api_key: ''
+    index_name: ''
+    show_logo: false
+map:
+  provider: mapnik
+  api_key: ''
+  zoom: 17
+marketing:
+  google_analytics: ''
+  google_tag_manager: ''
+  google_site_verification: ''
+  baidu_site_verification: ''
+  baidu_tongji: ''
+cms:
+  branch: master
+  local_backend: false
+icon:
+  pack:
+    ai: true # Academicons icon pack https://jpswalsh.github.io/academicons/
