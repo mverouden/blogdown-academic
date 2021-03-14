@@ -1,6 +1,6 @@
 ---
 # An instance of the Experience widget.
-# Documentation: https://sourcethemes.com/academic/docs/page-builder/
+# Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
 
 # Activate this widget? true/false
@@ -15,10 +15,11 @@ weight: 40
 title: Experience
 subtitle:
 
-# Date format
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+# Date format for experience
+#   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format: Jan 2006
 
+# Widget Design
 design:
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
@@ -26,32 +27,31 @@ design:
   #   Any HTML color name or Hex value is valid.
   background:
     # Background color.
-    # color: navy
+    #color: navy
     # Background gradient.
-    # gradient_start: DeepSkyBlue
-    # gradient_end: SkyBlue
+    #gradient_start: DeepSkyBlue
+    #gradient_end: SkyBlue
     # Background image.
-    # Name of image in `static/media/`.
-    # image: headers/bubbles-wide.jpg
+    # Name of image in `assets/media/`.
+    #image: bubbles-wide.jpg
     # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-    # image_darken: 0.6
+    #image_darken: 0.6
     # Use a fun parallax-like fixed background effect? true/false
-    # image_parallax: true
+    #image_parallax: true
     # Options include `left`, `center` (default), or `right`.
-    # image_position: center
-    #  Options are `cover` (default), `contain`, or `actual` size.
-    # image_size: cover
+    #image_position: center
+    # Options are `cover` (default), `contain`, or `actual` size.
+    #image_size: cover
     # Text color (true=light or false=dark).
     text_color_light: false
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    # padding: ["20px", "0", "20px", "0"]
+    #padding: ["20px", "0", "20px", "0"]
 advanced:
   # Custom CSS. 
   # css_style: ""
   # CSS class.
   # css_class: ""
-
 
 # Experiences.
 #   Add/remove as many `experience` blocks below as you like.
@@ -77,7 +77,19 @@ experience:
 #   description: Taught electronic engineering and researched semiconductor physics.
 #   location: California
 #   title: Professor
-- title: IT contact person
+
+- title: Representative PSG WUR IT User Council
+  company: Wageningen University & Research
+  company_url: http://www.wur.nl
+  location: Wageningen, The Netherlands
+  date_start: "2021-03-11"
+  date_end: ""
+  description: |-
+    Tasks:
+      * Represent all IT contact persons from Plant Science Group (PSG) in the WUR IT User Council
+      * Advise Facilities & Services IT on upcoming and ongoing ICT projects from a viewpoint of all PSG chair groups and Business Units.
+      * Inform the Director operations PSG about ICT developments with WUR 
+- title: IT & Organisation contact person
   company: Wageningen University & Research
   company_url: http://www.wur.eu/biometris
   location: Wageningen, The Netherlands
@@ -98,7 +110,7 @@ experience:
   date_end: ""
   description: |-
     Research projects:
-        * Statistical genetics on Sugar beets. In this project the aim is to optimize the field design for obtaining phenotypical data and to use this data in genomic prediction and ultimately perform genomic selection of the best performing new Sugar beet breeds.
+       * Statistical genetics on Sugar beets. In this project the aim is to optimize the field design for obtaining phenotypical data and to use this data in genomic prediction and ultimately perform genomic selection of the best performing new Sugar beet breeds.
        * Software Development Statistical Genetics Pipeline
        * Implementation Breeding Application Programming Interface (BrAPI) into a R package
        * Reimplementation ISTAB specifications into a R (isatabr) package

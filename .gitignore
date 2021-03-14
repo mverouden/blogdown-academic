@@ -4,6 +4,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.Rproile
 # Project folders or files to be ignored during development to prevent creation
 # of a huge git repo
 # Comment out before production

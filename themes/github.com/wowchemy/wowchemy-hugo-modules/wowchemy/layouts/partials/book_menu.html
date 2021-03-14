@@ -7,9 +7,9 @@
 {{ $icon := "" }}
 
 {{ with .sect }}
-  {{ if .IsSection}}
+  {{ if .IsSection }}
     {{ if not $is_root }}
-      {{- $first = eq $current_node.FirstSection . -}}
+      {{- $first = (eq $current_node.FirstSection.Type "book") | and (eq $current_node.FirstSection .) -}}
     {{ end }}
 
     {{- safeHTML $current_node.FirstSection.Params.pre_nav -}}
@@ -24,7 +24,7 @@
       {{- if eq $pack "emoji" -}}
         {{- . | emojify -}}
       {{- else if eq $pack "custom" -}}
-        {{- $svg_icon := resources.Get (printf "images/icon-pack/%s.svg" .) -}}
+        {{- $svg_icon := resources.Get (printf "media/icon-pack/%s.svg" .) -}}
         {{- if $svg_icon -}}
           {{ $icon = printf "<img src=\"%s\" alt=\"%s\" class=\"svg-icon svg-baseline pr-1\">" $svg_icon.RelPermalink . }}
         {{- end -}}

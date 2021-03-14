@@ -1,6 +1,6 @@
 ---
 # An instance of the Pages widget.
-# Documentation: https://sourcethemes.com/academic/docs/page-builder/
+# Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
 # Activate this widget? true/false
@@ -12,13 +12,13 @@ headless: true
 # Order that this section appears on the page.
 weight: 70
 
-title: Recent & Upcoming Talks
+title: 'Recent & Upcoming Talks'
 subtitle:
 
 content:
-  # Page type to display. E.g. post, talk, publication...
-  page_type: talk
-  # Choose how much pages you would like to display (0 = all pages)
+  # Page type to display. E.g. post, event, publication...
+  page_type: event
+  # Choose how many pages you would like to display (0 = all pages)
   count: 5
   # Filter on criteria
   filters:
@@ -47,23 +47,23 @@ design:
   #   Any HTML color name or Hex value is valid.
   background:
     # Background color.
-    # color: navy
+    #color: navy
     # Background gradient.
-    # gradient_start: DeepSkyBlue
-    # gradient_end: SkyBlue
+    #gradient_start: DeepSkyBlue
+    #gradient_end: SkyBlue
     # Background image.
-    #  Name of image in `static/media/`.
-    # image: headers/bubbles-wide.jpg
+    #  Name of image in `assets/media/`.
+    #image: bubbles-wide.jpg
     # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-    # image_darken: 0.6 
+    #image_darken: 0.6 
     # Text color (true=light or false=dark).
-    # text_color_light: true  
+    #text_color_light: true
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    # padding: ["20px", "0", "20px", "0"]
+    #padding: ["20px", "0", "20px", "0"]
 advanced:
   # Custom CSS.
-  # css_style: ""
+  #css_style: ''
   # CSS Class.
-  # css_clas: ""
+  #css_clas: ''
 ---

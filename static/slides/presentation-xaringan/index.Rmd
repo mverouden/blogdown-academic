@@ -10,7 +10,7 @@ output:
     lib_dir: libs
     yolo: false
     nature:
-      beforeInit: "macros.js"
+      beforeInit: "js/macros.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -41,8 +41,9 @@ class: title-slide, left, top
 ## Getting Started
 
 #### Sabine Schnabel & Maikel Verouden | Biometris | `r Sys.Date()`
-
+<!-- You are allowed to change style/img/600x600.jpg for something else -->
 <img src="style/img/600x600.jpg" class="circle" style="width:300px; position:absolute; bottom:80px; left:80px">
+<!-- Do not change the images below, these are part of the WUR in-house style -->
 <img src="style/img/voeding-voedselprod_V.jpg" class="circle" style="width:300px; position:absolute; bottom:80px; left:830px">
 <img src="style/img/leefomgeving_V.jpg" class="circle" style="width:300px; position:absolute; bottom:80px; left:623px">
 <img src="style/img/gezondh-leefst-levensomst_V.jpg" class="circle" style="width:300px; position:absolute; bottom:80px; left:417px">
@@ -83,7 +84,7 @@ class: inverse, left, top
 
 
 .center[
-  ![:scale 35%](img/xaringan.png)
+  ![:scale 25%](img/xaringan.png)
 ]
 
 ---

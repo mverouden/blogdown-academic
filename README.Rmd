@@ -1,5 +1,5 @@
 ---
-title: "Blogdown Wowchemy starter-academic theme v4.8.0"
+title: "Blogdown Wowchemy starter-academic theme v5.0.0"
 output: github_document
 ---
 
