@@ -63,21 +63,21 @@ In case you need support installing or using the WUR AppStore you can contact th
 ## 2. Manual Installation
 
 ### Download
-At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.0.3 of R. 
+At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.0.4 of R. 
 
-The installer for Windows 10 can be downloaded directly from this link: [R 4.0.3 for Windows (ca. 85 MB, 32- & 64-bit)](https://cloud.r-project.org/bin/windows/base/old/4.0.3/R-4.0.3-win.exe).
+The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.0.4 for Windows (ca. 85 MB, 32- & 64-bit)](https://cloud.r-project.org/bin/windows/base/old/4.0.4/R-4.0.4-win.exe).
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated, therefore what you see during your installation will differ with respect to the version number shown in the screenshots.
 
 ### Installation
 
-1. Open the downloaded file **R-4.0.3-win.exe**. This file will most likely reside in your Downloads folder of your user account.
+1. Open the downloaded file **R-4.0.4-win.exe**. This file will most likely reside in your Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installer has started, a first selection window will appear as displayed below. Select the English language and click the ‘OK’ button to proceed.
 
 ![Language selection during R installation.](1-install-r-language.png)
 
-4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown below, where R 4.0.3 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.0.3` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.0.3`).
+4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown below, where R 4.0.4 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.0.4` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.0.4`).
 
 ![Destination folder during R installation.](2-install-r-destination-folder.png)
 
@@ -110,5 +110,5 @@ For newer versions of R than 3.6.3 the steps described below are the same and st
 ![Completion of the R installation.](9-install-r-completion.png)
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have R 4.0.3 installed on your private desktop or laptop computer!
+Congratulations, :satisfied:, you now have R 4.0.4 installed on your private desktop or laptop computer!
 {{% /callout %}}

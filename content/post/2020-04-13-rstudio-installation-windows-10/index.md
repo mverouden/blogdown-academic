@@ -54,9 +54,9 @@ The WUR AppStore currently contains RStudio version 1.3.959.
 ## 2. Manual Installation
 
 ### Download
-At the time this post was written the latest stable release of RStudio is version 1.2.5033. The post has been updated to the current stable release version 1.4.1103
+At the time this post was written the latest stable release of RStudio is version 1.2.5033. The post has been updated to the current stable release version 1.4.1106.
 
-Download RStudio using the following link: [RStudio v1.4.1103 (ca. 156.96 MB)](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1103.exe)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio v1.4.1106 (ca. 155.97 MB)](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1106.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
@@ -69,7 +69,7 @@ To be able to install RStudio you will need to have R installed first. If you ha
 
 To install RStudio on Windows 10 perform the following steps:
 
-1. Open the downloaded file **RStudio-1.4.1103.exe**. This file will most likely reside in the Downloads folder of your user account.
+1. Open the downloaded file **RStudio-1.4.1106.exe**. This file will most likely reside in the Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installler has started, a Welcome window will appear as displayed below. Click the ‘Next’ button to proceed.
 ![Welcome to RStudio Setup.](1-rstudio-w10.png)
@@ -81,5 +81,5 @@ To install RStudio on Windows 10 perform the following steps:
 ![RStudio installation completed](5-rstudio-completed-w10.png)
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio v1.4.1103 installed on your private Windows 10 desktop or laptop computer!
+Congratulations, :satisfied:, you now have RStudio v1.4.1106 installed on your private Windows 10 desktop or laptop computer!
 {{% /callout %}}

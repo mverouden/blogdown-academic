@@ -67,4 +67,4 @@ As lecturer I am involved in the following courses:
   - Statistics 2 [(MAT-15403)](https://ssc.wur.nl/Handbook/Course/MAT-15403)
   - R for Statistics [(MAT-50303)](https://ssc.wur.nl/Handbook/Course/MAT-50303) (also as Course Coordinator)
 
-<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "files/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->

@@ -53,7 +53,7 @@ To be able to install R Commander you will need to have R installed first. If yo
 
 This post was originally based on R version 3.6.3. For newer versions of R the steps decsribed are the same, only some screens you will see during your installation will display a higher version number of R compared to the screenshots in this post.
 
-1. Start `R x64 4.0.3` from the ‘R’ folder in the ‘Start Menu’ as displayed below.
+1. Start `R x64 4.0.4` from the ‘R’ folder in the ‘Start Menu’ as displayed below.
 
 ![Start Menu R x64](startmenu-r.png)
 
@@ -72,7 +72,7 @@ This post was originally based on R version 3.6.3. For newer versions of R the s
 5. Repeat step 4. for installing the `RcmdrPlugin.HH` package. This plugin is required for MAT-15403 Statistics 2 to be able to do the practicals on Simple Linear Regression.
 
 {{% callout note %}}
-Once the installation of the `RcmdrPlugin.HH` package has finished, you are ready :satisfied: to start R 4.0.3 and use R Commander.
+Once the installation of the `RcmdrPlugin.HH` package has finished, you are ready :satisfied: to start R 4.0.4 and use R Commander.
 {{% /callout %}}
 
 {{% callout warning %}}

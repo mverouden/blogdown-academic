@@ -47,14 +47,20 @@ fn      | function                     | | &#8998; | forward delete (fn + &#9003
 &#8679; | shift (either left or right) | | &#9099; | escape                        
 
 ## Download
-At the time this post was written the latest release of XQuartz is version 2.7.11. It will work on Mac OS X Snow Leopard (version 10.6.3) or later, up to and including macOS Catalina (version 10.15.x).
+At the time this post was written the latest release of XQuartz is version 2.7.11. It will work on Mac OS X Snow Leopard (version 10.6.x) or later, up to and including OS X Mountain Lion (version 10.8.x).
 
-Download XQuartz using the following link: [XQuartz v2.7.11 (ca. 75.9 MB)](https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg)
+Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.7.11 (ca. 75.9 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.7.11/XQuartz-2.7.11.dmg)
+
+For OS X Mavericks (version 10.9.x) or later, up to and including macOS Big Sur (version 11.x) version 2.8.0 should be used.
+
+Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.0 RC3 (ca. 102 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.0_rc3/XQuartz-2.8.0_rc3.dmg)
+
+Version 2.8.0 RC3 is the third release candidate, which means XQuartz is approaching its final version. Users of this version are recommended to update as soon as new releases become available!
 
 {{% callout warning %}}
-XQuartz v2.7.11 is compatible with Mac OS X Snow Leopard (version 10.6.3) or later, up to and including macOS Catalina (version 10.15.x). When your apple device runs macOS Big Sur (version 11.x) the provided version may not work well.
+Make sure you download and install the correct version!
 
-macOS Big Sur (version 11.x) users are recommended to install the beta release of XQuartz and update as soon as new releases become available. Download: [XQuartz v2.8.0 Beta3](https://dl.bintray.com/xquartz/downloads/XQuartz-2.8.0_beta3.dmg)
+To see which version of macOS is installed on your mac, click on {{< icon name="apple" pack="fab" >}} in the menu bar and select ‘About This Mac’.
 {{% /callout %}}
 
 ## XQuartz Installation
