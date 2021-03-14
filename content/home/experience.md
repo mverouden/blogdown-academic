@@ -88,7 +88,7 @@ experience:
     Tasks:
       * Represent all IT contact persons from Plant Science Group (PSG) in the WUR IT User Council
       * Advise Facilities & Services IT on upcoming and ongoing ICT projects from a viewpoint of all PSG chair groups and Business Units.
-      * Inform the Director operations PSG about ICT developments with WUR 
+      * Inform the Director operations PSG about ICT developments within WUR 
 - title: IT & Organisation contact person
   company: Wageningen University & Research
   company_url: http://www.wur.eu/biometris
