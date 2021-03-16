@@ -55,7 +55,7 @@ For more information see: [What is the WUR AppStore](https://wur-studentsupport.
 ### Using the WUR AppStore
 The use of the WUR AppStore is very well described by the WUR TEAM Study Anytime, Anyplace. The first article can be found here: [How can I use the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203865-how-can-i-use-the-wur-appstore)
 
-The WUR AppStore currently contains **R v4.0.2 Rcmdr**. **Rcmdr** indicates that, apart from running **R v4.0.2** by using the default Graphical User Interface (a.k.a. **RGui**), everything is included to run **R Commander**.
+The WUR AppStore currently contains **R 4.0.2 Rcmdr**. **Rcmdr** indicates that, apart from running **R v4.0.2** by using the default Graphical User Interface (a.k.a. **RGui**), everything is included to run **R Commander**.
 
 ### Support WUR AppStore
 In case you need support installing or using the WUR AppStore you can contact the WUR Servicedesk IT either by telephone: <a href="tel:+31317488888">+31 (0)317 488888</a> / mail: <a href="mailto:servicedesk.it@wur.nl">servicedesk.it AT wur.nl</a>. You can also visit the Servicepoint IT, ground floor left of the reception desk, in Forum (Building 102) on the WUR Campus.

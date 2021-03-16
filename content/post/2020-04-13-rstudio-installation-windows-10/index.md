@@ -49,7 +49,7 @@ Prior requirement for the installation of RStudio via the WUR AppStore:
 
 - [x] [R installed on Windows 10 via the WUR AppStore](/post/2020/04/06/r-installation-windows-10/#1-wur-appstore)
 
-The WUR AppStore currently contains RStudio version 1.3.959.
+The WUR AppStore currently contains RStudio version 1.3.959 under the name **RStudio 1.3**.
 
 ## 2. Manual Installation
 
