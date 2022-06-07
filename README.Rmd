@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Versions
 
 - Wowchemy starter-hugo-academic theme v5.5.0
-- Hugo extended v0.99.1 via install_hugo(version = "0.100.1", extended = TRUE) with a softlink to /usr/local/bin/hugo
+- Hugo extended v0.100.1 via install_hugo(version = "0.100.1", extended = TRUE) with a softlink to /usr/local/bin/hugo
 - GO version 1.18.3 (see https://go.dev/doc/install) modified /etc/profile
 
 ## GitHub Documents
