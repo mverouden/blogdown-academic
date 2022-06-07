@@ -1,0 +1,5 @@
+## Set the user's home directory
+HOME='C:/MyData/'
+
+## Set location of user installed packages
+R_LIBS_USER=${R_LIBS_USER-'C:/ProgramData/R/win-library/%v'}

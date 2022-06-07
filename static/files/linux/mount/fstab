@@ -1,0 +1,33 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+
+## Specific for each individual Linux System
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+#/dev/mapper/mint--vg-root /               ext4    errors=remount-ro 0       1
+#/dev/mapper/mint--vg-swap_1 none            swap    sw              0       0
+
+## FINDING localuseruid AND localusergid USE IN A TERMINAL: id localusername
+
+## START COPY ----
+# WUR PSG L-drive
+//fs01mixedsmb.wurnet.nl/DBL-STANDARD_PSG$/PSG~\137Data\040Exchange\040(PSG-wide) /mnt/wur-l cifs credentials=/home/localusername/.smbpassword,uid=localuseruid,gid=localusergid   0 0
+
+# WUR Personal M-drive
+//fs01mixedsmb.wurnet.nl/DBL-STANDARD_HOMEDIR$/wur-username	/mnt/wur-m	cifs	credentials=/home/localusername/.smbpassword,user,uid=localuseruid,gid=localusergid	0	0
+
+# WUR PSG Biometris N-drive
+//fs01mixedsmb.wurnet.nl/DBL-STANDARD_PSG$/PSG~PSG\040Biometris /mnt/wur-n cifs credentials=/home/localusername/.smbpassword,uid=localuseruid,gid=localusergid   0 0
+
+# PSG Biometris Network Attached Storage
+//biometris-nas.wurnet.nl/home /mnt/biomnas-home cifs uid=localuseruid,credentials=/home/localusername/.biomnas,workgroup=wurnet.nl,vers=1.0,iocharset=utf8,sec=ntlm 0 0
+#//10.85.8.117/home /mnt/biomnas-home cifs uid=localuseruid,credentials=/home/localusername/.biomnas,workgroup=wurnet.nl,iocharset=utf8,sec=ntlm 0 0
+
+# W Project shares <projectname>
+# underscore characters in <projectname> should be coded as \137
+# whitespace characters in <projectname> should be coded as \040
+#//fs01mixedsmb.wurnet.nl/DBL-STANDARD_PROJECTS$/PROJECTS~<projectname> /mnt/<project-mount-point> cifs credentials=/home/localusername/.smbpassword,uid=localuseruid,gid=localusergid   0 0
+## STOP COPY ----

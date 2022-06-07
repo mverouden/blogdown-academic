@@ -1,0 +1,61 @@
+---
+title: "Reveal.js Example"
+author: "Maikel Verouden"
+date: "`r Sys.Date()`"
+output: 
+  revealjs::revealjs_presentation:
+    theme: default
+    highlight: kate
+    center: false
+    transition: none
+---
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details --- on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+This is text with an equation: $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+
+## Fade in, Slide out {data-transition="fade-in slide-out"}
+
+What happens?
+
+## Slide in, Fade out {data-transition="slide-in fade-out"}
+
+And here?
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+# Horizontal Slide 1
+
+Horizontal with the possibility to go vertical
+
+## Vertical Slide 1
+
+Vertigo 1
+
+## Vertical Slide 2
+
+Vertigo 2
+
+# Horizontal Slide 2
+
+Continue horizontal
