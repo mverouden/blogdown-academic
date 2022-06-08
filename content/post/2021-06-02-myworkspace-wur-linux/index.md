@@ -176,6 +176,13 @@ To download the latest version of VMWare Horizon Client perform the following st
 1. Open in a web browser [https://my.vmware.com/en/web/vmware/downloads/info/slug/desktop_end_user_computing/vmware_horizon_clients/horizon_8](https://my.vmware.com/en/web/vmware/downloads/info/slug/desktop_end_user_computing/vmware_horizon_clients/horizon_8)
 2. Navigate to '__VMware Horizon Client for 64-bit Linux__' and click the '__GO TO DOWNLOADS__' link provided on that line.
 3. A new page will open in the same window. Select the version to download. At the time this post written the latest version of the VMware Horizon Client for 64-bit Linux is version 2013 build number:	17742757 (Release Date	2021-03-23).
+
+{{% callout warning %}}
+Please do not use VMWare Horizon Client for Linux 2203! It does not start from the created menu item.
+
+Instead use version 2111.1, which does not suffer from this issue.
+{{% /callout %}}
+
 4. Right-click the __DOWNLOAD NOW__ button and copy the link address.
 5. Open a terminal
 6. Change the directory to your personal downloads directory with the command `cd ~/Downloads/`
