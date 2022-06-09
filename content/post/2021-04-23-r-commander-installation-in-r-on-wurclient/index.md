@@ -77,7 +77,7 @@ The installation instructions in this post are <u>**not to be used on privately 
 ## R Commander Installation from the R GUI
 Prior requirement:
 
-- [x] [R installed on a WURclient using a custom installation ](/post/2021/01/24/r-installation-wurclient/)
+- [x] [R installed on a WURclient using a custom installation](/post/2021/01/24/r-installation-wurclient/)
 
 To be able to install R Commander you will need to have R installed first. If you haven't done so already, please first perform a custom installation of R on your WURclient computer (use the link above to go to that specific post).
 
