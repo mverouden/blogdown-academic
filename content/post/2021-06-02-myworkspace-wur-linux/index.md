@@ -137,7 +137,6 @@ diagram: false
 #   #   image: https://vip1.loli.net/2020/11/11/OmVGhaz79iQJsvj.png
 #   #   caption: Another caption  # only shown when zoom out
 
-
 ## (Optional) Header image (relative to `assets/media/` folder).
 ##   To display a full width header image, the header parameters below can be 
 ##   inserted towards the end of a page’s front matter. It is assumed that the 
@@ -245,3 +244,18 @@ Navigate to and click '__File__' in the top menu of the VMWare Horizon Client. N
 {{% callout note %}}
 Now VMWare Horizon Client is fully installed, configured and ready to log in to a Virtual Windows WURclient desktop, where you can use MyProjects and other Windows only applications you need to do your work within WUR. 
 {{% /callout %}}
+
+## Uninstall VMWare Horizon Client
+
+To uninstall VMWare Horizon Client for Linux the installation bundle of the installed version is required. Check the installed version and see [Download VMWare Horizon Client](#download-vmware-horizon-client) on how to obtain and make it executable.
+
+To uninstall VMWare Horizon Client for Linux issue the following command in a terminal:
+```sh
+sudo env VMWARE_KEEP_CONFIG=yes ./VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle -u vmware-horizon-client
+```
+
+{{% callout warning %}}
+Do not forget to modify the command above to reflect the correct version you wish to uninstall!
+{{% /callout %}}
+
+This will retain the VMWare Horizon Client configuration setings on your system. In order to also remove the configuration settings set `VMWARE_KEEP_CONFIG=no`.
