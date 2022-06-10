@@ -1,5 +1,5 @@
 ---
-title: "Custom RStudio installation on a WURclient computer"
+title: 'Custom RStudio installation on a WURclient computer'
 subtitle: ''
 
 # Summary for listings and search engines
@@ -159,7 +159,7 @@ To install RStudio perform the following steps:
 Congratulations, :satisfied:, you now have RStudio 2022.02.2 Build 485 installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
 
-## Warning Message RStudio
+<!-- ## Warning Message RStudio
 
 Lately I have been getting many e-mails claiming that R/RStudio, from Software Center or the custom installation, is not working well within Wageningen University & Research.
 
@@ -192,4 +192,4 @@ The installation via Software Center will return in the console:
 ```
 [1] "C:/ProgramData/R/win-library/4.1" "C:/Program Filess/R/R-4.1.0/library"
 ```
-In case you have installed via Software Center, but get different paths I urgently request you to contact first the Servicedesk IT. When they can not solve the issue, I will be contacted via them.
+In case you have installed via Software Center, but get different paths I urgently request you to contact first the Servicedesk IT. When they can not solve the issue, I will be contacted via them. -->
