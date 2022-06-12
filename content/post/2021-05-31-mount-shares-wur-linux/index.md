@@ -1,6 +1,6 @@
 ---
 ## The title of your page (Core)
-title: Mounting Windows WUR shares in Linux
+title: 'Mounting Windows WUR shares in Linux'
 ## An optional subtitle that will be displayed under the title
 subtitle: ''
 
