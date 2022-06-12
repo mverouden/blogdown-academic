@@ -139,12 +139,14 @@ diagram: true
 {{% toc %}}
 
 ## Motivation
-At Wageningen University & Research the Linux Operating System is supported on a best effort principle, meaning that it is supported as far as the knowledge of Facilities and Services Information Technology (FB-IT) reaches. FB-IT is supported by their colleagues maintaining the High Performance Computing Cluster Anunna, who have a lot of knowledge about the Linux Operating System, because it the OS that Anunna is using. <!-- and there is a support mail address: <a href="mailto:linux.beheer@wur.nl">linux.beheer AT wur.nl</a>, where support questions can be sent.-->
+At Wageningen University & Research the Linux Operating System is supported on a best effort principle, meaning that it is supported as far as the knowledge of Facilities and Services Information Technology (FB-IT) reaches. FB-IT is supported by their colleagues maintaining the High Performance Computing Cluster Anunna, who have a lot of knowledge about the Linux Operating System, because it's the Operating System used by Anunna. <!-- and there is a support mail address: <a href="mailto:linux.beheer@wur.nl">linux.beheer AT wur.nl</a>, where support questions can be sent.-->
 
 On the other hand Linux users are generally users, who are very independent and know how to search for and implement solutions themselves. Being one of those Linux users within WUR myself I want to share in this post, how I have set up printing on my Linux systems to use the facilities offered at  Wageningen University & Research.
 
 {{% callout note %}}
 This post will show how to set up printing on a desk- or laptop using Linux as Operating System within WUR.
+
+The described procedure should work on Ubuntu/Debian based Linux Operating Systems.
 {{% /callout %}}
 
 {{% callout warning %}}
