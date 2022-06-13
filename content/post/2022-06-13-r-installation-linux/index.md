@@ -72,7 +72,7 @@ featured: false
 
 ## By setting `draft: true`, only you will see your page  when you preview your
 ## site locally on your computer.
-draft: true
+draft: false
 
 ## Featured image
 ##   To use, add an image named `featured.jpg/png` to your page's folder.
@@ -146,11 +146,80 @@ On the other hand Linux users are generally users, who are very independent and 
 {{% callout note %}}
 This post will show how to install R on a Linux desk- or laptop computer.
 
-Two types of Linux Operating Systems will be described:
+Two types of Linux Operating Systems are described:
 
-1. Debian based, e.g. LMDE 5 Elsie
+1. Debian based, e.g. LMDE 5 Elsie (based on Debian 11 Bullseye)
 2. Ubuntu based, e.g. Linux Mint 20.3 (based on Ubuntu 20.04.4 LTS a.k.a. Focal Fossa)
 {{% /callout %}}
 
+## Installation R
 
+### Debian based Linux Operating System
 
+The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/debian/. At the time of writing this post the described procedure installs R version 4.2.0 (nicknamed: Vigorous Calisthenics), under the assumption that the Linux Operating System is based on Debian 11 Bullseye.
+
+1. Open a terminal (CTRL+ALT+T) and log in as administrator using the console command:
+```sh
+sudo -i
+```
+
+2. Fetch and import the current key using the following command:
+```sh
+apt-key adv --keyserver keyserver.ubuntu.com --recv-key '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7'
+```
+
+3. Add Debian bullseye repository to the software sources using the command:
+```sh
+add-apt-repository "deb http://cloud.r-project.org/bin/linux/debian bullseye-cran40/"
+```
+
+4. Update the package information from all configured sources:
+```sh
+apt update
+```
+
+5. Fully install R with dependencies:
+```sh
+apt install r-base libatlas3-base libopenblas-base r-cran-littler r-cran-coda r-doc-info r-doc-pdf python3-rpy2 r-mathlib
+```
+
+6. Exit out of administrator mode using the `exit` command.
+
+{{% callout note %}}
+Congratulations, you can now use R within a terminal on your Debian based Linux Operating System!
+{{% /callout %}}
+
+### Ubuntu based Linux Operating System
+
+The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/ubuntu/fullREADME.html. At the time of writing this post the described procedure installs R version 4.2.0 (nicknamed: Vigorous Calisthenics), under the assumption that the Linux Operating System is based on Ubuntu 20.04.4 LTS Focal Fossa.
+
+1. Open a terminal (CTRL+ALT+T) and log in as administrator using the console command:
+```sh
+sudo -i
+```
+
+2. Fetch and import the current key using the following command:
+```sh
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+```
+
+3. Add Ubuntu Focal Fossa repository to the software sources using the command:
+```sh
+add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/"
+```
+
+4. Update the package information from all configured sources:
+```sh
+apt update
+```
+
+5. Fully install R with dependencies:
+```sh
+apt install r-base r-cran-littler r-cran-rodbc r-doc-info r-doc-pdf r-mathlib elpa-ess ess jags littler python3-rpy2
+```
+
+6. Exit out of administrator mode using the `exit` command.
+
+{{% callout note %}}
+Congratulations, you can now use R within a terminal on your Ubuntu based Linux Operating System!
+{{% /callout %}}
