@@ -1,6 +1,6 @@
 ---
 ## The title of your page (Core)
-title: Install and configure MyWorkSpace at WUR in Linux
+title: 'Install and configure MyWorkSpace at WUR in Linux'
 ## An optional subtitle that will be displayed under the title
 subtitle: ''
 

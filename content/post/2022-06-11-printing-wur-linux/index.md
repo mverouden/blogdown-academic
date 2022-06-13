@@ -1,6 +1,6 @@
 ---
 ## The title of your page
-title: Printing within WUR on Linux
+title: 'Printing within WUR on Linux'
 ## An optional subtitle that will be displayed under the title 
 subtitle: ''
 
