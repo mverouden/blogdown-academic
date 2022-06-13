@@ -1,5 +1,5 @@
 ---
-title: Writing technical content in Academic
+title: 'Writing technical content in Academic'
 subtitle: ''
 
 # Summary for listings and search engines
