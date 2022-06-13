@@ -141,19 +141,16 @@ diagram: true
 ## Motivation
 At Wageningen University & Research the Linux Operating System is supported on a best effort principle, meaning that it is supported as far as the knowledge of Facilities and Services Information Technology (FB-IT) reaches. FB-IT is supported by their colleagues maintaining the High Performance Computing Cluster Anunna, who have a lot of knowledge about the Linux Operating System, because it's the Operating System used by Anunna. <!-- and there is a support mail address: <a href="mailto:linux.beheer@wur.nl">linux.beheer AT wur.nl</a>, where support questions can be sent.-->
 
-A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
-
-WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of R in Software Center is `R 4.0.2 Rcmdr`.
-
-This version of R was developed for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center. The consequence is, that core packages can not be updated by users.
-
-Many users, however, need to be able to update core packages, because of dependencies with packages they would like to install or would just like to use a newer version of R than the one in Software Center. At the moment of writing this post the latest version of R released on [r-project.org](https://www.r-project.org/) is R version 4.0.3 named: "Bunny-Wunnies Freak Out" (released on 2020-10-10).
+On the other hand Linux users are generally users, who are very independent and know how to search for and implement solutions themselves. Being one of those Linux users within WUR myself I want to share in this post, how I have installed R on my Linux Systems within Wageningen University & Research.
 
 {{% callout note %}}
-This post will show how to custom install R on a **WURclient** desktop or laptop computer without using Software Center.
+This post will show how to install R on a Linux desk- or laptop computer.
+
+Two types of Linux Operating Systems will be described:
+
+1. Debian based, e.g. LMDE 5 Elsie
+2. Ubuntu based, e.g. Linux Mint 20.3 (based on Ubuntu 20.04.4 LTS a.k.a. Focal Fossa)
 {{% /callout %}}
 
-{{% callout warning %}}
-The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [R installation on Windows 10](/post/2020/04/06/r-installation-windows-10/).
-{{% /callout %}}
+
 
