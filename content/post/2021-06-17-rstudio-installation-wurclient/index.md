@@ -62,7 +62,7 @@ WURclient desktops and laptops at Wageningen University & Research can install R
 
 This version of RStudio was placed in 'Software Center' for educational purposes. Only once per year a new version of R (including R Commander and additional packages for serveral courses) and RStudio is released in Software Center.
 
-Many users, however, prefer to use the latest version of RStudio, because of new features offered in the newer version of the software. At the moment of writing this post the latest version of RStudio is v1.4.1717 named: 'Juliet Rose' (released on 2021-06-01). The post has been updated, with the exception of the screenshots, to RStudio 2022.0232 Build 492 named: "Prairie Trillium".
+Many users, however, prefer to use the latest version of RStudio, because of new features offered in the newer version of the software. At the moment of writing this post the latest version of RStudio is v1.4.1717 named: 'Juliet Rose' (released on 2021-06-01). The post has been updated, with the exception of the screenshots, to RStudio 2022.02.3 Build 492 named: "Prairie Trillium".
 
 {{% callout note %}}
 This post will show how to custom install RStudio on a **WURclient** desktop or laptop computer without using Software Center.
@@ -156,7 +156,7 @@ To install RStudio perform the following steps:
 {{< figure src="rstudio-windows/5-rstudio-completed-w10.png" caption="RStudio Installation Completion." numbered="true" id="rstudio_install_completed" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio 2022.02.2 Build 485 installed on your WURclient desktop or laptop computer!
+Congratulations, :satisfied:, you now have RStudio 2022.02.3 Build 492 installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
 
 <!-- ## Warning Message RStudio
