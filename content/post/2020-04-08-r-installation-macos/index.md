@@ -50,7 +50,9 @@ share: true
 {{% toc %}}
 
 ## Motivation
-Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
+<!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
+
+Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R.
 
 {{% callout note %}}
 The instruction in this post will show how to (re-)install R on a desktop or laptop computer running macOS as operating system.
@@ -126,7 +128,7 @@ Having performed all 10 steps given above, your mac will be ready for a new inst
 {{% /callout %}}
 
 ## Download 
-At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.2.0 of R for MacOS High Sierra or higher.
+At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.2.1 of R (nicknamed: "Funny-Looking Kid"") for macOS High Sierra or higher.
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded package file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation can (and probably will) differ with respect to the version number shown in the screenshots.
 
@@ -139,13 +141,13 @@ __NOTE__: If you are using a mac with the newest M1 processor, download the __Ap
 Download R for your specific version of macOS using one of the following links:
 
 - For macOS El Capitan (10.11.x) up to and including macOS Mojave (10.14.x): [{{< icon name="download" pack="fas" >}} R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
-- For macOS High Sierra (10.13.x) and higher (__Intel 64-bit__ build), including macOS Big Sur (11.x): [{{< icon name="download" pack="fas" >}} R 4.2.0  (ca. 90 MB, *notarized and signed* __Intel 64-bit__ build)](https://cloud.r-project.org/bin/macosx/base/R-4.2.0.pkg)
-- For macOS Big Sur (11.x) and higher (__Apple silicon arm64__ build for M1 processor MACS only): [{{< icon name="download" pack="fas" >}} R 4.2.0  (ca. 89 MB, *notarized and signed* __ARM 64-bit__ build)](https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/R-4.2.0-arm64.pkg) <!--Due to an error in the release for the Apple silicon arm64 build, use the above download for the Intel 64-bit version!-->
+- For macOS High Sierra (10.13.x) and higher (__Intel 64-bit__ build), including macOS Big Sur (11.x): [{{< icon name="download" pack="fas" >}} R 4.2.1  (ca. 90 MB, *notarized and signed* __Intel 64-bit__ build)](https://cloud.r-project.org/bin/macosx/base/R-4.2.1.pkg)
+- For macOS Big Sur (11.x) and higher (__Apple silicon arm64__ build for M1 processor MACS only): [{{< icon name="download" pack="fas" >}} R 4.2.1  (ca. 89 MB, *notarized and signed* __ARM 64-bit__ build)](https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/R-4.2.1-arm64.pkg) <!--Due to an error in the release for the Apple silicon arm64 build, use the above download for the Intel 64-bit version!-->
 
 ## Installation
 For installing R on macOS follow these steps:
 
-1. Open the downloaded file, either **R-3.6.3.nn.pkg**, **R-4.2.0.pkg** or **R-4.2.0-arm64.pkg**  depending or your version of macOS or processor (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The installer package will resemble the image displayed below in [Figure 3](#figure-icon_r_package) (text underneath can, and probably will, differ!).
+1. Open the downloaded file, either **R-3.6.3.nn.pkg**, **R-4.2.1.pkg** or **R-4.2.1-arm64.pkg**  depending or your version of macOS or processor (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The installer package will resemble the image displayed below in [Figure 3](#figure-icon_r_package) (text underneath can, and probably will, differ!).
 
 {{< figure src="r-macos/1-r-installer-package-icon.png" caption="Icon R Installer Package." numbered="true" id="icon_r_package" >}}
 
