@@ -49,7 +49,9 @@ share: true
 {{% toc %}}
 
 ## Motivation
-Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home. Students taking [Statistical Courses taught by Mathematical and Statistical Methods at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm) will most likely use R.
+<!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
+
+Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R.
 
 {{% callout note %}}
 This post will show how to install R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
@@ -81,26 +83,26 @@ The use of the WUR AppStore is very well described by the WUR TEAM Study Anytime
 The WUR AppStore currently contains **R 4.1.0 Rcmdr**. **Rcmdr** indicates that, apart from running **R v4.1.0** by using the default Graphical User Interface (a.k.a. **RGui**), everything is included to run **R Commander**.
 
 ### Support WUR AppStore
-In case you need support installing or using the WUR AppStore you can contact the WUR Servicedesk IT either by telephone: <a href="tel:+31317488888">+31 (0)317 488888</a> / mail: <a href="mailto:servicedesk.it@wur.nl">servicedesk.it AT wur.nl</a>. You can also visit the Servicepoint IT, ground floor left of the reception desk, in Forum (Building 102) on the WUR Campus.
+In case you need support installing or using the WUR AppStore you can contact the WUR Servicedesk IT either by telephone: <a href="tel:+31317488888">+31 (0)317 488888</a> / mail: <a href="mailto:Servicedesk.IT@wur.nl">Servicedesk.IT AT wur.nl</a>. You can also visit the Servicepoint IT, ground floor left of the reception desk, in Forum (Building 102) on the WUR Campus.
 
 ## 2. Manual Installation
 
 ### Download
-At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.2.0 of R, named "Vigorous Calisthenics". As of version 4.2.0 R is only available as 64-bit, meaning that it will not install on a 32-bit version of Windows 10.
+At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.2.1 of R, named "Funny-Looking Kid". As of version 4.2.0 the R software is only available as 64-bit, meaning that it will not install on a 32-bit version of Windows 10.
 
-The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.2.0 for Windows (ca. 79 MB, 64-bit)](https://cran.r-project.org/bin/windows/base/R-4.2.0patched-win.exe).
+The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.2.1 for Windows (ca. 79 MB, 64-bit)](https://cloud.r-project.org/bin/windows/base/R-4.2.1-win.exe).
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
 ### Installation
 
-1. Open the downloaded file **R-4.2.0patched-win.exe**. This file will most likely reside in your Downloads folder of your user account.
+1. Open the downloaded file **R-4.2.1-win.exe**. This file will most likely reside in your Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installer has started, a first selection window will appear as displayed below in [Figure 1](#figure-r_language). Select the English language and click the ‘OK’ button to proceed.
 
 {{< figure src="r-windows/1-install-r-language.png" caption="Language Selection" numbered="true" id="r_language" >}}
 
-4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown in [Figure 2](#figure-r_destination_folder), where R 4.2.0 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.2.0` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.2.0`).
+4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown in [Figure 2](#figure-r_destination_folder), where R version 4.2.1 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.2.1` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.2.1`).
 
 {{< figure src="r-windows/2-install-r-destination-folder.png" caption="Destination Location Selection" numbered="true" id="r_destination_folder" >}}
 
@@ -108,15 +110,15 @@ For newer versions of R than 3.6.3 the steps described below are the same and st
 
 {{< figure src="r-windows/3-install-r-select-components.png" caption="Selection Components to Install" numbered="true" id="r_components_selection" >}}
 
-6. After selecting the components to install the startup options need to be set. Select, as shown in [Figure 4](#figure-r_customize_startup) below, the customized startup by selecting the ‘Yes (customized startup)’ radio button followed by clicking on the ‘Next’ button.
+6. After selecting the components to install the startup options need to be set. Select, as shown in [Figure 4](#figure-r_customize_startup) below, the customized startup by selecting the ‘**Yes (customized startup)**’ radio button followed by clicking on the ‘Next’ button.
 
 {{< figure src="r-windows/4-install-r-startup-options.png" caption="Customize Startup Options" numbered="true" id="r_customize_startup" >}}
 
-7. The first startup option to set is the Display Mode, as shown below in [Figure 5](#figure-r_display_mode). Select the Single Document Interface by selecting the ‘SDI (separate windows)’ radio button as displayed and clicking on the ‘Next’ button.
+7. The first startup option to set is the Display Mode, as shown below in [Figure 5](#figure-r_display_mode). Select the Single Document Interface by selecting the ‘**SDI (separate windows)**’ radio button as displayed and clicking on the ‘Next’ button.
 
 {{< figure src="r-windows/5-install-r-display-mode.png" caption="Display Mode Selection" numbered="true" id="r_display_mode" >}}
 
-8. Next select the help style startup option. Leave this at the default ‘HTML help’ value, as displayed in [Figure 6](#figure-r_help_style), and click on the ‘Next’ button.
+8. Next select the help style startup option. Leave this at the default ‘**HTML help**’ value, as displayed in [Figure 6](#figure-r_help_style), and click on the ‘Next’ button.
 
 {{< figure src="r-windows/6-install-r-help-style.png" caption="Help Style Selection" numbered="true" id="r_help_style" >}}
 
@@ -133,5 +135,5 @@ For newer versions of R than 3.6.3 the steps described below are the same and st
 {{< figure src="r-windows/9-install-r-completion.png" caption="Completion of the R installation." numbered="true" id="r_completion" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have R version 4.2.0 installed on your private desktop or laptop computer!
+Congratulations, :satisfied:, you now have R version 4.2.1 installed on your private desktop or laptop computer!
 {{% /callout %}}
