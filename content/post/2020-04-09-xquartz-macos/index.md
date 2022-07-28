@@ -76,9 +76,9 @@ At the time this post was written the release of XQuartz was version 2.7.11. It 
 
 Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.7.11 (ca. 75.9 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.7.11/XQuartz-2.7.11.dmg)
 
-The latest release of XQuartz, however, is version 2.8.1. This version should be used for OS X Mavericks (version 10.9.x) or later, up to and including macOS Big Sur (version 11.x).
+The latest release of XQuartz, however, is version 2.8.2. This version should be used for OS X Mavericks (version 10.9.x) or later, up to and including macOS Monterey (version 12.x).
 
-Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.1 (ca. 105 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.1/XQuartz-2.8.1.dmg)
+Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.2 (ca. 105 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.2/XQuartz-2.8.2.dmg)
 
 {{% callout warning %}}
 Make sure you download and install the correct version!
