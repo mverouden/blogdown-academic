@@ -80,7 +80,7 @@ For more information see: [What is the WUR AppStore](https://wur-studentsupport.
 ### Using the WUR AppStore
 The use of the WUR AppStore is very well described by the WUR TEAM Study Anytime, Anyplace. The first article can be found here: [How can I use the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203865-how-can-i-use-the-wur-appstore)
 
-The WUR AppStore currently contains **R 4.1.0 Rcmdr**. **Rcmdr** indicates that, apart from running **R v4.1.0** by using the default Graphical User Interface (a.k.a. **RGui**), everything is included to run **R Commander**.
+The WUR AppStore currently contains **R 4.2.1 Rcmdr**. **Rcmdr** indicates that, apart from running **R v4.2.1** by using the default Graphical User Interface (a.k.a. **RGUI**), everything is included to run **R Commander**.
 
 ### Support WUR AppStore
 In case you need support installing or using the WUR AppStore you can contact the WUR Servicedesk IT either by telephone: <a href="tel:+31317488888">+31 (0)317 488888</a> / mail: <a href="mailto:Servicedesk.IT@wur.nl">Servicedesk.IT AT wur.nl</a>. You can also visit the Servicepoint IT, ground floor left of the reception desk, in Forum (Building 102) on the WUR Campus.
@@ -88,7 +88,7 @@ In case you need support installing or using the WUR AppStore you can contact th
 ## 2. Manual Installation
 
 ### Download
-At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.2.1 of R, named "Funny-Looking Kid". As of version 4.2.0 the R software is only available as 64-bit, meaning that it will not install on a 32-bit version of Windows 10.
+At the time this post was written, the latest release of R was version 3.6.3. It has been updated to the latest release version 4.2.1 of R, named "Funny-Looking Kid". As of version 4.2.0 the R software is only available as 64-bit, meaning that it will not install on a 32-bit version of Windows 10.
 
 The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.2.1 for Windows (ca. 79 MB, 64-bit)](https://cloud.r-project.org/bin/windows/base/R-4.2.1-win.exe).
 

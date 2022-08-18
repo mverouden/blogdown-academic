@@ -128,21 +128,21 @@ Having performed all 10 steps given above, your mac will be ready for a new inst
 {{% /callout %}}
 
 ## Download 
-At the time this post was written the latest release of R is version 3.6.3. It has been updated to the latest release version 4.2.1 of R (nicknamed: "Funny-Looking Kid"") for macOS High Sierra or higher.
+At the time this post was written, the latest release of R was version 3.6.3. It has been updated to the latest release version 4.2.1 of R (nicknamed: "Funny-Looking Kid"") for macOS High Sierra or higher.
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded package file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation can (and probably will) differ with respect to the version number shown in the screenshots.
 
 {{% callout warning %}}
 For macOS there are three downloads for R available on the [R-project website](https://cloud.r-project.org/). To see which version of macOS is installed on your mac, click on {{< icon name="apple" pack="fab" >}} in the menu bar and select ‘About This Mac’.
 
-__NOTE__: If you are using a mac with the newest M1 processor, download the __Apple Silicon arm64__ build!
+__NOTE__: If you are using a mac with the newest M1 or M2 processor, download the __Apple Silicon arm64__ build!
 {{% /callout %}}
 
 Download R for your specific version of macOS using one of the following links:
 
 - For macOS El Capitan (10.11.x) up to and including macOS Mojave (10.14.x): [{{< icon name="download" pack="fas" >}} R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
 - For macOS High Sierra (10.13.x) and higher (__Intel 64-bit__ build), including macOS Big Sur (11.x): [{{< icon name="download" pack="fas" >}} R 4.2.1  (ca. 90 MB, *notarized and signed* __Intel 64-bit__ build)](https://cloud.r-project.org/bin/macosx/base/R-4.2.1.pkg)
-- For macOS Big Sur (11.x) and higher (__Apple silicon arm64__ build for M1 processor MACS only): [{{< icon name="download" pack="fas" >}} R 4.2.1  (ca. 89 MB, *notarized and signed* __ARM 64-bit__ build)](https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/R-4.2.1-arm64.pkg) <!--Due to an error in the release for the Apple silicon arm64 build, use the above download for the Intel 64-bit version!-->
+- For macOS Big Sur (11.x) and higher (__Apple silicon arm64__ build for M1 or M2 processor MACS only): [{{< icon name="download" pack="fas" >}} R 4.2.1  (ca. 89 MB, *notarized and signed* __ARM 64-bit__ build)](https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/R-4.2.1-arm64.pkg) <!--Due to an error in the release for the Apple silicon arm64 build, use the above download for the Intel 64-bit version!-->
 
 ## Installation
 For installing R on macOS follow these steps:

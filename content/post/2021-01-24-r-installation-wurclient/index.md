@@ -57,7 +57,7 @@ share: true
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`.
+WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`. Currently the latest available version in Software Center is `R 4.2.1 Rcmdr`.
 
 This version of R was developed for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center. The consequence is, that core packages can not be updated by users.
 
@@ -228,7 +228,7 @@ mkdir C:\ProgramData\R\win-library\4.2
 8. The Command Prompt application can now be closed by typing `exit` and executing it by pressing return (Enter).
 
 ### Download
-At the time this post was written the latest release of R is version 4.0.3. It has been updated to the latest release version 4.2.1 of R.
+At the time this post was written, the latest release of R was version 4.0.3. It has been updated to the latest release version 4.2.1 of R.
 
 The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.2.1 for Windows (ca. 79 MB, 64-bit).](https://cloud.r-project.org/bin/windows/base/R-4.2.1-win.exe)
 
