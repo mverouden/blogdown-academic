@@ -1,6 +1,6 @@
 ---
 ## The title of your page (Core)
-title: "RStudio installation on Windows 10"
+title: "RStudio installation on Windows 10/11"
 ## An optional subtitle that will be displayed under the title
 subtitle: ''
 
@@ -10,7 +10,7 @@ slug: 'rstudio-installation-on-windows-10'
 ## A one-sentence summary of the content on your page. 
 ##   The summary can be shown on the homepage and can also benefit your search
 ##   engine ranking.
-summary: "Instructions on how to install RStudio on Windows 10."
+summary: "Instructions on how to install RStudio on Windows 10/11."
 
 ## Display the authors of the page and link to their user profiles if they exist.
 authors:
@@ -24,6 +24,7 @@ tags:
   - RStudio
   - R
   - Windows 10
+  - Windows 11
 
 ## Categorizing your content helps users to discover similar site content.
 ##   Categories can improve search relevancy and display at the top of a page
@@ -31,6 +32,7 @@ tags:
 categories:
   - R
   - Windows 10
+  - Windows 11
   - WUR
 
 ## The RFC 3339 date that the page was published. 
@@ -155,7 +157,7 @@ diagram: false
 Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R. Some of these courses (e.g. [MAT-20306](https://ssc.wur.nl/Handbook/Course/MAT-20306), [MAT-32806](https://ssc.wur.nl/Handbook/Course/MAT-32806), and [MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303)) mainly use RStudio. Also other courses (e.g. [HNH-31506](https://ssc.wur.nl/Handbook/Course/HNH-31506) and [BIF-51306](https://ssc.wur.nl/Handbook/2019/Course/BIF51306)) taught at Wageningen University & Research use R via RStudio as well. Therefore, students will need to be able to install RStudio.
 
 {{% callout note %}}
-This post will show how to install RStudio on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
+This post will show how to install RStudio on a **privately owned** desktop or laptop computer running Windows 10/11 as operating system.
 {{% /callout %}}
 
 {{% callout warning %}}
@@ -172,7 +174,7 @@ The WUR AppStore is the place where you will be able to download, link to, or vi
 
 Prior requirement for the installation of RStudio via the WUR AppStore:
 
-- [x] [R installed on Windows 10 via the WUR AppStore](/post/2020/04/06/r-installation-windows-10/#1-wur-appstore)
+- [x] [R installed on Windows 10/11 via the WUR AppStore](/post/2020/04/06/r-installation-windows-10/#1-wur-appstore)
 
 The WUR AppStore currently contains RStudio version 2022.07.0 Build 548 under the name **RStudio 2022.07.0.458**.
 
@@ -188,11 +190,11 @@ For newer versions of RStudio the steps described after the download are the sam
 ### RStudio Installation
 Prior requirement for the installation of RStudio:
 
-- [x] [R installed on Windows 10 via Manual Installation](/post/2020/04/06/r-installation-windows-10/#2-manual-installation)
+- [x] [R installed on Windows 10/11 via Manual Installation](/post/2020/04/06/r-installation-windows-10/#2-manual-installation)
 
-To be able to install RStudio you will need to have R installed first. If you haven't done so already, please first install R on your Windows 10 computer (use the link above to go to that specific post).
+To be able to install RStudio you will need to have R installed first. If you haven't done so already, please first install R on your Windows 10/11 computer (use the link above to go to that specific post).
 
-To install RStudio on Windows 10 perform the following steps:
+To install RStudio on Windows 10/11 perform the following steps:
 
 1. Open the downloaded file **RStudio-2022.07.1-554.exe**. This file will most likely reside in the Downloads folder of your user account.
 2. Allow to install the software on your computer.

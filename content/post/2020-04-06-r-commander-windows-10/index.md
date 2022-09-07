@@ -1,9 +1,9 @@
 ---
-title: "R Commander installation in R on Windows 10"
+title: "R Commander installation in R on Windows 10/11"
 subtitle: ''
 
 # Summary for listings and search engines
-summary: "Instructions on how to install R Commander in R on Windows 10."
+summary: "Instructions on how to install R Commander in R on Windows 10/11."
 
 # Link this post with a project
 projects: []
@@ -34,12 +34,14 @@ authors:
 categories:
   - R
   - Windows 10
+  - Windows 11
   - WUR
 tags:
   - Installation
   - R Commander
   - R
   - Windows 10
+  - Windows 11
 
 slug: r-commander-installation-in-r-on-windows-10
 
@@ -54,7 +56,7 @@ share: true
 Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R. Students enrolled in [MAT-14303 Basic Statistics](https://ssc.wur.nl/Handbook/Course/MAT-14303), [MAT-15303 Statistics 1](https://ssc.wur.nl/Handbook/Course/MAT-15303), [MAT-15403 Statistics 2](https://ssc.wur.nl/Handbook/Course/MAT-15403) and [MAT-20306 Advanced Statistics](https://ssc.wur.nl/Handbook/Course/MAT-20306) (first two weeks of this course) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
 {{% callout note %}}
-This post will show how to install R Commander within R on a **privately owned** desktop or laptop computer running Windows 10 as operating system.
+This post will show how to install R Commander within R on a **privately owned** desktop or laptop computer running Windows 10/11 as operating system.
 {{% /callout %}}
 
 {{% callout warning %}}
@@ -71,9 +73,9 @@ This post is only intended for students, who followed the [Manual Installation](
 
 Prior requirement:
 
-- [x] [R installed on Windows 10](/post/2020/04/06/r-installation-windows-10/)
+- [x] [R installed on Windows 10/11](/post/2020/04/06/r-installation-windows-10/)
 
-To be able to install R Commander you will need to have R installed first. If you haven't done so already, please first install R on your Windows 10 computer (use the link above to go to that specific post).
+To be able to install R Commander you will need to have R installed first. If you haven't done so already, please first install R on your Windows 10/11 computer (use the link above to go to that specific post).
 
 This post was originally based on R version 3.6.3. For newer versions of R the steps described are the same, only some screens you will see during your installation will display a higher version number of R compared to the screenshots in this post.
 
