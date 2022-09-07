@@ -1,13 +1,13 @@
 ---
 ## The title of your page
-title: 'Rtools installation on a Windows 10 or a WURclient computer'
+title: 'Rtools installation on a Windows 10/11 or a WURclient computer'
 ## An optional subtitle that will be displayed under the title 
 subtitle: ''
 
 ## A one-sentence summary of the content on your page. 
 ##   The summary can be shown on the homepage and can also benefit your search
 ##   engine ranking.
-summary: 'Instructions on how to install Rtools on a Windows 10 or a WURclient computer.'
+summary: 'Instructions on how to install Rtools on a Windows 10/11 or a WURclient computer.'
 
 ## Add the short URL slug containing keywords
 slug: rtools-installation
@@ -24,6 +24,7 @@ tags:
   - R
   - Rtools
   - Windows 10
+  - Windows 11
   - WURclient
 
 ##   Categories can improve search relevancy and display at the top of a page
@@ -33,6 +34,7 @@ categories:
   - WUR
   - WURclient
   - Windows 10
+  - Windows 11
 
 ## The RFC 3339 date that the page was published. 
 date: '2022-07-05T11:15:44+0200'
@@ -129,12 +131,12 @@ diagram: true
 ## Motivation
 Many people are able to use R, without ever having the need to compile from source and, therefore, the need to install Rtools. However, if you want to do package development, compile from source, or use packages like **rstan** or **cmdstanr**, you will definitely need to install Rtools.
 
-In this post the installation procedure for Rtools will be given step wise. It will work for both regular Windows 10 computers as well as WURclient computers.
+In this post the installation procedure for Rtools will be given step wise. It will work for both regular Windows 10/11 computers as well as WURclient computers.
 
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
 {{% callout note %}}
-This post will show how to install Rtools on a **privately owned** running Windows 10, or a **WURclient** desktop or laptop computer, where the user possesses <u>**POWER USER RIGHTS**</u>.
+This post will show how to install Rtools on a **privately owned** running Windows 10/11, or a **WURclient** desktop or laptop computer, where the user possesses <u>**POWER USER RIGHTS**</u>.
 
 The only difference is how the installer for Rtools is started.
 {{% /callout %}}
@@ -146,7 +148,7 @@ The only difference is how the installer for Rtools is started.
 Prior requirement for using Rtools:
 
 - [x] R properly installed:
-  - [x] [R installed on Windows 10](/post/2020/04/06/r-installation-windows-10/)
+  - [x] [R installed on Windows 10/11](/post/2020/04/06/r-installation-windows-10/)
   - [x] R installed on a WURclient via Software Center, or
   - [x] [R installed on a WURclient using a custom installation ](/post/2021/01/24/r-installation-wurclient/)
 
@@ -164,7 +166,7 @@ For R version 4.2.0 and above the installer for Rtools can be downloaded directl
 
 1. Open a File Explorer window (keyboard shortcut: &#129695; + E) and navigate to your downloads folder.
 
-2. On a Windows 10 computer start the downloaded Rtools installer. For a **WURclient** computer right-click the downloaded Rtools installer and select select 'WUR - Run with administrative rights' (see below in [Figure 1](#figure-start_installer_wurclient)).
+2. On a Windows 10/11 computer start the downloaded Rtools installer. For a **WURclient** computer right-click the downloaded Rtools installer and select select 'WUR - Run with administrative rights' (see below in [Figure 1](#figure-start_installer_wurclient)).
 
 {{< figure src="rtools/00-installer-admin-rights.png" caption="Start Rtools installer on a WURclient." numbered="true" id="start_installer_wurclient" >}}
 
