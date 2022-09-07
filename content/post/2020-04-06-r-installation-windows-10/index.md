@@ -75,7 +75,7 @@ For more information see: [What is the WUR AppStore](https://wur-studentsupport.
 
 ### Windows 10/11 compatibility check and WUR AppStore installation
 
-* First check if you have a compatible Windows 1011 version as described on: [How to check if you have the right Windows 10 version](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1198329-how-to-check-if-you-have-the-right-windows-10-version)
+* First check if you have a compatible Windows 10/11 version as described on: [How to check if you have the right Windows 10 version](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1198329-how-to-check-if-you-have-the-right-windows-10-version)
 *  If you have Windows 10 Education or Windows 10 Pro (Professional), you can proceed to the manual: [How to get access to the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203863-how-to-connect-to-the-wur-appstore).
 * If you have another version of Windows 10/11 (e.g. Windows 10/11 Home), follow the manual: [How to get Windows 10 Education](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1223173-how-to-get-windows-10-education). After having upgraded Windows 10 to the Education version, you can proceed to the manual: [How to get access to the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203863-how-to-connect-to-the-wur-appstore).
 
