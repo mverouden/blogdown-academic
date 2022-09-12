@@ -141,7 +141,7 @@ __NOTE__: If you are using a mac with the newest M1 or M2 processor, download th
 Download R for your specific version of macOS using one of the following links:
 
 - For macOS El Capitan (10.11.x) up to and including macOS Mojave (10.14.x): [{{< icon name="download" pack="fas" >}} R 3.6.3 (ca. 77 MB,  *regular* 64-bit)](https://cloud.r-project.org/bin/macosx/R-3.6.3.nn.pkg)
-- For macOS High Sierra (10.13.x) and higher (__Intel 64-bit__ build), including macOS Big Sur (11.x): [{{< icon name="download" pack="fas" >}} R 4.2.1  (ca. 90 MB, *notarized and signed* __Intel 64-bit__ build)](https://cloud.r-project.org/bin/macosx/base/R-4.2.1.pkg)
+- For macOS High Sierra (10.13.x) and higher (__Intel 64-bit__ build): [{{< icon name="download" pack="fas" >}} R 4.2.1  (ca. 90 MB, *notarized and signed* __Intel 64-bit__ build)](https://cloud.r-project.org/bin/macosx/base/R-4.2.1.pkg)
 - For macOS Big Sur (11.x) and higher (__Apple silicon arm64__ build for M1 or M2 processor MACS only): [{{< icon name="download" pack="fas" >}} R 4.2.1  (ca. 89 MB, *notarized and signed* __ARM 64-bit__ build)](https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/R-4.2.1-arm64.pkg) <!--Due to an error in the release for the Apple silicon arm64 build, use the above download for the Intel 64-bit version!-->
 
 ## Installation
