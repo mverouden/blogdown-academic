@@ -6,10 +6,10 @@ Blogdown Academic site
 ## Versions
 
 -   Wowchemy starter-hugo-academic theme v5.5.0
--   Hugo extended v0.100.2 via install_hugo(version = “0.101.0”,
+-   Hugo extended v0.102.3 via install_hugo(version = “0.102.3”,
     extended = TRUE) with a softlink to /usr/local/bin/hugo (see
     <https://github.com/gohugoio/hugo/releases>)
--   GO version 1.18.4 (see <https://go.dev/doc/install>) modified
+-   GO version 1.19.1 (see <https://go.dev/doc/install>) modified
     /etc/profile
 
 ``` sh
