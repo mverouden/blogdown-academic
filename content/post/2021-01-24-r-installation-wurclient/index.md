@@ -71,7 +71,7 @@ This post will show how to custom install R on a **WURclient** desktop or laptop
 The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [R installation on Windows 10](/post/2020/04/06/r-installation-windows-10/).
 {{% /callout %}}
 
-### Prerequisite
+## Prerequisite
 To be able to perform a custom installation of R you need to have <u>**POWER USER RIGHTS**</u> on the WURclient desktop or laptop.
 
 To see whether you possess these rights, right-click any icon (except Recycle Bin or WUR HELP) on the desktop. When the opened menu contains the option 'WUR - Run with administrative rights' (seventh or eighth from the top), it means you have power user rights on that particular desktop or laptop.
