@@ -57,7 +57,7 @@ featured: false
 
 ## By setting `draft: true`, only you will see your page  when you preview your
 ## site locally on your computer.
-draft: true
+draft: false
 
 ## Featured image
 ##   To use, add an image named `featured.jpg/png` to your page's folder.
