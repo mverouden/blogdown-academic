@@ -137,7 +137,11 @@ The license for Matworks<sup>&#174;</sup> Matlab is an Academic and **not** a Co
 The Matlab<sup>&#174;</sup> version in Software Center for WURclient computers has two major drawbacks:
 
 1. It is not always the latest version available. While writing this post the version in Sofware Center, as stated above, is `MATLAB R2021b (for NON commercial use only)`, whereas the latest version on the site of The Mathworks<sup>&#174;</sup> is `Matlab R2022b`.
-2. It requires an internet connection to the WURNET to be able to check out a license, outside the campus a VPN connection will enable checkout of the license file.
+2. It requires an internet connection to the WURNET to be able to check out a license. Outside a WUR location (campus or otherwise) a VPN connection will enable checkout of the license file.
+
+{{% callout warning %}}
+The Eduroam WiFi network is not part of WURNET. Therefore, you also need a VPN connection to check out a Matlab<sup>&#174;</sup>, when using the Software Center installation of Matlab<sup>&#174;</sup>.
+{{% /callout %}}
 
 In this post the installation procedure for Mathworks<sup>&#174;</sup> Matlab will be given step wise. Thereby, providing a way to install the latest version as well as install the software on a WURclient laptop without having to connect to WURNET to checkout a license.
 
