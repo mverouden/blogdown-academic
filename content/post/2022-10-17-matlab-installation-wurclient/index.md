@@ -162,7 +162,7 @@ To see whether you possess these rights, right-click any icon (except Recycle Bi
     + MATLAB (Designated Computer): The installation is restricted for use to a host ID that identifies a particular computer, but not a particular user. Any number of people can log in and use the software, but not simultaneously.
     + MATLAB (Individual):  You can install and run the software on multiple computers. Each installation is restricted for use by a particular computer and a particular user name. This is advised for WURclient computers (desk- or laptops) and privately owned desk- or laptop computers.
 
-5. After choosing the license type you will be sent to the License Center page of Mathworks<sup>&#174;</sup>. On this specific page you find a "Download" button. Pressing it allows you to download the version of MATLAB you want to install. Leave the browser open, you will need it again later during the installation.
+5. After choosing the license type you will be sent to the License Center page of Mathworks<sup>&#174;</sup>. On this specific page you find a "Download" button. Pressing it allows you to download the version of Matlab<sup>&#174;</sup> you want to install. Leave the browser open, you will need it again later during the installation.
 
 6. Once the download has finished, navigate to your downloads folder. Start the installer with a right mouse click and select "WUR – Run with administrative rights" as shown below in [Figure 1](#figure-explorer_cmd_pusr) and **make sure you install into "C:\MyPrograms"**.
 
@@ -182,7 +182,7 @@ To see whether you possess these rights, right-click any icon (except Recycle Bi
 
 11. Select "Download License File". The file will be downloaded as `license.lic` into your downloads folder.
 
-12. Copy the `license.lic` file into `C:\MyPrograms\MATLAB\RYYYYv\licenses`, where RYYYYv represents the version you installed e.g. R2019a.
+12. Once the Matlab<sup>&#174;</sup> installation has finished, copy the `license.lic` file into `C:\MyPrograms\MATLAB\RYYYYv\licenses`, where RYYYYv represents the version you installed e.g. R2019a. In case the folder `C:\MyPrograms\MATLAB\RYYYYv\licenses` does not exist yet, create it yourself.
 
 13. On your computer start “Activate Matlab RYYYYv” with administrative rights to correctly implement the downloaded license. In the start menu navigate to the item, right click and select “more” > “Open file location”. In the new File Explorer right click on “Activate Matlab RYYYYv” and select "WUR – Run with administrative rights".
 
