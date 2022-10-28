@@ -69,15 +69,15 @@ Two ways to install R are offered here:
 2. [Manual installation](#2-manual-installation) for those who, for whatever reason, do not want to use the WUR AppStore.
 
 ## 1. WUR AppStore
-The WUR AppStore is the place where you will be able to download, link to, or virtually access the software you need for your study programme and courses. Not only during, but also for self-study after, the computer practical's and courses. 
+The WUR AppStore is the place where you will be able to download, link to, or virtually access the software you need for your study programme and courses. Not only during the computer labs and courses, but also for self-study after those. 
 
 For more information see: [What is the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1222947-what-is-the-wur-appstore)
 
-### Windows 10/11 compatibility check and WUR AppStore installation
+### Windows 10/11 compatibility and WUR AppStore installation
 
-* First check if you have a compatible Windows 10/11 version as described on: [How to check if you have the right Windows 10 version](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1198329-how-to-check-if-you-have-the-right-windows-10-version)
-*  If you have Windows 10 Education or Windows 10 Pro (Professional), you can proceed to the manual: [How to get access to the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203863-how-to-connect-to-the-wur-appstore).
-* If you have another version of Windows 10/11 (e.g. Windows 10/11 Home), follow the manual: [How to get Windows 10 Education](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1223173-how-to-get-windows-10-education). After having upgraded Windows 10 to the Education version, you can proceed to the manual: [How to get access to the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203863-how-to-connect-to-the-wur-appstore).
+* To safely use the study and course software, you need to **connect your laptop to the WUR** network with your WUR account. **Windows 10 or 11 Education Edtiion** or  **Professional Edition** is needed on your laptop to be able to access the WUR AppStore. If you are using a Home Edition of Windows 10 or 11, you will be automatically upgraded to the Education Edition.
+*  If you have Windows 10 or 11 Education or Professional, you can proceed to the manual: [How to connect to the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203863-how-to-connect-to-the-wur-appstore).
+<!--* If you have another version of Windows 10/11 (e.g. Windows 10/11 Home), follow the manual: [How to get Windows 10 Education](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1223173-how-to-get-windows-10-education). After having upgraded Windows 10 to the Education version, you can proceed to the manual: [How to get access to the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203863-how-to-connect-to-the-wur-appstore).-->
 
 ### Using the WUR AppStore
 The use of the WUR AppStore is very well described by the WUR TEAM Study Anytime, Anyplace. The first article can be found here: [How can I use the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203865-how-can-i-use-the-wur-appstore)
