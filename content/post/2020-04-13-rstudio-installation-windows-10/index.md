@@ -215,5 +215,5 @@ To install RStudio on Windows 10/11 perform the following steps:
 {{< figure src="rstudio-windows/5-rstudio-completed-w10.png" caption="RStudio Installation Completion." numbered="true" id="rstudio_install_completed" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio 2022.07.2 Build 576 installed on your private Windows 10 desktop or laptop computer!
+Congratulations, :satisfied:, you now have RStudio 2022.07.2 Build 576 installed on your private Windows desktop or laptop computer!
 {{% /callout %}}
