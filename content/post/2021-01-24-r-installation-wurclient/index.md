@@ -59,7 +59,7 @@ A WURclient desktop or laptop at Wageningen University & Research is not a stand
 
 WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`. Currently the latest available version in Software Center is `R 4.2.1 Rcmdr`.
 
-This version of R was developed for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center. The consequence is, that core packages can not be updated by users.
+This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center. The consequence is, that core packages can not be updated by users.
 
 Many users, however, need to be able to update core packages, because of dependencies with packages they would like to install or would just like to use a newer version of R than the one in Software Center. At the moment of writing this post the latest version of R released on [r-project.org](https://www.r-project.org/) is R version 4.0.5 named: "Shake and Throw" (released on 2021-03-31). The post has been updated, with the exception of the screenshots, to R version 4.2.2 named: "Innocent and Trusting".
 
@@ -68,7 +68,7 @@ This post will show how to custom install R on a **WURclient** desktop or laptop
 {{% /callout %}}
 
 {{% callout warning %}}
-The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [R installation on Windows 10](/post/2020/04/06/r-installation-windows-10/).
+The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [R installation on Windows 10/11](/post/2020/04/06/r-installation-windows-10/).
 {{% /callout %}}
 
 ## Prerequisite
@@ -241,9 +241,8 @@ Save the following files into the Downloads folder of your WURclient desk- or la
 * {{< staticref "files/r/Renviron.site" "newtab" >}}{{< icon name="download" pack="fas" >}} Renviron.site{{< /staticref >}}
 * {{< staticref "files/r/Rprofile.site" "newtab" >}} {{< icon name="download" pack="fas" >}} Rprofile.site{{< /staticref >}}
 
-For newer versions of R than 4.0.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
-
 ### Installation
+For newer versions of R than 4.0.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
 1. Right-click the downloaded file **R-4.2.2-win.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
 2. If asked for allow to install the software on your computer.
