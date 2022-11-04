@@ -61,7 +61,7 @@ WURclient desktops and laptops at Wageningen University & Research can install A
 
 This version of Anaconda Python was packages for educational purposes. Only once per year a new version of Anaconda Python is released in Software Center and simultaneously in the WUR AppStore (course software for students).
 
-Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center. At the moment of writing this post the latest version of Anaconda Python released on [anaconda.com/products/distribution](https://www.anaconda.com/products/distribution) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). <!--The post has been updated, with the exception of the screenshots, to R version 4.2.2 named: "Innocent and Trusting". -->
+Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center. At the moment of writing this post the latest version of Anaconda Python released on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). <!--The post has been updated, with the exception of the screenshots, to R version 4.2.2 named: "Innocent and Trusting". -->
 
 {{% callout note %}}
 This post will show how to custom install Anaconda Python on a **WURclient** desktop or laptop computer without using Software Center.
@@ -169,9 +169,10 @@ From Anaconda3 version 2022.10 the installer is only available for 64-bit Window
 ### Installation
 For newer versions of Anaconda3 than 2022.10 the steps described below are the same and still correct, but start with a newer version of the downloaded executable installer file of Anaconda3.<!-- The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.-->
 
-
 1. Right-click the downloaded file **Anaconda3-2022.10-Windows-x86_64.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
+
 2. If asked for allow to install the software on your computer.
+
 3. After the installer has started, a first selection window will appear as displayed below in [Figure 8](#figure-welcome_anaconda_setup). Click the ‘Next >’ button to proceed.
 
 {{< figure src="anaconda-wurclient/6-welcome-installer-anaconda.png" caption="Welcome to Anaconda3 2022.11 (64-bit) Setup." numbered="true" id="welcome_anaconda_setup" >}}
@@ -192,56 +193,134 @@ For newer versions of Anaconda3 than 2022.10 the steps described below are the s
 
 {{< figure src="anaconda-wurclient/10-advanced-installation-options.png" caption="Anaconda3 Setup Advanced Installation Options" numbered="true" id="advanced_options" >}}
 
-6. After selecting the components to install the startup options need to be set. Select, as shown in [Figure 13](#figure-install_r_customize_startup) below, the customized startup by selecting the ‘**Yes (customized startup)**’ radio button followed by clicking on the ‘Next’ button.
+7. Once the installation has been completed [Figure 13](#figure-installation_complete) will be displayed. Click on the ‘Next >’ button to continue.
 
-{{< figure src="r-wurclient/4-install-r-startup-options.png" caption="R Installation Customize Startup." numbered="true" id="install_r_customize_startup" >}}
+{{< figure src="anaconda-wurclient/11-installation-complete.png" caption="Anaconda3 Setup Installation was completed successfully" numbered="true" id="installation_complete" >}}
 
-7. The first startup option to set is the Display Mode, as shown in [Figure 14](#figure-install_r_display_mode). Select the Single Document Interface by selecting the ‘**SDI (separate windows)**’ radio button as displayed and clicking on the ‘Next’ button.
+8. Next the Anaconda3 Setup will show some information on how great Anaconda works with DataSpell as shown in [Figure 14](#figure-anaconda_ds). Click the 'Next >' button to proceed.
 
-{{< figure src="r-wurclient/5-install-r-display-mode.png" caption="R Installation Display Mode Selection." numbered="true" id="install_r_display_mode" >}}
+{{< figure src="anaconda-wurclient/12-anaconda-jetbrains.png" caption="Anacond3 Setup message about Anaconda and DataSpell" numbered="true" id="anaconda_ds" >}}
 
-8. Next select the help style startup option. Leave this at the default ‘**HTML help**’ value, as displayed below in [Figure 15](#figure-install_r_help_style), and click on the ‘Next’ button.
+9. Finally the Annaconda 3 Setup shows that installation has been completed as displayed in [Figure 15](#figure-anaconda_completing). Remove the tick marks from the boxes in front of 'Anaconda Distribution Tutorial' and 'Getting Started with Anaconda', unless you want to display this information, click the 'Finish' button to finish off the installation and close the Anaconda3 Setup.
 
-{{< figure src="r-wurclient/6-install-r-help-style.png" caption="R Installation Help Style Selection." numbered="true" id="install_r_help_style" >}}
-
-9. The one before last startup option is to set a ‘Start Menu’ folder name ([Figure 16](#figure-install_r_startmenu_folder)). Unless wishing to use a different name, leave the default value as displayed below. This will create a folder named ‘R’ in the ‘Start Menu’ of Windows, from which the R GUI (graphical user interface) can be started.
-
-{{< figure src="r-wurclient/7-install-r-start-menu.png" caption="R Installation Start Menu Folder Selection." numbered="true" id="install_r_startmenu_folder" >}}
-
-10. The last startup option to set allows for some customization of shortcut links. Preferably leave the default settings and continue by clicking on the ‘Next’ button. This will trigger the installation. At the end [Figure 17](#figure-install_r_success), shown below, will appear (although the version number will be different!). To exit the setup click on the ‘Finish’ button.
-
-{{% callout warning %}}
-**Do not mess around with the ‘Registry entries’  settings.**
-{{% /callout %}}
-
-{{< figure src="r-wurclient/9-install-r-completion.png" caption="R Installation Completed Successfully." numbered="true" id="install_r_success" >}}
-
-11. To finalize the custom R installation on your WURclient desk- or laptop copy the files `Renviron.site` and `Rprofile.site` from the Downloads folder on your computer and paste them into the `C:\MyPrograms\R\R-4.2.2\etc`. A window will appear, as displayed below in [Figure 18](#figure-replace_file), to indicate, that the file `Rprofile.site` already exists. Select 'Replace the file in the destination'.
-
-{{< figure src="r-wurclient/replace_rprofile_site_file.png" caption="Replace Rprofile.site File." numbered="true" id="replace_file" >}}
+{{< figure src="anaconda-wurclient/13-finish-installer-anaconda.png" caption="Completing Anacond3 Setup" numbered="true" id="anaconda_completing" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have R version 4.2.2 installed on your WURclient desktop or laptop computer!
+Congratulations, :satisfied:, you now have Anaconda3 version 2022.10 containing Python 3.9.13 installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
 
-### Changing the R startup working directory
+{{% callout warning %}}
+Before using Anaconda check out the configuration instructions below carefully.
 
-In this custom installation procedure the R HOME directory is set to `C:\MyData`. This means, that at the start the default working directory in R is set to `C:\MyData`. You change this by changing the HOME environment variable in the file `Renviron.site`. The file resides in the `C:\MyPrograms\R\R-4.2.2\etc` directory.
+At least do the part on [Changing the Default Startup Working Directory](#changing-the-default-startup-working-directory)!
+{{% /callout %}}
 
-To change the R HOME environment variable perform the following steps:
+## Configuration Anaconda3
 
-1. Open a File Explorer and navigate to the `C:\MyPrograms\R\R-4.2.2\etc` folder
+<!-- ORIGINAL: C:\MyPrograms\Anaconda3\python.exe C:\MyPrograms\Anaconda3\cwp.py C:\MyPrograms\Anaconda3 C:\MyPrograms\Anaconda3\python.exe C:\MyPrograms\Anaconda3\Scripts\jupyter-notebook-script.py "%USERPROFILE%/" -->
 
-2. Right-click the file `Renviron.site` and select the **`Open with`** option. Windows will prompt you to select an application to open the `Renviron.site` file with, as shown below in [Figure 19](#figure-open_with).
+<!-- CHANGED WITH ADMIN RIGHTS TO: C:\MyPrograms\Anaconda3\python.exe C:\MyPrograms\Anaconda3\cwp.py C:\MyPrograms\Anaconda3 C:\MyPrograms\Anaconda3\python.exe C:\MyPrograms\Anaconda3\Scripts\jupyter-notebook-script.py "M:\My Documents" -->
 
-{{< figure src="r-wurclient/renviron_site_open_with.png" caption="Open Renviron.site with." numbered="true" id="open_with" >}}
+### Changing the Default Startup Working Directory
 
-3. First remove the check mark in front of 'Always use this app to open .site files'. Select either Notepad or Wordpad to modify the `Renviron.site` file. When neither is offered, click on the blue text 'More apps' to select either Notepad or Wordpad.
+When starting JupyterLab or Jupyter Notebook from within Anaconda Navigator the default working directory on a WURclient will be `C:\User\user001`, where `user001` will display your own WUR username. This is not a very smart location to store your Jupyter Notebook files (files with the `*.ipynb` extension), because this a local storage location without backup.
 
-4. Once an editor has been chosen, the file will open in the chosen editor. The first two lines of the 'Renviron.site` file read:
+Most users would like to store their documents in `M:\My Documents`, which is an internal mapping to `\\WURNET.NL\Homes\user001\Documents`. Files stored in your `M:\`-drive are backed up by FB-IT and, therefore, provide a much safer storage environment.
+
+To change the default start up working directory perform the following steps:
+
+1. Open the Start Menu and navigate to 'Anaconda3 (64-bit)'.
+
+2. Either start 'Anaconda Powershell Prompt (Anaconda3)' or 'Anaconda Prompt (Anaconda3)'. A window will open displaying the prompt as `(base) PS C:\>` for 'Anaconda Powershell', or `(base) C:\>` for 'Anaconda Prompt`.
+
+3. Type the command shown below behind the prompt and press return (Enter) to execute:
 ```sh
-## Set the user's home directory
-HOME='C:/MyData/'
+jupyter notebook --generate-config
 ```
 
-5. Modify `'C:/MyData/'` to the preferred startup working directory for R. For example `'M:/My Documents/MyR'` would set the default R working directory to the 'My Documents\MyR' folder of your WUR M:-drive, provided that the folder 'MyR' exists as a sub folder of 'M:\My Documents'. Do not forget to save the file (CRTL+S) to make the change permanent.
+4. A message stating: `Writing default config to: C:\Users\user001\.jupyter\jupyter_notebook_config.py`, where `user001` will display your own WUR username, is printed in the window. Type `exit` and press return (Enter) to close the prompt window.
+
+5. Open a File Explorer window and navigate to the created file `C:\Users\verou004\.jupyter\jupyter_notebook_config.py`. You may have to change the settings in File Explorer to show the hidden items (File Explorer top menu bar 'View' and place a tick mark in front of 'hidden items').
+
+6. Right-click the file `jupyter_notebook_config.py` and select '**Open with**'. Remove the tick mark in front of 'Always use this app to open .py files' and select e.g. 'Notepad'. If you do not see 'Notepad', click on 'More apps'.
+
+7. The file `jupyter_notebook_config.py` will open in the 'Notepad' application. Navigate to line 393 (press `CTRL+G` and enter 393). Remove the `#` and whitespace character in front of `c.NotebookApp.notebook_dir` and replace `''` with `'M:\My Documents'`. Save the document by press `CTRL+S`. Lines 391-393 should now look like this:
+```sh
+## The directory to use for notebooks and kernels.
+#  Default: ''
+c.NotebookApp.notebook_dir = 'M:\My Documents'
+```
+
+8. Make sure you have saved your changes in the file `jupyter_notebook_config.py` and close the 'Notepad` application.
+
+You have now changed the default start up working directory permanently.
+
+### Upgrading Anaconda Navigator (Anaconda3)
+
+When after starting Anaconda Navigator sometimes you will see that a newer version of the Navigator is available. In the top right corner this is indicated as displayed in [Figure 16](#figure-navigator_upgrade)
+
+{{< figure src="anaconda-wurclient/14-upgrade-navigator.png" caption="Upgrade available for Anaconda Navigator" numbered="true" id="navigator_upgrade" >}}
+
+However, having started Anaconda Navigator from the Start Menu as regular user, you will be prompted to enter the administrator username and password. This is a problem, because you are a Power User and not an Administrator.
+
+To be able to upgrade Anaconda Navigator you have to start the application with 'WUR - Run with adminstrative rights'. This can be done by following these steps:
+
+1. Open the Start Menu and navigate to 'Anaconda3 (64-bit)'
+
+2. Right-click on the 'Anaconda Navigator (Anaconda3)' start item, select 'More' > 'Open file location'. This will open a File Explorer window displaying the shortcuts to start items of 'Anaconda3 (64-bit)'.
+
+3. Again right-click on the start item "Anaconda Navigator (Anaconda3)" in the File Explorer windows and select 'WUR - Run with adminstrative rights'
+
+Now you will be able to upgrade Anaconda Navigatore by clicking on 'Upgrade Now', as displayed in [Figure 16](#figure-navigator_upgrade).
+
+### Add a R kernel
+
+After installing Anaconda3 only the Python kernel is present. To add a R kernel for use inside Jupyter Notebook or JupyterLab perform the following steps:
+
+1. Open the Start Menu and navigate to 'Anaconda3 (64-bit)'.
+
+2. Start 'Anaconda Powershell Prompt (Anaconda3)'. A window will open displaying the prompt as `(base) PS C:\>`.
+
+3. Navigate to where `R.exe` is located. Let's assume you have R v4.2.1 installed, either via Software Center or via [Custom installation on a WURclient](/post/2021/01/24/r-installation-wurclient/)). For other R versions than 4.2.1 do not forget to change the R version number!
+
+    + For a installation via Sofware Center use the following commands:
+    
+      ```sh
+       cd C:\Program Files\R\R-4.2.1\bin\
+       .\R.exe
+       # At the R prompt, indicated by >
+       install.packages("IRkernel")
+         IRkernel::installspec()
+       q()
+       Save workspace image? [y/n/c]: n
+       # back at the powershell prompt, indicated by (base) PS C:\>
+       exit
+      ```
+
+    + For a [Custom installation on a WURclient](/post/2021/01/24/r-installation-wurclient/) use the following commands:
+    
+      ```sh
+       cd C:\MyPrograms\R\R-4.2.1\bin\
+       .\R.exe
+       # At the R prompt, indicated as >
+       install.packages("IRkernel")
+       IRkernel::installspec()
+       q()
+       Save workspace image? [y/n/c]: n
+       # back at the powershell prompt, indicated by (base) PS C:\>
+       exit
+      ```
+
+Now the R kernel will be available in Jupyter Notebook and JupyterLab.
+
+### Add a Julia kernel
+
+After installing Anaconda3 only the Python kernel is present, unless you already did [Add a R kernel](#add-a-r-kernel) . To add a Julia kernel for use inside Jupyter Notebook or JupyterLab perform the following steps:
+
+1. Open Julia on your WURclient. A window will open and you will see the prompt displayed as `julia>`
+2. Type `]` and press return (Enter) to execute. The prompt will change into `(@v1.8) pkg>`, this under the assumption that you have Julia v1.8.2 or later installed. For other versions of Julia the version number for package management will differ.
+3. Type the command `add IJulia`. This will install a lot of packages and make the Julia kernel available in Jupyter Notebook and JupyterLab.
+4. Close the Julia package manager by pressing the BACKSPACE key on your keyboard.
+5. Type `exit()` to close Julia.
+
+Now the Julia kernel will be available in Jupyter Notebook and JupyterLab.
