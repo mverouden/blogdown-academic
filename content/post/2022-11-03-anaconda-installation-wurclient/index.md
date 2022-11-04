@@ -68,7 +68,7 @@ This post will show how to custom install Anaconda Python on a **WURclient** des
 {{% /callout %}}
 
 {{% callout warning %}}
-The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [Anaconda installation on Windows 10/11](/post/2020/04/06/r-installation-windows-10/).
+The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>!<!-- For a privately owned desktop or laptop see the post: [Anaconda installation on Windows 10/11](/post/2020/04/06/r-installation-windows-10/).-->
 {{% /callout %}}
 
 ## Prerequisite
