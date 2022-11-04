@@ -318,7 +318,7 @@ Now the R kernel will be available in Jupyter Notebook and JupyterLab.
 After installing Anaconda3 only the Python kernel is present, unless you already did [Add a R kernel](#add-a-r-kernel) . To add a Julia kernel for use inside Jupyter Notebook or JupyterLab perform the following steps:
 
 1. Open Julia on your WURclient. A window will open and you will see the prompt displayed as `julia>`
-2. Type `]` and press return (Enter) to execute. The prompt will change into `(@v1.8) pkg>`, this under the assumption that you have Julia v1.8.2 or later installed. For other versions of Julia the version number for package management will differ.
+2. Type `]` and the prompt will change into `(@v1.8) pkg>`. This under the assumption that you have Julia v1.8.2 or later installed. For other versions of Julia the version number for package management will differ.
 3. Type the command `add IJulia`. This will install a lot of packages and make the Julia kernel available in Jupyter Notebook and JupyterLab.
 4. Close the Julia package manager by pressing the BACKSPACE key on your keyboard.
 5. Type `exit()` to close Julia.
