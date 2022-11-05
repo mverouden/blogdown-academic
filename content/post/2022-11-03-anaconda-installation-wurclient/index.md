@@ -59,7 +59,7 @@ A WURclient desktop or laptop at Wageningen University & Research is not a stand
 
 WURclient desktops and laptops at Wageningen University & Research can install Anaconda from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of Anaconda in Software Center is `Anaconda Python 2021.11`.<!-- Currently the latest available version in Software Center is `Anaconda Python 2022.10`.-->
 
-This version of Anaconda Python was packages for educational purposes. Only once per year a new version of Anaconda Python is released in Software Center and simultaneously in the WUR AppStore (course software for students).
+This version of Anaconda Python was packaged for educational purposes. Only once per year a new version of Anaconda Python is released in Software Center and simultaneously in the WUR AppStore (course software for students).
 
 Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center. At the moment of writing this post the latest version of Anaconda Python released on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). <!--The post has been updated, with the exception of the screenshots, to R version 4.2.2 named: "Innocent and Trusting". -->
 
