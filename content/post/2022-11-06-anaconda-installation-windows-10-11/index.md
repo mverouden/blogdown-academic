@@ -15,7 +15,7 @@ date: '2022-11-06'
 lastmod: '2022-11-06T15:24:05+02:00'
 
 # Is this an unpublished draft?
-draft: true
+draft: false
 
 # Show this page in the Featured widget?
 featured: false
@@ -162,7 +162,7 @@ Congratulations, :satisfied:, you now have Anaconda3 version 2022.10 containing 
 {{% /callout %}}
 
 {{% callout warning %}}
-Below in [Configuration Anaconda3](#configuration-anaconda3) you find information about additional task you may need to perform. 
+Below in [Configuration Anaconda3](#configuration-anaconda3) you find information about additional tasks you may need to perform. 
 
 Use the ones required!
 {{% /callout %}}
