@@ -68,7 +68,7 @@ This post will show how to custom install Anaconda Python on a **WURclient** des
 {{% /callout %}}
 
 {{% callout warning %}}
-The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>!<!-- For a privately owned desktop or laptop see the post: [Anaconda installation on Windows 10/11](/post/2020/04/06/r-installation-windows-10/).-->
+The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [Anaconda installation on Windows 10/11](/post/2022/11/06/anaconda-installation-windows-10-11/).
 {{% /callout %}}
 
 ## Prerequisite
@@ -257,7 +257,7 @@ You have now changed the default start up working directory permanently.
 
 ### Upgrading Anaconda Navigator (Anaconda3)
 
-When after starting Anaconda Navigator sometimes you will see that a newer version of the Navigator is available. In the top right corner this is indicated as displayed in [Figure 16](#figure-navigator_upgrade)
+After starting Anaconda Navigator, sometimes you will see that a newer version of the Navigator is available. In the top right corner this is indicated as displayed in [Figure 16](#figure-navigator_upgrade)
 
 {{< figure src="anaconda-wurclient/14-upgrade-navigator.png" caption="Upgrade available for Anaconda Navigator" numbered="true" id="navigator_upgrade" >}}
 
@@ -281,7 +281,7 @@ After installing Anaconda3 only the Python kernel is present. To add a R kernel 
 
 2. Start 'Anaconda Powershell Prompt (Anaconda3)'. A window will open displaying the prompt as `(base) PS C:\>`.
 
-3. Navigate to where `R.exe` is located. Let's assume you have R v4.2.1 installed, either via Software Center or via [Custom installation on a WURclient](/post/2021/01/24/r-installation-wurclient/)). For other R versions than 4.2.1 do not forget to change the R version number!
+3. Navigate to where `R.exe` is located. Let's assume you have R v4.2.1 installed, either via Software Center or via [Custom installation on a WURclient](/post/2021/01/24/r-installation-wurclient/). For other R versions than 4.2.1 do not forget to change the R version number!
 
     + For a installation via Sofware Center use the following commands:
     
