@@ -224,19 +224,19 @@ Now the R kernel will be available in Jupyter Notebook and JupyterLab.
 
 ### Add a Julia kernel
 
-After installing Anaconda3 only the Python kernel is present, unless you already did [Add a R kernel](#add-a-r-kernel) . To add a Julia kernel for use inside Jupyter Notebook or JupyterLab perform the following steps:
+After installing Anaconda3 only the Python kernel is present, unless you already have [added a R kernel](#add-a-r-kernel). To add a Julia kernel for use inside Jupyter Notebook or JupyterLab perform the following steps:
 
 1. Open the Terminal application as described above in [Complete removal of a previous Anaconda installation on macOS](#complete-removal-of-a-previous-anaconda-installation-on-macos).
 
-2. Start Julia by typing `julia` at the terminal prompt. Once Julia has started, you will see the prompt displayed as `julia>`.
+2. Start Julia by typing `julia` at the terminal prompt and press return &#8617; to execute. Once Julia has started, you will see the prompt displayed as `julia>`.
 
 3. Type `]` and the prompt will change into `(@v1.8) pkg>`. This under the assumption that you have Julia v1.8.2 or later installed. For other versions of Julia the version number for package management will differ.
 
-4. Type the command `add IJulia`. This will install a lot of packages and make the Julia kernel available in Jupyter Notebook and JupyterLab.
+4. Type the command `add IJulia` and press return &#8617; to execute. This will install a lot of packages and make the Julia kernel available in Jupyter Notebook and JupyterLab.
 
 5. Close the Julia package manager by pressing the BACKSPACE key on your keyboard.
 
-6. Type `exit()` to close Julia.
+6. Type `exit()` and press return &#8617; to execute, in order to close Julia.
 
 7. Close the Terminal application by typing `exit` and press return &#8617; to execute.
 
