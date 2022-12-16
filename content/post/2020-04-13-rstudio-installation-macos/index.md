@@ -69,9 +69,9 @@ In the text some symbol combinations are used for shortcuts, the following table
 | &#8679; | &nbsp; | shift (either left or right) | &nbsp;&nbsp; | &#9099; | &nbsp; | escape                         |
 
 ## Download
-At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2022.07.2 Build 576, which will work on macOS Catalina (version 10.15.x) or later.
+At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2022.12.0 Build 353, which will work on macOS Catalina (version 10.15.x) or later.
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2022.07.2 Build 576 (ca. 224.49 MB)](https://download1.rstudio.org/desktop/macos/RStudio-2022.07.2-576.dmg)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2022.12.0 Build 353 (ca. 365.70MB)](https://download1.rstudio.org/electron/macos/RStudio-2022.12.0-353.dmg)
 
 If you are on a 32 bit system, you can use an [older version of RStudio](https://rstudio.com/products/rstudio/older-versions/).
 

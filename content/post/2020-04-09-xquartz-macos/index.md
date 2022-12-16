@@ -76,9 +76,9 @@ At the time this post was written the release of XQuartz was version 2.7.11. It 
 
 Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.7.11 (ca. 75.9 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.7.11/XQuartz-2.7.11.dmg)
 
-The latest release of XQuartz, however, is version 2.8.2. This version should be used for OS X Mavericks (version 10.9.x) or later, up to and including macOS Monterey (version 12.x).
+The latest release of XQuartz, however, is version 2.8.3. This version should be used for OS X Mavericks (version 10.9.x) or later.<!--, up to and including macOS Monterey (version 12.x).-->
 
-Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.2 (ca. 105 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.2/XQuartz-2.8.2.dmg)
+Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.3 (ca. 103MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.3/XQuartz-2.8.3.pkg)
 
 {{% callout warning %}}
 Make sure you download and install the correct version!
@@ -91,7 +91,7 @@ The icons and screenshots shown in this post are for XQuartz v2.7.11 and have no
 
 To install XQuartz on macOS perform the following steps:
 
-1. Open the downloaded XQuartz disk image. This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The XQuartz disk image will look like the image displayed below in [Figure 1](#figure-xquartz_disk_image) (version number may differ!).
+1. Open the downloaded XQuartz disk image or package. This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The XQuartz disk image will look like the image displayed below in [Figure 1](#figure-xquartz_disk_image) (version number may differ!).
 
 {{< figure src="xquartz-macos/1-xquartz-disk-image.png" caption="Icon XQuartz Disk Image." numbered="true" id="xquartz_disk_image" >}}
 
