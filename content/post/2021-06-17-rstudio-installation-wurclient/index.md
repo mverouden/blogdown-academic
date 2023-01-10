@@ -74,7 +74,7 @@ The installation instructions in this post are <u>**not to be used on privately 
 
 ### Prerequisites
 
-- [x] To be able to perform a custom installation of R you need to have <u>**POWER USER RIGHTS**</u> on the WURclient desktop or laptop.
+- [x] To be able to perform a custom installation of RStudio you need to have <u>**POWER USER RIGHTS**</u> on the WURclient desktop or laptop.
 
 To see whether you possess these rights, right-click any icon (except Recycle Bin or WUR HELP) on the desktop. When the opened menu contains the option 'WUR - Run with administrative rights' (sixth or seventh from the top), it means you have power user rights on that particular desktop or laptop.
 
