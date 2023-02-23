@@ -157,16 +157,12 @@ To be able to print on facilities (multifunctionals) at WUR the desktop or lapto
 
 For convenience the PostScript Printer Description (PPD) files of the printers in use at Wageningen University & Research are provided. You can save the files into the Downloads folder of your Linux desk- or laptop by right-clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
 
-* {{< staticref "files/linux/print/Ricoh-MP_C4503-PDF-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-MP_C4503-PDF-Ricoh.ppd{{< /staticref >}}
-* {{< staticref "files/linux/print/Ricoh-MP_C4503-Postscript-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-MP_C4503-Postscript-Ricoh.ppd{{< /staticref >}}
-* {{< staticref "files/linux/print/Ricoh-MP_C4503-pxlcolor-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-MP_C4503-pxlcolor-Ricoh.ppd{{< /staticref >}}
-* {{< staticref "files/linux/print/Ricoh-MP_C6003-PDF-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-MP_C6003-PDF-Ricoh.ppd{{< /staticref >}}
-* {{< staticref "files/linux/print/Ricoh-MP_C6003-Postscript-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-MP_C6003-Postscript-Ricoh.ppd{{< /staticref >}}
-* {{< staticref "files/linux/print/Ricoh-MP_C6003-pxlcolor-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-MP_C6003-pxlcolor-Ricoh.ppd{{< /staticref >}}
+* {{< staticref "files/linux/print/Ricoh-IM_C4500-PDF-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-IM_C4500-PDF-Ricoh.ppd{{< /staticref >}}
+* {{< staticref "files/linux/print/Ricoh-IM_C4500-Postscript-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-IM_C4500-Postscript-Ricoh.ppd{{< /staticref >}}
 
-**<span style="color:red">RECOMMENDATION:</span> Use the pxlcolor PPD file for the Ricoh MP C6003. The others are provided just in case you require one of them.**
+**<span style="color:red">RECOMMENDATION:</span> Use the Postscript PPD file for the Ricoh IM C4500. The other one (PDF ppd file) is provided just in case you require it.**
 
-The Ricoh MP C6003 is the most advanced printer at WUR, having the most options. This specific driver also works perfectly with the Ricoh MP C4503 printers, that are more commonly used in WUR buildings.
+The Ricoh IM C4500 is since February 2023 the default printer at WUR. <!-- This specific driver also works perfectly with the Ricoh MP C4503 printers, that are more commonly used in WUR buildings.-->
 
 ## Printer Setup
 
@@ -180,7 +176,7 @@ The Ricoh MP C6003 is the most advanced printer at WUR, having the most options.
 
 3. In the left column named **Devices** select ‘Network Printer’ > ‘Windows Printer via SAMBA’. As shown in [Figure 2](#figure-add-new-printer) fill the field **SMB Printer** with the address `smb://scomp5170/WURprinter` (printer queue, which handles printjobs at WUR).
 
-4. Set the authentication details as shown in [Figure 2](#figure-add-new-printer). Click the ‘Forward’ button to start the search for the printer driver as displayed below in [Figure 3](#figure-search-printer-driver)
+4. Set the authentication details, as shown in [Figure 2](#figure-add-new-printer). Click the ‘Forward’ button to start the search for the printer driver as displayed below in [Figure 3](#figure-search-printer-driver)
 
 {{% callout warning %}}
 Username should start as displayed with `wur\` and replace `user001` with your personal WUR username. The Password provided should be the WUR Windows password for your WUR username. 
@@ -188,24 +184,26 @@ Username should start as displayed with `wur\` and replace `user001` with your p
 
 {{< figure src="printing-linux/3-searching-driver.png" caption="Searching for printer driver." numbered="true" id="search-printer-driver" >}}
 
-5. The searching for drivers will take a little while, but none will be found. Instead a window will be presented as shown below in [Figure 4](#figure-choose-driver) to choose the proper printer driver. Use the radio button to select ‘Provide PPD file’ and select, as advised, the `Ricoh-MP_C6003-pxlcolor-Ricoh.ppd` file (see [Download](#download) section). Next click the ‘Forward’ button to continue.
+5. The searching for drivers will take a little while, but none will be found. Instead a window will be presented as shown below in [Figure 4](#figure-choose-driver) to choose the proper printer driver. Use the radio button to select ‘Provide PPD file’ and select, as advised, the `Ricoh-IM_C4500-Postscript-Ricoh.ppd` file (see [Download](#download) section). Next click the ‘Forward’ button to continue.
 
 {{< figure src="printing-linux/4-choose-driver.png" caption="Choose the printer driver." numbered="true" id="choose-driver" >}}
 
 6. A window with **Installable Options** for the new printing device will open as shown in [Figure 5](#figure-installable-options). Select the settings shown and, afterwards, click the ‘Forward’ button to continue:
-    + Large capacity tray: Installed
     + Option Tray: Lower Paper Trays **<span style="color:red">(SELECT THE PLURAL FORM HERE!)</span>**
-    + Internal Shift Tray: Not Installed
+    + Large capacity tray: Not Installed
     + Internal Tray 2: Installed
-    + External Tray: Not Installed
-    + Finisher: Finisher SR3140
+    + Internal Shift Tray: Not Installed
+    + External Tray : Not Installed
+    + Finisher: Finisher SR3250
+    + Folding Unit: Not Installed
+    + PostScript: PostScript Emulation
 
 {{< figure src="printing-linux/5-installable-options.png" caption="Configure installable options for the printer." numbered="true" id="installable-options" >}}
 
 7. Next you will asked to describe the printer, as shown in [Figure 6](#figure-describe-printer). Fill the fields as shown in the figure or with you own information:
     + **Printer Name**: WURprinter
-    + **Description**: WUR printer Ricoh MP C6003
-    + **Location**: Anywhere with wurcard!
+    + **Description**: WUR printer Ricoh IM C4500 Postscript
+    + **Location**: Anywhere within WUR with user's wurcard!
 
 {{< figure src="printing-linux/6-describe-printer.png" caption="Printer description." numbered="true" id="describe-printer" >}}
 
@@ -215,16 +213,16 @@ Username should start as displayed with `wur\` and replace `user001` with your p
 
 {{% callout warning %}}
 **REMOVE SHARING OFF THE WURprinter!!**  
-Sharing allows other users to print on your account, which is of course undesirable.
+Sharing allows other users to print on your WUR account. However, you will have to print and collect the print jobs with your WUR card. This is of course very undesirable.
 
-Right-click the **WURprinter** as displayed in [Figure 1](#figure-system-config-printer) and remove the tick-mark in front of **Shared**. This sub-menu has other nice features, such as making the selected printer your default.
+To prevent this behavior, right-click the **WURprinter** as displayed in [Figure 1](#figure-system-config-printer) and remove the tick-mark in front of **Shared**. This sub-menu, appearing with right-clicking the **WURprinters**,  has other nice features such as making the selected printer your default.
 {{% /callout %}}
 
 ## Resetting your WUR Password for printing
 
 Every 4 months you need to change the password of your WUR Account for obvious safety reasons.
 
-This also means that you need to change it in the printer settings, when you have filled your password during the printer setup (see [Printer Setup](#printer-setup) step 2.).
+This also means that you need to change your WUR password in the printer settings, when you have filled your password during the printer setup (see [Printer Setup](#printer-setup) step 2.).
 
 The are two options:
 
@@ -244,7 +242,7 @@ The are two options:
     ```sh
       DeviceURI smb://wur%5Cuser001:password@scomp5170/WURprinter
     ```
-    5. In this line `wur%5C` represents `wur\`, where the `\` is encoded as hexadecimal ASCII character (see [ASCII table](https://www.asciitable.com/))). `user001` will be displaying your own personal WUR username. The part between `:` and `@` represents your password, in which special characters are encoded as hexadecimal ASCII characters. Modify the password part to match you new password.
+    5. In this line `wur%5C` represents `wur\`, where the `\` is encoded as hexadecimal ASCII character (see [ASCII table](https://www.asciitable.com/)). `user001` will be displaying your own personal WUR username. The part between `:` and `@` represents your password, in which special characters are encoded as hexadecimal ASCII characters. Modify the password part to match you new password.
         + e.g. new password: qu!ck4L!9H+2 (very strong password), needs to be provided in `printers.conf` as qu%21ck4L%219H%2B2
     6. Save the modified `/etc/cups/printers.conf` file and exit the text editor
     7. Restart the CUPS daemon:

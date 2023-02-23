@@ -282,7 +282,7 @@ For newer versions of R than 4.0.3 the steps described below are the same and st
 
 {{< figure src="r-wurclient/9-install-r-completion.png" caption="R Installation Completed Successfully." numbered="true" id="install_r_success" >}}
 
-11. To finalize the custom R installation on your WURclient desk- or laptop copy the files `Renviron.site` and `Rprofile.site` from the Downloads folder on your computer and paste them into the `C:\MyPrograms\R\R-4.2.2\etc`. A window will appear, as displayed below in [Figure 18](#figure-replace_file), to indicate, that the file `Rprofile.site` already exists. Select 'Replace the file in the destination'.
+11. To finalize the custom R installation on your WURclient desk- or laptop copy the files `Renviron.site` and `Rprofile.site` from the Downloads folder on your computer and paste them into the `C:\MyPrograms\R\R-4.2.2\etc` folder. A window will appear, as displayed below in [Figure 18](#figure-replace_file), to indicate, that the file `Rprofile.site` already exists. Select 'Replace the file in the destination'.
 
 {{< figure src="r-wurclient/replace_rprofile_site_file.png" caption="Replace Rprofile.site File." numbered="true" id="replace_file" >}}
 
