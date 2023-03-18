@@ -76,9 +76,9 @@ At the time this post was written the release of XQuartz was version 2.7.11. It 
 
 Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.7.11 (ca. 75.9 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.7.11/XQuartz-2.7.11.dmg)
 
-The latest release of XQuartz, however, is version 2.8.3. This version should be used for OS X Mavericks (version 10.9.x) or later.<!--, up to and including macOS Monterey (version 12.x).-->
+The latest release of XQuartz, however, is version 2.8.5. This version should be used for OS X Mavericks (version 10.9.x) or later.<!--, up to and including macOS Monterey (version 12.x).-->
 
-Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.3 (ca. 103MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.3/XQuartz-2.8.3.pkg)
+Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.5 (ca. 103MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.5/XQuartz-2.8.5.pkg)
 
 {{% callout warning %}}
 Make sure you download and install the correct version!
@@ -95,7 +95,7 @@ To install XQuartz on macOS perform the following steps:
 
 {{< figure src="xquartz-macos/1-xquartz-disk-image.png" caption="Icon XQuartz Disk Image." numbered="true" id="xquartz_disk_image" >}}
 
-2. Opening the XQuartz disk image will cause a window labeled ‘XQuartz-2.7.11’ or ‘XQuartz-2.8.1’ to appear containing a XQuartz installer package. This package looks like the image shown in [Figure 2](#figure-xquartz_package), however the version number may be different. Double click the XQuartz installer package to open the installer.
+2. Opening the XQuartz disk image will cause a window labeled ‘XQuartz-2.7.11’ or ‘XQuartz-2.8.5’ to appear containing a XQuartz installer package. This package looks like the image shown in [Figure 2](#figure-xquartz_package), however the version number may be different. Double click the XQuartz installer package to open the installer.
 
 {{< figure src="xquartz-macos/2-xquartz-package-icon.png" caption="Icon XQuartz Installer Package." numbered="true" id="xquartz_package" >}}
 

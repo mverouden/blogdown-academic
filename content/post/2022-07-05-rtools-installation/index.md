@@ -1,6 +1,6 @@
 ---
 ## The title of your page
-title: 'Rtools installation on a Windows 10/11 or a WURclient computer'
+title: "Rtools installation on a Windows 10/11 or a WURclient computer"
 ## An optional subtitle that will be displayed under the title 
 subtitle: ''
 

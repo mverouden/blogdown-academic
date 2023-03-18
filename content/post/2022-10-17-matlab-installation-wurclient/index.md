@@ -126,7 +126,7 @@ diagram: true
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient computers at Wageningen University & Research can install "Matworks<sup>&#174;</sup> Matlab" from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of Matlab<sup>&#174;</sup> in Software Center is `MATLAB R2021b (for NON commercial use only)`.<!-- Currently the latest available version in Software Center is `MATLAB R2021b (for NON commercial use only)`. -->
+WURclient computers at Wageningen University & Research can install "Matworks<sup>&#174;</sup> Matlab" from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of Matlab<sup>&#174;</sup> in Software Center was `MATLAB R2021b (for NON commercial use only)`.  Currently the latest available version in Software Center is `MATLAB R2022b (for NON commercial use only)`.
 
 {{% callout warning %}}
 Please note **(for NON commercial use only)**!
@@ -136,7 +136,7 @@ The license for Matworks<sup>&#174;</sup> Matlab is an Academic and **not** a Co
 
 The Matlab<sup>&#174;</sup> version in Software Center for WURclient computers has two major drawbacks:
 
-1. It is not always the latest version available. While writing this post the version in Sofware Center, as stated above, is `MATLAB R2021b (for NON commercial use only)`, whereas the latest version on the site of The Mathworks<sup>&#174;</sup> is `Matlab R2022b`.
+1. It is not always the latest version available.
 2. It requires an internet connection to the WURNET to be able to check out a license. Outside a WUR location (campus or otherwise) a VPN connection will enable checkout of the license file.
 
 {{% callout warning %}}

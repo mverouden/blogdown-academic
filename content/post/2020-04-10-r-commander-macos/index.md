@@ -152,7 +152,7 @@ Perform the following steps:
 {{< figure src="r-commander-macos/10-r-app-save-workspace.png" caption="R Application Save Workspace." numbered="true" id="r_save_workspace" >}}
 
 {{% callout note %}}
-Next time you start R Commander from the R Console of the R application using the `library(Rcmdr)` command, the ‘Messages’ section will display the following or a similar message: `[1] NOTE: R Commander Version 2.7-1:` followed by the day, date and time. Now R Commander will work smoothly.
+Next time you start R Commander from the R Console of the R application using the `library(Rcmdr)` command, the ‘Messages’ section will display the following or a similar message: `[1] NOTE: R Commander Version 2.8-0:` followed by the day, date and time. Now R Commander will work smoothly.
 {{% /callout %}}
 
 ## Alternative way of starting R Commander without the App nap problem
@@ -163,7 +163,7 @@ This is done by following these steps:
 1. Open the Terminal application from Finder > Applications > Utilities (shorcut: &#8679;&#8984;U) or via Lauchpad under the ‘Other’ group. The terminal console prompt, where the commands will be entered, is depicted by a `%` or a `$` sign. Which sign is shown, depends whether your default shell is zsh (`%` sign) or bash (`$` sign).
 2. Type `R` behind the prompt in the terminal console and press return (&#8617;) to execute the command.
 3. This will start R and the prompt, where the commands will be entered for R, will have changed into a `>` sign.
-4. Type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return (&#8617;) to execute. This will cause R Commander to be started. The ‘Messages’ section at the bottom of R Commander will display the following or a similar message: `[1] NOTE: R Commander Version 2.7-1:` followed by the day, date and time. This means that R Commander will work smoothly!
+4. Type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return (&#8617;) to execute. This will cause R Commander to be started. The ‘Messages’ section at the bottom of R Commander will display the following or a similar message: `[1] NOTE: R Commander Version 2.8-0:` followed by the day, date and time. This means that R Commander will work smoothly!
 
 Quitting R Commander will return you to the terminal console, which can be recognized by the prompt sign changing back into a `%` or `$` sign.
 

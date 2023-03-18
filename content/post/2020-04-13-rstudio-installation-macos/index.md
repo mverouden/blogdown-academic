@@ -71,9 +71,9 @@ In the text some symbol combinations are used for shortcuts, the following table
 ## Download
 At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2022.12.0 Build 353, which will work on macOS Catalina (version 10.15.x) or later.
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2022.12.0 Build 353 (ca. 365.70MB)](https://download1.rstudio.org/electron/macos/RStudio-2022.12.0-353.dmg)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2023.03.0 Build 386 (ca. 374.55MB)](https://download1.rstudio.org/electron/macos/RStudio-2023.03.0-386.dmg)
 
-If you are on a 32 bit system, you can use an [older version of RStudio](https://rstudio.com/products/rstudio/older-versions/).
+If you are on a 32 bit system, you can use an [older version of RStudio](https://docs.posit.co/previous-versions/rstudio/).
 
 ## RStudio Installation
 The screenshots in the installation steps described below have not been updated. However, the procedure is correct even for newer versions of RStudio. Just bear in mind, that what you see during your installation may differ from the screenshots shown. 
