@@ -160,9 +160,10 @@ Rtools can be downloaded for the following webpage: https://cran.r-project.org/b
 
 Download the correct vesion, which matches the version of R installed on your desktop or laptop computer.
 
-For R version 4.2.0 and above the installer for Rtools can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Rtools42 installer (ca. 467 MB, 64-bit).](https://cloud.r-project.org/bin/windows/Rtools/rtools42/files/rtools42-5355-5357.exe)
+For R version 4.3.0 and above the installer for Rtools can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Rtools43 installer (ca. 465 MB, 64-bit).](https://cloud.r-project.org/bin/windows/Rtools/rtools43/files/rtools43-5550-5548.exe)
 
 ## Installation Rtools
+The screenshots below are for the installation of Rtools42 and have not been updated, because the procedure for Rtool43 remains the same.
 
 1. Open a File Explorer window (keyboard shortcut: &#129695; + E) and navigate to your downloads folder.
 
@@ -188,12 +189,12 @@ For R version 4.2.0 and above the installer for Rtools can be downloaded directl
 
 ## Check the Installation
 
-For Rtools 4.2 there is an easy way to check, that the installation of Rtools was successful.
+For Rtools 4.3 there is an easy way to check, that the installation of Rtools was successful.
 
 1. Open R (either RGui or RStudio)
 2. Execute the following command: `Sys.which("make")`
 
-When R returns `"C:\\rtools42\\usr\\bin\\make.exe"`, you know that Rtools was successfully installed.
+When R returns `"C:\\rtools43\\usr\\bin\\make.exe"`, you know that Rtools was successfully installed.
 
 {{% callout warning %}}
 For Rtools 4.0 the returned path will be empty.
