@@ -62,7 +62,7 @@ WURclient desktops and laptops at Wageningen University & Research can install R
 
 This version of RStudio was placed in 'Software Center' for educational purposes. Only once per year a new version of R (including R Commander and additional packages for serveral courses) and RStudio is released in Software Center.
 
-Many users, however, prefer to use the latest version of RStudio, because of new features offered in the newer version of the software. At the moment of writing this post the latest version of RStudio was v1.4.1717 named: 'Juliet Rose' (released on 2021-06-01). The post has been updated, with the exception of the screenshots, to RStudio 2023.03.0 Build 386 named: "Cherry Blossom".
+Many users, however, prefer to use the latest version of RStudio, because of new features offered in the newer version of the software. At the moment of writing this post the latest version of RStudio was v1.4.1717 named: 'Juliet Rose' (released on 2021-06-01). The post has been updated, with the exception of the screenshots, to RStudio 2023.03.1 Build 446 named: "Cherry Blossom".
 
 {{% callout note %}}
 This post will show how to custom install RStudio on a **WURclient** desktop or laptop computer without using Software Center.
@@ -129,16 +129,16 @@ When you do still have a working RStudio installation on your WURclient computer
 ## Custom RStudio installation
 
 ### Download
-At the time this post was written, the latest stable release of RStudio was version 1.4.1717. The post has been updated to the current stable release 2023.03.0 Build 386.
+At the time this post was written, the latest stable release of RStudio was version 1.4.1717. The post has been updated to the current stable release 2023.03.1 Build 446.
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2023.03.0 Build 386 (ca. 208.08MB)](https://download1.rstudio.org/electron/windows/RStudio-2023.03.0-386.exe)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2023.03.1 Build 446 (ca. 208.07 MB)](https://download1.rstudio.org/electron/windows/RStudio-2023.03.1-446.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
 ### Installation
 To install RStudio perform the following steps:
 
-1. Right-click the downloaded file **RStudio-2023.03.0-386.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
+1. Right-click the downloaded file **RStudio-2023.03.1-446.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
 2. After the installler has started, a Welcome window will appear as displayed below in [Figure 4](#figure-rstudio_setup). Click the ‘Next’ button to proceed.
 
 {{< figure src="rstudio-windows/1-rstudio-w10.png" caption="Welcome screen RStudio Setup." numbered="true" id="rstudio_setup" >}}
@@ -156,7 +156,7 @@ To install RStudio perform the following steps:
 {{< figure src="rstudio-windows/5-rstudio-completed-w10.png" caption="RStudio Installation Completion." numbered="true" id="rstudio_install_completed" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio 2023.03.0 Build 386 installed on your WURclient desk- or laptop computer!
+Congratulations, :satisfied:, you now have RStudio 2023.03.1 Build 446 installed on your WURclient desk- or laptop computer!
 {{% /callout %}}
 
 <!-- ## Warning Message RStudio
