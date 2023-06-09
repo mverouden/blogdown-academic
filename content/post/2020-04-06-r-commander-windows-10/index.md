@@ -36,6 +36,7 @@ categories:
   - Windows 10
   - Windows 11
   - WUR
+
 tags:
   - Installation
   - R Commander
