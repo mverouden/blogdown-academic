@@ -1,6 +1,6 @@
 ---
 ## The title of your page
-title: 'Mathworks Matlab installation on a WURclient computer'
+title: "Mathworks Matlab installation on a WURclient computer"
 ## An optional subtitle that will be displayed under the title 
 subtitle: ''
 
@@ -188,7 +188,7 @@ To see whether you possess these rights, right-click any icon (except Recycle Bi
 
 12. Once the Matlab<sup>&#174;</sup> installation has finished, copy the `license.lic` file into `C:\MyPrograms\MATLAB\RYYYYv\licenses`, where RYYYYv represents the version you installed e.g. R2019a. In case the folder `C:\MyPrograms\MATLAB\RYYYYv\licenses` does not exist yet, create it yourself.
 
-13. On your computer start “Activate Matlab RYYYYv” with administrative rights to correctly implement the downloaded license. In the start menu navigate to the item, right click and select “more” > “Open file location”. In the new File Explorer right click on “Activate Matlab RYYYYv” and select "WUR – Run with administrative rights".
+13. On your computer start “Activate Matlab RYYYYv” with administrative rights to correctly implement the downloaded license. In the start menu navigate to the item, right-click and select “more” > “Open file location”. In the new File Explorer right-click on “Activate Matlab RYYYYv” and select "WUR – Run with administrative rights".
 
 14. Now you should be able to start MATLAB from your start menu without problems!
 
