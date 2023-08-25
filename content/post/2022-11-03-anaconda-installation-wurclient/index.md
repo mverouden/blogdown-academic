@@ -57,11 +57,11 @@ share: true
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install Anaconda from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of Anaconda in Software Center was `Anaconda Python 2021.11`. The current latest available version in Software Center is `Anaconda Python 2022.10`.
+WURclient desktops and laptops at Wageningen University & Research can install Anaconda from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of Anaconda in Software Center was `Anaconda Python 2021.11`. The current latest available version in Software Center is `Anaconda Python 2023.07-2`.
 
 This version of Anaconda Python was packaged for educational purposes. Only once per year a new version of Anaconda Python is released in Software Center and simultaneously in the WUR AppStore (course software for students).
 
-Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center. At the moment of writing this post the latest version of Anaconda Python released on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). <!--The post has been updated, with the exception of the screenshots, to R version 4.2.2 named: "Innocent and Trusting". -->
+Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center. At the moment of writing this post the latest version of Anaconda Python released on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). The post has been updated, with the exception of the screenshots, to Anaconda3 version 2023.07-2 containing Python 3.11.4 (released 2023-08-04).
 
 {{% callout note %}}
 This post will show how to custom install Anaconda Python on a **WURclient** desktop or laptop computer without using Software Center.
@@ -157,9 +157,9 @@ mkdir C:\MyData
 7. To close the Command Prompt application type `exit` and press return (Enter) to execute.
 
 ### Download
-At the time this post was written, the latest release of Anaconda3 was version 2022.10.<!-- It has been updated to the latest release version 2022.10 of Anaconda3.-->
+At the time this post was written, the latest release of Anaconda3 was version 2022.10. It has been updated to the latest release version 2023.07-2 of Anaconda3.
 
-The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Anaconda3 2022.10 for Windows (ca. 621.2MB, 64-bit).](https://repo.anaconda.com/archive/Anaconda3-2022.10-Windows-x86_64.exe)
+The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Anaconda3 2023.07-2 for Windows (ca. 898.6MB, 64-bit).](https://repo.anaconda.com/archive/Anaconda3-2023.07-2-Windows-x86_64.exe)
 
 {{% callout warning %}}
 From Anaconda3 version 2022.10 the installer is only available for 64-bit Windows 10/11 and will not install on a 32-bit version of the Operating System.
@@ -167,9 +167,9 @@ From Anaconda3 version 2022.10 the installer is only available for 64-bit Window
 
 
 ### Installation
-For newer versions of Anaconda3 than 2022.10 the steps described below are the same and still correct, but start with a newer version of the downloaded executable installer file of Anaconda3.<!-- The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.-->
+For newer versions of Anaconda3 than 2022.10 the steps described below are the same and still correct, but start with a newer version of the downloaded executable installer file of Anaconda3. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
-1. Right-click the downloaded file **Anaconda3-2022.10-Windows-x86_64.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
+1. Right-click the downloaded file **Anaconda3-2023.07-2-Windows-x86_64.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
 
 2. If asked for allow to install the software on your computer.
 
@@ -206,7 +206,7 @@ For newer versions of Anaconda3 than 2022.10 the steps described below are the s
 {{< figure src="anaconda-wurclient/13-finish-installer-anaconda.png" caption="Completing Anacond3 Setup" numbered="true" id="anaconda_completing" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have Anaconda3 version 2022.10 containing Python 3.9.13 installed on your WURclient desktop or laptop computer!
+Congratulations, :satisfied:, you now have Anaconda3 version 2023.07-2 containing Python 3.11.4w! installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
 
 {{% callout warning %}}
@@ -244,7 +244,7 @@ jupyter notebook --generate-config
 
 6. Right-click the file `jupyter_notebook_config.py` and select '**Open with**'. Remove the tick mark in front of 'Always use this app to open .py files' and select e.g. 'Notepad'. If you do not see 'Notepad', click on 'More apps'.
 
-7. The file `jupyter_notebook_config.py` will open in the 'Notepad' application. Navigate to line 393 (press `CTRL+G` and enter 393). Remove the `#` and whitespace character in front of `c.NotebookApp.notebook_dir` and replace `''` with `'M:\My Documents'`. Save the document by press `CTRL+S`. Lines 391-393 should now look like this:
+7. The file `jupyter_notebook_config.py` will open in the 'Notepad' application. Navigate to line 450 (press `CTRL+G` and enter 450). Remove the `#` and whitespace character in front of `c.NotebookApp.notebook_dir` and replace `''` with `'M:\My Documents'`. Save the document by press `CTRL+S`. Lines 448-450 should now look like this:
 ```sh
 ## The directory to use for notebooks and kernels.
 #  Default: ''
