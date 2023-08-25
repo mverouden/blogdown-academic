@@ -57,7 +57,7 @@ share: true
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`. Currently the latest available version in Software Center is `R 4.2.1 Rcmdr`.
+WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`. Currently the latest available version in Software Center is `R 4.3.1 Rcmdr`.
 
 This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center. The consequence is, that core packages can not be updated by users.
 
@@ -238,9 +238,9 @@ From R version 4.2.0 the installer is only available for 64-bit Windows 10 and w
 
 Save the following files into the Downloads folder of your WURclient desk- or laptop by right-clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
 
-* {{< staticref "files/r/Rprofile.site" "newtab" >}} {{< icon name="download" pack="fas" >}} Rprofile.site{{< /staticref >}}
-
 * {{< staticref "files/r/Renviron.site" "newtab" >}}{{< icon name="download" pack="fas" >}} Renviron.site{{< /staticref >}}
+
+* {{< staticref "files/r/Rprofile.site" "newtab" >}} {{< icon name="download" pack="fas" >}} Rprofile.site{{< /staticref >}}
 
 ### Installation
 For newer versions of R than 4.0.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
