@@ -143,15 +143,8 @@ Users specify log density functions in Stan’s probabilistic programming langua
 Stan’s math library provides differentiable probability functions & linear algebra (C++ autodiff). Additional R packages provide expression-based linear modeling, posterior visualization, and leave-one-out cross-validation.
 
 {{% callout note %}}
-This post will show how to install RStan within R on a **privately owned** desktop or laptop computer running Windows 10/11 as operating system.
-This post will show how to install Rtools on a **privately owned** running Windows 10/11, or a **WURclient** desktop or laptop computer, where the user possesses <u>**POWER USER RIGHTS**</u>.
+This post will show how to install Rtools on a **privately owned** computer running Windows 10/11, or a **WURclient** desktop or laptop computer.
 {{% /callout %}}
-
-<!--
-{{% callout warning %}}
-The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>! For a WURclient desktop or laptop see the post: [RStan installation in R on a WURclient computer](/post/202x/xx/xx/rstan-installation-wurclient/).
-{{% /callout %}}
--->
 
 ## Requirements for RStan installation
 
@@ -164,7 +157,7 @@ Prior requirements for installing RStan:
 
 - [x] [Rtools installed on a Windows 10/11 or a WURclient computer](/post/2022/07/05/rtools-installation/)
 
-Without having R and Rtools installed on your desktop or laptop computer it makes no sense to try to install RStan. RStan needs to be able to compile from source within R, making R and Rtools indispensable.
+Without having R and Rtools installed on your desktop or laptop computer, it makes no sense to try to install RStan. RStan needs to be able to compile from source within R, making R and Rtools indispensable.
 
 Not required, however, highly recommended:
 
@@ -251,8 +244,8 @@ Finally, when using Windows as operating system, there will be a third startup m
 
 In the course [MAT34806 Bayesian Data Analysis](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT34806&collegejaar=huidig) the `brms` package will be used. This package extends RStan for Bayesian regression modeling. The package abbreviation `brms` stands for Bayesian Regression Models using 'Stan'.
 
-To install this package execute at the R prompt the following command:
+When the installation of RStan has been completed successfully, install the `brms` package by executing at the R prompt the following command:
 
-```
+```r
 install.packages(pkgs = "brms")
 ```
