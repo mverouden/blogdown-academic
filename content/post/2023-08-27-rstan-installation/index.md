@@ -25,6 +25,7 @@ tags:
   - RStan
   - Windows 10
   - Windows 11
+  - WURclient
 
 ##   Categories can improve search relevancy and display at the top of a page
 ##   alongside a page’s metadata.
@@ -33,6 +34,7 @@ categories:
   - RStan
   - Windows 10
   - Windows 11
+  - WURclient
   - WUR
   
 ## The RFC 3339 date that the page was published. 
