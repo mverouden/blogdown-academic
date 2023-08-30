@@ -156,13 +156,14 @@ To be able to print on facilities (multifunctionals) at WUR the desktop or lapto
 ## Download
 
 For convenience the PostScript Printer Description (PPD) files of the printers in use at Wageningen University & Research are provided. You can save the files into the Downloads folder of your Linux desk- or laptop by right-clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
-
+<!--
 * {{< staticref "files/linux/print/Ricoh-IM_C4500-PDF-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-IM_C4500-PDF-Ricoh.ppd{{< /staticref >}}
+-->
 * {{< staticref "files/linux/print/Ricoh-IM_C4500-Postscript-Ricoh.ppd" "newtab" >}}{{< icon name="download" pack="fas" >}} Ricoh-IM_C4500-Postscript-Ricoh.ppd{{< /staticref >}}
 
-**<span style="color:red">RECOMMENDATION:</span> Use the Postscript PPD file for the Ricoh IM C4500. The other one (PDF ppd file) is provided just in case you require it.**
+**<span style="color:red">RECOMMENDATION:</span> Use the Postscript PPD file for the Ricoh IM C4500. On internet you can also find the PDF ppd file, but so far it does not work within WUR.**<!--The other one (PDF ppd file) is provided just in case you require it.**-->
 
-The Ricoh IM C4500 is since February 2023 the default printer at WUR. <!-- This specific driver also works perfectly with the Ricoh MP C4503 printers, that are more commonly used in WUR buildings.-->
+Since February 2023 the Ricoh IM C4500 is the default printer at WUR. <!-- This specific driver also works perfectly with the Ricoh MP C4503 printers, that are more commonly used in WUR buildings.-->
 
 ## Printer Setup
 
@@ -174,12 +175,12 @@ The Ricoh IM C4500 is since February 2023 the default printer at WUR. <!-- This 
 
 {{< figure src="printing-linux/2-new-printer.png" caption="Configure a new printing device." numbered="true" id="add-new-printer" >}}
 
-3. In the left column named **Devices** select ‘Network Printer’ > ‘Windows Printer via SAMBA’. As shown in [Figure 2](#figure-add-new-printer) fill the field **SMB Printer** with the address `smb://scomp5170/WURprinter` (printer queue, which handles printjobs at WUR).
+3. In the left column named **Devices** select ‘Network Printer’ > ‘Windows Printer via SAMBA’. As shown in [Figure 2](#figure-add-new-printer) fill the field **SMB Printer** with the address `smb://scomp6352.wurnet.nl/WURprinter` (printer queue, which handles printjobs at WUR).
 
 4. Set the authentication details, as shown in [Figure 2](#figure-add-new-printer). Click the ‘Forward’ button to start the search for the printer driver as displayed below in [Figure 3](#figure-search-printer-driver)
 
 {{% callout warning %}}
-Username should start as displayed with `wur\` and replace `user001` with your personal WUR username. The Password provided should be the WUR Windows password for your WUR username. 
+Replace `user001` with your personal WUR username and make sure to add `@wurnet.nl` behind it. The Password provided should be the WUR Windows password for your WUR username. 
 {{% /callout %}}
 
 {{< figure src="printing-linux/3-searching-driver.png" caption="Searching for printer driver." numbered="true" id="search-printer-driver" >}}
@@ -240,9 +241,9 @@ The are two options:
     ```
     4. Modify the line:
     ```sh
-      DeviceURI smb://wur%5Cuser001:password@scomp5170/WURprinter
+      DeviceURI smb://user001%40wurnet.nl:password@scomp6352.wurnet.nl/WURprinter
     ```
-    5. In this line `wur%5C` represents `wur\`, where the `\` is encoded as hexadecimal ASCII character (see [ASCII table](https://www.asciitable.com/)). `user001` will be displaying your own personal WUR username. The part between `:` and `@` represents your password, in which special characters are encoded as hexadecimal ASCII characters. Modify the password part to match you new password.
+    5. In this line `%40wurnet.nl` represents `@wurnet.nl`, where the `@` is encoded as hexadecimal ASCII character (see [ASCII table](https://www.asciitable.com/)). `user001` will be displaying your own personal WUR username. The part between `:` and `@` represents your password, in which special characters are encoded as hexadecimal ASCII characters. Modify the password part to match you new password.
         + e.g. new password: qu!ck4L!9H+2 (very strong password), needs to be provided in `printers.conf` as qu%21ck4L%219H%2B2
     6. Save the modified `/etc/cups/printers.conf` file and exit the text editor
     7. Restart the CUPS daemon:
