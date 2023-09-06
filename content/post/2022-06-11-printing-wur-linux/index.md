@@ -268,7 +268,7 @@ Perform the following steps to fix this problem:
 sudo -i
 ```
 
-2. Excute the following command, where `<printername>` reflects the name of your printer (if you followed [Printer Setup](#printer-setup) above, `<printername>` will be `WURprinter`):
+2. Excute the following command, where `<printername>` reflects the name of your printer (if you followed [Printer Setup](#printer-setup) above, `<printername>` will be `WURprinter` as set in step 7.):
 ```sh
 lpadmin -p <printername> -o print-color-mode-default=color
 ```
