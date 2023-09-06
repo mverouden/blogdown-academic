@@ -32,7 +32,7 @@ categories:
   - Linux
 
 ## The RFC 3339 date that the page was published. 
-date: '2023-09-06T12:00:00+0200'
+date: '2023-09-06T09:00:00+0200'
 ##   Dates can now be hidden from pages by adding show_date: false in page front
 ##   matter or by automatically applying it to all pages in a collection using
 ##   Hugo's cascade:>show_date: false in the _index.md file.
@@ -42,7 +42,7 @@ show_date: true
 ##   You only need to specify this option if you wish to set date  in the future
 ##   but publish the page now, as is the case for publishing a journal article
 ##   that is to appear in a journal, etc.
-# publishDate: '2023-09-06T00:00:00Z'
+# publishDate: '2023-09-06T09:00:00Z'
 
 ## The RFC 3339 date that the page was last modified. 
 ##   If using Git, enable enableGitInfo in `config.yaml` to have  the page
