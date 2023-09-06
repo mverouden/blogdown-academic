@@ -254,3 +254,24 @@ The are two options:
 {{% callout note %}}
 Having reset your WUR account password, you should be able to print again.
 {{% /callout %}}
+
+## CUPS issue: no color prints
+
+Linux distributions generally use the **Common Unix Printing System** (CUPS) as the default printing daemon.
+
+In some versions of CUPS 2.4.x there is a bug, which causes printers to be added default in **monochrome** mode. Even when you indicate that you want to print in color, the output will be monochrome. Check your CUPS version in a browser using `localhost:631` as URL.
+
+Perform the following steps to fix this problem:
+
+1. Open a terminal (CTRL+ALT+T) and log in as administrator using the console command:
+```sh
+sudo -i
+```
+
+2. Excute the following command, where `<printername>` reflects the name of your printer (if you followed [Printer Setup](#printer-setup) above, `<printername>` will be `WURprinter`):
+```sh
+lpadmin -p <printername> -o print-color-mode-default=color
+```
+3. Exit out of administrator mode using the `exit` command.
+
+4. Close the terminal, if desired, with another `exit` command.
