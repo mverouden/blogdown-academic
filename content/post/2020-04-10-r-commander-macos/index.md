@@ -118,7 +118,7 @@ Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready
 To start R Commander from the R Console, type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return (&#8617;) to execute. This will cause R Commander to be started.
 
 {{% callout warning%}}
-When starting __R Commander__ via `Packages & Data` > `Packages Manager` in the top bar menu of __R__ and marking the tick box in front of the `Rcmdr` package, many users experience that R Commander fails to show the menu items in the top bar menu of R Commander. This is resolved by starting R Commander by explicitly type the command `libary(Rcmdr)` at the prompt and executing by pressing return (&#8617;) instead of using the graphical user interface of R to load the `Rcmdr` package.
+When starting __R Commander__ via `Packages & Data` > `Packages Manager` in the top bar menu of __R__ and marking the tick box in front of the `Rcmdr` package, many users experience that R Commander fails to show the menu items in the top bar menu of R Commander. This is resolved by starting R Commander by explicitly type the command `library(Rcmdr)` at the prompt and executing by pressing return (&#8617;) instead of using the graphical user interface of R to load the `Rcmdr` package.
 {{% /callout %}}
 
 The first time you start R Commander, you will see at the bottom of the main R Commander window in the ‘Messages’ section the message as shown in [Figure 6](#figure-rcmdr_app_nap) below.
