@@ -291,8 +291,11 @@ For newer versions of R than 4.0.3 the steps described below are the same and st
 Congratulations, :satisfied:, you now have R version 4.3.1 installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
 
-### Changing the R startup working directory
-
+## Changing the R GUI working directory
+<!-- BEFORE September 20, 2023 THIS WAS VALID -->
+<!-- HOWEVER, DUE TO PROBLEMS WITH THE KNITR PACKAGE COMPILING TO PDF IT WAS CHANGED -->
+<!-- setwd() in Rprofile.site causes the problem -->
+<!--
 In this custom installation procedure the R HOME directory is set to `C:\MyData`. This means, that at the start the default working directory in R is set to `C:\MyData`. You change this by changing the HOME environment variable in the file `Renviron.site`. The file resides in the `C:\MyPrograms\R\R-4.3.1\etc` directory.
 
 To change the R HOME environment variable perform the following steps:
@@ -312,3 +315,34 @@ HOME='C:/MyData/'
 ```
 
 5. Modify `'C:/MyData/'` to the preferred startup working directory for R. For example `'M:/My Documents/MyR'` would set the default R working directory to the 'My Documents\MyR' folder of your WUR M:-drive, provided that the folder 'MyR' exists as a sub folder of 'M:\My Documents'. Do not forget to save the file (CRTL+S) to make the change permanent.
+-->
+
+When starting the default R GUI the current working directory can be displayed at the R prompt with the command:
+```r
+getwd()
+```
+
+The response at the R prompt will be:
+```r
+[1] "\\\\WURNET.NL/Homes/user001/My Documents"
+
+```
+where `user001` will display your own WUR username.
+
+This could potentially lead to `NormalizePath()` warning messages. Therefore, it is strongly recommended to set the working directory to a mapped drive (shown by a drive letter, e.g., `C:`, or `M:`) in your WURclient. This can be done at the R prompt using the following command, e.g., for setting your working directory to `C:\My Data` or `M:/My Documents/`:
+```r
+setwd("C:/My Data/")
+# or
+setwd("M:/My Documents/")
+```
+No matter which mapped driva and folder you choose, make sure that the location and folder you are providing for the working directory exists!
+
+{{% callout warning %}}
+When using the default R GUI, always change the working directory at the start with the `setwd()` function at the R prompt!
+{{% /callout %}}
+
+{{% callout note %}}
+In earlier versions of this post, the R startup working directory was changed inside the `Rprofile.site` file. This lead to problems when using the `knitr` package to compile to portable document format.
+
+Based on posts by Yihui Xie (the developer of the `knitr` package) the `setwd()` command in `Rprofile.site` has been hashed out, making knitting to pdf possible again.
+{{% /callout %}}

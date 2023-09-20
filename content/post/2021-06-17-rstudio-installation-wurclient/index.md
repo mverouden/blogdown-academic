@@ -159,6 +159,22 @@ To install RStudio perform the following steps:
 Congratulations, :satisfied:, you now have RStudio 2023.06.2 Build 561 installed on your WURclient desk- or laptop computer!
 {{% /callout %}}
 
+## Setting the default working director in RStudio
+
+In the default R GUI the working directory at start up is:
+```r
+\\\\WURNET.NL/Homes/user001/My Documents
+```
+where user001 display your own WUR username, as described in the section [Changing the R GUI working directory](post/2021/01/24/r-installation-wurclient/#changing-the-r-gui-working-directory) of the post [Custom R installation on a WURclient computer](post/2021/01/24/r-installation-wurclient).
+
+In RStudio the default working directory of the R Console and Files tab can be set in the **Global Options...** item under **Tools** in the top menu:
+
+1. a new window will open by default in the _**General**_ part,
+
+2. go to **R Sessions** and select your "Default working directory (when not in a project):" by setting the desired folder using the **Browse** button.
+
+When restarting RStudio you will notice, that both the R console and the Files tab open in the selected default working directory.
+
 <!-- ## Warning Message RStudio
 
 Lately I have been getting many e-mails claiming that R/RStudio, from Software Center or the custom installation, is not working well within Wageningen University & Research.
