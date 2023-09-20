@@ -165,7 +165,7 @@ In the default R GUI the working directory at start up is:
 ```r
 \\\\WURNET.NL/Homes/user001/My Documents
 ```
-where user001 display your own WUR username, as described in the section [Changing the R GUI working directory](post/2021/01/24/r-installation-wurclient/#changing-the-r-gui-working-directory) of the post [Custom R installation on a WURclient computer](post/2021/01/24/r-installation-wurclient).
+where user001 display your own WUR username, as described in the section [Changing the R GUI working directory](/post/2021/01/24/r-installation-wurclient/#changing-the-r-gui-working-directory) of the post [Custom R installation on a WURclient computer](/post/2021/01/24/r-installation-wurclient).
 
 In RStudio the default working directory of the R Console and Files tab can be set in the **Global Options...** item under **Tools** in the top menu:
 
