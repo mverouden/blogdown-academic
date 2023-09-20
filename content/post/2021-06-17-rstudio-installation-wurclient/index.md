@@ -159,7 +159,7 @@ To install RStudio perform the following steps:
 Congratulations, :satisfied:, you now have RStudio 2023.06.2 Build 561 installed on your WURclient desk- or laptop computer!
 {{% /callout %}}
 
-## Setting the default working director in RStudio
+## Setting the default RStudio working directory
 
 In the default R GUI the working directory at start up is:
 ```r
