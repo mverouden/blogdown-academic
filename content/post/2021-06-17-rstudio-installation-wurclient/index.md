@@ -72,7 +72,7 @@ This post will show how to custom install RStudio on a **WURclient** desktop or 
 The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [RStudio installation on Windows 10](/post/2020/04/13/rstudio-installation-on-windows-10/).
 {{% /callout %}}
 
-### Prerequisites
+## Prerequisites
 
 - [x] To be able to perform a custom installation of RStudio you need to have <u>**POWER USER RIGHTS**</u> on the WURclient desktop or laptop.
 

@@ -1,6 +1,6 @@
 ---
 ## The title of your page
-title: 'R Commander installation in R on Linux'
+title: "R Commander installation in R on Linux"
 ## An optional subtitle that will be displayed under the title 
 subtitle: ''
 
