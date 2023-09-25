@@ -158,7 +158,7 @@ sudo -i
 
 2. Install the required software for Tcl/Tk execute at the console prompt:
 ```sh
-apt install tcl tk tk-table
+apt install tcl tk tk-table cmake libgmp3-dev libmpfr-dev
 ```
 
 3. Exit out of administrator mode using the `exit` command. Do not close the terminal application!
