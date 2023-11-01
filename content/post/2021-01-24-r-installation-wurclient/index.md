@@ -230,7 +230,7 @@ mkdir C:\ProgramData\R\win-library\4.3
 ### Download
 At the time this post was written, the latest release of R was version 4.0.3. It has been updated to the latest release version 4.3.1 of R.
 
-The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.3.1 for Windows (ca. 79 MB, 64-bit).](https://cloud.r-project.org/bin/windows/base/R-4.3.1-win.exe)
+The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.3.1 for Windows (ca. 79 MB, 64-bit).](https://cloud.r-project.org/bin/windows/base/old/4.3.1/R-4.3.1-win.exe)
 
 {{% callout warning %}}
 From R version 4.2.0 the installer is only available for 64-bit Windows 10 and will not install on a 32-bit version of the Operating System.

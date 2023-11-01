@@ -1,0 +1,11 @@
+start network connections from the console: nm-connection-editor
+1. click the "+" button to add a new connection
+2. In choose a connection type select Wi-Fi from the pull-down menu and click the button "Create.."
+3. Change the content of the field Connection name from `Wi-Fi connection 1` into `Auto eduroam`
+4. On the tab Wi-Fi fill the field SSID with `eduroam` and select under Device in the pull-down menu your WLAN device.
+Alert
+terminal (CTRL+ALT+T) command ifconfig
+5. Check that on the tab General, that selection boxes Connect automatically with priority (value: 0) and All users may connect to this network contain a check mark.
+6. Go to the tab Wi-Fi Security and select in the Security pull-down menu the option "WPA & WPA2 Enterprise"
+7. The tabs Proxy, IPv4 Settings, and IPv6 Settings do not require modification.
+8. Click on "Save" to finish the Wi-Fi connection.

@@ -92,7 +92,7 @@ In case you need support installing or using the WUR AppStore you can contact th
 ### Download
 At the time this post was written, the latest release of R was version 3.6.3. It has been updated to the latest release version 4.3.1 of R, named "Beagle Scouts". As of version 4.2.0 the R software is only available as 64-bit, meaning that it will not install on a 32-bit version of Windows 10.
 
-The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.3.1 for Windows (ca. 79 MB, 64-bit)](https://cloud.r-project.org/bin/windows/base/R-4.3.1-win.exe).
+The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.3.1 for Windows (ca. 79 MB, 64-bit)](https://cloud.r-project.org/bin/windows/base/old/4.3.1/R-4.3.1-win.exe).
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
