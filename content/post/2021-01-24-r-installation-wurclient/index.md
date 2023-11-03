@@ -61,7 +61,7 @@ WURclient desktops and laptops at Wageningen University & Research can install R
 
 This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center. The consequence is, that core packages can not be updated by users.
 
-Many users, however, need to be able to update core packages, because of dependencies with packages they would like to install or would just like to use a newer version of R than the one in Software Center. At the moment of writing this post the latest version of R released on [r-project.org](https://www.r-project.org/) is R version 4.0.5 named: "Shake and Throw" (released on 2021-03-31). The post has been updated, with the exception of the screenshots, to R version 4.3.1 named: "Beagle Scouts".
+Many users, however, need to be able to update core packages, because of dependencies with packages they would like to install or would just like to use a newer version of R than the one in Software Center. At the moment of writing this post the latest version of R released on [r-project.org](https://www.r-project.org/) is R version 4.0.5 named: "Shake and Throw" (released on 2021-03-31). The post has been updated, with the exception of the screenshots, to R version 4.3.2 named: "Eye Holes".
 
 {{% callout note %}}
 This post will show how to custom install R on a **WURclient** desktop or laptop computer without using Software Center.
@@ -228,9 +228,9 @@ mkdir C:\ProgramData\R\win-library\4.3
 8. The Command Prompt application can now be closed by typing `exit` and executing it by pressing return (Enter).
 
 ### Download
-At the time this post was written, the latest release of R was version 4.0.3. It has been updated to the latest release version 4.3.1 of R.
+At the time this post was written, the latest release of R was version 4.0.3. It has been updated to the latest release version 4.3.2 of R.
 
-The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.3.1 for Windows (ca. 79 MB, 64-bit).](https://cloud.r-project.org/bin/windows/base/old/4.3.1/R-4.3.1-win.exe)
+The installer for Windows 10 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.3.2 for Windows (ca. 79 MB, 64-bit).](https://cloud.r-project.org/bin/windows/base/old/4.3.2/R-4.3.2-win.exe)
 
 {{% callout warning %}}
 From R version 4.2.0 the installer is only available for 64-bit Windows 10 and will not install on a 32-bit version of the Operating System.
@@ -245,13 +245,13 @@ Save the following files into the Downloads folder of your WURclient desk- or la
 ### Installation
 For newer versions of R than 4.0.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
-1. Right-click the downloaded file **R-4.3.1-win.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
+1. Right-click the downloaded file **R-4.3.2-win.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
 2. If asked for allow to install the software on your computer.
 3. After the installer has started, a first selection window will appear as displayed below in [Figure 10](#figure-install_r_language). Select the English language and click the ‘OK’ button to proceed.
 
 {{< figure src="r-wurclient/1-install-r-language.png" caption="R Installation Language Selection." numbered="true" id="install_r_language" >}}
 
-4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown below, where R version 4.3.0 for Windows should be installed. Change the destination location to `C:\MyPrograms\R\R-4.3.1`, as shown in [Figure 11](#figure-install_r_destination) below for version 4.0.3, by typing the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.3.1`) . Click on the ‘Next’ button to continue.
+4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown below, where R version 4.3.0 for Windows should be installed. Change the destination location to `C:\MyPrograms\R\R-4.3.2`, as shown in [Figure 11](#figure-install_r_destination) below for version 4.0.3, by typing the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.3.2`) . Click on the ‘Next’ button to continue.
 
 {{< figure src="r-wurclient/2-install-r-destination-folder.png" caption="R Installation Destination Folder Selection." numbered="true" id="install_r_destination" >}}
 
@@ -283,12 +283,12 @@ For newer versions of R than 4.0.3 the steps described below are the same and st
 
 {{< figure src="r-wurclient/9-install-r-completion.png" caption="R Installation Completed Successfully." numbered="true" id="install_r_success" >}}
 
-11. To finalize the custom R installation on your WURclient desk- or laptop copy the files `Renviron.site` and `Rprofile.site` from the Downloads folder on your computer and paste them into the `C:\MyPrograms\R\R-4.3.1\etc` folder. A window will appear, as displayed below in [Figure 18](#figure-replace_file), to indicate, that the file `Rprofile.site` already exists. Select 'Replace the file in the destination'.
+11. To finalize the custom R installation on your WURclient desk- or laptop copy the files `Renviron.site` and `Rprofile.site` from the Downloads folder on your computer and paste them into the folder named `C:\MyPrograms\R\R-4.3.2\etc`. A window will appear, as displayed below in [Figure 18](#figure-replace_file), to indicate, that the file `Rprofile.site` already exists. Select 'Replace the file in the destination'.
 
 {{< figure src="r-wurclient/replace_rprofile_site_file.png" caption="Replace Rprofile.site File." numbered="true" id="replace_file" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have R version 4.3.1 installed on your WURclient desktop or laptop computer!
+Congratulations, :satisfied:, you now have R version 4.3.2 installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
 
 ## Changing the R GUI working directory
@@ -335,7 +335,7 @@ setwd("C:/MyData/")
 # or
 setwd("M:/My Documents/")
 ```
-No matter which mapped driva and folder you choose, make sure that the location and folder you are providing for the working directory exists!
+No matter which mapped drive and folder you choose, make sure that the location and folder you are providing for the working directory exists!
 
 {{% callout warning %}}
 When using the default R GUI, always change the working directory at the start with the `setwd()` function at the R prompt!
