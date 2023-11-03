@@ -1,6 +1,6 @@
 ---
 ## The title of your page (Core)
-title: 'Install and configure MyWorkSpace at WUR in Linux'
+title: "Install and configure MyWorkSpace at WUR in Linux"
 ## An optional subtitle that will be displayed under the title
 subtitle: ''
 
@@ -174,30 +174,24 @@ To download the latest version of VMWare Horizon Client perform the following st
 
 1. Open in a web browser [https://my.vmware.com/en/web/vmware/downloads/info/slug/desktop_end_user_computing/vmware_horizon_clients/horizon_8](https://my.vmware.com/en/web/vmware/downloads/info/slug/desktop_end_user_computing/vmware_horizon_clients/horizon_8)
 2. Navigate to '__VMware Horizon Client for 64-bit Linux__' and click the '__GO TO DOWNLOADS__' link provided on that line.
-3. A new page will open in the same window. Select the version to download. At the time this post written the latest version of the VMware Horizon Client for 64-bit Linux is version 2013 build number:	17742757 (Release Date	2021-03-23).
-
-{{% callout warning %}}
-Please do not use VMWare Horizon Client for Linux 2203! It does not start from the created menu item.
-
-Instead use version 2111.1, which does not suffer from this issue.
-{{% /callout %}}
-
-4. Right-click the __DOWNLOAD NOW__ button and copy the link address.
-5. Open a terminal
+3. A new page will open in the same window. Select the version to download. At the time this post written the version of the VMware Horizon Client for 64-bit Linux was version 2013 build number: 17742757 (Release Date	2021-03-23). The post has been updated to the latest VMware Horizon Client for 64-bit Linux version 2309 build number: 22660930 (Release Date 2023-10-26).
+4. Click on the __GO TO DOWNLOADS__ button behind "VMware Horizon Client bundle installer for 64-bit Linux".
+5. Right-click the __DOWNLOAD NOW__ button and copy the link address.
+6. Open a terminal
 6. Change the directory to your personal downloads directory with the command `cd ~/Downloads/`
-7. Execute the following command to download the VMWare Horizon Client bundle: `wget URL`. Instead of `URL` use the copied '__DOWNLOAD NOW__' url from step 4. This url can be pasted in the console with `Shift+Insert`. At the time this post was written, the command looked like this:
+8. Execute the following command to download the VMWare Horizon Client bundle: `wget URL`. Instead of `URL` use the copied '__DOWNLOAD NOW__' url from step 4. This url can be pasted in the console with `Shift+Insert`. With the latest version, the command will look like this:
 ```sh
-wget https://download3.vmware.com/software/view/viewclients/CART22FQ1/VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
+wget https://download3.vmware.com/software/CART24FQ3_LIN64_2309/VMware-Horizon-Client-2309-8.11.0-22660930.x64.bundle
 ```
-9. As administrator (root) make the downloaded bundle executable with `chmod +x` in the terminal, e.g.
+9. After the download has finished, as administrator (root) make the downloaded bundle executable with `chmod +x` in the terminal, e.g.
 ```sh
-sudo chmod +x VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
+sudo chmod +x VMware-Horizon-Client-2309-8.11.0-22660930.x64.bundle
 ```
 10. Do not close the terminal!
 
 ## Install VMWare Horizon Client
 
-In the following part it is assumed that you are using a Linux system, which is based on at least Ubuntu 19.04, for example Linux Mint 20, or higher. The reason is that I assume your Linux system is using `/usr` merge, where softlinks have been created between `/` folders and their equivalents in `/usr` (e.g. `/bin -> /usr/bin`, `/lib -> /usr/lib`, *etc.*).
+In the following part it is assumed that you are using a Linux system, which is based on at least Ubuntu 19.04, for example Linux Mint 20, or higher. I assume that your Linux system is using `/usr` merge, where softlinks have been created between `/` folders and their equivalents in `/usr` (e.g. `/bin -> /usr/bin`, `/lib -> /usr/lib`, *etc.*).
 
 To install VMWare Horizon Client perform the following steps:
 
@@ -212,13 +206,13 @@ cd /usr/lib/x86_64-linux-gnu/
     + `ln -sf libgstapp-1.0.so.0 libgstapp-0.10.so.0`
     + `ln -sf libgstbase-1.0.so.0 libgstbase-0.10.so.0`
     + `ln -sf libgstreamer-1.0.so.0 libgstreamer-0.10.so.0`
-    + `ln -sf libffi.so.7 libffi.so.5`
+    + `ln -sf libffi.so.7 libffi.so.5` (in Linux Mint 21 replace `libffi.so.7` by `libffi.so.8`)
 
 4. Leave the adminstrator (root) mode in the terminal by executing: `exit`
 5. Change the directory to your Downloads folder with `cd ~/Downloads`
 6. Start the VMWare Horizon Client installer, for the version you downloaded, as administrator (root):
 ```sh
-sudo ./VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle --eulas-agreed
+sudo ./VMware-Horizon-Client-2309-8.11.0-22660930.x64.bundle --eulas-agreed
 ```
 
 7. Follow the steps of the installer to properly install VMWare Horizon Client. Make sure all boxes during the installation with respect to USB Redirection, Virtual Printing, *etc.* are ticked during the installation of the VMWare Horizon client to ensure correct operation later.
@@ -251,7 +245,7 @@ To uninstall VMWare Horizon Client for Linux the installation bundle of the inst
 
 To uninstall VMWare Horizon Client for Linux issue the following command in a terminal:
 ```sh
-sudo env VMWARE_KEEP_CONFIG=yes ./VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle -u vmware-horizon-client
+sudo env VMWARE_KEEP_CONFIG=yes ./VMware-Horizon-Client-2309-8.11.0-22660930.x64.bundle -u vmware-horizon-client
 ```
 
 {{% callout warning %}}
