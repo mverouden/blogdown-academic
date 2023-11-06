@@ -206,7 +206,8 @@ cd /usr/lib/x86_64-linux-gnu/
     + `ln -sf libgstapp-1.0.so.0 libgstapp-0.10.so.0`
     + `ln -sf libgstbase-1.0.so.0 libgstbase-0.10.so.0`
     + `ln -sf libgstreamer-1.0.so.0 libgstreamer-0.10.so.0`
-    + `ln -sf libffi.so.7 libffi.so.5` (in Linux Mint 21 replace `libffi.so.7` by `libffi.so.8`)
+    + `ln -sf libffi.so.7 libffi.so.5` (for Linux Mint 20.3, or Ubuntu 20.04 LTS) 
+        - Replace `libffi.so.7` by `libffi.so.8` for Linux Mint 21.2, or Ubuntu 22.04 LTS
 
 4. Leave the adminstrator (root) mode in the terminal by executing: `exit`
 5. Change the directory to your Downloads folder with `cd ~/Downloads`
