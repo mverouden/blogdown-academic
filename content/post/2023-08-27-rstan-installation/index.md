@@ -171,7 +171,7 @@ Not required, however, highly recommended:
 
 ## Installation
 
-The RStan installation, described here, assumes usage of **R version 4.2.x or above**. It uses the latest development version (v2.26.x) of the RStan package, because of incompatibility of the current RStan package on CRAN (v2.21.x) for R versions above v4.2.x, as mentioned on [The Stan Blog: Stan & R 4.2 on Windows](https://blog.mc-stan.org/2022/04/26/stan-r-4-2-on-windows/).
+The RStan installation, described here, assumes usage of **R version 4.2.x or above**. It uses the latest development version (v2.32.x) of the RStan package.<!--, because of incompatibility of the current RStan package on CRAN (v2.21.x) for R versions above v4.2.x, as mentioned on [The Stan Blog: Stan & R 4.2 on Windows](https://blog.mc-stan.org/2022/04/26/stan-r-4-2-on-windows/).-->
 
 To install RStan:
 
@@ -212,14 +212,14 @@ Error in compileCode(f, code, language = language, verbose = verbose) :
 Error in sink(type = "output") : invalid connection
 ```
 
-Verify that the packages `StanHeaders` and `rstan` installed are of version 2.26.x. Executing the following commands will show the installed versions:
+Verify that the packages `StanHeaders` and `rstan` installed are of version 2.32.x. Executing the following commands will show the installed versions:
 
 ```r
 packageVersion(pkg = "StanHeaders")
 packageVersion(pkg = "rstan")
 ```
 
-When the installed versions differ from version 2.26.x, then repeat steps 2. and 3. as described in the section [Installation](#installation).
+When the installed versions differ from version 2.32.x, then repeat steps 2. and 3. as described in the section [Installation](#installation).
 
 ## Loading the package
 The package name is `rstan` (all lowercase), to load the package execute:

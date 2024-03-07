@@ -152,7 +152,7 @@ Perform the following steps:
 {{< figure src="r-commander-macos/10-r-app-save-workspace.png" caption="R Application Save Workspace." numbered="true" id="r_save_workspace" >}}
 
 {{% callout note %}}
-Next time you start R Commander from the R Console of the R application using the `library(Rcmdr)` command, the ‘Messages’ section will display the following or a similar message: `[1] NOTE: R Commander Version 2.9-1:` followed by the day, date and time. Now R Commander will work smoothly.
+Next time you start R Commander from the R Console of the R application using the `library(Rcmdr)` command, the ‘Messages’ section will display the following or a similar message: `[1] NOTE: R Commander Version 2.9-2:` followed by the day, date and time. Now R Commander will work smoothly.
 {{% /callout %}}
 
 ## Alternative way of starting R Commander without the App nap problem
