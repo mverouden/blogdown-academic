@@ -166,12 +166,12 @@ Not required, however, highly recommended:
 - [ ] RStudio installed:
 
   - [ ] [RStudio installed on Windows 10/11](/post/2020/04/13/rstudio-installation-on-windows-10/)
-  - [ ] RStudio installed on a WURclient via Software Ceneter, or
+  - [ ] RStudio installed on a WURclient via Software Center, or
   - [ ] [RStudio installed on a WURclient using a custom installation](/post/2021/06/17/rstudio-installation-wurclient/)
 
 ## Installation
 
-The RStan installation, described here, assumes usage of **R version 4.2.x or above**. It uses the latest development version (v2.32.x) of the RStan package.<!--, because of incompatibility of the current RStan package on CRAN (v2.21.x) for R versions above v4.2.x, as mentioned on [The Stan Blog: Stan & R 4.2 on Windows](https://blog.mc-stan.org/2022/04/26/stan-r-4-2-on-windows/).-->
+The RStan installation, described here, assumes usage of **R version 4.2.x or above**. It uses the latest versions of the <a href="https://cran.r-project.org/web/packages/rstan/index.html" target="_blank">**rstan**</a> and  <a href="https://cran.r-project.org/web/packages/StanHeaders/index.html" target="_blank">**StanHeaders**</a> packages available on CRAN.<!--It uses the latest development version (v2.32.x) of the RStan package, because of incompatibility of the current RStan package on CRAN (v2.21.x) for R versions above v4.2.x, as mentioned on [The Stan Blog: Stan & R 4.2 on Windows](https://blog.mc-stan.org/2022/04/26/stan-r-4-2-on-windows/).-->
 
 To install RStan:
 
@@ -183,6 +183,14 @@ To install RStan:
 remove.packages(pkgs = c("StanHeaders", "rstan"))
 ```
 
+3. Install the latest on CRAN available version of `StanHeaders` and `rstan` by executing at the R prompt:
+
+```r
+install.packages(pkgs = c("StanHeaders","rstan"),
+                repos = c("https://cloud.r-project.org",
+                getOption("repos")))
+```
+<!--
 3. Install the latest development version of `StanHeaders` and `rstan` by executing at the R prompt:
 
 ```r
@@ -191,6 +199,7 @@ install.packages(pkgs = c("StanHeaders","rstan"),
                 getOption("repos")))
 ```
 
+-->
 {{% callout note %}}
 Congratulations, :satisfied:, you now have RStan installed on your personal Windows 10/11 or WURclient computer!
 {{% /callout %}}
@@ -242,7 +251,7 @@ which allows to automatically save a bare version of a compiled Stan program to 
 
 Finally, when using Windows as operating system, there will be a third startup message saying **not** to use `--march=native` compiler flag. This warning can be ignored, if the steps above have been followed and a `Makevars.win` file on your system does not contain this flag. When the file name `Makevars.win` does not ring any bells, this probably means it doesn't exist in your system.
 
-## Installing the 'brms' package
+## Installing the **`brms`** package
 
 In the course [MAT34806 Bayesian Data Analysis](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT34806&collegejaar=huidig) the `brms` package will be used. This package extends RStan for Bayesian regression modeling. The package abbreviation `brms` stands for Bayesian Regression Models using 'Stan'.
 
