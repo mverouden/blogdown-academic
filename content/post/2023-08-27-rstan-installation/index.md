@@ -209,6 +209,13 @@ Congratulations, :satisfied:, you now have RStan installed on your personal Wind
 To verify the RStan installation run the RStan example/test model at the R prompt:
 
 ```r
+# Load the RStan library
+library(rstan)
+# Start up settings
+options(mc.cores = parallel::detectCores())
+rstan_options(auto_write = TRUE)
+rstan_options(threads_per_chain = 1)
+# Run example
 example(stan_model, package = "rstan", run.dontrun = TRUE)
 ```
 The model should then compile and sample.
@@ -221,29 +228,29 @@ Error in compileCode(f, code, language = language, verbose = verbose) :
 Error in sink(type = "output") : invalid connection
 ```
 
-Verify that the packages `StanHeaders` and `rstan` installed are of version 2.32.x. Executing the following commands will show the installed versions:
+Verify that the packages `StanHeaders` and `rstan` installed are of version 2.32.x or above. Executing the following commands will show the installed versions:
 
 ```r
 packageVersion(pkg = "StanHeaders")
 packageVersion(pkg = "rstan")
 ```
 
-When the installed versions differ from version 2.32.x, then repeat steps 2. and 3. as described in the section [Installation](#installation).
+When the installed versions are lower than version 2.32.x, then repeat steps 2. and 3. as described in the section [Installation](#installation).
 
 ## Loading the package
 The package name is `rstan` (all lowercase), to load the package execute:
 
 ```r
-library("rstan") # observe startup messages
+library(rstan) # observe startup messages
 ```
 
-As the startup message says, when using `rstan` locally on a multicore machine and the system has plenty of RAM to estimate the model in parallel, at this point execute at the R prompt:
+As the start up message says, when using `rstan` locally on a multi-core machine and the system has plenty of RAM to estimate the model in parallel, at this point execute at the R prompt:
 
 ```r
 options(mc.cores = parallel::detectCores())
 ```
 
-In addition, execute the second startup message at the R prompt:
+In addition, execute the second start up message at the R prompt:
 ```r
 rstan_options(auto_write = TRUE)
 ```
