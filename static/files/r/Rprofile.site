@@ -20,10 +20,3 @@ local({r <- getOption("repos")
 # (This would need the fortunes package to be installed.)
 #  if (interactive()) 
 #    fortunes::fortune()
-
-# The Renviron.site file resets "HOME" to "C:/MyData/"
-# Here the working directory is also reset to the new "HOME"
-# Without this line "HOME" would be: "\\\\wurnet.nl/homes/user001/my documents",
-# causing all sorts of problems such as normalizePath() and permission errors
-# LEAVE THIS FOR CALCULATION PC'S OTHERWISE HASH OUT!
-#setwd(Sys.getenv("HOME"))
