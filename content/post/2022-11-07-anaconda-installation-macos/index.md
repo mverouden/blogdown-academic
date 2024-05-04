@@ -130,7 +130,7 @@ __NOTE__: If you are using a mac with the newest M1, M2 or M3 processor, downloa
 Download Anaconda for your specific version of macOS using one of the following links:
 
 - For an Intel processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2024.02-1 (ca. 728.7 MB, __Intel 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2024.02-1-MacOSX-x86_64.pkg)
-- For a M1/M2 processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2024.02-1 (ca. 697.4 MB, __ARM 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2024.02-1-MacOSX-arm64.pkg)
+- For a M1/M2/M3 processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2024.02-1 (ca. 697.4 MB, __ARM 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2024.02-1-MacOSX-arm64.pkg)
 
 ## Installation
 
