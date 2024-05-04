@@ -52,7 +52,7 @@ show_date: true
 ##   If using Git, enable enableGitInfo in `config.yaml` to have  the page
 ##   modification date automatically updated, rather than manually specifying
 ##   lastmod.
-lastmod: '2022-05-31T15:49:05+02:00'
+lastmod: '2024-05-03T07:22:10+02:00'
 
 ## By setting `featured: true`, a page can be displayed in the Featured widget. 
 ##   This is useful for sticky, announcement blog posts or selected publications,
@@ -154,7 +154,9 @@ diagram: false
 ## Motivation
 <!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
 
-Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R. Some of these courses (e.g. [MAT-20306](https://ssc.wur.nl/Handbook/Course/MAT-20306), [MAT-32806](https://ssc.wur.nl/Handbook/Course/MAT-32806), and [MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303)) mainly use RStudio. Also other courses (e.g. [HNH-31506](https://ssc.wur.nl/Handbook/Course/HNH-31506) and [BIF-51306](https://ssc.wur.nl/Handbook/2019/Course/BIF51306)) taught at Wageningen University & Research use R via RStudio as well. Therefore, students will need to be able to install RStudio.
+Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R.
+
+Some of these courses (e.g. [MAT-20306](https://ssc.wur.nl/Handbook/Course/MAT-20306), [MAT-32806](https://ssc.wur.nl/Handbook/Course/MAT-32806), and [MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303)) mainly use RStudio. Also other courses (e.g. [HNH-31506](https://ssc.wur.nl/Handbook/Course/HNH-31506) and [BIF-51306](https://ssc.wur.nl/Handbook/2019/Course/BIF51306)) taught at Wageningen University & Research use R through RStudio as well. Therefore, students will need to be able to install RStudio.
 
 {{% callout note %}}
 This post will show how to install RStudio on a **privately owned** desktop or laptop computer running Windows 10/11 as operating system.
@@ -170,7 +172,7 @@ Two ways to install R are offered here:
 2. [Manual installation](#2-manual-installation) for those who, for whatever reason, do not want to use the WUR AppStore.
 
 ## 1. WUR AppStore
-The WUR AppStore is the place where you will be able to download, link to, or virtually access the software you need for your study programme and courses. Not only during, but also for self-study after, the computer practical's and courses. 
+The WUR AppStore is the place where you will be able to download, link to, or virtually access the software you need for your study program and courses. Not only during, but also for self-study after, the computer practical's and courses. 
 
 Prior requirement for the installation of RStudio via the WUR AppStore:
 
@@ -181,9 +183,9 @@ The WUR AppStore currently contains RStudio version 2023.06.1 Build 524 under th
 ## 2. Manual Installation
 
 ### Download
-At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2023.12.1 Build 402 (named "Ocean Storm").
+At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2024.04.0 Build 735 (named "Chocolate Cosmos").
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2023.12.1 Build 402 (ca. 215.66 MB)](https://download1.rstudio.org/electron/windows/RStudio-2023.12.1-402.exe)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2024.04.0 Build 735 (ca. 263.07 MB)](https://download1.rstudio.org/electron/windows/RStudio-2024.04.0-735.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
@@ -196,7 +198,7 @@ To be able to install RStudio you will need to have R installed first. If you ha
 
 To install RStudio on Windows 10/11 perform the following steps:
 
-1. Open the downloaded file **RStudio-2023.12.1-402.exe**. This file will most likely reside in the Downloads folder of your user account.
+1. Open the downloaded file **RStudio-2024.04.0-735.exe**. This file will most likely reside in the Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installler has started, a Welcome window will appear as displayed below in [Figure 1](#figure-rstudio_setup). Click the ‘Next’ button to proceed.
 
@@ -215,5 +217,5 @@ To install RStudio on Windows 10/11 perform the following steps:
 {{< figure src="rstudio-windows/5-rstudio-completed-w10.png" caption="RStudio Installation Completion." numbered="true" id="rstudio_install_completed" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio 2023.12.1 Build 402 installed on your private Windows desktop or laptop computer!
+Congratulations, :satisfied:, you now have RStudio 2024.04.0 Build 735 installed on your private Windows desktop or laptop computer!
 {{% /callout %}}

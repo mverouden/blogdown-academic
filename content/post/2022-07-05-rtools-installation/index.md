@@ -53,7 +53,7 @@ show_date: true
 ##   If using Git, enable enableGitInfo in `config.yaml` to have  the page
 ##   modification date automatically updated, rather than manually specifying
 ##   lastmod.
-lastmod: '2022-07-05T11:15:45+0200'
+lastmod: '2024-05-03T07:40:55+0200'
 
 ## By setting `featured: true`, a page can be displayed in the Featured widget. 
 ##   This is useful for sticky, announcement blog posts or selected publications,
@@ -152,7 +152,7 @@ Prior requirement for using Rtools:
   - [x] R installed on a WURclient via Software Center, or
   - [x] [R installed on a WURclient using a custom installation ](/post/2021/01/24/r-installation-wurclient/)
 
-Without having R installed on your desktop or laptop computer it makes no sense to install RTools. The software Rtools provides, as the name suggests, tools (compilers, and such) for use within R.
+Without having R installed on your desktop or laptop computer it makes no sense to install RTools. The software Rtools provides, as the name suggests, tools (compilers, and such) for usage within R.
 
 ### Download
 
@@ -160,10 +160,10 @@ Rtools can be downloaded for the following webpage: https://cran.r-project.org/b
 
 Download the correct vesion, which matches the version of R installed on your desktop or laptop computer.
 
-For R version 4.3.0 and above the installer for Rtools can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Rtools43 installer (ca. 422 MB, 64-bit).](https://cloud.r-project.org/bin/windows/Rtools/rtools43/files/rtools43-5958-5975.exe)
+For R version 4.4.0 and above the installer for Rtools can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Rtools44 installer (ca. 428 MB, 64-bit).](https://cloud.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6104-6039.exe)
 
 ## Installation Rtools
-The screenshots below are for the installation of Rtools42 and have not been updated, because the procedure for Rtool43 remains the same.
+The screenshots below are for the installation of Rtools42 and have not been updated, because the procedure for Rtool44 remains the same.
 
 1. Open a File Explorer window (keyboard shortcut: &#129695; + E) and navigate to your downloads folder.
 
@@ -171,7 +171,7 @@ The screenshots below are for the installation of Rtools42 and have not been upd
 
 {{< figure src="rtools/00-installer-admin-rights.png" caption="Start Rtools installer on a WURclient." numbered="true" id="start_installer_wurclient" >}}
 
-3. The Rtools installer will open with the Select Destination Location window as displayed below in [Figure 2](#figure-select_destination_location). **Do not change the destination location, leave the default suggested value!** Click ‘Next’ to continue.
+3. The Rtools installer will open with the Select Destination Location window as displayed below in [Figure 2](#figure-select_destination_location). **Do not change the destination location, leave the default suggested value (showing `C:\rtools44`)!** Click ‘Next’ to continue.
 
 {{< figure src="rtools/01-select-destination-location.png" caption="Select Rtools destination location." numbered="true" id="select_destination_location" >}}
 
@@ -189,12 +189,12 @@ The screenshots below are for the installation of Rtools42 and have not been upd
 
 ## Check the Installation
 
-For Rtools 4.3 there is an easy way to check, that the installation of Rtools was successful.
+For Rtools 4.4 there is an easy way to check, that the installation of Rtools was successful.
 
 1. Open R (either RGui or RStudio)
 2. Execute the following command: `Sys.which("make")`
 
-When R returns `"C:\\rtools43\\usr\\bin\\make.exe"`, you know that Rtools was successfully installed.
+When R returns `"C:\\rtools44\\usr\\bin\\make.exe"`, you know that Rtools was successfully installed.
 
 {{% callout warning %}}
 For Rtools 4.0 the returned path will be empty.

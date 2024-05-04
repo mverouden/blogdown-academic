@@ -12,7 +12,7 @@ projects: []
 date: '2020-04-06'
 
 # Date updated
-lastmod: '2022-05-29T23:43:13+02:00'
+lastmod: '2024-05-03T06:01:13+02:00'
 
 # Is this an unpublished draft?
 draft: false
@@ -56,7 +56,7 @@ share: true
 Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R.
 
 {{% callout note %}}
-This post will show how to install R on a **privately owned** desktop or laptop computer running Windows 10 or Windows 11 as operating system.
+This post will show how to install R on a **privately owned** desktop or laptop computer running Windows 10 or 11 as operating system.
 {{% /callout %}}
 
 {{% callout warning %}}
@@ -69,7 +69,7 @@ Two ways to install R are offered here:
 2. [Manual installation](#2-manual-installation) for those who, for whatever reason, do not want to use the WUR AppStore.
 
 ## 1. WUR AppStore
-The WUR AppStore is the place where you will be able to download, link to, or virtually access the software you need for your study programme and courses. Not only during the computer labs and courses, but also for self-study after those. 
+The WUR AppStore is the place where you will be able to download, link to, or virtually access the software you need for your study program and courses. Not only during the computer labs and courses, but also for self-study after those.
 
 For more information see: [What is the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1222947-what-is-the-wur-appstore)
 
@@ -90,21 +90,21 @@ In case you need support installing or using the WUR AppStore you can contact th
 ## 2. Manual Installation
 
 ### Download
-At the time this post was written, the latest release of R was version 3.6.3. It has been updated to the latest release version 4.3.3 of R, named "Angel Food Cake". As of version 4.2.0 the R software is only available as 64-bit, meaning that it will not install on a 32-bit version of Windows 10.
+At the time this post was written, the latest release of R was version 3.6.3. It has been updated to the latest release version 4.4.0 of R, named "Puppy Cup". As of version 4.2.0 the R software is only available as 64-bit, meaning that it will not install on a 32-bit version of Windows 10.
 
-The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.3.3 for Windows (ca. 79 MB, 64-bit)](https://cloud.r-project.org/bin/windows/base/old/4.3.3/R-4.3.3-win.exe).
+The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} R 4.4.0 for Windows (ca. 82 MB, 64-bit)](https://cloud.r-project.org/bin/windows/base/old/4.4.0/R-4.4.0-win.exe).
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
 ### Installation
 
-1. Open the downloaded file **R-4.3.3-win.exe**. This file will most likely reside in your Downloads folder of your user account.
+1. Open the downloaded file **R-4.4.0-win.exe**. This file will most likely reside in your Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installer has started, a first selection window will appear as displayed below in [Figure 1](#figure-r_language). Select the English language and click the ‘OK’ button to proceed.
 
 {{< figure src="r-windows/1-install-r-language.png" caption="Language Selection" numbered="true" id="r_language" >}}
 
-4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown in [Figure 2](#figure-r_destination_folder), where R version 4.3.3 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.3.3` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.3.3`).
+4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown in [Figure 2](#figure-r_destination_folder), where R version 4.4.0 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.4.0` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.4.0`).
 
 {{< figure src="r-windows/2-install-r-destination-folder.png" caption="Destination Location Selection" numbered="true" id="r_destination_folder" >}}
 
@@ -137,5 +137,9 @@ For newer versions of R than 3.6.3 the steps described below are the same and st
 {{< figure src="r-windows/9-install-r-completion.png" caption="Completion of the R installation." numbered="true" id="r_completion" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have R version 4.3.3 installed on your private desktop or laptop computer!
+Congratulations, :satisfied:, you now have R version 4.4.0 installed on your private desktop or laptop computer!
 {{% /callout %}}
+
+### Installing R Commander
+
+To install R Commander on your personal Windows 10/11 computer proceed by following the instructions described in [R Commander installation in R on Windows 10/11](/post/2020/04/06/r-commander-installation-in-r-on-windows-10/).
