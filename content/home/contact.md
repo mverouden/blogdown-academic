@@ -31,9 +31,9 @@ content:
   email: # maikel.verouden@gmail.com
   phone: # +31 317 4 81861
   address:
-    street: "Wageningen University & Research, Biometris <br>Droevendaalsesteeg 1 (Building 107 a.k.a. Radix)"
-    city: Wageningen
-    region: Gelderland
+    street: 'Wageningen University & Research (Biometris), Droevendaalsesteeg 1 (Building 107 a.k.a. Radix) '
+    city: 'Wageningen'
+    region: 'Gelderland'
     postcode: '6708 PB'
     country: The Netherlands
     country_code: NL
@@ -42,8 +42,8 @@ content:
     longitude: '5.663702'
   directions: 'Room: W4.Fc.054 (Radix West 4th Floor)'
   office_hours: # 'Monday--Friday 08:30h to 17:30h'
-    - 'Monday--Tuesday--Friday 08:30h to 17:30h'
-    - 'Wednesday--Thursday 07:00h to 13:30h'
+    - 'Monday--Tuesday--Thursday--Friday from 08:30h to 17:30h'
+    - 'Wednesday from 07:00h to 13:30h'
   # appointment_url: 'https://calendly.com'
   contact_links:
     # - icon: paper-plane
