@@ -40,7 +40,7 @@ content:
   coordinates:
     latitude: '51.986513'
     longitude: '5.663702'
-  directions: 'Room: W4.Fc.054 (Radix West 4th Floor)'
+  directions: 'Room: W4.Ad.011 (Radix West 4th Floor)'
   office_hours: # 'Monday--Friday 08:30h to 17:30h'
     - 'Monday--Tuesday--Thursday--Friday from 08:30h to 17:30h'
     - 'Wednesday from 07:00h to 13:30h'
