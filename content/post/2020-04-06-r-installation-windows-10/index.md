@@ -82,7 +82,7 @@ For more information see: [What is the WUR AppStore](https://wur-studentsupport.
 ### Using the WUR AppStore
 The use of the WUR AppStore is very well described by the WUR TEAM Study Anytime, Anyplace. The first article can be found here: [How can I use the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203865-how-can-i-use-the-wur-appstore)
 
-The WUR AppStore currently contains **R 4.3.1 Rcmdr**. **Rcmdr** indicates that, apart from running **R v4.3.1** by using the default Graphical User Interface (a.k.a. **RGUI**), everything is included to run **R Commander**.
+The WUR AppStore currently contains **R 4.4.1 Rcmdr**. **Rcmdr** indicates that, apart from running **R v4.4.1** by using the default Graphical User Interface (a.k.a. **RGUI**), everything is included to run **R Commander**.
 
 ### Support WUR AppStore
 In case you need support installing or using the WUR AppStore you can contact the WUR Servicedesk IT either by telephone: <a href="tel:+31317488888">+31 (0)317 488888</a> / mail: <a href="mailto:Servicedesk.IT@wur.nl">Servicedesk.IT AT wur.nl</a>. You can also visit the Servicepoint IT, ground floor left of the Grand Café, in Forum (Building 102) on the WUR Campus.
@@ -104,7 +104,7 @@ For newer versions of R than 3.6.3 the steps described below are the same and st
 
 {{< figure src="r-windows/1-install-r-language.png" caption="Language Selection" numbered="true" id="r_language" >}}
 
-4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown in [Figure 2](#figure-r_destination_folder), where R version 4.4.0 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.4.1` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.4.1`).
+4. Click on the ‘Next’ button to agree to the terms. After this a window will appear, allowing you to select or choose the destination folder, as shown in [Figure 2](#figure-r_destination_folder), where R version 4.4.1 for Windows should be installed. If you are content with the default `C:\Program Files\R\R-4.4.1` click on the ‘Next’ button to continu, otherwise use the ‘B<u>r</u>owse...’ button to navigate to an alternative destination or type the destination path directly into the text field displayed (currently showing `C:\Program Files\R\R-4.4.1`).
 
 {{< figure src="r-windows/2-install-r-destination-folder.png" caption="Destination Location Selection" numbered="true" id="r_destination_folder" >}}
 
