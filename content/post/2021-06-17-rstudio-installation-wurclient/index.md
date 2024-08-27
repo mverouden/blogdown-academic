@@ -58,7 +58,7 @@ share: true
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install RStudio from the Software Center, before called !Available Software, created by the IT department, which is launched by clicking on Start and selecting the 'Software Center' tile. At the time this post was written, the latest version of RStudio in Software Center was `RStudio v1.4`, which refers to release `v1.4.1717`. Currently `RStudio 2023.06.1.524` is the latest available version in Software Center, referring to release `2023.06.1 Build 524`.
+WURclient desktops and laptops at Wageningen University & Research can install RStudio from the Software Center, before called !Available Software, created by the IT department, which is launched by clicking on Start and selecting the 'Software Center' tile. At the time this post was written, the latest version of RStudio in Software Center was `RStudio v1.4`, which refers to release `v1.4.1717`. Currently `RStudio 2024.04.2764` is the latest available version in Software Center, referring to release `2024.04.2 Build 764`.
 
 This version of RStudio was placed in 'Software Center' for educational purposes. Only once per year a new version of R (including R Commander and additional packages for several courses) and RStudio is released in Software Center.
 
