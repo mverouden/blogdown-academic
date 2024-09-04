@@ -156,16 +156,20 @@ Two types of Linux Operating Systems are described:
 
 ### Debian based Linux Operating System
 
-The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/debian/. At the time of writing this post the described procedure installs R version 4.2.0 (nicknamed: Vigorous Calisthenics), under the assumption that the Linux Operating System is based on Debian 11 Bullseye.
+The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/debian/. At the time of writing this post the described procedure installs R version 4.2.0 (nicknamed: Vigorous Calisthenics), under the assumption that the Linux Operating System is based on Debian 11 Bullseye. When you are using Debian 12 Bookworm, replace `bullseye` with `bookworm` in the commands provided below.
 
 1. Open a terminal (CTRL+ALT+T) and log in as administrator using the console command:
 ```sh
 sudo -i
 ```
 
-2. Fetch and import the current key using the following command:
+2. Fetch and import the current key. When a message appears that `apt-key` is deprecated, use the second command starting with `gpg`.
 ```sh
 apt-key adv --keyserver keyserver.ubuntu.com --recv-key '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7'
+```
+
+```sh
+gpg --armor --export '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7' | tee /etc/apt/trusted.gpg.d/cran_debian_key.asc
 ```
 
 3. Add Debian bullseye repository to the software sources using the command:
@@ -191,16 +195,19 @@ Congratulations, you can now use R within a terminal on your Debian based Linux 
 
 ### Ubuntu based Linux Operating System
 
-The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/ubuntu/fullREADME.html. At the time of writing this post the described procedure installs R version 4.2.0 (nicknamed: Vigorous Calisthenics), under the assumption that the Linux Operating System is based on Ubuntu 20.04.4 LTS Focal Fossa.
+The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/ubuntu/fullREADME.html. At the time of writing this post the described procedure installs R version 4.2.0 (nicknamed: Vigorous Calisthenics), under the assumption that the Linux Operating System is based on Ubuntu 20.04.4 LTS Focal Fossa. When using a newer version of Ubuntu LTS replace the name of the version used in the commands below, e.g., for Ubuntu 24.04 LTS use `noble` instead of `focal`.
 
 1. Open a terminal (CTRL+ALT+T) and log in as administrator using the console command:
 ```sh
 sudo -i
 ```
 
-2. Fetch and import the current key using the following command:
+2. Fetch and import the current key. When a message appears about deprecation of `apt-key`, use the second command starting with `gpg`.
 ```sh
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+```
+```sh
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
 ```
 
 3. Add Ubuntu Focal Fossa repository to the software sources using the command:
