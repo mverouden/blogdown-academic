@@ -202,7 +202,7 @@ The installation procedure described here, combines information as provided on h
 sudo -i
 ```
 
-2. Fetch and import the current key. When a message appears about deprecation of `apt-key`, use the second command starting with `gpg`.
+2. Fetch and import the current key. When a message appears about deprecation of `apt-key`, use the second command starting with `wget`.
 ```sh
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 ```
