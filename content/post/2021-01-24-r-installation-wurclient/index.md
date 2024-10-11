@@ -331,9 +331,9 @@ where `user001` will display your own WUR username.
 
 This could potentially lead to `NormalizePath()` warning messages. Therefore, it is strongly recommended to set the working directory to a mapped drive (shown by a drive letter, e.g., `C:`, or `M:`) in your WURclient. This can be done at the R prompt using the following command, e.g., for setting your working directory to `C:\MyData` or `M:\My Documents`:
 ```r
-setwd("C:\MyData")
+setwd("C:/MyData")
 # or
-setwd("M:\My Documents")
+setwd("M:/My Documents")
 ```
 No matter which mapped drive and folder you choose, make sure that the location and folder you are providing for the working directory exists!
 
