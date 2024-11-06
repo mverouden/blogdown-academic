@@ -160,7 +160,7 @@ Rtools can be downloaded for the following webpage: https://cran.r-project.org/b
 
 Download the correct vesion, which matches the version of R installed on your desktop or laptop computer.
 
-For R version 4.4.0 and above the installer for Rtools can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Rtools44 installer (ca. 428 MB, 64-bit).](https://cloud.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6104-6039.exe)
+For R version 4.4.0 and above the installer for Rtools can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Rtools44 installer (ca. 435 MB, 64-bit).](https://cloud.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6335-6327.exe)
 
 ## Installation Rtools
 The screenshots below are for the installation of Rtools42 and have not been updated, because the procedure for Rtool44 remains the same.
