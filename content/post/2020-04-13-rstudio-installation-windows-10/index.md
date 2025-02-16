@@ -183,9 +183,9 @@ The WUR AppStore currently contains RStudio version 2024.04.2 Build 764 under th
 ## 2. Manual Installation
 
 ### Download
-At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2024.12.0 Build 467 (named "Kousa Dogwood").
+At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2024.12.1 Build 563 (named "Kousa Dogwood").
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2024.12.0 Build 467 (ca. 265.27 MB)](https://download1.rstudio.org/electron/windows/RStudio-2024.12.0-467.exe)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2024.12.1 Build 563 (ca. 265.28 MB)](https://download1.rstudio.org/electron/windows/RStudio-2024.12.1-563.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
@@ -217,5 +217,5 @@ To install RStudio on Windows 10/11 perform the following steps:
 {{< figure src="rstudio-windows/5-rstudio-completed-w10.png" caption="RStudio Installation Completion." numbered="true" id="rstudio_install_completed" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio 2024.12.0 Build 467 installed on your private Windows desktop or laptop computer!
+Congratulations, :satisfied:, you now have RStudio 2024.12.1 Build 563 installed on your private Windows desktop or laptop computer!
 {{% /callout %}}
