@@ -62,7 +62,7 @@ WURclient desktops and laptops at Wageningen University & Research can install R
 
 This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center.
 
-Many users, however, would just like to use a newer version of R than the one in Software Center. When this post was written the release version of R on [r-project.org](https://www.r-project.org/) was 4.0.3, named: "Bunny-Wunnies Freak Out" (released on 2020-10-10). The post has been updated, with the exception of the screenshots, to latest R version 4.4.2, named: "Pile of Leaves" (released on 2024-10-31).
+Many users, however, would just like to use a newer version of R than the one in Software Center. When this post was written the release version of R on [r-project.org](https://www.r-project.org/) was 4.0.3, named: "Bunny-Wunnies Freak Out" (released on 2020-10-10). The post has been updated, with the exception of the screenshots, to latest R version 4.4.3, named: "Trophy Case" (released on 2025-02-28).
 
 Some users will also like to install the latest version of R Commander on their WURclient, after having installed the latest version of R via a custom installation without using Software Center.
 
@@ -83,7 +83,7 @@ To be able to install R Commander you will need to have R installed first. If yo
 
 Some Figures in this post are based on R version 3.6.3. For newer versions of R the steps described are the same, only some screens you will see during your installation will display a higher version number of R compared to the screenshots in the figures of this post.
 
-1. Start `R x64 4.4.2` from the ‘R’ folder in the ‘Start Menu’ as displayed below in [Figure 1](#figure-startmenu_r).
+1. Start `R x64 4.4.3` from the ‘R’ folder in the ‘Start Menu’ as displayed below in [Figure 1](#figure-startmenu_r).
 
 {{< figure src="r-commander-windows/startmenu-r.png" caption="Start Menu R x64" numbered="true" id="startmenu_r" >}}
 
@@ -102,7 +102,7 @@ Some Figures in this post are based on R version 3.6.3. For newer versions of R 
 5. Repeat step 4. for installing the `RcmdrPlugin.HH` package or any other additional Plugin for R Commander you need. The `HH` plugin for example provides additional functionality for Simple Linear Regression.
 
 {{% callout note %}}
-Once the installation of the `RcmdrPlugin.HH` package, or any other additional Plugins you require, has finished, you are ready :satisfied: to start R version 4.4.2 and use R Commander.
+Once the installation of the `RcmdrPlugin.HH` package, or any other additional Plugins you require, has finished, you are ready :satisfied: to start R version 4.4.3 and use R Commander.
 {{% /callout %}}
 
 {{% callout warning %}}
