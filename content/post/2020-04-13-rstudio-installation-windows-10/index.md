@@ -198,7 +198,7 @@ To be able to install RStudio you will need to have R installed first. If you ha
 
 To install RStudio on Windows 10/11 perform the following steps:
 
-1. Open the downloaded file **RStudio-2024.12.0-467.exe**. This file will most likely reside in the Downloads folder of your user account.
+1. Open the downloaded file **RStudio-2024.12.1-563.exe**. This file will most likely reside in the Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installler has started, a Welcome window will appear as displayed below in [Figure 1](#figure-rstudio_setup). Click the ‘Next’ button to proceed.
 
