@@ -133,7 +133,7 @@ Many people are able to use R, without ever having the need to compile from sour
 
 In this post the installation procedure for Rtools will be given step wise. It will work for both regular Windows 10/11 computers as well as WURclient computers.
 
-A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
+A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 11 computer. WURclients use Windows 11 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
 {{% callout note %}}
 This post will show how to install Rtools on a **privately owned** running Windows 10/11, or a **WURclient** desktop or laptop computer, where the user possesses <u>**POWER USER RIGHTS**</u>.
@@ -160,7 +160,7 @@ Rtools can be downloaded for the following webpage: https://cran.r-project.org/b
 
 Download the correct vesion, which matches the version of R installed on your desktop or laptop computer.
 
-For R version 4.4.0 and above the installer for Rtools can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Rtools44 installer (ca. 435 MB, 64-bit).](https://cloud.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6335-6327.exe)
+For R version 4.4.0 and above the installer for Rtools can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Rtools44 installer (ca. 431 MB, 64-bit).](https://cloud.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6459-6401.exe)
 
 ## Installation Rtools
 The screenshots below are for the installation of Rtools42 and have not been updated, because the procedure for Rtool44 remains the same.
