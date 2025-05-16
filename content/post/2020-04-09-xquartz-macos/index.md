@@ -151,7 +151,7 @@ In macOS 14 (Sonoma) and 15 (Sequoia) it can happen that XQuartz fails to start 
 
 To check if this is the case for your mac try to start XQuartz directly from the Utilities folder under Applications in Finder (Finder shortcut: &#8679;&#8984;U). When starting XQuartz you will see the XQuartz icon bouncing in the taskbar, but the program fails start.
 
-Check whether the application is allowed to run in the background. Go to "System Settings" on your mac, and select "General" in the left column of the window. In the right side of the windows navigate to "Login Items & Extensions".
+Check whether the application is allowed to run in the background. Go to "System Settings" on your mac, and select "General" in the left column of the window. In the right side of the window navigate to "Login Items & Extensions".
 
 In the part named "Allow in the Background" you should see XQuartz with a slider behind it. Make sure that the slider is moved to the right, as shown in [Figure 11](#figure-xquartz_system_settings_allow). When the slider is positioned to the left, move it to the right (causing it to change color to blue).
 
