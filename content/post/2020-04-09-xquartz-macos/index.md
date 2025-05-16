@@ -91,7 +91,7 @@ The icons and screenshots shown in this post are for XQuartz v2.7.11 and have no
 
 To install XQuartz on macOS perform the following steps:
 
-1. Open the downloaded XQuartz disk image or package. This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The XQuartz disk image will look like the image displayed below in [Figure 1](#figure-xquartz_disk_image) (version number may differ!).
+1. Open the downloaded XQuartz disk image (`*.dmg` file) or package (`*.pkg` file). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The XQuartz disk image will look like the image displayed below in [Figure 1](#figure-xquartz_disk_image) (version number may differ!).
 
 {{< figure src="xquartz-macos/1-xquartz-disk-image.png" caption="Icon XQuartz Disk Image." numbered="true" id="xquartz_disk_image" >}}
 
@@ -123,7 +123,7 @@ To install XQuartz on macOS perform the following steps:
 
 {{< figure src="xquartz-macos/9-xquartz-allow-access.png" caption="XQuartz Installer Access Request." numbered="true" id="xquartz_allow_access" >}}
 
-9. Now you will be warned that to make XQuartz your default X11 server, as shown in [Figure 9](#figure-xquartz_logout_warning) below, you will need to log out and again log into your system. Click on the on the ‘OK’ button to continue.
+9. Now you will be warned that to make XQuartz your default X11 server, as shown in [Figure 9](#figure-xquartz_logout_warning) below. You will need to completely shut down, and restart your mac. Click on the on the ‘OK’ button to continue.
 
 {{< figure src="xquartz-macos/10-xquartz-x11-message.png" caption="XQuartz Log Out Warning for Setting X11 as Default." numbered="true" id="xquartz_logout_warning" >}}
 
@@ -138,7 +138,23 @@ Congratulations, you now have XQuartz installed on your mac :satisfied:!
 {{% /callout %}}
 
 {{% callout warning %}}
-As mentioned in step 9. you have to make XQuartz your default X11 server by logging out and again logging in on your mac. Do this by navigating your mouse pointer to the menu bar, click on {{< icon name="apple" pack="fab" >}} and select ‘Log Out \<username\>...’. Here \<username\> will display the name you selected, while setting up your mac for the first time. Log back in and XQuartz will now be your default X11 server.
+As mentioned in step 9, you have to make XQuartz your default X11 server.
 
-The best way, to make sure that XQuartz is set as your default X11 server, is to completely **Shutdown and Restart your mac**!
+Completely shut down your mac. Do this by navigating your mouse pointer to the menu bar, click on {{< icon name="apple" pack="fab" >}} and select ‘Shut Down...’.
+
+After the shut down, restart your mac and XQuartz will be your default X11 server.
 {{% /callout %}}
+
+## Troubleshooting: XQuartz fails to start
+
+In macOS 14 (Sonoma) and 15 (Sequoia) it can happen that XQuartz fails to start up, due to the new security settings in these versions of macOS.
+
+To check if this is the case for your mac try to start XQuartz directly from the Utilities folder under Applications in Finder (Finder shortcut: &#8679;&#8984;U). When starting XQuartz you will see the XQuartz icon bouncing in the taskbar, but the program fails start.
+
+Check whether the application is allowed to run in the background. Go to "System Settings" on your mac, and select "General" in the left column of the window. In the right side of the windows navigate to "Login Items & Extensions".
+
+In the part named "Allow in the Background" you should see XQuartz with a slider behind it. Make sure that the slider is moved to the right, as shown in [Figure 11](#figure-xquartz_system_settings_allow). When the slider is positioned to the left, move it to the right (causing it to change color to blue).
+
+{{< figure src="xquartz-macos/13-xquartz-system-settings.png" caption="System Settings allow XQuartz in the background." numbered="true" id="xquartz_system_settings_allow" >}}
+
+Now XQuartz will start up automatically, when required and will run in the background.
