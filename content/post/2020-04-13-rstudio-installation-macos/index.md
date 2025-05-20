@@ -71,9 +71,9 @@ In the text some symbol combinations are used for shortcuts, the following table
 | &#8679; | &nbsp; | shift (either left or right) | &nbsp;&nbsp; | &#9099; | &nbsp; | escape                         |
 
 ## Download
-At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2024.12.1 Build 563 (nicknamed "Kousa Dogwood"), which will work on macOS Ventura (version 13.x) or later.
+At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2025.05.0 Build 496 (nicknamed "Mariposa Orchid"), which will work on macOS Ventura (version 13.x) or later.
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2024.12.1 Build 563 (ca. 557.15 MB)](https://download1.rstudio.org/electron/macos/RStudio-2024.12.1-563.dmg)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2025.05.0 Build 496 (ca. 609.78 MB)](https://download1.rstudio.org/electron/macos/RStudio-2025.05.0-496.dmg)
 
 If you are on a 32 bit system, you can use an [older version of RStudio](https://docs.posit.co/previous-versions/rstudio/).
 
@@ -88,7 +88,7 @@ To be able to install RStudio you will need to have R installed and configured f
 
 To install RStudio on macOS perform the following steps:
 
-1. Open the downloaded RStudio disk image. This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The Rstudio disk image will look like the image displayed below in [Figure 1](#figure-rstudio_disk_image) (version number may or will differ).
+1. Open the downloaded RStudio disk image. This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1. The Rstudio disk image will look like the image displayed below in [Figure 1](#figure-rstudio_disk_image) (version number will differ and reflect the current version).
 
 {{< figure src="rstudio-macos/1-rstudio-dmg-icon.png" caption="Icon RStudio Disk Image Application" numbered="true" id="rstudio_disk_image" >}}
 
