@@ -62,7 +62,7 @@ WURclient desktops and laptops at Wageningen University & Research can install R
 
 This version of RStudio was placed in 'Software Center' for educational purposes. Only once per year a new version of R (including R Commander and additional packages for several courses) and RStudio is released in Software Center.
 
-Many users, however, prefer to use the latest version of RStudio, because of new features offered in the newer version of the software. At the moment of writing this post the latest version of RStudio was v1.4.1717 named: 'Juliet Rose' (released on 2021-06-01). The post has been updated, with the exception of the screenshots, to `RStudio 2025.05.0 Build 496` named: "Mariposa Orchid".
+Many users, however, prefer to use the latest version of RStudio, because of new features offered in the newer version of the software. At the moment of writing this post the latest version of RStudio was v1.4.1717 named: 'Juliet Rose' (released on 2021-06-01). The post has been updated, with the exception of the screenshots, to `RStudio 2025.05.1 Build 513` named: "Mariposa Orchid".
 
 {{% callout note %}}
 This post will show how to custom install RStudio on a **WURclient** desktop or laptop computer without using Software Center.
@@ -129,9 +129,9 @@ When you do still have a working RStudio installation on your WURclient computer
 ## Custom RStudio installation
 
 ### Download
-At the time this post was written, the latest stable release of RStudio was version 1.4.1717. The post has been updated to the current stable release 2025.05.0 Build 496.
+At the time this post was written, the latest stable release of RStudio was version 1.4.1717. The post has been updated to the current stable release 2025.05.1 Build 513.
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2025.05.0 Build 496 (ca. 281.27 MB)](https://download1.rstudio.org/electron/windows/RStudio-2025.05.0-496.exe)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2025.05.1 Build 513 (ca. 281.24 MB)](https://download1.rstudio.org/electron/windows/RStudio-2025.05.1-513.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
@@ -156,7 +156,7 @@ To install RStudio perform the following steps:
 {{< figure src="rstudio-windows/5-rstudio-completed-w10.png" caption="RStudio Installation Completion." numbered="true" id="rstudio_install_completed" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio 2025.05.0 Build 496 installed on your WURclient desk- or laptop computer!
+Congratulations, :satisfied:, you now have RStudio 2025.05.1 Build 513 installed on your WURclient desk- or laptop computer!
 {{% /callout %}}
 
 ## Setting the default RStudio working directory
