@@ -61,7 +61,7 @@ R Commmander has been programmed in Tcl (Tool Command Language) and uses Tk as a
 This post will show how to install XQuartz on a desktop or laptop computer running macOS as operating system.
 {{% /callout %}}
 
-In the text some symbol combinations are used for shortcuts, the following table explains the meaning of these symbols in relation to specific keys on your keyboard. To use the shortcuts press the keyboard keys simultaneously, e.g. &#8679;&#8984;A means &#8679;+&#8984;+A.
+In the text some symbol combinations are used for shortcuts, the following table explains the meaning of these symbols in relation to specific keys on your keyboard. To use the shortcuts press the keyboard keys simultaneously, e.g., &#8679;&#8984;A means &#8679;+&#8984;+A.
 
 |  Icon   | &nbsp; | Keyboard Meaning             | &nbsp;&nbsp; |  Icon   | &nbsp; | Keyboard Meaning               |
 |:-------:|:------:|:-----------------------------|:------------:|:-------:|:------:|:-------------------------------|
