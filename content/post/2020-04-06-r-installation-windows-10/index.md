@@ -53,7 +53,7 @@ share: true
 ## Motivation
 <!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
 
-Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R.
+Whether working, or studying, everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/research-results/research-institutes/plant-research/business-units/biometris/education/bsc-and-master-courses.htm), will most likely use R.
 
 {{% callout note %}}
 This post will show how to install R on a **privately owned** desktop or laptop computer running Windows 10 or 11 as operating system.
@@ -82,7 +82,7 @@ For more information see: [What is the WUR AppStore](https://wur-studentsupport.
 ### Using the WUR AppStore
 The use of the WUR AppStore is very well described by the WUR TEAM Study Anytime, Anyplace. The first article can be found here: [How can I use the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203865-how-can-i-use-the-wur-appstore)
 
-The WUR AppStore currently contains **R 4.4.1 Rcmdr**. **Rcmdr** indicates that, apart from running **R v4.4.1** by using the default Graphical User Interface (a.k.a. **RGUI**), everything is included to run **R Commander**.
+The WUR AppStore currently contains **R 4.5.1 Rcmdr**. **Rcmdr** indicates that, apart from running **R version 4.5.1** by using the default Graphical User Interface (a.k.a. **RGUI**), everything is included to run **R Commander**.
 
 ### Support WUR AppStore
 In case you need support installing or using the WUR AppStore you can contact the WUR Servicedesk IT either by telephone: <a href="tel:+31317488888">+31 (0)317 488888</a> / mail: <a href="mailto:Servicedesk.IT@wur.nl">Servicedesk.IT AT wur.nl</a>. You can also visit the Servicepoint IT, ground floor left of the Grand Café, in Forum (Building 102) on the WUR Campus.

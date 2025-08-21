@@ -52,7 +52,7 @@ share: true
 ## Motivation
 <!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
 
-Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R.
+Whether working, or studying, everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/research-results/research-institutes/plant-research/business-units/biometris/education/bsc-and-master-courses.htm), will most likely use R.
 
 {{% callout note %}}
 The instructions in this post will show how to (re-)install R on a desktop or laptop computer running macOS as operating system.

@@ -3,7 +3,7 @@ title: "Custom R installation on a WURclient computer"
 subtitle: ''
 
 # Summary for listings and search engines
-summary: Instructions on how to install R yourself on a WURclient without using Software Center.
+summary: Instructions on how to install R yourself on a WURclient without using Software Center/WURAppstore.
 
 # Link this post with a project
 projects: []
@@ -57,14 +57,14 @@ share: true
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 11 computer. WURclients use Windows 11 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. <!--At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`. -->Currently the latest available version in Software Center is `R 4.4.1 Rcmdr`.
+Classic WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. Modern WURclient desktops and laptops use the "WURAppStore" instead.<!-- At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`.--> Currently the latest available version in Software Center/WURAppStore is `R 4.5.1 Rcmdr`. 
 
-This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center. Users can update all packages in this release, even the core packages in the so-called **_System Library_**. The pre-installed packages in the **_User Library_** can be uninstalled, when not needed.
+This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for several courses) is released in Software Center/wurappstore. Users can update all packages in this release, even the core packages in the so-called **_System Library_**. The pre-installed packages in the **_User Library_** can be uninstalled, when not needed.
 
-Many users, however, would just like to use a newer version of R than the one in Software Center. When this post was written the release version of R on [r-project.org](https://www.r-project.org/) was 4.0.3, named: "Bunny-Wunnies Freak Out" (released on 2020-10-10). The post has been updated, with the exception of the screenshots, to latest R version 4.5.1, named: "Great Square Root" (released on 2025-06-13).
+Many users, however, prefer to install software themselves, e.g., because they like to use a newer version of R than the one in Software Center/WURAppStore. When this post was written the release version of R on [r-project.org](https://www.r-project.org/) was 4.0.3, named: "Bunny-Wunnies Freak Out" (released on 2020-10-10). The post has been updated, with the exception of the screenshots, to latest R version 4.5.1, named: "Great Square Root" (released on 2025-06-13).
 
 {{% callout note %}}
-This post will show how to custom install R on a **WURclient** desktop or laptop computer without using Software Center.
+This post will show how to custom install R on a **WURclient** desktop or laptop computer without using Software Center/WURAppStore.
 {{% /callout %}}
 
 {{% callout warning %}}
@@ -238,7 +238,9 @@ From R version 4.2.0 the installer is only available for 64-bit Windows 10/11 an
 
 Save the following files into the Downloads folder of your WURclient desk- or laptop by right-clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
 
-* {{< staticref "files/r/Renviron.site" "newtab" >}}{{< icon name="download" pack="fas" >}} Renviron.site{{< /staticref >}}
+* {{< staticref "files/r/classic/Renviron.site" "newtab" >}}{{< icon name="download" pack="fas" >}} Renviron.site{{< /staticref >}} (only for the Classic WURclient with Software Center)
+
+* {{< staticref "files/r/modern/Renviron.site" "newtab" >}}{{< icon name="download" pack="fas" >}} Renviron.site{{< /staticref >}} (only for the Modern WURclient with WURAppStore)
 
 * {{< staticref "files/r/Rprofile.site" "newtab" >}}{{< icon name="download" pack="fas" >}} Rprofile.site{{< /staticref >}}
 
