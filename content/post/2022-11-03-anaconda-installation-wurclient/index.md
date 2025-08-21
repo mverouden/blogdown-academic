@@ -55,13 +55,13 @@ share: true
 {{% toc %}}
 
 ## Motivation
-A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
+A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 11 computer. WURclients use Windows 11 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install Anaconda from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of Anaconda in Software Center was `Anaconda Python 2021.11`. The current latest available version in Software Center is `Anaconda Python 2024.06-1`.
+Classic WURclient desktops and laptops at Wageningen University & Research can install RStudio from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. Modern WURclient desktops and laptops use the "WURAppStore" instead. The available version of Anaconda Python (Anaconda3) in Software Center is `Anaconda Python 2025.06-0`, whereas in the WURAppStore it is named `Anaconda3 2025.06-0`.
 
-This version of Anaconda Python was packaged for educational purposes. Only once per year a new version of Anaconda Python is released in Software Center and simultaneously in the WUR AppStore (course software for students).
+This version of Anaconda Python was packaged for educational purposes. Only once per year a new version of Anaconda Python is released in Software Center (for Classic WURclients) and WURAppStore (for Modern WURclients, and course software for students).
 
-Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center. At the moment of writing this post the latest version of Anaconda Python released on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). The post has been updated, with the exception of the screenshots, to Anaconda3 version `2024.10-1` containing Python 3.12.7 (released 2024-10-23).
+Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center. At the moment of writing this post the latest version of Anaconda Python released on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). The post has been updated, with the exception of the screenshots, to Anaconda3 version `2025.06-1` containing Python 3.13.5 (released 2025-07-18).
 
 {{% callout note %}}
 This post will show how to custom install Anaconda Python on a **WURclient** desktop or laptop computer without using Software Center.
@@ -157,9 +157,9 @@ mkdir C:\MyData
 7. To close the Command Prompt application type `exit` and press return (Enter) to execute.
 
 ### Download
-At the time this post was written, the latest release of Anaconda3 was version 2022.10. It has been updated to the latest release version `2024.10-1` of Anaconda3.
+At the time this post was written, the latest release of Anaconda3 was version 2022.10. It has been updated to the latest release version `2025.06-1` of Anaconda3.
 
-The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Anaconda3 2024.10-1 for Windows (ca. 950.5 MB, 64-bit).](https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Windows-x86_64.exe)
+The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Anaconda3 2025.06-1 for Windows (ca. 914.6 MB, 64-bit).](https://repo.anaconda.com/archive/Anaconda3-2025.06-1-Windows-x86_64.exe)
 
 {{% callout warning %}}
 From Anaconda3 version 2022.10 the installer is only available for 64-bit Windows 10/11 and will not install on a 32-bit version of the Operating System.
@@ -169,9 +169,9 @@ From Anaconda3 version 2022.10 the installer is only available for 64-bit Window
 ### Installation
 For newer versions of Anaconda3 than 2022.10 the steps described below are the same and still correct, but start with a newer version of the downloaded executable installer file of Anaconda3. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
-1. Right-click the downloaded file **Anaconda3-2024.10-1-Windows-x86_64.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
+1. Right-click the downloaded file **Anaconda3-2025.06-1-Windows-x86_64.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
 
-2. If asked for allow to install the software on your computer.
+2. If asked for, allow to install the software on your computer.
 
 3. After the installer has started, a first selection window will appear as displayed below in [Figure 8](#figure-welcome_anaconda_setup). Click the ‘Next >’ button to proceed.
 
@@ -206,7 +206,7 @@ For newer versions of Anaconda3 than 2022.10 the steps described below are the s
 {{< figure src="anaconda-wurclient/13-finish-installer-anaconda.png" caption="Completing Anacond3 Setup" numbered="true" id="anaconda_completing" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have Anaconda3 version 2024.10-1 containing Python 3.12.7 installed on your WURclient desktop or laptop computer!
+Congratulations, :satisfied:, you now have Anaconda3 version 2025.06-1 containing Python 3.13.5 installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
 
 {{% callout warning %}}

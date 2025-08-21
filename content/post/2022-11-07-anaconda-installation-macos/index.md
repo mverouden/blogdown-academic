@@ -51,7 +51,7 @@ share: true
 ## Motivation
 <!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
 
-Whether working or studying everybody uses various sorts and types of software on their computer. Around 34 courses at Wageningen University & Research use Anaconda Python as software in their course, e.g. [SSB-30806 Modelling in Systems Biology](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=SSB30806&collegejaar=huidig) and [SSB-50806 Systems and Synthetic Biology](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=SSB50806&collegejaar=huidig).
+Whether working, or studying, everybody uses various sorts and types of software on their computer. Around 34 courses at Wageningen University & Research use Anaconda Python as software in their course, e.g., [SSB30806 Modelling in Systems Biology](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=SSB30806&collegejaar=huidig), and [SSB32806 Introduction to Systems and Synthetic Biology](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=SSB32806&collegejaar=huidig).
 
 {{% callout note %}}
 The instructions in this post will show how to install Anaconda on a desktop or laptop computer running macOS as operating system.
@@ -117,7 +117,7 @@ Having performed all 5 steps given above, your mac will be ready for a new insta
 {{% /callout %}}
 
 ## Download 
-At the time this post was written, the latest release of Anaconda was version 2022.10 containing Python 3.9.13. It has been updated to the latest release version `2024.10-1` of Anaconda containing Python 3.12.7.
+At the time this post was written, the latest release of Anaconda was version 2022.10 containing Python 3.9.13. It has been updated to the latest release version `2025.06-1` of Anaconda containing Python 3.13.5.
 
 For newer versions of Anaconda than 2022.10 the steps described below are the same and still correct, but start with a newer version of the downloaded installer package file of Anaconda. The screenshots in this post have not been updated. Therefore, what you see during your installation can (and probably will) differ with respect to the version number shown in the screenshots.
 
@@ -129,14 +129,14 @@ __NOTE__: If you are using a mac with the newest M1, M2 or M3 processor, downloa
 
 Download Anaconda for your specific version of macOS using one of the following links:
 
-- For an Intel processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2024.10-1 (ca. 776.0 MB, __Intel 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2024.10-1-MacOSX-x86_64.pkg)
-- For a M1/M2/M3 processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2024.10-1 (ca. 744.6 MB, __ARM 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2024.10-1-MacOSX-arm64.pkg)
+- For an Intel processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2025.06-1 (ca. 800.3 MB, __Intel 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2025.06-1-MacOSX-x86_64.pkg)
+- For a M1/M2/M3/M4 processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2025.06-1 (ca. 781.3 MB, __ARM 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2025.06-1-MacOSX-arm64.pkg)
 
 ## Installation
 
 For installing Anaconda on macOS follow these steps:
 
-1. Open the downloaded file, either **Anaconda3-2024.10-1-MacOSX-x86_64.pkg**, or **Anaconda3-2024.10-1-MacOSX-arm64.pkg** depending on the processor in your mac (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1.
+1. Open the downloaded file, either **Anaconda3-2025.06-1-MacOSX-x86_64.pkg**, or **Anaconda3-2025.06-1-MacOSX-arm64.pkg** depending on the processor in your mac (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1.
 
 2. The installler will start by displaying a message as shown in [Figure 3](#figure-allow-install). Click 'Allow' to let the package determine if the software can be installed.
 
@@ -150,38 +150,38 @@ For installing Anaconda on macOS follow these steps:
 
 {{< figure src="anaconda-macos/3-read-me-installer.png" caption="Anaconda3 Installer Read Me." numbered="true" id="install-readme" >}}
 
-4. Right after the Read Me a Software Licence Agreement will appear as shown in [Figure 6](#figure-license-terms). By clicking the ‘Continue’ button you will be asked to agree with this software licence agreement as diplayed below in [Figure 7](#figure-license-agree). Click on ‘Agree’ to proceed.
+5. Right after the Read Me a Software Licence Agreement will appear as shown in [Figure 6](#figure-license-terms). By clicking the ‘Continue’ button you will be asked to agree with this software licence agreement as diplayed below in [Figure 7](#figure-license-agree). Click on ‘Agree’ to proceed.
 
 {{< figure src="anaconda-macos/4-license-agreement.png" caption="Aanconda3 Software License Agreement." numbered="true" id="license-terms" >}}
 
 {{< figure src="anaconda-macos/5-agree-to-terms.png" caption="Agree to Software License Agreement." numbered="true" id="license-agree" >}}
 
-5. The installer will let you select how you want to install the software as shown in [Figure 8](#figure-install-type). It is recommended to leave the settings as provided and click the 'Continue' button.
+6. The installer will let you select how you want to install the software as shown in [Figure 8](#figure-install-type). It is recommended to leave the settings as provided and click the 'Continue' button.
 
 {{< figure src="anaconda-macos/6-installation-type.png" caption="Select the installation type." numbered="true" id="install-type" >}}
 
-6. After selecting the installation type the installer asks to provide an installation destination as displayed in [Figure 9](#figure-install-location). Also here it is recommended to leave the default settings and click the 'Install' button.
+7. After selecting the installation type the installer asks to provide an installation destination as displayed in [Figure 9](#figure-install-location). Also here it is recommended to leave the default settings and click the 'Install' button.
 
 {{< figure src="anaconda-macos/7-installation-location.png" caption="Select the installation location." numbered="true" id="install-location" >}}
 
-7. Your system will ask to either provide the password (see [Figure 10](#figure-confirm-installation)) or use the fingerprint scanner to confirm the software installation.
+8. Your system will ask to either provide the password (see [Figure 10](#figure-confirm-installation)) or use the fingerprint scanner to confirm the software installation.
 
 {{< figure src="anaconda-macos/8-confirm-installation.png" caption="Confirm the software installation." numbered="true" id="confirm-installation" >}}
 
-8. Your system may ask you to allow access to your Downloads folder, as shown in [Figure 11](#figure-allow-downloads). Click the 'OK' button to grant access to the Downloads folder.
+9. Your system may ask you to allow access to your Downloads folder, as shown in [Figure 11](#figure-allow-downloads). Click the 'OK' button to grant access to the Downloads folder.
 
 {{< figure src="anaconda-macos/9-allow-access.png" caption="Allow access to the Downloads folder." numbered="true" id="allow-downloads" >}}
 
-9. Once the files have been installed the Anaconda3 installer will display a message about DataSpell as shown in [Figure 12](#figure-dataspell). If your interested visit [https://www.anaconda.com/dataspell]. To proceed with the installer click the 'Continue' button.
+10. Once the files have been installed the Anaconda3 installer will display a message about DataSpell as shown in [Figure 12](#figure-dataspell). If your interested visit [https://www.anaconda.com/dataspell]. To proceed with the installer click the 'Continue' button.
 
 {{< figure src="anaconda-macos/10-dataspell-message.png" caption="Message about DataSpell." numbered="true" id="dataspell" >}}
 
-10. After the DataSpell message the Anaconda3 installer has reached the end (see [Figure 13](#figure-finish)). Click on the 'Close' button to finalize the installer and close the installer.
+11. After the DataSpell message the Anaconda3 installer has reached the end (see [Figure 13](#figure-finish)). Click on the 'Close' button to finalize the installer and close the installer.
 
 {{< figure src="anaconda-macos/11-installation-finish.png" caption="Finish and close the Anaconda3 installer." numbered="true" id="finish" >}}
 
 {{% callout note %}}
-Congratulations :satisfied:, you now have Anaconda3 2024.10-1 containing Python 3.12.7 installed on your mac!
+Congratulations :satisfied:, you now have Anaconda3 2025.06-1 containing Python 3.13.5 installed on your mac!
 
 Before actively using Anaconda, some configuration may be required. The configuration is described in the next section.
 {{% /callout %}}
