@@ -3,7 +3,7 @@ title: "Custom RStudio installation on a WURclient computer"
 subtitle: ''
 
 # Summary for listings and search engines
-summary: "Instructions on how to install RStudio yourself on a WURclient without using Software Center."
+summary: "Instructions on how to install RStudio yourself on a WURclient without using Software Center/WURAppStore."
 
 # Link this post with a project
 projects: []
@@ -56,9 +56,9 @@ share: true
 {{% toc %}}
 
 ## Motivation
-A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
+A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 11 computer. WURclients use Windows 11 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install RStudio from the Software Center, before called !Available Software, created by the IT department, which is launched by clicking on Start and selecting the 'Software Center' tile. At the time this post was written, the latest version of RStudio in Software Center was `RStudio v1.4`, which refers to release `v1.4.1717`. Currently `RStudio 2024.04.2764` is the latest available version in Software Center, referring to release `2024.04.2 Build 764`.
+Classic WURclient desktops and laptops at Wageningen University & Research can install RStudio from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. Modern WURclient desktops and laptops use the "WURAppStore" instead. The available version of RStudio in Software Center/WURAppStore is `RStudio 2025.05.1.513`, referring to release `RStudio version 2025.05.1 Build 513`.
 
 This version of RStudio was placed in 'Software Center' for educational purposes. Only once per year a new version of R (including R Commander and additional packages for several courses) and RStudio is released in Software Center.
 
@@ -69,7 +69,7 @@ This post will show how to custom install RStudio on a **WURclient** desktop or 
 {{% /callout %}}
 
 {{% callout warning %}}
-The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [RStudio installation on Windows 10](/post/2020/04/13/rstudio-installation-on-windows-10/).
+The installation instructions in this post are <u>**not to be used on privately owned desktops or laptops**</u>! For a privately owned desktop or laptop see the post: [RStudio installation on Windows 10/11](/post/2020/04/13/rstudio-installation-on-windows-10/).
 {{% /callout %}}
 
 ## Prerequisites
@@ -138,7 +138,7 @@ For newer versions of RStudio the steps described after the download are the sam
 ### Installation
 To install RStudio perform the following steps:
 
-1. Right-click the downloaded file **RStudio-2025.05.0-496.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
+1. Right-click the downloaded file **RStudio-2025.05.1-513.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
 2. After the installler has started, a Welcome window will appear as displayed below in [Figure 4](#figure-rstudio_setup). Click the ‘Next’ button to proceed.
 
 {{< figure src="rstudio-windows/1-rstudio-w10.png" caption="Welcome screen RStudio Setup." numbered="true" id="rstudio_setup" >}}

@@ -154,9 +154,9 @@ diagram: false
 ## Motivation
 <!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
 
-Whether working or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/Research-Results/Research-Institutes/plant-research/biometris/Education/BSc-and-Master-Courses.htm), will most likely use R.
+Whether working, or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/research-results/research-institutes/plant-research/business-units/biometris/education/bsc-and-master-courses.htm), will most likely use R.
 
-Some of these courses (e.g. [MAT-20306](https://ssc.wur.nl/Handbook/Course/MAT-20306), [MAT-32806](https://ssc.wur.nl/Handbook/Course/MAT-32806), and [MAT-50303](https://ssc.wur.nl/Handbook/Course/MAT-50303)) mainly use RStudio. Also other courses (e.g. [HNH-31506](https://ssc.wur.nl/Handbook/Course/HNH-31506) and [BIF-51306](https://ssc.wur.nl/Handbook/2019/Course/BIF51306)) taught at Wageningen University & Research use R through RStudio as well. Therefore, students will need to be able to install RStudio.
+Some of these courses (e.g., [MAT20306 Advanced Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT20306&collegejaar=huidig), [MAT27803 R for Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT27803&collegejaar=huidig), and [MAT32806 Statistics for Data Scientists](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT32806&collegejaar=huidig)) mainly use RStudio. Also other courses (e.g., [HNH45306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=HNH45306&collegejaar=huidig), and [BIF21306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=BIF21306&collegejaar=huidig)) taught at Wageningen University & Research use R through RStudio as well. Therefore, students will need to be able to install RStudio.
 
 {{% callout note %}}
 This post will show how to install RStudio on a **privately owned** desktop or laptop computer running Windows 10/11 as operating system.
@@ -178,7 +178,7 @@ Prior requirement for the installation of RStudio via the WUR AppStore:
 
 - [x] [R installed on Windows 10/11 via the WUR AppStore](/post/2020/04/06/r-installation-windows-10/#1-wur-appstore)
 
-The WUR AppStore currently contains RStudio version 2024.04.2 Build 764 under the name **RStudio 2024.04.2764**.
+The WUR AppStore currently contains RStudio version 2025.05.1 Build 513 named "**RStudio 2025.05.1.513**".
 
 ## 2. Manual Installation
 
