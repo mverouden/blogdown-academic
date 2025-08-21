@@ -56,15 +56,15 @@ share: true
 {{% toc %}}
 
 ## Motivation
-A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
+A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 11 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile.<!-- At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`.--> Currently the latest available version in Software Center is `R 4.4.1 Rcmdr`.
+Classic WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. Modern WURclient desktops and laptops use the "WURAppStore" instead.<!-- At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`.--> Currently the latest available version in Software Center/WURAppStore is `R 4.5.1 Rcmdr`.
 
-This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for serveral courses) is released in Software Center.
+This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for several courses) is released in Software Center.
 
-Many users, however, would just like to use a newer version of R than the one in Software Center. When this post was written the release version of R on [r-project.org](https://www.r-project.org/) was 4.0.3, named: "Bunny-Wunnies Freak Out" (released on 2020-10-10). The post has been updated, with the exception of the screenshots, to latest R version 4.5.1, named: "Great Square Root" (released on 2025-06-13).
+Many users, however, prefer to install software themselves, e.g., because they like to use a newer version of R than the one in Software Center/WURAppStore. When this post was written the release version of R on [r-project.org](https://www.r-project.org/) was 4.0.3, named: "Bunny-Wunnies Freak Out" (released on 2020-10-10). The post has been updated, with the exception of the screenshots, to latest R version 4.5.1, named: "Great Square Root" (released on 2025-06-13).
 
-Some users will also like to install the latest version of R Commander on their WURclient, after having installed the latest version of R via a custom installation without using Software Center.
+Some users will also like to install the latest version of R Commander on their WURclient, after having installed the latest version of R via a custom installation without using Software Center/WURAppStore.
 
 {{% callout note %}}
 This post will show how to install R Commander within R on a **WURclient** desktop or laptop computer after a custom R installation.
