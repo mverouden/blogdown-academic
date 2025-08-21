@@ -124,9 +124,9 @@ diagram: true
 {{% toc %}}
 
 ## Motivation
-A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 10 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
+A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 11 computer. WURclients use Windows 11 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-WURclient computers at Wageningen University & Research can install "Matworks<sup>&#174;</sup> Matlab" from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of Matlab<sup>&#174;</sup> in Software Center was `MATLAB R2021b (for NON commercial use only)`.  Currently the latest available version in Software Center is `MATLAB R2022b (for NON commercial use only)`.
+WURclient computers at Wageningen University & Research can install "Matworks<sup>&#174;</sup> Matlab" from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. At the time this post was written the latest version of Matlab<sup>&#174;</sup> in Software Center was `MATLAB R2021b (for NON commercial use only)`. Currently the latest available version in Software Center is `MATLAB R2024b LNU (for NON commercial use only)`.
 
 {{% callout warning %}}
 Please note **(for NON commercial use only)**!
@@ -134,16 +134,16 @@ Please note **(for NON commercial use only)**!
 The license for Matworks<sup>&#174;</sup> Matlab is an Academic and **not** a Commercial license. You are not allowed to used this software for commercial projects within Wageningen Research.
 {{% /callout%}}
 
-The Matlab<sup>&#174;</sup> version in Software Center for WURclient computers has two major drawbacks:
+The Matlab<sup>&#174;</sup> version in Software Center for WURclient computers has one major drawbacks:
 
-1. It is not always the latest version available.
-2. It requires an internet connection to the WURNET to be able to check out a license. Outside a WUR location (campus or otherwise) a VPN connection will enable checkout of the license file.
+* It is not always the latest version available.
+<!--2. It requires an internet connection to the WURNET to be able to check out a license. Outside a WUR location (campus or otherwise) a VPN connection will enable checkout of the license file.
 
 {{% callout warning %}}
 The Eduroam WiFi network is not part of WURNET. Therefore, you also need a VPN connection to check out a Matlab<sup>&#174;</sup>, when using the Software Center installation of Matlab<sup>&#174;</sup>.
-{{% /callout %}}
+{{% /callout %}}-->
 
-In this post the installation procedure for Mathworks<sup>&#174;</sup> Matlab will be given step wise. Thereby, providing a way to install the latest version as well as install the software on a WURclient laptop without having to connect to WURNET to checkout a license.
+In this post the installation procedure for Mathworks<sup>&#174;</sup> Matlab will be given step wise. Thereby, providing a way to install the latest version<!-- as well as install the software on a WURclient laptop without having to connect to WURNET to checkout a license-->.
 
 {{% callout note %}}
 This post will show how to install Matworks<sup>&#174;</sup> Matlab on a **WURclient** desktop or laptop computer, where the user possesses <u>**POWER USER RIGHTS**</u>.
@@ -166,12 +166,38 @@ To see whether you possess these rights, right-click any icon (except Recycle Bi
     + MATLAB (Designated Computer): The installation is restricted for use to a host ID that identifies a particular computer, but not a particular user. Any number of people can log in and use the software, but not simultaneously.
     + MATLAB (Individual):  You can install and run the software on multiple computers. Each installation is restricted for use by a particular computer and a particular user name. This is advised for WURclient computers (desk- or laptops) and privately owned desk- or laptop computers.
 
-5. After choosing the license type you will be sent to the License Center page of Mathworks<sup>&#174;</sup>. On this specific page you find a "Download" button. Pressing it allows you to download the version of Matlab<sup>&#174;</sup> you want to install. Leave the browser open, you will need it again later during the installation.
+5. After choosing the license type you will be sent to the License Center page of Mathworks<sup>&#174;</sup>. On this specific page you find a "Download" button. Pressing it allows you to download the version of Matlab<sup>&#174;</sup> you want to install.
 
-6. Once the download has finished, navigate to your downloads folder. Start the installer with a right mouse click and select "WUR – Run with administrative rights" as shown below in [Figure 1](#figure-explorer_cmd_pusr) and **make sure you install into "C:\MyPrograms"**.
+6. Once the download has finished, navigate to your downloads folder. Start the installer with a right mouse click and select "WUR – Run with administrative rights" as shown below in [Figure 1](#figure-explorer_cmd_pusr).
 
 {{< figure src="matlab-wurclient/1-install-with-wur-admin-rights.png" caption="Run CMD with 'WUR administrative rights' from File Explorer." numbered="true" id="explorer_cmd_pusr" >}}
 
+7. The Mathworks Product Installer will start with a screen asking to log into you Mathworks account. First provide your WUR e-mail address, followed by the password belonging to the MathWorks account you created earlier using your WUR e-mail address.
+
+8. Confirm the Software Linense Agreement by selecting `Yes` in the radio button. To confirm click the "Next" button.
+
+9. Select the desired license (Designated Computer or Individual, as described in step 4.), and click the "Next" button to continue.
+
+10. Select the destination folder. The recommended folder being `C:\MyPrograms\MATLAB\RYYYYv`, where `RYYYYv` represents the version, e.g., `R2024b`. Click the "Next" button to continue.
+
+11. Select the desired products to install onto you desk- or laptop computer, and click the "Next" button to continue.
+
+12. Tick the desired checkboxes to select the options wanted. Click the "Next" button to continue.
+
+13. Press the "Begin Install" button to start the installation.
+
+14. To finalize the installation press the "Close" button in the "Installation Complete" screen of the MathWorks Product Installer.
+
+## Activation
+
+Mathworks<sup>&#174;</sup> has switched to named user licensing instead of Campus-Wide licensing, where you had to create a license file (`license.lic`) on the Mathworks<sup>&#174;</sup> site and place it in a specific folder (`C:\MyPrograms\MATLAB\RYYYYv\licenses`, where RYYYYv represented the version you installed, e.g., R2019a).
+
+To activate the installed Mathworks<sup>&#174;</sup> MATLAB after installation, start the application using either the created desktop icon or using the start menu. You will be asked for the e-mail address associated with your Mathworks<sup>&#174;</sup> account (your WUR e-mail address).
+
+Next enter the password of your Mathworks<sup>&#174;</sup> account in order to activate the installed Mathworks<sup>&#174;</sup> MATLAB.
+
+The activation is needed only once! After activation Mathworks<sup>&#174;</sup> MATLAB will also start even if you do not have access to internet.
+<!--
 7. In the meantime, while Matlab<sup>&#174;</sup> is installing, navigate in your browser to the tab "Install and Activate" of the Mathworks<sup>&#174;</sup> License Center. In the right side of the screen under RELATED TASKS click the link "Activate to Retrieve License File".
 
 8. If you have not yet activated a computer on a Designated Computer or Individual License, the screen as displayed below in [Figure 2](#figure-manually_activate_software) will be shown
@@ -191,7 +217,25 @@ To see whether you possess these rights, right-click any icon (except Recycle Bi
 13. On your computer start “Activate Matlab RYYYYv” with administrative rights to correctly implement the downloaded license. In the start menu navigate to the item, right-click and select “more” > “Open file location”. In the new File Explorer right-click on “Activate Matlab RYYYYv” and select "WUR – Run with administrative rights".
 
 14. Now you should be able to start MATLAB from your start menu without problems!
-
+-->
 {{% callout note %}}
-Congratulations, :satisfied:, you now have Mathworks<sup>&#174;</sup> Matlab installed on your WURclient desktop or laptop computer!
+Congratulations, :satisfied:, you now have Mathworks<sup>&#174;</sup> MATLAB installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
+
+### Transition a previous installation to named user licensing
+
+Previously installed versions of Mathworks<sup>&#174;</sup> MATLAB (**R2023b** and newer) can be transitioned from a Campus-Wide license to an Individual named user license.
+
+Save the following files into the Downloads folder of your WURclient desk- or laptop by right-clicking the link and selecting the option 'Save link as...' (**<span style="color:red">IMPORTANT:</span> <u>DO NOT CHANGE THE FILE NAMES!</u>**):
+
+* {{< staticref "files/matlab/license_info.xml" "newtab" >}}{{< icon name="download" pack="fas" >}} license_info.xml{{< /staticref >}} (only for MATLAB **R2023b** and newer)
+
+Switch to Individual named user licensing by performing the following steps:
+
+1. Open File Explore and navigate to the folder, where you previously installed Mathworks<sup>&#174;</sup> MATLAB, e.g., `C:\MyPrograms\MATLAB\R2023b`.
+2. Open the subfolder `licenses`.
+3. Delete the file named `license.lic`.
+4. Copy the file `license_info.xml`, you downloaded earlier and most likely resides in your downloads folder, into the folder from which you deleted `license.lic`.
+5. Close File Explorer.
+
+To reactivate read the [Activation](#activation) section above in this post.
