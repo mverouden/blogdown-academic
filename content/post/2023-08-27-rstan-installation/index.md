@@ -253,7 +253,7 @@ The last line tells exactly what to do to fix the problem. Install the `rstudioa
 install.packages("rstudioapi")
 ```
 
-Retry to verifying the RStan installation as describe above. Now it should work!
+Retry to verify the RStan installation as describe above. Now it should work!
 
 ## Loading the package
 The package name is `rstan` (all lowercase), to load the package execute:
