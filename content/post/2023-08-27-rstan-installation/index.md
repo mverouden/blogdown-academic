@@ -237,6 +237,24 @@ packageVersion(pkg = "rstan")
 
 When the installed versions are lower than version 2.32.x, then repeat steps 2. and 3. as described in the section [Installation](#installation).
 
+### Failed with error: 'there is no package called 'rstudioapi''
+
+When the verification of the Rstan installation fails with:
+```
+Loading required namespace: rstudioapi
+Failed with error:  ‘there is no package called ‘rstudioapi’’
+Error in .local(object, ...) : 
+  must install the rstudioapi package when using RStan in parallel via RStudio
+```
+
+The last line tells exactly what to do to fix the problem. Install the `rstudioapi` package using:
+
+```r
+install.packages("rstudioapi")
+```
+
+Retry to verifying the RStan installation as describe above. Now it should work!
+
 ## Loading the package
 The package name is `rstan` (all lowercase), to load the package execute:
 
