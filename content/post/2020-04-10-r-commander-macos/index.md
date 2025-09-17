@@ -117,7 +117,7 @@ Once the installation of the `RcmdrPlugin.HH` package has finised, you are ready
 **When using R Commander for the first time additional packages required for R Commander to work correctly will need to be installed. Allow the installation to be able to work smoothly without errors!**
 {{% /callout %}}
 
-To start R Commander from the R Console, type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return (&#8617;) to execute. This will cause R Commander to be started.
+To start R Commander from the R Console, type the command `library(Rcmdr)` behind the prompt, as indicated by the `>` sign, and and press return / enter (&#8617;) to execute. This will cause R Commander to be started. In case R Commander does not start, go to the section [R Commander fails to start](#r-commander-fails-to-start).
 
 {{% callout warning%}}
 When starting __R Commander__ via `Packages & Data` > `Packages Manager` in the top bar menu of __R__ and marking the tick box in front of the `Rcmdr` package, many users experience that R Commander fails to show the menu items in the top bar menu of R Commander. This is resolved by starting R Commander by explicitly typing the command `library(Rcmdr)` at the prompt and executing by pressing return (&#8617;) instead of using the graphical user interface of R to load the `Rcmdr` package.
@@ -181,3 +181,32 @@ detach("package:Rcmdr", unload = TRUE)
 paste (&#8984;V) it behind the prompt in the R console (indicated by a `>` sign) and press return (&#8617;) to execute the command.
 
 Now R Commander can be restarted by using the `library(Rcmdr)` command as before. 
+
+## R Commander fails to start
+
+### XQuartz does not start
+When starting R Commander the utility XQuartz should start automatically, thereby providing the TCL/Tk environment to be able to show the R Commander windows.
+
+When XQuartz does not start at all, you most likely have not shut down your mac fully and restarted it after installation of XQuartz. In this case you need to reinstall XQuartz as described in [XQuartz installed on macOS](/post/2020/04/09/xquartz-installation-macos/). This time do exactly as written there, and fully shutdown your mac after installation.
+
+When XQuartz appears in the dock, bounces a couple of times and, subsequently, disappears from the dock. Then your mac is configured such that XQuartz is not allowed to run in the background. This can be fixed as described in [Troubleshooting: XQuartz fails to start](/post/2020/04/09/xquartz-installation-macos/#troubleshooting-xquartz-fails-to-start).
+
+### Fix error package could not be found
+In some cases the installation of R Commander Installation fails to install all required dependencies.
+
+After entering the command `library(Rcmdr)` an error message appears, e.g.,
+
+```R
+> library(Rcmdr)
+Loading required package: splines
+Error: package ‘RcmdrMisc’ required by ‘Rcmdr’ could not be found
+```
+In the example above the package **RcmdrMisc** is missing, and needs to be installed. To install this particular package enter the following command at the R prompt (indicated by `>`):
+```R
+install.packages("RcmdrMisc")
+```
+Press the return key (enter) on your keyboard to execute the command.
+
+After installation try to start R Commander again by executing `library(Rcmdr)`. Install all the missing packages using the command `install.packages("packageName")`, where you replace `"packageName"` with the one shown in the error message. Most of the times there are 3 - 4 packages (dependencies) missing.
+
+Once R Commander has started, follow the steps described in [First time use of R Commander](#first-time-use-of-r-commander).
