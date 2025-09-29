@@ -124,3 +124,23 @@ detach("package:Rcmdr", unload = TRUE)
 paste (Ctrl+V) it behind the prompt in the R Console (indicated by a `>` sign) and press return (&#8617;) to execute the command.
 
 Now R Commander can be restarted by using the `library(Rcmdr)` command as before.
+
+## R Commander fails to start
+
+### Fix error package could not be found
+In some cases the installation of R Commander Installation fails to install all required dependencies.
+
+After entering the command `library(Rcmdr)` an error message appears, e.g.,
+
+```R
+> library(Rcmdr)
+Loading required package: splines
+Error: package ‘RcmdrMisc’ required by ‘Rcmdr’ could not be found
+```
+In the example above the package **RcmdrMisc** is missing, and needs to be installed. To install this particular package enter the following command at the R prompt (indicated by `>`):
+```R
+install.packages("RcmdrMisc")
+```
+Press the return key (enter) on your keyboard to execute the command.
+
+After installation try to start R Commander again by executing `library(Rcmdr)`. Install all the missing packages using the command `install.packages("packageName")`, where you replace `"packageName"` with the one shown in the error message. Most of the times there are 3 - 4 packages (dependencies) missing.
