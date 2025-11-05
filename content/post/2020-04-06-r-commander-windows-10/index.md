@@ -82,7 +82,7 @@ To be able to install R Commander you will need to have R installed first. If yo
 
 This post was originally based on R version 3.6.3. For newer versions of R the steps described are the same, only some screens you will see during your installation will display a higher version number of R compared to the screenshots in this post.
 
-1. Start `R x64 4.5.1` from the ‘R’ folder in the ‘Start Menu’ as displayed below in [Figure 1](#figure-startmenu_r).
+1. Start `R x64 4.5.2` from the ‘R’ folder in the ‘Start Menu’ as displayed below in [Figure 1](#figure-startmenu_r).
 
 {{< figure src="r-commander-windows/startmenu-r.png" caption="Start Menu R x64" numbered="true" id="startmenu_r" >}}
 
@@ -101,7 +101,7 @@ This post was originally based on R version 3.6.3. For newer versions of R the s
 5. Repeat step 4. for installing the `RcmdrPlugin.HH` package. This plugin is required <!--in MAT-15403 Statistics 2--> to be able to do assignments about Simple Linear Regression.
 
 {{% callout note %}}
-Once the installation of the `RcmdrPlugin.HH` package has finished, you are ready :satisfied: to use R Commander and start it from within R version 4.5.1.
+Once the installation of the `RcmdrPlugin.HH` package has finished, you are ready :satisfied: to use R Commander and start it from within R version 4.5.2.
 {{% /callout %}}
 
 {{% callout warning %}}
@@ -128,7 +128,7 @@ Now R Commander can be restarted by using the `library(Rcmdr)` command as before
 ## R Commander fails to start
 
 ### Fix error package could not be found
-In some cases the installation of R Commander Installation fails to install all required dependencies.
+In some cases the [R Commander Installation](#r-commander-installation-from-the-r-gui) fails to install all required dependencies.
 
 After entering the command `library(Rcmdr)` an error message appears, e.g.,
 
