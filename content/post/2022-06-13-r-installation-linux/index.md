@@ -148,33 +148,29 @@ This post will show how to install R on a Linux desk- or laptop computer.
 
 Two types of Linux Operating Systems are described:
 
-1. Debian based, e.g. LMDE 5 Elsie (based on Debian 11 Bullseye)
-2. Ubuntu based, e.g. Linux Mint 20.3 (based on Ubuntu 20.04.4 LTS a.k.a. Focal Fossa)
+1. Debian based, e.g. LMDE 7 Gigi (based on Debian 13 Trixie)
+2. Ubuntu based, e.g. Linux Mint 22.2 Zara (based on Ubuntu 24.04 LTS a.k.a. Noble Numbat)
 {{% /callout %}}
 
 ## Installation R
 
 ### Debian based Linux Operating System
 
-The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/debian/. At the time of writing this post the described procedure installs R version 4.2.0 (nicknamed: Vigorous Calisthenics), under the assumption that the Linux Operating System is based on Debian 11 Bullseye. When you are using Debian 12 Bookworm, replace `bullseye` with `bookworm` in the commands provided below.
+The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/debian/. At the time of writing this post the described procedure installs R version 4.5.2 (nicknamed: [Not] Part in a Rumbles), under the assumption that the Linux Operating System is based on Debian 13 Trixie. When you are using Debian 12 Bookworm, replace `trixie` with `bookworm` in the commands provided below.
 
 1. Open a terminal (CTRL+ALT+T) and log in as administrator using the console command:
 ```sh
 sudo -i
 ```
 
-2. Fetch and import the current key. When a message appears that `apt-key` is deprecated, use the second command starting with `gpg`.
-```sh
-apt-key adv --keyserver keyserver.ubuntu.com --recv-key '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7'
-```
-
+2. Fetch and import the current key.
 ```sh
 gpg --armor --export '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7' | tee /etc/apt/trusted.gpg.d/cran_debian_key.asc
 ```
 
-3. Add Debian bullseye repository to the software sources using the command:
+3. Add Debian Trixie repository to the software sources using the command:
 ```sh
-add-apt-repository "deb http://cloud.r-project.org/bin/linux/debian bullseye-cran40/"
+add-apt-repository "deb http://cloud.r-project.org/bin/linux/debian trixie-cran40/"
 ```
 
 4. Update the package information from all configured sources:
@@ -195,24 +191,21 @@ Congratulations, you can now use R within a terminal on your Debian based Linux 
 
 ### Ubuntu based Linux Operating System
 
-The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/ubuntu/fullREADME.html. At the time of writing this post the described procedure installs R version 4.2.0 (nicknamed: Vigorous Calisthenics), under the assumption that the Linux Operating System is based on Ubuntu 20.04.4 LTS Focal Fossa. When using a newer version of Ubuntu LTS replace the name of the version used in the commands below, e.g., for Ubuntu 24.04 LTS use `noble` instead of `focal`.
+The installation procedure described here, combines information as provided on https://cloud.r-project.org/bin/linux/ubuntu/fullREADME.html. At the time of writing this post the described procedure installs R version 4.5.2 (nicknamed: [Not] Part in a Rumble), under the assumption that the Linux Operating System is based on Ubuntu 24.04 LTS Noble Numbat. <!-- When using a newer version of Ubuntu LTS replace the name of the version used in the commands below, e.g., for Ubuntu 24.04 LTS use `noble` instead of `focal`.-->
 
 1. Open a terminal (CTRL+ALT+T) and log in as administrator using the console command:
 ```sh
 sudo -i
 ```
 
-2. Fetch and import the current key. When a message appears about deprecation of `apt-key`, use the second command starting with `wget`.
-```sh
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-```
+2. Fetch and import the current key.<!-- When a message appears about deprecation of `apt-key`, use the second command starting with `wget`.-->
 ```sh
 wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
 ```
 
 3. Add Ubuntu Focal Fossa repository to the software sources using the command:
 ```sh
-add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/"
+add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu noble-cran40/"
 ```
 
 4. Update the package information from all configured sources:
@@ -222,7 +215,7 @@ apt update
 
 5. Fully install R with dependencies:
 ```sh
-apt install r-base r-cran-littler r-cran-rodbc r-doc-info r-doc-pdf r-mathlib elpa-ess ess jags littler python3-rpy2
+apt install r-base r-cran-littler r-cran-rodbc r-doc-info r-doc-pdf r-mathlib jags littler python3-rpy2
 ```
 
 6. Exit out of administrator mode using the `exit` command.
