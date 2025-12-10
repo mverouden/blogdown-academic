@@ -105,3 +105,48 @@ To install RStudio on macOS perform the following steps:
 {{% callout note %}}
 Congratulations, :satisfied:, you now have successfully installed RStudio on your mac! The icon in your Applications (shortcut: &#8679;&#8984;A) or Launcher will look the same as the R application icon you dragged and dropped in step 3. of the installation steps described above.
 {{% /callout %}}
+
+## Resetting RStudio desktop's state
+<!-- Based on: https://support.posit.co/hc/en-us/articles/200534577-Resetting-RStudio-Desktop-s-State -->
+RStudio Desktop stores its internal state in a hidden directory. If this directory does not exist, RStudio will create it on start up. This directory includes information about open documents, log files, and other state information. Removing (or renaming) this directory will reset RStudio's state. 
+
+It is recommended to rename this directory to create a backup version instead of completely deleting it. This allows saving your settings, in case needed to revert back to them. Additionally, if experiencing a crash or RStudio failed to start, this directory may contain vital information for determining the source of the error.
+
+Starting with RStudio 1.3, user preferences are stored in a separate folder from internal state. This allows for performing a state reset without losing settings, and also allows for preferences to be sync'ed between machines (in e.g., `AppData\Roaming` on Windows) while internal state is machine specific. 
+
+Some versions of RStudio Desktop store additional preferences (such as the size and location of the window and the rendering mode) in a separate location. To fully reset state, this must also be deleted or renamed, as described below in "[Resetting Other Preferences](#resetting-other-preferences)".
+
+When using RStudio Projects, it is also recommended to reset the project-specific state if experiencing issues - this can done by navigating to the Project's folder in the file browser, and renaming the `.Rproj.user` directory there.
+
+{{% callout warning %}}
+Before resetting the internal state or other preferences make sure that no instance of RStudio is currently running. Use the task manager in Windows to close any running instance of RStudio.
+{{% /callout %}}
+
+### Accessing the RStudio-Desktop Directory (Internal State)
+A backup can easily created by running the following command from the terminal:
+```sh
+mv ~/.local/share/rstudio ~/.local/share/rstudio-backup
+```
+
+Alternatively, open a Finder window into the rstudio directory by typing the following command at the Terminal:
+```sh
+open ~/.local/share/rstudio
+```
+
+In RStudio 1.3 and prior, the folder `~/.rstudio-desktop` is used instead of `~/.local/share/rstudio`.
+
+### Resetting other preferences
+To create a backup, run the following command from the terminal:
+```sh
+defaults read com.rstudio.desktop > ~/backup-rstudio-prefs
+```
+
+To delete these settings, run the following command from the terminal:
+```sh
+defaults delete com.rstudio.desktop
+```
+
+{{% callout warning %}}
+Use caution; this cannot be undone unless you have created the backup file, and deleting anything other than `com.rstudio.desktop` could create serious problems with your system.
+{{% /callout %}}
+

@@ -171,7 +171,9 @@ Two ways to install R are offered here:
 1. [WUR AppStore](#1-wur-appstore). This is the **RECOMMENDED** way!
 2. [Manual installation](#2-manual-installation) for those who, for whatever reason, do not want to use the WUR AppStore.
 
-## 1. WUR AppStore
+## Installation
+
+### 1. WUR AppStore
 The WUR AppStore is the place where you will be able to download, link to, or virtually access the software you need for your study program and courses. Not only during, but also for self-study after, the computer practical's and courses. 
 
 Prior requirement for the installation of RStudio via the WUR AppStore:
@@ -180,16 +182,16 @@ Prior requirement for the installation of RStudio via the WUR AppStore:
 
 The WUR AppStore currently contains RStudio version 2025.05.1 Build 513 named "**RStudio 2025.05.1.513**".
 
-## 2. Manual Installation
+### 2. Manual Installation
 
-### Download
+#### Download
 At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2025.09.2 Build 418 (named "Cucumberleaf Sunflower").
 
 Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2025.09.2 Build 418 (ca. 296.74 MB)](https://download1.rstudio.org/electron/windows/RStudio-2025.09.2-418.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
-### RStudio Installation
+#### RStudio Installation
 Prior requirement for the installation of RStudio:
 
 - [x] [R installed on Windows 10/11 via Manual Installation](/post/2020/04/06/r-installation-windows-10/#2-manual-installation)
@@ -219,3 +221,38 @@ To install RStudio on Windows 10/11 perform the following steps:
 {{% callout note %}}
 Congratulations, :satisfied:, you now have RStudio 2025.09.2 Build 418 installed on your private Windows desktop or laptop computer!
 {{% /callout %}}
+
+## Resetting RStudio desktop's state
+<!-- Based on: https://support.posit.co/hc/en-us/articles/200534577-Resetting-RStudio-Desktop-s-State -->
+RStudio Desktop stores its internal state in a hidden directory. If this directory does not exist, RStudio will create it on start up. This directory includes information about open documents, log files, and other state information. Removing (or renaming) this directory will reset RStudio's state. 
+
+It is recommended to rename this directory to create a backup version instead of completely deleting it. This allows saving your settings, in case needed to revert back to them. Additionally, if experiencing a crash or RStudio failed to start, this directory may contain vital information for determining the source of the error.
+
+Starting with RStudio 1.3, user preferences are stored in a separate folder from internal state. This allows for performing a state reset without losing settings, and also allows for preferences to be sync'ed between machines (in e.g., `AppData\Roaming` on Windows) while internal state is machine specific. 
+
+Some versions of RStudio Desktop store additional preferences (such as the size and location of the window and the rendering mode) in a separate location. To fully reset state, this must also be deleted or renamed, as described below in "[Resetting Other Preferences](#resetting-other-preferences)".
+
+When using RStudio Projects, it is also recommended to reset the project-specific state if experiencing issues - this can done by navigating to the Project's folder in the file browser, and renaming the `.Rproj.user` directory there.
+
+{{% callout warning %}}
+Before resetting the internal state or other preferences make sure that no instance of RStudio is currently running. Use the task manager in Windows to close any running instance of RStudio.
+{{% /callout %}}
+
+### Accessing the RStudio-Desktop Directory (Internal State)
+Open a File Explorer window into the RStudio-Desktop directory by typing the following command into `Start -> Run`:
+```sh
+%localappdata%\RStudio
+```
+
+For older versions of RStudio (v1.3 and older), the state is stored here:
+```sh
+%localappdata%\RStudio-Desktop
+```
+Rename the directory `Rstudio` or `RStudio-Desktop`, e.g. to `old_Rstudio`. The environment variable `%localappdata` generally resolves into the folder `C:\Users\<username>\AppData\Local`, where `<username>` reflects the username of the current user.
+
+### Resetting other preferences
+Open an Explorer window into the RStudio preferences directory by typing the following command into `Start -> Run`:
+```sh
+%appdata%\RStudio
+```
+Rename the directory`RStudio`, e.g. to `old_Rstudio`. The environment variable `%appdata` generally resolves into the folder `C:\Users\<username>\AppData\Roaming`, where `<username>` reflects the username of the current user.
