@@ -119,7 +119,7 @@ Some versions of RStudio Desktop store additional preferences (such as the size 
 When using RStudio Projects, it is also recommended to reset the project-specific state if experiencing issues - this can done by navigating to the Project's folder in the file browser, and renaming the `.Rproj.user` directory there.
 
 {{% callout warning %}}
-Before resetting the internal state or other preferences make sure that no instance of RStudio is currently running. Use the task manager in Windows to close any running instance of RStudio.
+Before resetting the internal state or other preferences make sure that no instance of RStudio is currently running. Use &#8984;&#8997;&#9099; (Command + Option + Escape) and, if needed, force quit an unresponsive RStudio instance.
 {{% /callout %}}
 
 ### Accessing the RStudio-Desktop Directory (Internal State)
