@@ -105,6 +105,6 @@ As lecturer I am involved in the following courses:
   - [MAT14303](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT14303&collegejaar=huidig) Basic Statistics (also as Course Coordinator in Period 3)
   - [MAT15303](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT15303&collegejaar=huidig) Statistics 1
   - [MAT15403](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT15403&collegejaar=huidig) Statistics 2
-  - [MAT50303](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT50303&collegejaar=huidig) R for Statistics (also as Course Coordinator in Period 4)
+  - [MAT27803](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT27803&collegejaar=huidig) R for Statistics (also as Course Coordinator in Period 4)
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
