@@ -51,7 +51,7 @@ social:
     link: '/#contact'
   - icon: university
     icon_pack: fas
-    link: https://www.wur.nl/en/Persons/Maikel-dr.ing.-MPH-Maikel-Verouden.htm
+    link: https://www.wur.nl/en/persons/dring-mph-maikel-verouden
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-4893-3323
