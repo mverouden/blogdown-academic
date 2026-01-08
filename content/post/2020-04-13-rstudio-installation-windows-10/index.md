@@ -185,9 +185,9 @@ The WUR AppStore currently contains RStudio version 2025.05.1 Build 513 named "*
 ### 2. Manual Installation
 
 #### Download
-At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2025.09.2 Build 418 (named "Cucumberleaf Sunflower").
+At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2026.01.0 Build 392 (named "Apple Blossom").
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2025.09.2 Build 418 (ca. 296.74 MB)](https://download1.rstudio.org/electron/windows/RStudio-2025.09.2-418.exe)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.01.0 Build 392 (ca. 314.17 MB)](https://download1.rstudio.org/electron/windows/RStudio-2026.01.0-392.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
@@ -200,7 +200,7 @@ To be able to install RStudio you will need to have R installed first. If you ha
 
 To install RStudio on Windows 10/11 perform the following steps:
 
-1. Open the downloaded file **RStudio-2025.09.2-418.exe**. This file will most likely reside in the Downloads folder of your user account.
+1. Open the downloaded file **RStudio-2026.01.0-392.exe**. This file will most likely reside in the Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installler has started, a Welcome window will appear as displayed below in [Figure 1](#figure-rstudio_setup). Click the ‘Next’ button to proceed.
 
@@ -219,7 +219,7 @@ To install RStudio on Windows 10/11 perform the following steps:
 {{< figure src="rstudio-windows/5-rstudio-completed-w10.png" caption="RStudio Installation Completion." numbered="true" id="rstudio_install_completed" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio 2025.09.2 Build 418 installed on your private Windows desktop or laptop computer!
+Congratulations, :satisfied:, you now have RStudio 2026.01.0 Build 392 installed on your private Windows desktop or laptop computer!
 {{% /callout %}}
 
 ## Resetting RStudio desktop's state
