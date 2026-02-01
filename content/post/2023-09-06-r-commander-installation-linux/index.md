@@ -133,6 +133,8 @@ At Wageningen University & Research the Linux Operating System is supported on a
 
 On the other hand Linux users are generally users, who are very independent and know how to search for and implement solutions themselves. Being one of those Linux users within WUR myself I want to share in this post, how I have installed R Commander in R on my Linux Systems within Wageningen University & Research.
 
+R Commander provides a graphical point-and-click environment for performing statistical analyses.
+
 {{% callout note %}}
 This post will show how to install R Commander in R on a Linux desk- or laptop computer.
 {{% /callout %}}
