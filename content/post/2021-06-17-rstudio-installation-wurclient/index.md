@@ -243,4 +243,4 @@ Open an Explorer window into the RStudio preferences directory by typing the fol
 ```sh
 %appdata%\RStudio
 ```
-Rename the directory`RStudio`, e.g. to `old_Rstudio`. The environment variable `%appdata` generally resolves into the folder `C:\Users\<username>\AppData\Roaming`, where `<username>` reflects the username of the current user.
+Rename the directory `RStudio`, e.g. to `old_Rstudio`. The environment variable `%appdata` generally resolves into the folder `C:\Users\<username>\AppData\Roaming`, where `<username>` reflects the username of the current user.
