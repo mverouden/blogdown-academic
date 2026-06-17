@@ -49,8 +49,7 @@ share: true
 
 {{% toc %}}
 
-## Motivation
-<!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
+## Motivation<!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
 
 Whether working, or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/research-results/research-institutes/plant-research/business-units/biometris/education/bsc-and-master-courses.htm), will most likely use R.
 
@@ -71,9 +70,9 @@ In the text some symbol combinations are used for shortcuts, the following table
 | &#8679; | &nbsp; | shift (either left or right) | &nbsp;&nbsp; | &#9099; | &nbsp; | escape                         |
 
 ## Download
-At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2026.05.0 Build 218 (nicknamed "Golden Wattle"), which will work on macOS Sonoma (version 14.x) or later.
+At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2026.05.1 Build 225 (nicknamed "Golden Wattle"), which will work on macOS Ventura (version 13.x) or later.
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.05.0 Build 218 (ca. 729.44 MB)](https://download1.rstudio.org/electron/macos/RStudio-2026.05.0-218.dmg)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.05.1 Build 225 (ca. 690.3 MB)](https://download1.rstudio.org/electron/macos/RStudio-2026.05.1-225.dmg)
 
 If you are on a 32 bit system, you can use an [older version of RStudio](https://docs.posit.co/previous-versions/rstudio/).
 
