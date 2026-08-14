@@ -53,7 +53,7 @@ share: true
 ## Motivation
 <!--Due to the novel coronavirus (SARS-CoV-2) and its related disease :mask: COVID-19 employees and students at Wageningen University & Research are all working from home.-->
 
-Whether working, or studying, everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/research-results/research-institutes/plant-research/business-units/biometris/education/bsc-and-master-courses.htm), will most likely use R. Students enrolled in [MAT15303 Statistics 1](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT15303&collegejaar=huidig), and [MAT15403 Statistics 2](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT15403&collegejaar=huidig) will use R Commander instead of basic R. Therefore, they will need to install R Commander.
+Whether working, or studying, everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/research-results/research-institutes/plant-research/business-units/biometris/education/bsc-and-master-courses.htm), will most likely use R. Students enrolled in [MAT14303 Basic Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT14303&collegejaar=huidig), and [MAT15303 Statistics 1](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT15303&collegejaar=huidig), will use R Commander instead of basic R. Therefore, they will need to install R Commander.
 
 R Commmander has been programmed in Tcl (Tool Command Language) and uses Tk as a graphical user interface toolkit. To be able to use R Commander correctly on macOS, software needs to installed that enables the use of Tcl/Tk. XQuartz is the only software on macOS, which enables the operating system to use Tcl/Tk.
 
@@ -76,9 +76,9 @@ At the time this post was written the release of XQuartz was version 2.7.11. It 
 
 Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.7.11 (ca. 75.9 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.7.11/XQuartz-2.7.11.dmg)
 
-The latest release of XQuartz, however, is version 2.8.5. This version should be used for OS X Mavericks (version 10.9.x) or later.<!--, up to and including macOS Monterey (version 12.x).-->
+The latest release of XQuartz, however, is version 2.8.6. This version should be used for macOS High Sierra (version 10.13.x) or later.<!--, up to and including macOS Monterey (version 12.x).-->
 
-Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.5 (ca. 103MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.5/XQuartz-2.8.5.pkg)
+Download XQuartz using the following link: [{{< icon name="download" pack="fas" >}} XQuartz v2.8.6 (ca. 103 MB)](https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.6/XQuartz-2.8.6.pkg)
 
 {{% callout warning %}}
 Make sure you download and install the correct version!
@@ -95,7 +95,7 @@ To install XQuartz on macOS perform the following steps:
 
 {{< figure src="xquartz-macos/1-xquartz-disk-image.png" caption="Icon XQuartz Disk Image." numbered="true" id="xquartz_disk_image" >}}
 
-2. Opening the XQuartz disk image will cause a window labeled ‘XQuartz-2.7.11’ or ‘XQuartz-2.8.5’ to appear containing a XQuartz installer package. This package looks like the image shown in [Figure 2](#figure-xquartz_package), however the version number may be different. Double click the XQuartz installer package to open the installer.
+2. Opening the XQuartz disk image will cause a window labeled ‘XQuartz-2.7.11’ or ‘XQuartz-2.8.6’ to appear containing a XQuartz installer package. This package looks like the image shown in [Figure 2](#figure-xquartz_package), however the version number may be different. Double click the XQuartz installer package to open the installer.
 
 {{< figure src="xquartz-macos/2-xquartz-package-icon.png" caption="Icon XQuartz Installer Package." numbered="true" id="xquartz_package" >}}
 
