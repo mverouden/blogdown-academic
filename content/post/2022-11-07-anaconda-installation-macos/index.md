@@ -117,26 +117,28 @@ Having performed all 5 steps given above, your mac will be ready for a new insta
 {{% /callout %}}
 
 ## Download 
-At the time this post was written, the latest release of Anaconda was version 2022.10 containing Python 3.9.13. It has been updated to the latest release version `2025.06-1` of Anaconda containing Python 3.13.5.
+At the time this post was written, the latest release of Anaconda was version 2022.10 containing Python 3.9.13. It has been updated to the latest release version `2026.07-1` of Anaconda containing Python 3.14.6 [release date: 2026-07-29].
 
 For newer versions of Anaconda than 2022.10 the steps described below are the same and still correct, but start with a newer version of the downloaded installer package file of Anaconda. The screenshots in this post have not been updated. Therefore, what you see during your installation can (and probably will) differ with respect to the version number shown in the screenshots.
 
 {{% callout warning %}}
-For macOS there are two downloads of Anaconda available on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/). To see which version you need click on {{< icon name="apple" pack="fab" >}} in the menu bar and select ‘About This Mac’.
+For macOS there is only one download of Anaconda available on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/). As of Anaconda3 version 2025.12-2 only the ARM architecture is supported for macOS. If you have an Intel processor based mac, you will need to download the __Intel 64-bit__ build of Anaconda3 from the last supported edition for that architecture.
 
-__NOTE__: If you are using a mac with the newest M1, M2 or M3 processor, download the __Apple Silicon arm64__ build!
+To see which version you need click on {{< icon name="apple" pack="fab" >}} in the menu bar and select ‘About This Mac’.
+
+__NOTE__: If you are using a mac with the newest M1, M2, M3 or M4 processor, download the __Apple Silicon arm64__ build!
 {{% /callout %}}
 
 Download Anaconda for your specific version of macOS using one of the following links:
 
 - For an Intel processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2025.06-1 (ca. 800.3 MB, __Intel 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2025.06-1-MacOSX-x86_64.pkg)
-- For a M1/M2/M3/M4 processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2025.06-1 (ca. 781.3 MB, __ARM 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2025.06-1-MacOSX-arm64.pkg)
+- For a M1/M2/M3/M4 processor based mac: [{{< icon name="download" pack="fas" >}} Anaconda3 2026.07-1 (ca. 838.7 MB, __ARM 64-bit__ build)](https://repo.anaconda.com/archive/Anaconda3-2026.07-1-MacOSX-arm64.pkg)
 
 ## Installation
 
 For installing Anaconda on macOS follow these steps:
 
-1. Open the downloaded file, either **Anaconda3-2025.06-1-MacOSX-x86_64.pkg**, or **Anaconda3-2025.06-1-MacOSX-arm64.pkg** depending on the processor in your mac (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1.
+1. Open the downloaded file, either **Anaconda3-2025.06-1-MacOSX-x86_64.pkg**, or **Anaconda3-2026.07-1-MacOSX-arm64.pkg** depending on the processor in your mac (as explained above). This file will most likely reside in Finder > Downloads (shortcut: &#8997;&#8984;L). The file can more easily be found by switching into List view (shortcut: &#8984;2). To switch to Icon view use the shortcut: &#8984;1.
 
 2. The installler will start by displaying a message as shown in [Figure 3](#figure-allow-install). Click 'Allow' to let the package determine if the software can be installed.
 
@@ -181,7 +183,7 @@ For installing Anaconda on macOS follow these steps:
 {{< figure src="anaconda-macos/11-installation-finish.png" caption="Finish and close the Anaconda3 installer." numbered="true" id="finish" >}}
 
 {{% callout note %}}
-Congratulations :satisfied:, you now have Anaconda3 2025.06-1 containing Python 3.13.5 installed on your mac!
+Congratulations :satisfied:, you now have the latest version of Anaconda3 installed on your mac for the matching architecture!
 
 Before actively using Anaconda, some configuration may be required. The configuration is described in the next section.
 {{% /callout %}}

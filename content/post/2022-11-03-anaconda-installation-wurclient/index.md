@@ -57,11 +57,11 @@ share: true
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 11 computer. WURclients use Windows 11 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-Classic WURclient desktops and laptops at Wageningen University & Research can install RStudio from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. Modern WURclient desktops and laptops use the "WURAppStore" instead. The available version of Anaconda Python (Anaconda3) in Software Center is `Anaconda Python 2025.06-0`, whereas in the WURAppStore it is named `Anaconda3 2025.06-0`.
+Classic WURclient desktops and laptops at Wageningen University & Research can install RStudio from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. Modern WURclient desktops and laptops use the "WURAppStore" instead. The available version of Anaconda Python (Anaconda3) in Software Center is `Anaconda Python 2025.12-2`, whereas in the WURAppStore it is named `Anaconda3 2025.12-2`.
 
 This version of Anaconda Python was packaged for educational purposes. Only once per year a new version of Anaconda Python is released in Software Center (for Classic WURclients) and WURAppStore (for Modern WURclients, and course software for students).
 
-Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center. At the moment of writing this post the latest version of Anaconda Python released on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). The post has been updated, with the exception of the screenshots, to Anaconda3 version `2025.06-1` containing Python 3.13.5 (released 2025-07-18).
+Many users, however, would like to use a newer version of Anaconda Python than the one in Software Center/WUR AppStore. At the moment of writing this post the latest version of Anaconda Python released on the [Anaconda Repository Archive](https://repo.anaconda.com/archive/) is Anaconda3 version 2022.10 containing Python 3.9.13 (released on 2022-10-17). The post has been updated, with the exception of the screenshots, to Anaconda3 version `2026.07-1` containing Python 3.14.6 (released 2026-07-29).
 
 {{% callout note %}}
 This post will show how to custom install Anaconda Python on a **WURclient** desktop or laptop computer without using Software Center.
@@ -86,10 +86,12 @@ Here two procedures are described, follow the one that fits your needs:
 
 In case you have no version of Anaconda installed on your WURclient desktop or laptop you can proceed to the section [Custom Anaconda installation](#custom-anaconda-installation).
 
-### Installed from Software Center
-If you previously installed Anaconda Python from Software Center, then to remove Anaconda Python reopen the Software Center by clicking on Start and next click on the Software Center tile. If for some reason you lack this tile in your start menu, just type 'Software Center' and it will appear in a search results window in your Windows task bar.
+### Installed from Software Center/WUR Appstore
+If you previously installed Anaconda Python from Software Center/WUR Appstore, then to remove Anaconda Python reopen the Software Center/WUR Appstore by clicking on Start and next click on the Software Center tile, or opening the WUR Appstore from the menu. If for some reason you lack this tile in your start menu, just type 'Software Center' and it will appear in a search results window in your Windows task bar.
 
 In the left column of Software Center navigate to "Installation Status". Select the installed Anaconda Python version and click on the green button bearing the text "Uninstall". This will start the removal of the software. You will be informed by the Software Center, when the software has been uninstalled.
+
+In the WUR Appstore navigate to "Downloads & Updates" in the left column of the WUR Appstore. Right click the Anaconda3 application and select uninstall.
 
 {{% callout note %}}
 If you have not installed another version of Anaconda Python, either via Software Center or via a custom installation, your computer should now be lacking a functioning Anaconda Python installation. Continue with the section [Custom Anaconda installation](#custom-anaconda-installation) to perform a new custom installation of Anaconda.
@@ -157,9 +159,9 @@ mkdir C:\MyData
 7. To close the Command Prompt application type `exit` and press return (Enter) to execute.
 
 ### Download
-At the time this post was written, the latest release of Anaconda3 was version 2022.10. It has been updated to the latest release version `2025.06-1` of Anaconda3.
+At the time this post was written, the latest release of Anaconda3 was version 2022.10. It has been updated to the latest release version `2026.07-1` of Anaconda3 [release date: 2026-07-29].
 
-The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Anaconda3 2025.06-1 for Windows (ca. 914.6 MB, 64-bit).](https://repo.anaconda.com/archive/Anaconda3-2025.06-1-Windows-x86_64.exe)
+The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Anaconda3 2026.07-1 for Windows (ca. 1.0 GB, 64-bit).](https://repo.anaconda.com/archive/Anaconda3-2026.07-1-Windows-x86_64.exe)
 
 {{% callout warning %}}
 From Anaconda3 version 2022.10 the installer is only available for 64-bit Windows 10/11 and will not install on a 32-bit version of the Operating System.
@@ -169,7 +171,7 @@ From Anaconda3 version 2022.10 the installer is only available for 64-bit Window
 ### Installation
 For newer versions of Anaconda3 than 2022.10 the steps described below are the same and still correct, but start with a newer version of the downloaded executable installer file of Anaconda3. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
-1. Right-click the downloaded file **Anaconda3-2025.06-1-Windows-x86_64.exe** and select 'WUR - Run with administrative rights'. This file will most likely reside in your Downloads folder of your user account.
+1. Right-click the downloaded file **Anaconda3-2026.07-1-Windows-x86_64.exe** and select 'WUR - Run with administrative rights' (only Classic WURclient with Software Center). This file will most likely reside in your Downloads folder of your user account.
 
 2. If asked for, allow to install the software on your computer.
 
@@ -206,7 +208,7 @@ For newer versions of Anaconda3 than 2022.10 the steps described below are the s
 {{< figure src="anaconda-wurclient/13-finish-installer-anaconda.png" caption="Completing Anacond3 Setup" numbered="true" id="anaconda_completing" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have Anaconda3 version 2025.06-1 containing Python 3.13.5 installed on your WURclient desktop or laptop computer!
+Congratulations, :satisfied:, you now have the latest version of Anaconda3 installed on your WURclient desktop or laptop computer!
 {{% /callout %}}
 
 {{% callout warning %}}

@@ -82,13 +82,12 @@ For more information see: [What is the WUR AppStore](https://wur-studentsupport.
 ### Using the WUR AppStore
 The use of the WUR AppStore is very well described by the WUR TEAM Study Anytime, Anyplace. The first article can be found here: [How can I use the WUR AppStore](https://wur-studentsupport.screenstepslive.com/m/WURAppStore/l/1203865-how-can-i-use-the-wur-appstore)
 
-The WUR AppStore currently contains **Anaconda3 2025.06-0**.<!-- Before the start of Academic Year 2025-2026 **Anaconda 2025.06-0** will be made available!-->
+The WUR AppStore currently contains **Anaconda3 2025.12-2**.
 
 ### Support WUR AppStore
 In case you need support installing or using the WUR AppStore you can contact the WUR Servicedesk IT either by telephone: <a href="tel:+31317488888">+31 (0)317 488888</a> / mail: <a href="mailto:Servicedesk.IT@wur.nl">Servicedesk.IT AT wur.nl</a>. You can also visit the Servicepoint IT, ground floor left of the Grand Café, in Forum (Building 102) on the WUR Campus.
 
 ## 2. Manual Installation
-
 By default the Anaconda installer wants to install into the `C:\ProgramData` folder of your Windows Operating System. According to Microsoft this folder is "used by applications to store data for standard users, because it does not require elevated permissions". However, it is not recommended to use for installing software. The reason, the Anaconda installer chooses this folder, is that it does not contain a whitespace character like in `C:\Program Files\`. The Anaconda software can not deal with whitespace characters in path names, while running.
 
 To prepare the Anaconda installation a folder needs to be created prior to the installation of Anaconda. Either create the folder `C:\MyPrograms` yourself in File Explorer, or perform the following steps exactly as described:
@@ -105,9 +104,9 @@ mkdir C:\MyPrograms
 3. The Command Prompt application can now be closed by typing `exit` and executing it by pressing return (Enter).
 
 ### Download
-At the time this post was written, the latest release of Anaconda3 was version 2022.10. It has been updated to the latest release version `2025.06-1` of Anaconda3.
+At the time this post was written, the latest release of Anaconda3 was version 2022.10. It has been updated to the latest release version `2026.07-1` of Anaconda3 [release date: 2026-07-29].
 
-The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Anaconda3 2025.06-1 for Windows (ca. 914.6 MB, 64-bit).](https://repo.anaconda.com/archive/Anaconda3-2025.06-1-Windows-x86_64.exe)
+The installer for Windows 10/11 can be downloaded directly from this link: [{{< icon name="download" pack="fas" >}} Anaconda3 2026.07-1 for Windows (ca. 1.0 GB, 64-bit).](https://repo.anaconda.com/archive/Anaconda3-2026.07-1-Windows-x86_64.exe)
 
 {{% callout warning %}}
 From Anaconda3 version 2022.10 the installer is only available for 64-bit Windows 10/11 and will not install on a 32-bit version of the Operating System.
@@ -117,7 +116,7 @@ From Anaconda3 version 2022.10 the installer is only available for 64-bit Window
 ### Installation
 For newer versions of Anaconda3 than 2022.10 the steps described below are the same and still correct, but start with a newer version of the downloaded executable installer file of Anaconda3. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
-1. Right-click the downloaded file **Anaconda3-2025.06-1-Windows-x86_64.exe** and select 'Run as administrator', as shown in [Figure 2](#figure-start_admin). This file will most likely reside in your Downloads folder of your user account.
+1. Right-click the downloaded file **Anaconda3-2026.07-1-Windows-x86_64.exe**, select 'Run as administrator', as shown in [Figure 2](#figure-start_admin). This file will most likely reside in your Downloads folder of your user account.
 
 {{< figure src="anaconda-windows/2-start-installer-as-admin.png" caption="Start Anaconda Installer as administrator" numbered="true" id="start_admin" >}}
 
@@ -158,7 +157,7 @@ For newer versions of Anaconda3 than 2022.10 the steps described below are the s
 {{< figure src="anaconda-windows/11-finish-installer-anaconda.png" caption="Completing Anacond3 Setup" numbered="true" id="anaconda_completing" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have Anaconda3 version 2025.06-1 containing Python 3.13.5 installed on your Windows desktop or laptop computer!
+Congratulations, :satisfied:, you now have Anaconda3 version 2026.07-1 containing Python 3.14.6 installed on your Windows desktop or laptop computer!
 {{% /callout %}}
 
 {{% callout warning %}}
