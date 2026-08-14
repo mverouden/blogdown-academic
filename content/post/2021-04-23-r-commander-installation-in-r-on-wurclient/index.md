@@ -58,7 +58,7 @@ share: true
 ## Motivation
 A WURclient desktop or laptop at Wageningen University & Research is not a standard Windows 10 computer. WURclients use Windows 11 Enterprise, which has been modified by Facilities and Services Information Technology (FB-IT) among others with respect to installation rights for security reasons.
 
-Classic WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. Modern WURclient desktops and laptops use the "WURAppStore" instead.<!-- At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`.--> Currently the latest available version in Software Center/WURAppStore is `R 4.5.1 Rcmdr`.
+Classic WURclient desktops and laptops at Wageningen University & Research can install R from the Software Center created by the IT department, which is launched by clicking on Start and selecting the "Software Center" tile. Modern WURclient desktops and laptops use the "WURAppStore" instead.<!-- At the time this post was written the latest version of R in Software Center is `R 4.1.0 Rcmdr`.--> Currently the latest available version in Software Center/WURAppStore is `R 4.6.1 Rcmdr`.
 
 This version of R was packaged for educational purposes, where `Rcmdr` reflects that the installer includes R Commander. Only once per year a new version of R (including R Commander and additional packages for several courses) is released in Software Center.
 
