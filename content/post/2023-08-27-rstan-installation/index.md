@@ -145,16 +145,16 @@ Users specify log density functions in Stan’s probabilistic programming langua
 Stan’s math library provides differentiable probability functions & linear algebra (C++ autodiff). Additional R packages provide expression-based linear modeling, posterior visualization, and leave-one-out cross-validation.
 
 {{% callout note %}}
-This post will show how to install Rtools on a **privately owned** computer running Windows 10/11, or a **WURclient** desktop or laptop computer.
+This post will show how to install RStan on a **privately owned** computer running Windows 10/11, or a **WURclient** desktop or laptop computer.
 {{% /callout %}}
 
 ## Requirements for RStan installation
 
-Prior requirements for installing RStan:
+Prior requirements for the installation of RStan:
 
 - [x] R properly installed:
   - [x] [R installed on Windows 10/11](/post/2020/04/06/r-installation-windows-10/)
-  - [x] R installed on a WURclient via Software Center, or
+  - [x] R installed on a WURclient via Software Center/WUR Appstore, or
   - [x] [R installed on a WURclient using a custom installation](/post/2021/01/24/r-installation-wurclient/)
 
 - [x] [Rtools installed on a Windows 10/11 or a WURclient computer](/post/2022/07/05/rtools-installation/)
@@ -166,7 +166,7 @@ Not required, however, highly recommended:
 - [ ] RStudio installed:
 
   - [ ] [RStudio installed on Windows 10/11](/post/2020/04/13/rstudio-installation-on-windows-10/)
-  - [ ] RStudio installed on a WURclient via Software Center, or
+  - [ ] RStudio installed on a WURclient via Software Center/WUR Appstore, or
   - [ ] [RStudio installed on a WURclient using a custom installation](/post/2021/06/17/rstudio-installation-wurclient/)
 
 ## Installation
