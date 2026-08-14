@@ -53,7 +53,7 @@ share: true
 
 Whether working, or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/research-results/research-institutes/plant-research/business-units/biometris/education/bsc-and-master-courses.htm), will most likely use R.
 
-Some of these courses (e.g., [MAT20306 Advanced Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT20306&collegejaar=huidig), [MAT27803 R for Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT27803&collegejaar=huidig), and [MAT32806 Statistics for Data Scientists](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT32806&collegejaar=huidig)) mainly use RStudio. Also other courses (e.g., [HNH45306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=HNH45306&collegejaar=huidig), and [BIF21306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=BIF21306&collegejaar=huidig)) taught at Wageningen University & Research use R through RStudio as well. Therefore, students will need to be able to install RStudio.
+Some of these courses (e.g., [MAT15403 Statistics 2](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT154036&collegejaar=huidig), [MAT20306 Advanced Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT20306&collegejaar=huidig), [MAT27803 R for Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT27803&collegejaar=huidig), and [MAT32806 Statistics for Data Scientists](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT32806&collegejaar=huidig)) mainly use RStudio. Also other courses (e.g., [HNH45306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=HNH45306&collegejaar=huidig), and [BIF21306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=BIF21306&collegejaar=huidig)) taught at Wageningen University & Research use R through RStudio as well. Therefore, students will need to be able to install RStudio.
 
 {{% callout note %}}
 This post will show how to install RStudio on a desktop or laptop computer running macOS as operating system.
@@ -70,9 +70,9 @@ In the text some symbol combinations are used for shortcuts, the following table
 | &#8679; | &nbsp; | shift (either left or right) | &nbsp;&nbsp; | &#9099; | &nbsp; | escape                         |
 
 ## Download
-At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2026.06.0 Build 242 (nicknamed "Blue Plumbago"), which will work on macOS Ventura (version 13.x) or later.
+At the time this post was written the latest stable release of RStudio was version 1.2.5033. It has been updated to the current stable release 2026.08.0 Build 187 (nicknamed "Yellow Yarrow"), which will work on macOS Sonoma (version 14.x) or later.
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.06.0 Build 242 (ca. 690.3 MB)](https://download1.rstudio.org/electron/macos/RStudio-2026.06.0-242.dmg)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.08.0 Build 187 (ca. 690.3 MB)](https://download1.rstudio.org/electron/macos/RStudio-2026.08.0-187.dmg)
 
 If you are on a 32 bit system, you can use an [older version of RStudio](https://docs.posit.co/previous-versions/rstudio/).
 

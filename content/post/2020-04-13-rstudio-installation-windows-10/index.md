@@ -156,7 +156,7 @@ diagram: false
 
 Whether working, or studying everybody uses various sorts and types of software on their computer. Students taking [Statistical Courses, as taught by the Mathematical and Statistical Methods group at Wageningen University & Research](https://www.wur.nl/en/research-results/research-institutes/plant-research/business-units/biometris/education/bsc-and-master-courses.htm), will most likely use R.
 
-Some of these courses (e.g., [MAT20306 Advanced Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT20306&collegejaar=huidig), [MAT27803 R for Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT27803&collegejaar=huidig), and [MAT32806 Statistics for Data Scientists](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT32806&collegejaar=huidig)) mainly use RStudio. Also other courses (e.g., [HNH45306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=HNH45306&collegejaar=huidig), and [BIF21306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=BIF21306&collegejaar=huidig)) taught at Wageningen University & Research use R through RStudio as well. Therefore, students will need to be able to install RStudio.
+Some of these courses (e.g., [MAT15403 Statistics 2](https://wur.osiris-student.nl/#/onderwijscatalogus/extern/cursus?cursuscode=MAT154036&collegejaar=huidig), [MAT20306 Advanced Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT20306&collegejaar=huidig), [MAT27803 R for Statistics](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT27803&collegejaar=huidig), and [MAT32806 Statistics for Data Scientists](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=MAT32806&collegejaar=huidig)) mainly use RStudio. Also other courses (e.g., [HNH45306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=HNH45306&collegejaar=huidig), and [BIF21306](https://wur.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=BIF21306&collegejaar=huidig)) taught at Wageningen University & Research use R through RStudio as well. Therefore, students will need to be able to install RStudio.
 
 {{% callout note %}}
 This post will show how to install RStudio on a **privately owned** desktop or laptop computer running Windows 10/11 as operating system.
@@ -180,14 +180,14 @@ Prior requirement for the installation of RStudio via the WUR AppStore:
 
 - [x] [R installed on Windows 10/11 via the WUR AppStore](/post/2020/04/06/r-installation-windows-10/#1-wur-appstore)
 
-The WUR AppStore currently contains RStudio version 2025.05.1 Build 513 named "**RStudio 2025.05.1.513**".
+The WUR AppStore currently contains RStudio version 2026.07.0 Build 139 named "**RStudio 2026.07.0.139**".
 
 ### 2. Manual Installation
 
 #### Download
-At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2026.06.0 Build 242 (named "Blue Plumbago").
+At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2026.08.0 Build 187 (named "Yellow Yarrow").
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.06.0 Build 242 (ca. 354.2 MB)](https://download1.rstudio.org/electron/windows/RStudio-2026.06.0-242.exe)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.08.0 Build 187 (ca. 380 MB)](https://download1.rstudio.org/electron/windows/RStudio-2026.08.0-187.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
@@ -200,7 +200,7 @@ To be able to install RStudio you will need to have R installed first. If you ha
 
 To install RStudio on Windows 10/11 perform the following steps:
 
-1. Open the downloaded file **RStudio-2026.06.0-242.exe**. This file will most likely reside in the Downloads folder of your user account.
+1. Open the downloaded file **RStudio-2026.08.0-187.exe**. This file will most likely reside in the Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installler has started, a Welcome window will appear as displayed below in [Figure 1](#figure-rstudio_setup). Click the ‘Next’ button to proceed.
 
@@ -219,7 +219,7 @@ To install RStudio on Windows 10/11 perform the following steps:
 {{< figure src="rstudio-windows/5-rstudio-completed-w10.png" caption="RStudio Installation Completion." numbered="true" id="rstudio_install_completed" >}}
 
 {{% callout note %}}
-Congratulations, :satisfied:, you now have RStudio 2026.06.0 Build 242 installed on your private Windows desktop or laptop computer!
+Congratulations, :satisfied:, you now have RStudio 2026.08.0 Build 187 installed on your private Windows desktop or laptop computer!
 {{% /callout %}}
 
 ## Resetting RStudio desktop's state
