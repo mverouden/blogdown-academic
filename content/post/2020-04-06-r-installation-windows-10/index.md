@@ -96,7 +96,20 @@ The installer for Windows 10/11 can be downloaded directly from this link: [{{< 
 
 For newer versions of R than 3.6.3 the steps described below are the same and still correct, but start with a newer version of the downloaded executable file of R. The screenshots in this post have not been updated. Therefore, what you see during your installation will differ with respect to the version number shown in the screenshots.
 
+### Smart App Control
+Windows 11 Smart App Control (SAC) blocks unsigned, unrecognized, or dynamically compiled R packages, C/C++ source code compilations (via Rtools), or executables (like RStudio or Positron) because it relies on cloud reputation and strict digital signatures.
+
+When SAC is turned on during installation of R, and R Commander, it will cause problems with the installation of some packages, and execution those packages. Because Smart App Control does not allow you to whitelist individual files or create fine-grained exceptions, you need to turn of SAC during the installation of R, and R Commander. After the installation of R and R Commander you can turn SAC back on.
+
+To turn off SAC, click the Windows icon in your task bar, and type `smart app control`. Windows will show "Smart App Control" as a system setting. Click on it, and in the next window click on "Turn off Smart App Control". You will be asked to confirm your choice.
+
+After the installation of R, and R Commander you can turn SAC back on.
+
 ### Installation
+
+{{% callout warning %}}
+Make sure to turn off Smart App Control (SAC) during the installation of R, and R Commander. As described above.
+{{% /callout %}}
 
 1. Open the downloaded file **R-4.6.1-win.exe**. This file will most likely reside in the Downloads folder of your user account.
 2. Allow to install the software on your computer.
@@ -138,6 +151,10 @@ For newer versions of R than 3.6.3 the steps described below are the same and st
 
 {{% callout note %}}
 Congratulations, :satisfied:, you now have R version 4.6.1 installed on your private desktop or laptop computer!
+{{% /callout %}}
+
+{{% callout warning %}}
+Make sure to turn on Smart App Control (SAC) after the installation of R, and R Commander.
 {{% /callout %}}
 
 ### Installing R Commander

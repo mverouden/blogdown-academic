@@ -66,6 +66,15 @@ This post will show how to install R Commander within R on a **privately owned**
 The installation instructions in this post are <u>**not to be used on WURclient desktops or laptops**</u>! For a WURclient desktop or laptop see the post: [R Commander installation in R on a WURclient computer](/post/2021/04/23/r-commander-installation-in-r-on-wurclient/).
 {{% /callout %}}
 
+## Smart App Control
+Windows 11 Smart App Control (SAC) blocks unsigned, unrecognized, or dynamically compiled R packages, C/C++ source code compilations (via Rtools), or executables (like RStudio or Positron) because it relies on cloud reputation and strict digital signatures.
+
+When SAC is turned on during installation of R, and R Commander, it will cause problems with the installation of some packages, and execution those packages. Because Smart App Control does not allow you to whitelist individual files or create fine-grained exceptions, you need to turn of SAC during the installation of R, and R Commander. After the installation of R and R Commander you can turn SAC back on.
+
+To turn off SAC, click the Windows icon in your task bar, and type `smart app control`. Windows will show "Smart App Control" as a system setting. Click on it, and in the next window click on "Turn off Smart App Control". You will be asked to confirm your choice.
+
+After the installation of R, and R Commander you can turn SAC back on.
+
 ## R Commander Installation from the R GUI
 
 {{% callout warning %}}
@@ -81,6 +90,10 @@ Prior requirement:
 To be able to install R Commander you will need to have R installed first. If you haven't done so already, please first install R on your Windows 10/11 computer (use the link above to go to that specific post).
 
 This post was originally based on R version 3.6.3. For newer versions of R the steps described are the same, only some screens you will see during your installation will display a higher version number of R compared to the screenshots in this post.
+
+{{% callout warning %}}
+Make sure to turn off Smart App Control (SAC) during the installation R Commander. As described above in [Smart App Control](#smart-app-control).
+{{% /callout %}}
 
 1. Start `R 4.6.1` from the ‘R’ folder in the ‘Start Menu’ as displayed below in [Figure 1](#figure-startmenu_r).
 
@@ -106,6 +119,8 @@ Once the installation of the `RcmdrPlugin.HH` package has finished, you are read
 
 {{% callout warning %}}
 **When using R Commander for the first time additional packages, required for R Commander to work correctly, will need to be installed. Allow the installation to be able to work smoothly without errors!**
+
+Make sure to turn on Smart App Control (SAC) after the installation R Commander.
 {{% /callout %}}
 
 ## Starting and restarting R Commander
