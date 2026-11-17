@@ -1,5 +1,5 @@
 ---
-title: "XQuartz installation on macOS"
+title: "XQuartz installation on macOS."
 subtitle: ''
 
 # Summary for listings and search engines

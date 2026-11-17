@@ -1,5 +1,5 @@
 ---
-title: "R Commander installation in R on Windows 10/11"
+title: "R Commander installation in R on Windows 10/11."
 subtitle: ''
 
 # Summary for listings and search engines
@@ -95,7 +95,7 @@ This post was originally based on R version 3.6.3. For newer versions of R the s
 Make sure to turn off Smart App Control (SAC) during the installation R Commander. As described above in [Smart App Control](#smart-app-control).
 {{% /callout %}}
 
-1. Start `R 4.6.1` from the ‘R’ folder in the ‘Start Menu’ as displayed below in [Figure 1](#figure-startmenu_r).
+1. Start `R 4.6.2` from the ‘R’ folder in the ‘Start Menu’ as displayed below in [Figure 1](#figure-startmenu_r).
 
 {{< figure src="r-commander-windows/startmenu-r.png" caption="Start Menu R x64" numbered="true" id="startmenu_r" >}}
 
@@ -114,7 +114,7 @@ Make sure to turn off Smart App Control (SAC) during the installation R Commande
 5. Repeat step 4. for installing the `RcmdrPlugin.HH` package. This plugin is required <!--in MAT-15403 Statistics 2--> to be able to do assignments about Simple Linear Regression.
 
 {{% callout note %}}
-Once the installation of the `RcmdrPlugin.HH` package has finished, you are ready :satisfied: to use R Commander and start it from within R version 4.6.1.
+Once the installation of the `RcmdrPlugin.HH` package has finished, you are ready :satisfied: to use R Commander and start it from within R version 4.6.2.
 {{% /callout %}}
 
 {{% callout warning %}}

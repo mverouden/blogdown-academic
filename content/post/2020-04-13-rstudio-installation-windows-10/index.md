@@ -1,6 +1,6 @@
 ---
 ## The title of your page (Core)
-title: "RStudio installation on Windows 10/11"
+title: "RStudio installation on Windows 10/11."
 ## An optional subtitle that will be displayed under the title
 subtitle: ''
 
@@ -185,9 +185,9 @@ The WUR AppStore currently contains RStudio version 2026.07.0 Build 139 named "*
 ### 2. Manual Installation
 
 #### Download
-At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2026.10.1 Build 239 (named "Blue Mistflower").
+At the time this post was written, the latest stable release of RStudio was version 1.2.5033. The post has been updated to the current stable release version 2026.11.0 Build 203 (named "Montauk Daisy").
 
-Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.10.1 Build 239 (ca. 473 MB)](https://download1.rstudio.org/electron/windows/RStudio-2026.10.1-239.exe)
+Download RStudio using the following link: [{{< icon name="download" pack="fas" >}} RStudio 2026.11.0 Build 203 (ca. 361 MB)](https://download1.rstudio.org/electron/windows/RStudio-2026.11.0-203.exe)
 
 For newer versions of RStudio the steps described after the download are the same, but starting with a newer version of the RStudio executable file.
 
@@ -200,7 +200,7 @@ To be able to install RStudio you will need to have R installed first. If you ha
 
 To install RStudio on Windows 10/11 perform the following steps:
 
-1. Open the downloaded file **RStudio-2026.10.1-239.exe**. This file will most likely reside in the Downloads folder of your user account.
+1. Open the downloaded file **RStudio-2026.11.0-203.exe**. This file will most likely reside in the Downloads folder of your user account.
 2. Allow to install the software on your computer.
 3. After the installler has started, a Welcome window will appear as displayed below in [Figure 1](#figure-rstudio_setup). Click the ‘Next’ button to proceed.
 
